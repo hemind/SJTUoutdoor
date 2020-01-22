@@ -1,0 +1,226 @@
+BODY
+{
+    BACKGROUND-COLOR: white;
+    BACKGROUND-IMAGE: url(sjtubg.gif);
+    COLOR: black;
+    MARGIN: 0px
+}
+BODY
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+P
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+B
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+FONT
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+INPUT
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+SELECT
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+TEXTAREA
+{
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+TABLE
+{
+    BORDER-BOTTOM-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-TOP-STYLE: none;
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+TH
+{
+    BORDER-BOTTOM-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-TOP-STYLE: none;
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+TD
+{
+    BORDER-BOTTOM-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-TOP-STYLE: none;
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 12pt
+}
+TH
+{
+    BACKGROUND-COLOR: #d8e2ff;
+    COLOR: #b6222a;
+    PADDING-LEFT: 4pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    WHITE-SPACE: pre
+}
+TD
+{
+    BACKGROUND-COLOR: #ebebeb;
+    COLOR: black;
+    WHITE-SPACE: pre
+}
+HR
+{
+    COLOR: silver;
+    HEIGHT: 1pt;
+    WIDTH: 95%
+}
+FONT.col30
+{
+    COLOR: #000000
+}
+FONT.col31
+{
+    COLOR: #800000
+}
+FONT.col32
+{
+    COLOR: #008000
+}
+FONT.col33
+{
+    COLOR: #808000
+}
+FONT.col34
+{
+    COLOR: #000080
+}
+FONT.col35
+{
+    COLOR: #800080
+}
+FONT.col36
+{
+    COLOR: #008080
+}
+FONT.col37
+{
+    COLOR: #808080
+}
+TABLE.title
+{
+    WIDTH: 100%
+}
+TH.title
+{
+    BACKGROUND-COLOR: #001d7e;
+    COLOR: white;
+    FONT-SIZE: 12pt;
+    PADDING-BOTTOM: 5pt;
+    PADDING-LEFT: 5pt;
+    PADDING-RIGHT: 5pt;
+    PADDING-TOP: 5pt
+}
+TABLE.body
+{
+}
+TH.body
+{
+}
+TD.body1
+{
+    BACKGROUND-COLOR: #ebebeb
+}
+TD.body2
+{
+    BACKGROUND-COLOR: #d6d6d6
+}
+TABLE.doc
+{
+    WIDTH: 90%
+}
+TD.doc
+{
+}
+TABLE.foot
+{
+}
+TH.foot
+{
+}
+TABLE.post
+{
+    WIDTH: 90%
+}
+TD.post
+{
+}
+P.copyr
+{
+    COLOR: gray
+}
+A.copyr:link
+{
+    COLOR: gray
+}
+A.copyr:visited
+{
+    COLOR: gray
+}
+A.copyr
+{
+    COLOR: gray
+}
+A.copyr:active
+{
+    COLOR: gray
+}
+A.copyr:link
+{
+    TEXT-DECORATION: none
+}
+A.copyr:visited
+{
+    TEXT-DECORATION: none
+}
+A.copyr:active
+{
+    TEXT-DECORATION: none
+}
+A.copyr
+{
+    TEXT-DECORATION: underline
+}
+A:link
+{
+    COLOR: #304495;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: #6576ba;
+    TEXT-DECORATION: underline
+}
+A
+{
+    COLOR: #b0202b;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #e8202b;
+    TEXT-DECORATION: none
+}
