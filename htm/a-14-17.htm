@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>饮水思源精华区</title>
+<Content-type: text/html; charset=gb2312>
+<link rel=stylesheet type=text/css href="bbsdl.css">
+</head><table cellspacing=0 class=title width=90%><th class=title align=left width=20%>饮水思源站</th>
+<th class=title align=center width=60%>文章阅读</th>
+<th class=title align=right width=20%>精华区离线浏览</th>
+</tr></table><hr>
+<table align=center cellspacing=1 class=doc><tr><td>
+发信人:&nbsp;daneestone&nbsp;(关二哥),&nbsp;信区:&nbsp;outdoor<br>
+标&nbsp;&nbsp;题:&nbsp;TURBO&nbsp;C&nbsp;摩斯码与英文互换<br>
+发信站:&nbsp;饮水思源&nbsp;(2005年10月05日14:48:31&nbsp;星期三)<br>
+&nbsp;&nbsp;&nbsp;英文转摩尔斯码<br>
+#include&lt;stdio.h&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+char&nbsp;a[26][6]={{'.','-'},{'-','.','.','.'},{'-','.','-','.'},{'-','.','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'.'},{'.','.','-','.'},{'-','-','.'},{'.','.','.','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'.','.'},{'.','-','-','-'},{'-','.','-'},{'.','-','.','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'-','-'},{'-','.'},{'-','-','-'},{'.','-','-','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'-','-','.','-'},{'.','-','.'},{'.','.','.'},{'-'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'.','.','-'},{'.','.','.','-'},{'.','-','-'},{'-','.','.','-'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'-','.','-','-'},{'-','-','.','.'}};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i,m;char&nbsp;str[100];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char&nbsp;c;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gets(str);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;%s&quot;,str);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(i=0;(c=str[i])!='\0';i++)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(c=='&nbsp;')&nbsp;printf(&quot;&nbsp;&nbsp;&nbsp;&quot;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;%s&quot;,a[m=str[i]-97]),printf(&quot;&nbsp;&quot;);<br>
+&nbsp;&nbsp;&nbsp;printf(&quot;\n&quot;);<br>
+&nbsp;&nbsp;&nbsp;getchar();<br>
+&nbsp;&nbsp;&nbsp;}<br>
+<br>
+摩尔斯码转英文<br>
+#include&lt;stdio.h&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;#include&lt;string.h&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+char&nbsp;a[26][6]={{'.','-'},{'-','.','.','.'},{'-','.','-','.'},{'-','.','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'.'},{'.','.','-','.'},{'-','-','.'},{'.','.','.','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'.','.'},{'.','-','-','-'},{'-','.','-'},{'.','-','.','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'-','-'},{'-','.'},{'-','-','-'},{'.','-','-','.'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'-','-','.','-'},{'.','-','.'},{'.','.','.'},{'-'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'.','.','-'},{'.','.','.','-'},{'.','-','-'},{'-','.','.','-'},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'-','.','-','-'},{'-','-','.','.'}};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;b,i,m;char&nbsp;str[100],k;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char&nbsp;c,*p,t[6];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gets(str);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;%s&quot;,str);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p=str;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(*p!='\0')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b=0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k=0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(*p!='&nbsp;'&amp;&amp;*p!='\0')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t[i++]=*p;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p++;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t[i]='\0';<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(strcmp(a[k++],t)!=0);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c=k-1+97;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;putchar(c);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(*p=='&nbsp;')&nbsp;{b++;p++;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(b==3)&nbsp;printf(&quot;&nbsp;&quot;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;getchar();<br>
+&nbsp;&nbsp;&nbsp;return(0);<br>
+&nbsp;&nbsp;&nbsp;}<br>
+--Dave&nbsp;Finley,&nbsp;N1IRZ（译文有删节）<br>
+-----------------------------------------------------------<br>
+关于莫尔斯码训练的完整信息、CW操作、历史和更多，请参见作者的书：莫尔斯码：突破障碍（Morse&nbsp;Code:&nbsp;Breaking&nbsp;the&nbsp;Barrier），由MFJ&nbsp;Enterprises,&nbsp;Inc.出版。<br>
+<br>
+<br>
+<br>
+<br>
+NIOBIUM，源自Niobe，希腊神话财富王女儿之名。曾称为钶(Columbium），　　　　　　　　　　　　　　　　　醉　　　闾<br>
+颇诗意的南美地名，铌最初发现于此。冷却至接近绝对零度时，可作超导体。　　　　　　　　　　　　　　　　后　　&nbsp;&nbsp;&nbsp;巷　　　　　　<br>
+CERIUM，为纪念火星与木星间小行星谷神星Ceres而取名，稀土元素中最丰富。　　　　　　　　　　　　　　　乱&nbsp;&nbsp;&nbsp;　　狂　　　　　<br>
+是“混合金属”的主要构成者（近半）。　　　　　　　　　　　　　　　　　　　　　&nbsp;　　　　　　　　　　&nbsp;涂　　&nbsp;&nbsp;徒　　<br>
+COPPER源自Cuprum，产铜闻名的塞浦路斯岛古名。与金为仅两种有除灰白黑以外颜色的金属。<br>
+纯铜是玫瑰红色的。　<br>
+<br>
+※&nbsp;来源:·饮水思源&nbsp;bbs.sjtu.edu.cn·[FROM:&nbsp;211.80.63.153]<br>
+※&nbsp;修改:·daneestone&nbsp;于&nbsp;10月05日15:04:45&nbsp;修改本文·[FROM:&nbsp;211.80.63.153]<br>
+</tr></table>
+<br>
+<caption align=bottom><hr>
+<table align=center cellspacing=1 class=foot><tr><td class=foot><a href="a-14.htm">返回</tr></table><p class=copyr align=center>Copyright &copy; 2001 <a class=copyr href="http://bbs.sjtu.edu.cn">SJTUBBS</a>, All Rights Reserved.<br><br>
+版权所有<a class=copyr href="telnet://bbs.sjtu.edu.cn">上海交大BBS饮水思源站</a></caption>
+</body>
+</html>

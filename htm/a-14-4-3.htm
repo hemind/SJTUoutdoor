@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>饮水思源精华区</title>
+<Content-type: text/html; charset=gb2312>
+<link rel=stylesheet type=text/css href="bbsdl.css">
+</head><table cellspacing=0 class=title width=90%><th class=title align=left width=20%>饮水思源站</th>
+<th class=title align=center width=60%>文章阅读</th>
+<th class=title align=right width=20%>精华区离线浏览</th>
+</tr></table><hr>
+<table align=center cellspacing=1 class=doc><tr><td>
+发信人:&nbsp;HYP&nbsp;(孤行),&nbsp;信区:&nbsp;outdoor<br>
+标&nbsp;&nbsp;题:&nbsp;地图制作(1)<br>
+发信站:&nbsp;饮水思源&nbsp;(2008年03月14日21:57:27&nbsp;星期五)<br>
+地图的制作：<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;首先说明，这只是一种制作方法，不保证最优性，正确性应该不成问题。由于资源有<br>
+限，一些小的细节可能做不出来，如果网上有更合适的、别人做好的地<br>
+<br>
+图，能偷懒就偷懒吧。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;制作地图前：<br>
+	1&nbsp;知道你要做哪个区域的地图，网上的详细地图资源都是分块的，所以要知道你想要的信<br>
+息是哪部分。<br>
+	2&nbsp;去网上找资源。本方法需要如下资源：高程信息（SRTM）地图数据（*.map和*.ozf2）<br>
+<br>
+	3&nbsp;相关软件---Global&nbsp;Mapper&nbsp;V8（以下简称GM）和OziExplorer（以下简称OE）<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;开始制作地图：<br>
+	1&nbsp;用OE打开.map类型的文。如图<br>
+<br>
+<IMG SRC="pics/1205502694232263.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+<br>
+	2&nbsp;将.map文件保存成图像文件，比如存成“交通.bmp”&nbsp;如图<br>
+<br>
+<IMG SRC="pics/1205502698239295.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+	3&nbsp;在OE中，将map图缩小显示，此处选择10。&nbsp;如图<br>
+<br>
+<IMG SRC="pics/1205502701238803.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+	4&nbsp;将鼠标放至map图左上角，可以得到左上角坐标N30E118（后面的小数不用理睬，那表明<br>
+鼠标没能准确定位在左上角上）如图&nbsp;<br>
+<br>
+<IMG SRC="pics/1205502703239681.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+	&nbsp;&nbsp;同理，将鼠标放在右下角，可得到右下角的坐标N28E120。<br>
+<br>
+	5&nbsp;运行Global&nbsp;Mapper，打开高程数据。如图<br>
+<br>
+<IMG SRC="pics/12055027123591.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+<IMG SRC="pics/1205502715240153.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+	<br>
+	&nbsp;&nbsp;为了查看方便，取消立体阴影显示，也可以不取消，这些立体阴影的光线投射方向、长<br>
+短都是可以在Global&nbsp;Mapper中更改的<br>
+<br>
+<IMG SRC="pics/1205502720325204.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+	6&nbsp;在Global&nbsp;Mapper中，打开刚才第2步保存的“交通.bmp”文件，如果弹出对话框，直接<br>
+点“是”<br>
+	<br>
+	7&nbsp;出现如下对话框，需要校准此交通图，先定位左上角坐标（第一个点），在箭头所指处<br>
+填写第4步得到的左上角坐标<br>
+<br>
+<IMG SRC="pics/1205502726308771.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+<br>
+	8&nbsp;再定位右下角坐标（第二个点），填入第4步得到的右下角坐标数，此处需要注意将pi<br>
+xel（像素点）栏内的0改成4000<br>
+<br>
+<IMG SRC="pics/1205502729208004.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+<br>
+	9&nbsp;在Global&nbsp;Mapper中，依图示打开“工具--控制中心”&nbsp;如图<br>
+<br>
+<IMG SRC="pics/1205502731232283.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+<br>
+	10&nbsp;于是看到“图层控制中心”面板，发现已调入的两个文件，点选“交通.bmp”，打开<br>
+“选项卡”，依箭头所示操作，不作文字叙述了<br>
+<br>
+<IMG SRC="pics/1205502736232175.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+<br>
+	11&nbsp;调整比例，叠加效果成图如下<br>
+<br>
+<IMG SRC="pics/1205502742239102.JPG" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+<br>
+<br>
+--<br>
+<br>
+※&nbsp;来源:·饮水思源&nbsp;bbs.sjtu.edu.cn·[FROM:&nbsp;59.78.45.92]<br>
+</tr></table>
+<br>
+<caption align=bottom><hr>
+<table align=center cellspacing=1 class=foot><tr><td class=foot><a href="a-14-4.htm">返回</tr></table><p class=copyr align=center>Copyright &copy; 2001 <a class=copyr href="http://bbs.sjtu.edu.cn">SJTUBBS</a>, All Rights Reserved.<br><br>
+版权所有<a class=copyr href="telnet://bbs.sjtu.edu.cn">上海交大BBS饮水思源站</a></caption>
+</body>
+</html>
