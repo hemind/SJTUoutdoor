@@ -1,0 +1,37 @@
+a:link {  color: #014DA2; text-decoration: none}
+a:hover {text-decoration: underline overline}
+a:visited { text-decoration:none; color: #337FD4}
+a.left:link {  color: #ACE4F8;; text-decoration: none}
+a.left:hover {text-decoration: underline overline}
+a.left:visited { text-decoration:none; color: #ACE4F8;}
+
+TABLE.show_border	{BORDER-COLOR: #ACE4F8;}
+
+.Color_Dark	{Color: #014DA2;}
+.Color_Midium	{Color: #337FD4;}
+.Color_Light	{Color: #85BCF5;}
+.Color_Bright	{Color: #ACE4F8;}
+
+.Bg_Color_Dark		{Background-Color: #014DA2;}
+.Bg_Color_Midium	{Background-Color: #337FD4;}
+.Bg_Color_Light		{Background-Color: #85BCF5;}
+.Bg_Color_Bright	{Background-Color: #ACE4F8;}
+
+HR {border-style:solid; color: #fff;}
+HR.left {color: #ACE4F8;}
+
+BODY {
+        SCROLLBAR-FACE-COLOR: #337FD4;
+        SCROLLBAR-SHADOW-COLOR: #000000;
+        SCROLLBAR-3DLIGHT-COLOR: #85BCF5;
+        SCROLLBAR-ARROW-COLOR: #FFFFFF;
+        SCROLLBAR-TRACK-COLOR: #85BCF5;
+        SCROLLBAR-DARKSHADOW-COLOR: #85BCF5;
+	overflow: auto;
+}
+
+BODY.left	{
+	color: #FFFFFF;
+	background-color: #014DA2;
+
+}

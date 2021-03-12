@@ -1,0 +1,56 @@
+{TEXT-DECORATION: none;}
+TABLE,TH,TD,P,INPUT,SELECT {FONT-FAMILY: "Verdana", Tahoma, sans-serif, 宋体; font-size: 12px;}
+PRE, TEXTAREA {
+	FONT-FAMILY: "宋体";
+	FONT-SIZE: 10.5pt;
+	line-height: 150%;
+}
+PRE {
+    	background-image:url(/file/bbs/spacer.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+* html pre {
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+ white-space : normal ;       /* Internet Explorer 5.5+ */
+}
+
+TABLE.show_border	{BORDER: 2px solid; background-color: #f6f6f6;}
+PRE.tight	{line-height: 10.5pt; background-image:none;}
+.title	{font-size:18px; font-weight: bold}
+EM {FONT-FAMILY: "宋体"; FONT-SIZE: 12px; FONT-STYLE: normal}
+
+FONT.c30 {COLOR: #000000;}
+FONT.c31 {COLOR: #e00000;}
+FONT.c32 {COLOR: #008000;}
+FONT.c33 {COLOR: #808000;}
+FONT.c34 {COLOR: #0000ff;}
+FONT.c35 {COLOR: #d000d0;}
+FONT.c36 {COLOR: #33a0a0;}
+FONT.c37 {COLOR: #000000;}
+
+BODY {
+        FONT-SIZE: 12px;
+        FONT-FAMILY: "Verdana", Tahoma, sans-serif, 宋体; 
+	 background-color: #fafafa
+}
+.botton {
+CURSOR: pointer;
+}
+#attachC label {
+BORDER-RIGHT: #00ccff 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #00ccff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: middle; BORDER-LEFT: #00ccff 1px solid; WIDTH: 36px; CURSOR: pointer; LINE-HEIGHT: 12px; PADDING-TOP: 1px; BORDER-BOTTOM: #00ccff 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#attach label {
+BORDER-RIGHT: #00ccff 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #00ccff 1px solid; PADDING-LEFT: 1px; FONT-SIZ
+E: 12px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: middle; BORDER-LEFT: #00ccff 1px solid; WIDTH: 96px;
+ CURSOR: pointer; LINE-HEIGHT: 12px; PADDING-TOP: 1px; BORDER-BOTTOM: #00ccff 1px solid; TEXT-ALIGN: center; TE
+ XT-DECORATION: none
+ }
+ #attach {
+height:18px;margin-top:4px;
+ }
