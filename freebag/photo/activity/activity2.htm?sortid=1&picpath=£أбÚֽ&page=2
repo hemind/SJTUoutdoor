@@ -2,17 +2,17 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<META NAME="author" CONTENT="����ܡ����������褡���С�ɡ���꿡�ʢ��">
-<META NAME="copyright" CONTENT="�Ϻ���ͨ��ѧ����Ұ������Э��">
-<META NAME="intruction" CONTENT="�����˶����ָ�ϡ�����">
+<META NAME="author" CONTENT="林祥杰、青亮、丁琛瑜、刘小稚、马昕、盛开">
+<META NAME="copyright" CONTENT="上海交通大学——野外生存协会">
+<META NAME="intruction" CONTENT="户外运动、活动指南、旅游">
 <meta http-equiv="Description" content="OutDoor,Shanghai">
-<meta http-equiv="Keywords"��content="travel,trip,drifter,club,out door,adventure,photograph,equipment,knowledge,">
+<meta http-equiv="Keywords"　content="travel,trip,drifter,club,out door,adventure,photograph,equipment,knowledge,">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>�Ϻ���ͨ��ѧҰ������Э��</title>
+<title>上海交通大学野外生存协会</title>
 <!-- InstanceEndEditable --> 
 <style  type="text/css">
 <!--
-TD{font-size: 9pt; font-family: ����}
+TD{font-size: 9pt; font-family: 宋体}
 a{color: #FFFFFF}
 a:active {TEXT-DECORATION: none}
 a:hover { TEXT-DECORATION: underline; color: #0000FF}
@@ -62,7 +62,7 @@ function MM_showHideLayers() { //v6.0
 
 <body background="../../pic/g.gif" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="window.setTimeout('titleScroll()', 500)">
 <script language="JavaScript">
-var msg = "���Ϻ���ͨ��ѧҰ������������չ���ػ�ӭ����������";
+var msg = "★上海交通大学野外生存素质拓展基地欢迎您的来到★";
 var speed = 300; 
 var msgud = " " + msg; 
 function titleScroll() { 
@@ -95,7 +95,7 @@ window.setTimeout("titleScroll()", speed);
           <td width="9%" height="1"><img width="144" height="19" src="../../pic/guide1.gif"></td>
           <td width="634" background="../../pic/guide2.gif" height="1"> <table cellspacing="0" cellpadding="0" width="100%" border="0" height="11">
               <tr> 
-                <td align="center" width="12%" height="11"> <a class="whitelink" href="../../index.htm"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">��ҳ</span></font></a> 
+                <td align="center" width="12%" height="11"> <a class="whitelink" href="../../index.htm"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">首页</span></font></a> 
                 </td>
 				<td align="center" width="13%" height="11"> <div style="Z-INDEX: 2; VISIBILITY: hidden; WIDTH: 90px; POSITION: absolute; TOP: 100px; HEIGHT: 82px; "
                        id="Layer5"
@@ -106,35 +106,35 @@ window.setTimeout("titleScroll()", speed);
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/knowledge/base/index.htm')" width="99">������ʶ</td>
+                            onClick="window.open('/knowledge/base/index.htm')" width="99">基本常识</td>
                       </tr><tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/knowledge/pyyj/index.htm')" width="99">�����ҽ�</td>
+                            onClick="window.open('/knowledge/pyyj/index.htm')" width="99">攀岩岩降</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/knowledge/dingxiangyueye/index.htm')" width="99">����ԽҰ</td>
+                            onClick="window.open('/knowledge/dingxiangyueye/index.htm')" width="99">定向越野</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/knowledge/hwzhn/index.htm')" width="97">����ָ��</td>
+                            onClick="window.open('/knowledge/hwzhn/index.htm')" width="97">户外指南</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/knowledge/climb/index.htm')" width="99">��ɽ</td>
+                            onClick="window.open('/knowledge/climb/index.htm')" width="99">登山</td>
                       </tr><tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/knowledge/others/index.htm')" width="97">����</td>
+                            onClick="window.open('/knowledge/others/index.htm')" width="97">其他</td>
                       </tr>
                       </table>
                   </div>
@@ -144,7 +144,7 @@ window.setTimeout("titleScroll()", speed);
                       <td align="center"><a
     class="whitelink" href="../../knowledge/index.htm"
     onMouseOut="MM_showHideLayers('Layer5','','hide')"
-    onMouseOver="MM_showHideLayers('Layer5','','show')"><font color="#FFFFFF"><span style="text-decoration: none; font-size: 12pt">֪ʶ���</span></font></a></td>
+    onMouseOver="MM_showHideLayers('Layer5','','show')"><font color="#FFFFFF"><span style="text-decoration: none; font-size: 12pt">知识快餐</span></font></a></td>
                     </tr>
                     
                   </table></td>
@@ -159,23 +159,23 @@ window.setTimeout("titleScroll()", speed);
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/skill/use/index.htm')" width="99">װ��ʹ��</td>
+                            onClick="window.open('/skill/use/index.htm')" width="99">装备使用</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/skill/zhfgh/index.htm')" width="99">��������</td>
+                            onClick="window.open('/skill/zhfgh/index.htm')" width="99">扎筏过湖</td>
                       </tr><tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/skill/shengjie/index.htm')" width="99">������</td>
+                            onClick="window.open('/skill/shengjie/index.htm')" width="99">打绳结</td>
                       </tr><tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/skill/others/index.htm')" width="97">����</td>
+                            onClick="window.open('/skill/others/index.htm')" width="97">其他</td>
                       </tr>
                       </table>
                   </div>
@@ -185,7 +185,7 @@ window.setTimeout("titleScroll()", speed);
                       <td align="center"><a
     class="whitelink" href="../../skill/index.htm"
     onMouseOut="MM_showHideLayers('Layer6','','hide')"
-    onMouseOver="MM_showHideLayers('Layer6','','show')"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">����ר��</span></font></a></td>
+    onMouseOver="MM_showHideLayers('Layer6','','show')"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">技术专栏</span></font></a></td>
                     </tr>
                     
                   </table></td>
@@ -198,29 +198,29 @@ window.setTimeout("titleScroll()", speed);
                         <td onMouseOver="navbarOver(this,'#eeeeee');"
                             onMouseOut="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/activity/shennongjia/index.htm')" width="97">��ũ��</td>
+                            onClick="window.open('/activity/shennongjia/index.htm')" width="97">神农架</td>
                       </tr><tr> 
                         <td onMouseOver="navbarOver(this,'#eeeeee');"
                             onMouseOut="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/activity/moganshan/index.htm')" width="97">Ī��ɽ</td>
+                            onClick="window.open('/activity/moganshan/index.htm')" width="97">莫干山</td>
                       </tr><tr> 
                         <td onMouseOver="navbarOver(this,'#eeeeee');"
                             onMouseOut="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/activity/qingliangfeng/index.htm')" width="97">������</td>
+                            onClick="window.open('/activity/qingliangfeng/index.htm')" width="97">清凉峰</td>
                       </tr>
                       <tr> 
                         <td onMouseOver="navbarOver(this,'#EEEEEE');"
                             onMouseOut="navbarOut(this,'#FFFFFF');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/activity/inschool/index.htm')" width="97">У�ڻ</td>
+                            onClick="window.open('/activity/inschool/index.htm')" width="97">校内活动</td>
                       </tr>
                       <tr> 
                         <td onMouseOver="navbarOver(this,'#eeeeee');"
                             onMouseOut="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/activity/shennongjia/index.htm')" width="97">����</td>
+                            onClick="window.open('/activity/shennongjia/index.htm')" width="97">其他</td>
                       </tr>
                     </table>
                   </div>
@@ -229,7 +229,7 @@ window.setTimeout("titleScroll()", speed);
                       <td align="center"><a
     class="whitelink" href="../../activity/index.htm"
     onMouseOut="MM_showHideLayers('Layer2','','hide')"
-    onMouseOver="MM_showHideLayers('Layer2','','show')"><font color="#FFFFFF"><span style="text-decoration: none; font-size: 12pt">����</span></font></a></td>
+    onMouseOver="MM_showHideLayers('Layer2','','show')"><font color="#FFFFFF"><span style="text-decoration: none; font-size: 12pt">户外活动</span></font></a></td>
                     </tr>
                   </table></td>
                 <td align="center" width="13%" height="11"> <div style="Z-INDEX: 2; VISIBILITY: hidden; WIDTH: 90px; POSITION: absolute; TOP: 100px; HEIGHT: 82px; "
@@ -241,19 +241,19 @@ window.setTimeout("titleScroll()", speed);
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/photo/sight/index.htm')" width="100">�羰</td>
+                            onClick="window.open('/photo/sight/index.htm')" width="100">风景</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/photo/activity/index.htm')" width="100">�</td>
+                            onClick="window.open('/photo/activity/index.htm')" width="100">活动</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/photo/others/index.htm')" width="100">����</td>
+                            onClick="window.open('/photo/others/index.htm')" width="100">其他</td>
                       </tr>
                     </table>
                   </div>
@@ -262,7 +262,7 @@ window.setTimeout("titleScroll()", speed);
                       <td align="center"><a
     class="whitelink" href="../index.htm"
     onMouseOut="MM_showHideLayers('Layer3','','hide')"
-    onMouseOver="MM_showHideLayers('Layer3','','show')"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">������Ƭ</span></font></a></td>
+    onMouseOver="MM_showHideLayers('Layer3','','show')"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">经典照片</span></font></a></td>
                     </tr>
                   </table></td>
                 <td align="center" width="10%" height="11"> <div style="Z-INDEX: 2; VISIBILITY: hidden; WIDTH: 90px; POSITION: absolute; TOP: 100px; HEIGHT: 82px; "
@@ -275,31 +275,31 @@ window.setTimeout("titleScroll()", speed);
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/xiehui/xiehuijieshao/index.htm')" width="97">Э����</td>
+                            onClick="window.open('/xiehui/xiehuijieshao/index.htm')" width="97">协会简介</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/xiehui/zhangcheng/index.htm')" width="97">�³�����</td>
+                            onClick="window.open('/xiehui/zhangcheng/index.htm')" width="97">章程理念</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/xiehui/manager/index.htm')" width="97">Э�ṹ��</td>
+                            onClick="window.open('/xiehui/manager/index.htm')" width="97">协会构架</td>
                       </tr>
                       <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/xiehui/member/index.htm')" width="97">��Ա����</td>
+                            onClick="window.open('/xiehui/member/index.htm')" width="97">会员介绍</td>
                       </tr>
 					  <tr> 
                         <td onmouseover="navbarOver(this,'#eeeeee');"
                             onmouseout="navbarOut(this,'#ffffff');"
                             align="middle" bgcolor="#ffffff"
-                            onClick="window.open('/xiehui/work/index.htm')" width="97">�������</td>
+                            onClick="window.open('/xiehui/work/index.htm')" width="97">活动、工作</td>
                       </tr>
                     </table>
                   </div>
@@ -308,13 +308,13 @@ window.setTimeout("titleScroll()", speed);
                       <td align="center"><a
     class="whitelink" href="../../xiehui/index.htm"
     onMouseOut="MM_showHideLayers('Layer4','','hide')"
-    onMouseOver="MM_showHideLayers('Layer4','','show')"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">Э�� </span></font></a></td>
+    onMouseOver="MM_showHideLayers('Layer4','','show')"><font color="#FFFFFF" ><span style="text-decoration: none; font-size: 12pt">协会 </span></font></a></td>
                     </tr>
                   </table></td>
                 
 				  
                 <td align="center" width="10%" height="11"> <a class="whitelink"
-                   href="/bbs/index.asp"><font color="#FFFFFF" ><span style="text-decoration: none ; font-size: 12pt">��̳</span></font></a> 
+                   href="/bbs/index.asp"><font color="#FFFFFF" ><span style="text-decoration: none ; font-size: 12pt">论坛</span></font></a> 
                 </td>
               </tr>
             </table></td>
@@ -423,44 +423,44 @@ start();
                                     <div align=center><a 
                   href="pic/large/imag013.htm" 
                   target=_blank><img 
-                  src="pre_pic/IMAG013.jpg" alt=����Ŵ� width="104" height="78" border=0></a> </div></td>
+                  src="pre_pic/IMAG013.jpg" alt=点击放大 width="104" height="78" border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=100 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag014.htm" 
                   target=_blank><img 
-                  src="pre_pic/IMAG014.jpg" alt=����Ŵ� width="104" height="78" border=0></a> </div></td>
+                  src="pre_pic/IMAG014.jpg" alt=点击放大 width="104" height="78" border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=100 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag015.htm?url=../use1/b028/images/%C0%03c=pic%BD%03m=298&ext=.jpg%C0%03call=300" 
                   target=_blank><img 
-                  src="pre_pic/IMAG015.jpg" alt=����Ŵ� width="104" height="78" border=0></a> </div></td>
+                  src="pre_pic/IMAG015.jpg" alt=点击放大 width="104" height="78" border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=100 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag016.htm?url=../use1/b028/images/&pic=pic&num=297&ext=.jpg&picall=300" 
                   target=_blank><img 
-                  src="pre_pic/IMAG016.jpg" alt=����Ŵ� width="104" height="78" border=0></a> </div></td>
+                  src="pre_pic/IMAG016.jpg" alt=点击放大 width="104" height="78" border=0></a> </div></td>
                                 </tr>
                                 <tr bgcolor=#ffffff> 
                                   <td bgcolor=#ffffff height=129 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag017.htm?url=../use1/b028/images/&pic=pic&num=296&ext=.jpg&picall=300" 
                   target=_blank><img 
-                  src="pre_pic/IMAG017.jpg" alt=����Ŵ� width="104" height="78" border=0></a> </div></td>
+                  src="pre_pic/IMAG017.jpg" alt=点击放大 width="104" height="78" border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=129 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag018.htm?url=../use1/b028/images/&pic=pic&num=295&ext=.jpg&picall=300" 
                   target=_blank><img 
-                  src="pre_pic/imag018.JPG" alt=����Ŵ� border=0></a> </div></td>
+                  src="pre_pic/imag018.JPG" alt=点击放大 border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=129 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag019.htm?url=../use1/b028/images/&pic=pic&num=294&ext=.jpg&picall=300" 
                   target=_blank><img 
-                  src="pre_pic/imag019.JPG" alt=����Ŵ� border=0></a> </div></td>
+                  src="pre_pic/imag019.JPG" alt=点击放大 border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=129 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag020.htm?url=../use1/b028/images/&pic=pic&num=293&ext=.jpg&picall=300" 
                   target=_blank><img 
-                  src="pre_pic/imag020.JPG" alt=����Ŵ� border=0></a> </div></td>
+                  src="pre_pic/imag020.JPG" alt=点击放大 border=0></a> </div></td>
                                 </tr>
 
 
@@ -475,22 +475,22 @@ start();
                                     <div align=center><a 
                   href="pic/large/imag021.htm" 
                   target=_blank><img 
-                  src="pre_pic/imag021.JPG" alt=����Ŵ� border=0></a> </div></td>
+                  src="pre_pic/imag021.JPG" alt=点击放大 border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=100 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag022.htm" 
                   target=_blank><img 
-                  src="pre_pic/imag022.JPG" alt=����Ŵ� border=0></a> </div></td>
+                  src="pre_pic/imag022.JPG" alt=点击放大 border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=100 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag023.htm?url=../use1/b028/images/%C0%03c=pic%BD%03m=298&ext=.jpg%C0%03call=300" 
                   target=_blank><img 
-                  src="pre_pic/imag023.JPG" alt=����Ŵ� height="78" border=0></a> </div></td>
+                  src="pre_pic/imag023.JPG" alt=点击放大 height="78" border=0></a> </div></td>
                                   <td bgcolor=#ffffff height=100 width="20%"> 
                                     <div align=center><a 
                   href="pic/large/imag024.htm?url=../use1/b028/images/&pic=pic&num=297&ext=.jpg&picall=300" 
                   target=_blank><img 
-                  src="pre_pic/imag024.JPG" alt=����Ŵ� height="78" border=0></a> </div></td>
+                  src="pre_pic/imag024.JPG" alt=点击放大 height="78" border=0></a> </div></td>
                                 </tr>
                                                 </tbody>
                             </table></td>
@@ -502,10 +502,10 @@ start();
       width=622>           
  <TR>
           <TD width="614" bgColor=#eeeeee>
-            <DIV align=center>ͼƬ������51 �� ��Ϊ 5 ҳ ��<FONT color=#ff0000> 2 </FONT>ҳ 
-                            �� 13-24 �� <a href="activity1.htm">��һҳ</a><A 
+            <DIV align=center>图片总数：51 幅 分为 5 页 第<FONT color=#ff0000> 2 </FONT>页 
+                            第 13-24 幅 <a href="activity1.htm">上一页</a><A 
             href="activity3.htm?sortid=1&picpath=%A3%D8%A3%D0%B1%DA%D6%BD&page=3"> 
-                            ��һҳ </A></DIV></TD></TR>
+                            下一页 </A></DIV></TD></TR>
         <TR>
           <TD bgColor=#eeeeee>
             <DIV align=center><A 
@@ -554,7 +554,7 @@ window.setTimeout('show_secs()',1000);
 
 </SCRIPT>
 <form name="fm0" onSubmit="0">
-<font size="-1"><I><FONT COLOR="#888888">���ڱ���ҳ��ͣ��ʱ��:</FONT></I></font><br>
+<font size="-1"><I><FONT COLOR="#888888">您在本网页的停留时间:</FONT></I></font><br>
 <INPUT type="text" name="time_spent" size=7 onFocus="this.blur()">
 </form>
 
@@ -567,14 +567,14 @@ window.setTimeout('show_secs()',1000);
 </div></td>
               </tr>
             </table>
-            <p>��</p>
+            <p>　</p>
             <!-- InstanceEndEditable --> 
             </table>
       <hr>
-      <div align="center">�������ӣ���<a  href="http://www.hinomad.com" target="link"><font color="#000000">������</font></a>�� 
-        |��<a href="http://www.sanfo.com.cn" target="link"><font color="#000000">������ֲ�</font></a>��|��<a href="http://www.pumagroup.net" target="link"><font color="#000000">����ɽӥ��</font></a><br>
-        ��Ȩ����&copy;2002 �Ϻ���ͨ��ѧҰ������������չ����<font size="-1"><a href="/xiehui/xiehuijieshao/wangluobu.htm">���粿</a><br>
-        E��mail:<a href="mailto:linxj321@sjtu.edu.cn">linxj321@sjtu.edu.cn</a></font><br>
+      <div align="center">友情链接：　<a  href="http://www.hinomad.com" target="link"><font color="#000000">游牧人</font></a>　 
+        |　<a href="http://www.sanfo.com.cn" target="link"><font color="#000000">三夫俱乐部</font></a>　|　<a href="http://www.pumagroup.net" target="link"><font color="#000000">北大山鹰社</font></a><br>
+        版权所有&copy;2002 上海交通大学野外生存素质拓展基地<font size="-1"><a href="/xiehui/xiehuijieshao/wangluobu.htm">网络部</a><br>
+        E－mail:<a href="mailto:linxj321@sjtu.edu.cn">linxj321@sjtu.edu.cn</a></font><br>
       </div></table>
   
 </body>

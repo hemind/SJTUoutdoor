@@ -1,6 +1,6 @@
 stm_bm(["vewgdhr",400,"","/menu/blank.gif",0,"","",1,0,0,0,50,1,0,0,""],this);
 stm_bp("p0",[0,4,0,0,0,3,18,7,100,"",-2,"",-2,90,0,0,"#006699","transparent","",3,0,0,"#ffffff"]);
-stm_ai("p0i0",[0,"  主页    ","","",-1,-1,0,"/SJTUoutdoor/freebag/xiehui/index.htm","_self","","","/menu/emblem.gif","/menu/emblem.gif",18,18,0,"","",0,0,0,0,1,"#ffffff",1,"#ffffff",1,"/menu/xp1.gif","/menu/xp2.gif",3,3,0,0,"#ffffff","#ffffff","#333333","#666666","bold 8pt Arial","bold 8pt Arial",0,0]);
+stm_ai("p0i0",[0,"  主页    ","","",-1,-1,0,"/SJTUoutdoor/freebag/index.htm","_self","","","/menu/emblem.gif","/menu/emblem.gif",18,18,0,"","",0,0,0,0,1,"#ffffff",1,"#ffffff",1,"/menu/xp1.gif","/menu/xp2.gif",3,3,0,0,"#ffffff","#ffffff","#333333","#666666","bold 8pt Arial","bold 8pt Arial",0,0]);
 stm_aix("p0i1","p0i0",[0,"    知识百科     ","","",-1,-1,0,"/SJTUoutdoor/freebag/knowledge/index.htm","_self","","","","",0,0,0,"/menu/arrow_r.gif","/menu/arrow_r.gif",7,7]);
 stm_bp("p1",[1,4,0,0,0,3,0,0,100,"progid:DXImageTransform.Microsoft.Fade(overlap=.5,enabled=0,Duration=0.70)",-2,"progid:DXImageTransform.Microsoft.RadialWipe(wipeStyle=wedge,enabled=0,Duration=0.70)",-2,40,0,0,"#7f7f7f","transparent","",3,0,0,"#000000"]);
 stm_aix("p1i0","p0i0",[0,"基本常识","","",-1,-1,0,"/SJTUoutdoor/freebag/knowledge/base/index.htm","_self","","","","",0,0,0,"","",0,0,0,0,1,"#ffffff",1,"#ffffff",1,"/menu/xp1.gif","/menu/xp2.gif",3,3,0,0,"#ffffff","#ffffff","#333333","#666666","8pt Arial","8pt Arial"]);
