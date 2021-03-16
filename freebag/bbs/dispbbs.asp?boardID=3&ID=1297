@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--装备总集浏览：求助，这款登山鞋怎样？</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=3">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=3">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=3">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=3&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 装备说明、使用、购买信息等等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=3>装备总集</a> →  浏览：求助，这款登山鞋怎样？
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=3"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=3"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=3&id=1297&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>109</B> 个阅读者<a href="go.asp?BoardID=3&sid=1297"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=3&replyID=1297&id=1297&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=3&sid=1297&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 求助，这款登山鞋怎样？</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=3&id=1297"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=3&id=1297"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=3&id=1297"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=3&id=1297"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=3&id=1297"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=3&id=1297', ' 上海交通大学野外生存素质拓展基地 - 求助，这款登山鞋怎样？')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13515><font color=#000066><B>tianji叶</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z9.gif alt=射手座1983-11-26></td></tr></table>&nbsp;&nbsp;<img src=pic/http://><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：38<br>&nbsp;&nbsp;积分：63<br>&nbsp;&nbsp;注册：2003-9-23<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=tianji叶',500,400)"><img src="pic/message.gif" border=0 alt="给tianji叶发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=tianji叶" target=_blank><img src="pic/friend.gif" border=0 alt="把tianji叶加入好友"></a>&nbsp;<a href="dispuser.asp?id=352" target=_blank><img src="pic/profile.gif" border=0 alt="查看tianji叶的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=tianji叶&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索tianji叶在装备总集的所有贴子"></a>&nbsp;<A href="mailto:ye51003@163.com"><IMG alt="点击这里发送电邮给tianji叶" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=81738418" target=_blank title="tianji叶[81738418]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13515&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13515&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>求助，这款登山鞋怎样？</b><br><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/2003101921214480343.jpg" TARGET=_blank><IMG SRC="uploadImages/2003101921214480343.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P><BR>品牌 VASQUE 产地 中国 <BR>颜色 棕黄 重量 1500克 <BR>型号 VISTA </P><P>具有防泼水功能的高帮登山鞋，性价比出色。采用连体式设计的鞋舌经过防水处理，可帮助防水或异物进入鞋内，缓冲减震中底与防滑耐磨大底，保证结实耐用。鞋头和鞋尾部位嵌有橡胶防护片，有效保护脚趾和脚后跟。 </P><P>200RMB<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=352&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-19 21:22:42</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1297&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1297&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13565><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在装备总集的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13565&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13565&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>比我在白浪看到的类似的鞋子要便宜，那边的报价是280</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-20 1:21:59</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15476><font color=#000066><B>labomba</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：270<br>&nbsp;&nbsp;积分：434<br>&nbsp;&nbsp;注册：2003-3-5<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=labomba',500,400)"><img src="pic/message.gif" border=0 alt="给labomba发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=labomba" target=_blank><img src="pic/friend.gif" border=0 alt="把labomba加入好友"></a>&nbsp;<a href="dispuser.asp?id=95" target=_blank><img src="pic/profile.gif" border=0 alt="查看labomba的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=labomba&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索labomba在装备总集的所有贴子"></a>&nbsp;<A href="mailto:sky_labomba@etang.com"><IMG alt="点击这里发送电邮给labomba" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15476&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15476&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>好便宜阿。。。。价格有吸引力。<BR>不过质量？？</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=95&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-11-29 21:07:46</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15506><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在装备总集的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15506&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15506&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>防水不是很好，其他还是可以的</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-11-30 22:45:00</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15576><font color=#000066><B>konik</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z9.gif alt=射手座1981-12-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：200<br>&nbsp;&nbsp;积分：299<br>&nbsp;&nbsp;注册：2003-7-4<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=konik',500,400)"><img src="pic/message.gif" border=0 alt="给konik发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=konik" target=_blank><img src="pic/friend.gif" border=0 alt="把konik加入好友"></a>&nbsp;<a href="dispuser.asp?id=234" target=_blank><img src="pic/profile.gif" border=0 alt="查看konik的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=konik&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索konik在装备总集的所有贴子"></a>&nbsp;<A href="mailto:koniklin@hotmail.com"><IMG alt="点击这里发送电邮给konik" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15576&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15576&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><table style="width:80%" cellpadding=5 cellspacing=1 class=tableborder1><TR><TD class=tablebody2><b>以下是引用<i>tianji叶在2003-10-19 21:22:42</i>的发言：</b><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/2003101921214480343.jpg" TARGET=_blank><IMG SRC="uploadImages/2003101921214480343.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P> <BR> 品牌&nbsp;VASQUE&nbsp;产地&nbsp;中国&nbsp;<BR> 颜色&nbsp;棕黄&nbsp;重量&nbsp;1500克&nbsp;<BR> 型号&nbsp;VISTA&nbsp;</P><P> 具有防泼水功能的高帮登山鞋，性价比出色。采用连体式设计的鞋舌经过防水处理，可帮助防水或异物进入鞋内，缓冲减震中底与防滑耐磨大底，保证结实耐用。鞋头和鞋尾部位嵌有橡胶防护片，有效保护脚趾和脚后跟。&nbsp;</P><P> 200RMB<BR> <BR></td></tr></table><br></P><P>不错<BR>只是不知道鞋底是怎么的<BR>注意防滑<BR>另外，不同的户外运动对鞋子底要求不同<BR>请注意自己的用途而选择</P><P>个人以为鞋子<BR>是个大件，如果条件允许最好一次到位。</P><P></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=234&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-9 1:06:04</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15584><font color=#000066><B>labomba</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：270<br>&nbsp;&nbsp;积分：434<br>&nbsp;&nbsp;注册：2003-3-5<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=labomba',500,400)"><img src="pic/message.gif" border=0 alt="给labomba发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=labomba" target=_blank><img src="pic/friend.gif" border=0 alt="把labomba加入好友"></a>&nbsp;<a href="dispuser.asp?id=95" target=_blank><img src="pic/profile.gif" border=0 alt="查看labomba的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=labomba&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索labomba在装备总集的所有贴子"></a>&nbsp;<A href="mailto:sky_labomba@etang.com"><IMG alt="点击这里发送电邮给labomba" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15584&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15584&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>对的<BR>我在三夫上看到两款不错的鞋<BR>ASOLO的 FSN95 GTX不错就是价不便宜 1150<BR>LA SPORTIVA 的Tibet超帅的鞋 新在特价1280<BR>还有Garmont的Force Sedue GTX 也特价987<BR>最后还有不太敢卖的COLEMAN的 CM99024最便宜761<BR>大家快点攒银子阿，都是好东西特别是前两双，都是专业制鞋品牌。。。。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=95&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-9 3:16:45</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15594><font color=#000066><B>konik</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z9.gif alt=射手座1981-12-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：200<br>&nbsp;&nbsp;积分：299<br>&nbsp;&nbsp;注册：2003-7-4<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=konik',500,400)"><img src="pic/message.gif" border=0 alt="给konik发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=konik" target=_blank><img src="pic/friend.gif" border=0 alt="把konik加入好友"></a>&nbsp;<a href="dispuser.asp?id=234" target=_blank><img src="pic/profile.gif" border=0 alt="查看konik的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=konik&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索konik在装备总集的所有贴子"></a>&nbsp;<A href="mailto:koniklin@hotmail.com"><IMG alt="点击这里发送电邮给konik" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15594&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15594&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><table style="width:80%" cellpadding=5 cellspacing=1 class=tableborder1><TR><TD class=tablebody2><b>以下是引用<i>labomba在2003-12-9 3:16:45</i>的发言：</b><BR>对的<BR> 我在三夫上看到两款不错的鞋<BR> ASOLO的&nbsp;FSN95&nbsp;GTX不错就是价不便宜&nbsp;1150<BR> LA&nbsp;SPORTIVA&nbsp;的Tibet超帅的鞋&nbsp;新在特价1280<BR> 还有Garmont的Force&nbsp;Sedue&nbsp;GTX&nbsp;也特价987<BR> 最后还有不太敢卖的COLEMAN的&nbsp;CM99024最便宜761<BR> 大家快点攒银子阿，都是好东西特别是前两双，都是专业制鞋品牌。。。。<BR></td></tr></table><br><BR>我的意思是<BR>这种鞋子不上七千米的雪山用不上<BR>再说这样的银子<BR>换我就买大头塑料鞋子　KAFASH的就行啊<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=234&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-10 2:08:11</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15596><font color=#990000><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：1091<br>&nbsp;&nbsp;积分：1623<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在装备总集的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15596&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15596&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>8</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>asolo那款的确用不上,鞋底是偏高山底的,太硬,几乎不能弯曲. 所以不适合低海拔远足</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-10 17:31:13</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15603><font color=#000066><B>labomba</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：270<br>&nbsp;&nbsp;积分：434<br>&nbsp;&nbsp;注册：2003-3-5<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=labomba',500,400)"><img src="pic/message.gif" border=0 alt="给labomba发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=labomba" target=_blank><img src="pic/friend.gif" border=0 alt="把labomba加入好友"></a>&nbsp;<a href="dispuser.asp?id=95" target=_blank><img src="pic/profile.gif" border=0 alt="查看labomba的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=labomba&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索labomba在装备总集的所有贴子"></a>&nbsp;<A href="mailto:sky_labomba@etang.com"><IMG alt="点击这里发送电邮给labomba" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15603&id=1297&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=15603&id=1297&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>9</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>ASOLO FSN95 GTX获美国BACKPACKER杂志2001年最佳奖<BR>注意是BACKPACKER。。<BR>他的介绍也是徒步鞋。。<BR>其实我只是想介绍些好鞋让大家有点奔头<BR>大家别拍转<BR>不过的确我们现在的经济实力没必有买那样的。。。</P><P><img src=pic/em24.gif border=0 align=middle><img src=pic/em24.gif border=0 align=middle><img src=pic/em24.gif border=0 align=middle><img src=pic/em24.gif border=0 align=middle><img src=pic/em24.gif border=0 align=middle><BR><div align=right><font color=#000066>[此贴子已经被作者于2003-12-10 22:15:58编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=95&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-10 21:38:19</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>9</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=3&ID=1297" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=3&ID=1297" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=3&ID=1297" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=3&ID=1297&replyID=13515" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=3&ID=1297" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=3&ID=1297" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=3&ID=1297" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=3&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：203.125毫秒
+</td></tr>
+</table>
+</body>
+</html>

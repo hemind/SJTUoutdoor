@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--活动快讯浏览：[原创]清凉峰（一）</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=5">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=5">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=5">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=5&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle>  你还未登陆		  
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 看看自称最牛鼻的斑竹会给你们带来什么好东东
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=5>活动快讯</a> →  浏览：[原创]清凉峰（一）
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=5"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=5"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=5&id=99&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>119</B> 个阅读者<a href="go.asp?BoardID=5&sid=99"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=5&replyID=99&id=99&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=5&sid=99&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： [原创]清凉峰（一）</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=5&id=99"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=5&id=99"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=5&id=99"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=5&id=99"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=5&id=99"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=5&id=99', ' 上海交通大学野外生存素质拓展基地 - [原创]清凉峰（一）')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=453><font color=#990000><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：574<br>&nbsp;&nbsp;积分：112<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=453&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=453&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>[原创]清凉峰（一）</b><br>这次登山共有六名野外生存协会会员，三男三女。<BR>　　星期五12：30从校门口出发，就是因为星期五，公交车的售票员特黑，一开价就是三<BR>元，到南站赶14：10分的火车，我们当然很讲究效率了，还抽空买了一个睡袋。刚穿过地<BR>道，一位妇女就拦住了我们，南站在整修不通车。哦，我晕……到上海站也只能坐四点多<BR>的火车了。妇女不紧不慢地对我们说，我们公司有长途汽车直达杭州，14：20准时出发，<BR>一小时45分肯定到。40元不贵！左说右劝就是没办法让她便宜点。几个初生毛驴还是抵不<BR>上一个母牛。到了杭州东站，已经找不到去昌化的车了，兵贵神速，顾不上太多，搭公交<BR>到西站。此时的杭州也是车水马龙，六个人背着大包，似乎把整个公交车的空间都占下了<BR>。心急如火，熬到西站，天已经黑了，还是不见车影。联系当地的老乡后，搭上了去黄山<BR>的卧铺车。一人35元，又被宰了一刀。车上有位家住黄山附近的旅客。和他狂侃了一番后<BR>，我和小鹏讨论了协会发展的问题，很快就到了临安，乘司机吃饭的时候，我们下车放松<BR>了一下，两头新驴显得特别的兴奋。就借着一小块空地，大家竟斗鸡、骑马开心地玩了起<BR>来。不久我们就来到了颊口镇，夜深人静的，只有我们在行动，还好，联系的老乡已经在<BR>那等我们了。包车来到清凉峰山脚下，当时已是11点钟，明亮的月光照着我们，村民早已入睡。我们选择了一块田地扎营，旁边就有一条小溪，本可以在一个未盖好房子里过夜的，为了更加深刻地体验野外的生活，宁愿被冻醒也不入住房子。果真，在黎晨三点多，我被冻醒了！冻醒的时候，只听见小鹏“嗉嗉”的呼吸声，生怕他是感冒了，叫醒了他，加了一些衣服，把脖子也裹得严实。使劲地把自己的蜷起来，只恨睡袋太单薄，但不知什么时候就又睡着了。第二天，我们六点就爬起来了，帐篷上铺了一层霜，田里的稻草早就经不起这低温，趴倒在地。身后紧靠着山，旁边的那一条小溪轻轻地流着，冒着半点蒸气，远处起伏不平的山峦上射出淡淡的晨光。不禁感叹，与山作伴的感觉真好。<BR>　　就在溪边洗漱了一番，手已冻得发红，可惜生火不便，只好向当地的老乡讨点开水暖<BR>和暖和。早餐还简单，面包就着果珍就OK了！收拾好装备后，开始了第一天的行程……<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-1-8 16:36:29</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=5&id=99&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=5&id=99&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=472><font color=#990000><B>bluerain311</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：113<br>&nbsp;&nbsp;积分：-154<br>&nbsp;&nbsp;注册：2002-12-26<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=bluerain311',500,400)"><img src="pic/message.gif" border=0 alt="给bluerain311发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=bluerain311" target=_blank><img src="pic/friend.gif" border=0 alt="把bluerain311加入好友"></a>&nbsp;<a href="dispuser.asp?id=27" target=_blank><img src="pic/profile.gif" border=0 alt="查看bluerain311的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=bluerain311&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索bluerain311在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:bluerain311@hotmail.com"><IMG alt="点击这里发送电邮给bluerain311" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=110364680" target=_blank title="bluerain311[110364680]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=472&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=472&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face16.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>祥子，你还挺行，我等着看下文</P><P><div align=right><font color=#000066>[此贴子已经被作者于2003-1-8 22:59:58编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=27&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-1-8 22:55:23</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=594><font color=#990000><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：695<br>&nbsp;&nbsp;积分：-376<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=594&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=594&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>在水源得TRAVEL版上。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-1-12 17:21:27</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=1007><font color=#990000><B>admin</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z12.gif alt=双鱼座1984-3-17></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：管理员<BR>&nbsp;&nbsp;威望：6<br>&nbsp;&nbsp;文章：102<br>&nbsp;&nbsp;积分：180<br>&nbsp;&nbsp;门派：黑帮<br>&nbsp;&nbsp;注册：2002-5-19<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=admin',500,400)"><img src="pic/message.gif" border=0 alt="给admin发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=admin" target=_blank><img src="pic/friend.gif" border=0 alt="把admin加入好友"></a>&nbsp;<a href="dispuser.asp?id=1" target=_blank><img src="pic/profile.gif" border=0 alt="查看admin的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=admin&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索admin在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给admin" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="admin[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1007&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1007&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>最难走的一段：<BR>在没进入风景开发区时，有一段路特别难走。那有一条小溪，在山谷之间，溪边就是奇形怪状的石头，湿湿的、生了绿苔，显然很久没有人走过了，我们总是小心翼翼地行走，摔在水中可划不来。与其说是走，不如说是爬，我们四肢都用上了。有的地方横着倒下的树木，就是跟我们过意不去。<BR>最累的是石阶：<BR>虽然取名百步岭，其实远远不止百步，开始以为没多远，透过树林我们只看到一小段，信心十足地爬了上去，原来柳暗花明又一村。最后我们不得不放慢速度，保存体力。我也不知走了多久，至少不下一个小时。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=1&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-3-1 21:51:36</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=1011><font color=#990000><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：574<br>&nbsp;&nbsp;积分：112<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1011&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1011&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>累归累，我们依旧兴奋十足，因为清凉峰的景色确实好，好几个点我们休息后都舍不得走了，当然也拍了好多照片（<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://freebag.shetuan.sjtu.info/photo/qingliangfeng/index.asp>http://freebag.shetuan.sjtu.info/photo/qingliangfeng/index.asp</a> 部分）。在山腰上往下看，小小的瀑布哗啦啦的，给寂静的山谷带来灵气；山上的青松顶着积雪，在夕阳下特别有层次感。到了山顶，已经是下午四点，感觉世界已经被我们征服了，遥望着黄山，强劲的风吹着脸庞，夕阳从云缝中透射下来，我被溶化在这无限的空间里，心情尤其的舒畅！<BR>可惜时间有限，美景没欣赏够就要下山了，美丽的清凉峰，我会再来的！！<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-3-1 22:24:10</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=1052><font color=#990000><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：695<br>&nbsp;&nbsp;积分：-376<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1052&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1052&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>最美的是祥子在一块大石头上臭美的姿势</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-3-2 0:36:48</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=1083><font color=#990000><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：574<br>&nbsp;&nbsp;积分：112<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1083&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1083&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>你不要吃不到葡萄说葡萄酸哦：）</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-3-2 15:03:07</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=1090><font color=#990000><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：695<br>&nbsp;&nbsp;积分：-376<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1090&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=1090&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>8</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>嗯，衰哥不服气了</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-3-2 17:58:09</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=2674><font color=#000066><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;文章：726<br>&nbsp;&nbsp;积分：-990<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=2674&id=99&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=2674&id=99&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>9</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>祥子的文笔不错嘛！呵呵！</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-4-7 19:30:41</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>9</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 网络部专栏</option><option>没有论坛</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=5&ID=99" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=5&ID=99" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=5&ID=99" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=5&ID=99&replyID=453" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=5&ID=99" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=5&ID=99" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=5&ID=99" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=5&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存素质拓展基地网络部</a><br>
+Copyright&copy;上海交通大学野外生存素质拓展基地 , 页面执行时间：296.875毫秒
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：攀岩运动简介[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：攀岩运动简介[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1772&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>58</B> 个阅读者<a href="go.asp?BoardID=10&sid=1772"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1772&id=1772&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1772&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 攀岩运动简介[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1772"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1772"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1772"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1772"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1772"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1772', ' 上海交通大学野外生存素质拓展基地 - 攀岩运动简介[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16797><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16797&id=1772&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16797&id=1772&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>攀岩运动简介[转帖]</b><br>来源<BR>　　版本一：攀岩运动源自一个美丽的爱情故事：在欧洲阿尔卑斯山区悬崖峭壁的绝顶<BR>上，生长着一种珍奇的高山玫瑰。相传只要拥有这种玫瑰，就能获得美满的爱情。于是<BR>，勇敢的小伙子便争相攀岩，摘取花朵献给心爱的人。<BR>　　版本二：攀岩运动是从登山运动中衍生出来的竞技运动项目。50年代起源于苏联，<BR>是军队中作为一项军事训练项目而存在的。1974年列入世界比赛项目。<BR>　　进入80年代，以难度攀登的现代竞技攀登比赛开始兴起并引起广泛的兴趣，1985年<BR>在意大利举行了第一次难度攀登比赛。1988年6月国际竞技攀登比赛在美国举行。1989年<BR>首届世界杯分阶段在法国、英国、西班牙、意大利、保加利亚和前苏联举行。运动员参<BR>加各地比赛，最后累计总成绩，进行排名。世界杯攀登比赛每年举行一次。<BR>　　随着攀岩运动的蓬勃发展，国际攀联在各大洲成立委员会，组织洲内地区性大赛。<BR>"亚洲攀委会"1991年1月2日在香港成立，第一届亚锦赛91年12月在香港举行。1993年12<BR>月在我国长春举行了第一届亚锦赛。1987年中国登协主办了第一届全国攀岩比赛列入全<BR>国比赛项目。<BR>　　“会当凌绝顶，一览众山小”。攀岩运动以其独有的登临高处的征服感吸引了无数<BR>爱好者。攀岩运动是从登山运动中派生来的新项目，也是登山运动中的一项竞技体育项<BR>目。它集健身、娱乐、竞技于一体，既要求运动员具有勇敢顽强、坚忍不拔的拼搏进取<BR>精神，又需要具有良好的柔韧性、节奏感及攀岩技巧，这样才能娴熟地在不同高度、不<BR>同角度的陡峭岩壁上轻松、准确地完成身体的腾挪、转体、跳跃、引体等惊险动作，给<BR>人以优美、流畅、刺激、力量的感受。<BR>　　历史沿革<BR>　　攀岩技术的出现，迄今已有100多年的历史。早在1865年，英国登山家埃德瓦特，就<BR>首次使用钢锥、铁链和登山绳索等简易装备，成功地攀上险峰，从而成为攀岩技术和攀<BR>岩工具，发明了打气用的钢锥和钢丝挂梯，以及各种登山绳结，使攀岩技术发展到了更<BR>加成熟的阶段。 20世纪60年代初，前苏联最早倡导这项运动。当时的评判标准是在同样<BR>的条件下，攀登峭壁的速度最快者为优胜。70年代初，前苏联形成了一年一度定期举行<BR>的全国联赛。1974年9月，前苏联和捷克斯洛伐克的登山组织，率先在前苏联和捷克斯洛<BR>伐克发起举办了首届“国际攀岩锦标赛”。后由前苏联提议，经国际登山联合会决定，<BR>每两年举行一次国际攀岩锦标赛。中国于1987年在北京怀柔登山基地举办了第一届全国<BR>攀岩邀请赛，此后每年一届。<BR>　　种类<BR>　　［难度攀岩］<BR>　　是以攀岩路线的难度来区分选手成绩优劣的攀岩比赛。难度攀岩的比赛结果是以在<BR>规定时间里选手到达的岩壁高度来判定的。在比赛中，队员下方系绳保护，带绳向上攀<BR>登并按照比赛规定，有次序地挂上中间保护挂索。比赛岩壁高度一般为15米，线路由定<BR>线员根据参赛选手水平设定，通常屋檐类型难度较大。<BR>　　［速度攀岩］<BR>　　如同田径比赛里的百米比赛充满韵律感和跃动感，按照指定的路线，以时间区分优<BR>劣。<BR>　　［室内攀岩］<BR>　　是在一个高而大的房间内设置不同角度、不同难度的人工岩壁，在上面装有许多大<BR>小不一的岩石点，供人用四肢借助岩点的位置，手攀脚登。室内攀岩的难易程度可由人<BR>直接控制。岩壁也分为人工岩壁和天然岩壁。人工岩壁是人为设置岩点和路线的模拟墙<BR>壁。可在室内和室外进行攀岩技术的训练，难易程度可随意控制，训练时间比较机动，<BR>但高度和真实感有限。天然岩壁是大自然在地壳运动时自然形成的悬崖峭壁，给人的真<BR>实感和挑战性较强，可自行选择攀岩的岩壁和攀岩路线及攀登地点，而且天然岩壁的路<BR>线变化丰富，如凸台、凹窝、裂缝、仰角等，让你体会“山到绝处我为峰”的感受。 攀<BR>岩按器械分类使用可分为两类：<BR>　　器械攀登（aid climbing）<BR>　　指直接拉或站在人工支点上。人工支点包括梯子、软梯、岩塞、钩子等。器械攀登<BR>的好处是可以让人登上很难的路线，与攀登者的体力关系不大。 自由式攀登 （free c<BR>limbing）<BR>　　器械完全是起保护作用，目的是尽量减少攀登者在有失误后的伤害后果。自由式的<BR>目标是靠攀登者手脚的能力，使用自然支点来完成一条路线。自由式虽然允许器械保护<BR>，但自然是掉下来越少越好。<BR>　　自由式按攀登的风格又细分为：on sight，就是只在下边看然后一次没掉下来就上<BR>去了，没有尝试或演习，也没从顶上滑绳下来仔细研究路线，这是攀登者能力的最好说<BR>明。red point，就是允许在练习时多次坠落，但你能至少有一次做到从底爬到顶一次也<BR>没掉下来。能red point条路线说明攀登者的自由先锋攀登能力最高能到多少。<BR>　　基本要领<BR>　　抓，用手抓住岩石的凸起部分。抠，用手抠住岩石的棱角、缝隙和边缘。拉，在抓<BR>住前上方牢固支点的前提下，小臂贴于岩壁，抠住石缝隙或其他地形，以手臂和小臂使<BR>身体向上或向左右移动。推，利用侧面、下面的岩体或物体、以手臂的力量使身体移动<BR>。张，将手伸进缝隙里，用手掌或手指曲屈张开，以此抓住岩石的缝隙做为支点，移动<BR>身体。蹬，用前脚掌内侧或脚趾的蹬力把身体支撑起来，减轻上肢的负担。跨，利用自<BR>身的柔韧性，避开难点，以寻求有利的支撑点。挂，用脚尖或脚跟挂住岩石，维持身体<BR>平衡使身体移动。踏，利用脚前部下踏较大的支点，减轻上肢的负担，移动身体。 　　<BR>日常锻炼建议<BR>　　引体向上可增加臂力和手指的力量；跳绳可以锻炼身体的柔韧和协调性；乒乓球和<BR>棋类对培养判断力大有益处；游泳可锻炼心肺功能、全身力量和耐力。<BR>　　攀岩比赛大事记<BR>　　1947年，前苏联举办了世界上第一届攀岩比赛。<BR>　　1948年，前苏联举办了第二届世界攀岩比赛。60—70年代，法国及整个欧洲参与进<BR>来，攀岩运动得到了进一步发展。<BR>　　1971年，前苏联曾邀请世界优秀运动员参与比赛。 1971—1982年，世界各地举办了<BR>多次比赛，比赛的评判标准只是强调比赛速度。<BR>　　1986年，意大利组织了一次真正意义上的攀岩比赛，同时要求速度与难度，这次比<BR>赛，开创了攀岩历史上的新篇章。<BR>　　1987年，出现第一次室内攀岩比赛。<BR>　　1988年，要求运动员分为20岁以上组、14—19岁组参赛。</P><P><BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 3:00:45</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1772&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1772&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1772" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1772" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1772" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1772&replyID=16797" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1772" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1772" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1772" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：187.500毫秒
+</td></tr>
+</table>
+</body>
+</html>

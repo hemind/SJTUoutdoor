@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：A Brief History of Friends</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：A&nbsp;Brief&nbsp;History&nbsp;of&nbsp;Friends
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1790&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>49</B> 个阅读者<a href="go.asp?BoardID=10&sid=1790"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1790&id=1790&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1790&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： A&nbsp;Brief&nbsp;History&nbsp;of&nbsp;Friends</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1790"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1790"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1790"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1790"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1790"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1790', ' 上海交通大学野外生存素质拓展基地 - A&nbsp;Brief&nbsp;History&nbsp;of&nbsp;Friends')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16848><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16848&id=1790&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16848&id=1790&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>A&nbsp;Brief&nbsp;History&nbsp;of&nbsp;Friends</b><br>Some day we climbers may wear special gloves and shoes enabling us to scale blank walls like spiders. Should we fall off, like spiders our body harnesses may instantly attach safety lines to the rock. If and when inventors develop this technology, we will no doubt consider it clever . . . but obvious - thanks to our 20-20 hindsight. But for now, none of us can envision the details. </P><P>And so it was with the Friends 25 years ago when I was inventing them. The need was apparent, at least to me, but the actual configuration was elusive to everyone. </P><P>Seeking a devise that would anchor itself in a crack, and hold with greater power the harder the pull, I began the inventive process in 1971 with a dual sliding wedge design. Taking advantage of my aerospace engineering background I analyzed this configuration and found it mathematically unsound. The internal friction between any kind of wedges reduce their holding power, and in many situations such a device could pull out. I was inventing for my own use, and was not about to compromise safety. </P><P>The summer of 1973 Mike Lowe tried to sell me a few of his new Cam Nuts, which he said his brother Greg had invented. They worked, he explained, on the principle of the constant angle cam. Intuitively I saw that the concept was viable, and felt that here might be the idea I had been looking for. I bought three of them. Unfortunately the first time I used them all three flipped out and went sliding down the rope into my belayer's arms, leaving me running out a 5.9 fist crack unprotected. That was also the last time I used them.</P><P><BR><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432323422841515.gif" TARGET=_blank><IMG SRC="uploadImages/200432323422841515.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A>← Greg Lowe's orignial design --- Anchordevice for mountain climbers</P><P>The constant angle spiral is ubiquitous in Nature, from seashells and pinecones to swirling barometric pressure gradients and the great spiral nebulas. Really, it is just an expression of uniform growth. Descartes described the principle mathematically in 1638, calling it the equiangular spiral. Since then, constant angle cams have been used in uncountable mechanical devices. I don't know where Greg got his idea of applying the concept to a crack anchoring device. Perhaps it was from the Jumar ascender, which uses a more-or-less constant angle cam to clinch the rope. At any rate we have Greg to thank for introducing the concept to crack anchoring technology. </P><P>Configuring a workable device, however, proved to be an enormous task. In retrospect it took someone with aerospace engineering skills, a questing mind coupled with extreme motivation and a passion for climbing - something of a rare combination perhaps. For months I worked in Bill Forrest's machine shop building camming prototypes, testing them at the local crags and innovating design improvements in the evenings at home. In the end I filled a couple of sizable boxes with discarded prototypes.</P><P>Many of these designs were later backwards engineered on the basis of Friends by other companies, and are in production today. This despite the fact that I found them wanting from the beginning, and discarded them. For after all, I did not have to compete with myself, and therefore I had the luxury of moving beyond inferior designs.</P><P>Then one day after trying absolutely everything I could think of, and continually straining my mind for ever more ideas, the Creator enlightened me with the concept of a double set of opposing and independently spring loaded cams. Like wheels of a car having independent suspension, each of these cams would be able to adjust to widely varying surface irregularities, within limits of course. I put one of these "quads" together and took it to the crags for testing. The cams were spring loaded against each-other, and they were held together with a high-tensile steel bolt. But the bolt was wrapped with a piece of ordinary strap iron as a stem, and of course the device lacked any kind of trigger. On a 5.8 route which I called Fantasia, located at Split Rocks, I climbed to a stance where I could almost let go with both hands, and managed to squiggle the Quad into a hand-sized crack. By the way it behaved I knew instantly that it was the solution to the problem I had been working on all that time. </P><P><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432323434957540.jpg" TARGET=_blank><IMG SRC="uploadImages/200432323434957540.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A>←Friend P1-1, photo R.J.<BR>This is Friend #1, my first functioning model built in the late fall of 1973. It was the product of months of prototyping literally hundreds of other ideas that ultimately led me to this. It had no trigger, and the stem was completely make-shift, just enough to allow testing of the independent-quad concept. This unit went up only one climb, Fantasia at Split Rocks, west of Lyons, CO.</P><P>The following spring, 1974, I took my first set of working prototype Friends to Yosemite and climbed dozens of difficult routes with them. These units were rough hewn and extremely limited by today's standards, and I had only a few 2-1/2s and 3-1/2's. But they certainly proved their worth, and at season's end three of us used them in an attempt to climb the Nose in a day. Three hours of downpour late that afternoon immobilized us beneath the Great Roof and forced a bivy at Camp V. But we did finish in 28 hours total climbing time, and managed to cut the previous three-day record in half.</P><P><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432323444021388.jpg" TARGET=_blank><IMG SRC="uploadImages/200432323444021388.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A>←Friend P2-2.5, photo R.J.<BR>This is my first working prototype. In size it is equivalent to today's 2-1/2. I made three of these, and two size 3-1/2. And used them the full Spring climbing season 1974, culminating with an ascent of the Nose with Lou Dawson and Kris Walker, in 1.5 days, or 20 hours total climbing time. Previous record was 3 days. </P><P>For the next six years I continued making improved prototypes. My focus was not in their commercial application, but on the literally thousands of routes I used them on, mostly in Yosemite. My partners were limited in number and "sworn to secrecy" because I felt a little paranoid about the idea being ripped off by some manufacturer. Meanwhile, I certainly did give the Lowe brothers plenty of time to introduce workable camming devices of their own invention, which they did not. </P><P>In 1977 Mark Vallance invited me to the UK to help him start manufacturing Friends. Mark is a highly dedicated and gifted individual, and was the first person to foresee the widespread appeal of Friends. Friend marketability is obvious now, but it certainly was not then, and Mark was the visionary who made it happen. The next year Mark founded Wild Country and started selling Friends. </P><P><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432323453292457.jpg" TARGET=_blank><IMG SRC="uploadImages/200432323453292457.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A>←Friends, photo R.J.<BR>This are the later generation prototypes that I used for most of my Yosemite climbing from 1975 to 1978 when the production units went on sale. I had five sets of each size. </P><P>What do I think of today's preponderance of Friend look-alikes and so-called improvements? First, I feel that a certain amount of it is blatantly inferior. In the same vein that people would not go to quacks for brain surgery, climbers would be unwise to entrust their lives to cheap Friend imitations made of inferior materials. If you have something like this on your rack, you might consider getting rid of it. Secondly, there are all sorts of gizmos out there which, in my mind at least, are theoretically unsound. Three cam units are one example. Analogously, three wheeled vehicles were banned from the marketplace years ago because of their inherent instability. Many other gizmos out there are mathematically unsafe, and I certainly would not bet my life on them! Thirdly, there are a number of so-called improvements which in reality are nothing but patent work-arounds. I suspect that they will fade from vogue over time - meanwhile we might be aware of the hype. And lastly, now that the Friend patents are expiring we are seeing virtual-copies by major manufacturers. I believe in higher laws, which is the main reason why I recommend only the genuine articles - Friends. These are made by Wild Country and described in this catalog. </P><P>- Ray Jardine</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-23 23:47:34</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1790&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1790&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16859><font color=#990000><B>jackchen</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：管理员<BR>&nbsp;&nbsp;文章：295<br>&nbsp;&nbsp;积分：570<br>&nbsp;&nbsp;注册：2003-10-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=jackchen',500,400)"><img src="pic/message.gif" border=0 alt="给jackchen发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=jackchen" target=_blank><img src="pic/friend.gif" border=0 alt="把jackchen加入好友"></a>&nbsp;<a href="dispuser.asp?id=388" target=_blank><img src="pic/profile.gif" border=0 alt="查看jackchen的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=jackchen&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索jackchen在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:lychen@sjtu.edu.cn"><IMG alt="点击这里发送电邮给jackchen" border=0 src=pic/email.gif></A>&nbsp;<A href="http://security.sjtu.edu.cn" target=_blank><IMG alt="访问jackchen的主页" border=0 src=pic/homepage.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16859&id=1790&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16859&id=1790&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>Although I myself met lots of new words when I read this article, I do encourage you to read more English documents. Usually they explain in more details. <BR>I haven't refer to distoinary, and I guess that Friends means 机械塞/岩塞 here according to the words and pictures.<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=388&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-24 10:26:59</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16868><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16868&id=1790&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16868&id=1790&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>攀岩者的朋友 --- Friends的發明</P><P>譯註：今天攀岩者人人不可或缺的保命工具之一活動岩楔（英文稱為Friends，就是「朋友」的意思），發明其實不過二十幾年，這項重大的發明大大的提升了自由攀登的水平，許多看似危險的路線也都有了突破，最重要的是它有效的確保了我們的安全，使我們能無後顧之憂的享受攀岩的樂趣。這篇短文讓我們瞭解當年作者是如何發明Friends的。</P><P>想像一下有朝一日攀岩者穿戴特製手套與岩鞋像蜘蛛般的攀登光滑如鏡的大峭壁，然一旦失足墜落卻可像蜘蛛似的由安全吊帶射出繩索連結岩壁...。當然，只有待發明者開發出這種技術時,我們才會無疑地認為它聰明無比。然而，很明顯的由於我們的後知後覺、後見之明，目前，尚無人能想像出這種技術的細節。</P><P>同樣的在25年前當我發明Friends時情形也是一樣，雖然對這種東西的需求如此殷切（起碼對我而言），但是實際上要如何設計出來，對一般人而言卻是毫無概念。</P><P>我從1971年開始嘗試雙滑動楔子進行這項發明，目標是尋找一種裝置可以自己固定在裂隙中，但若用力拉它則會產生很強的支撐力量。我以我航天工程的背景去分析、計算這種機構時，卻發現它根本是不穩固的，不同組合的楔子內部摩擦力降低了它們支撐的力量，而且在許多情況下這種裝置會被扯出來。由於這個裝置是我本身要用的，因此我不打算在安全上做妥協。</P><P>1973年夏天Mike Lowe向我推銷他兄弟Greg Lowe發明的新凸輪岩楔，他聲稱這種等角凸輪的設計沒有問題。本能的我發現到這個概念應該可行，也許這正是我在尋找的構想。我買了其中三個，不幸的是當我第一次用它們時，這三個岩楔都從裂隙中彈出，順著繩子滑到確保者處，害我在沒有任何保護下爬完5.9的拳頭裂隙，這也是我最後一次使用它們了。</P><P>等角螺旋在自然界隨處可見，從貝殼、毬果、氣壓梯度到渦捲星雲，基本上這僅是說明均勻擴張的一種方式，笛卡爾在1638年曾以數學模式描述之並稱其為等角螺旋，至此等角凸輪廣泛見於許多機械裝置。我不知道Greg從何獲得此一主意用於裂隙確保，或許是從猶瑪攀昇器，因其使用類似的等角凸輪鉗住繩子，無論如何我們都要感謝Greg將此概念引進到裂隙確保技術上。</P><P>由概念到創造出確實可行的裝置原來並不容易，回顧來看，它需要有航天機械技能，探索的心加上持續的動力與對攀岩的熱情 --- 或許是一種少有的組合。接下來好幾個月我在Bill Forrest的機械工廠製作凸輪的原型，並在附近岩場試用，晚上進行改良，結果是產出數以箱計的廢棄原型。</P><P>附帶一題的是許多原先廢棄不用的設計後來被許多公司加以改良生產，雖然這是我從無到有發明、拋棄的，但畢竟並未完成它們，我採用更好的方式來超越這些不良的設計。</P><P>一天，當我試完所有可能的組合後，從Creator那兒我又得到了好主意，使用兩個反向、獨立彈簧驅動的凸輪，像汽車的四輪獨立懸吊系統一般，每個凸輪可以對應不同規則的岩面。我拿一組「Quads」到岩場試用，這組彈簧驅動的活動凸輪，用高張力螺絲連結一起，然後用一根鐵桿當連接桿，當然這是沒有制動機構的。在Split Rocks的Fantasia路線（5.8）上，我攀到一處岩階將Quad塞入手掌大小的裂隙中，然後放開雙手，就在同時我知道這就是我尋找多時的答案了。</P><P>←1973年秋末我製作的第一個真正堪用的Friend。這是花了數個月的精研，數以百計的構思才有的心血結晶。它沒有制動機構，連接桿也不是最佳的設計，但足以測試個別凸輪的構想是否可行，這組原型基本上只在Fantasia用過一次（Split Rocks, CO）。</P><P>次年春天（1974）我拿著這組Friends到優勝美地，並且用它們攀登了無數困難的路線，以目前科技的眼光來看這組Friends算是相當粗糙、有限的，因為只有數個2-1/2和3-1/2的大小。不過，這已證明了它們的價值，在季節末我們三人甚至打算用這些Friends以一天時間挑戰Nose路線。然而一場突如其然的大雨將我們困在Great Roof下達三小時，迫使我們不得不露宿在Camp V。不過，我們終究是以28小時完成了，將原先三天的記錄縮短一半以上。</P><P>←這是我第一個使用的原型，他的大小相當於今天2-1/2的Friend，我做了三個這種大小以及兩個3-1/2大小的。我在1974年春季的攀登季節中一直使用著它們，最後並與Lou Dawson 和 Kris Walker 以1.5天（或20攀登小時）完成Nose路線，以往這是需要三天時間的。</P><P>接下來的六年我持續的將原型做改良，並非為商業目的，主要是著眼於數以千計的路線上，多數在優勝美地。由於我的繩伴是固定某些人，所以這項發明幾乎處於保密狀態，因為我有點固執並擔心製造商會將它剝奪。同時，我也給了Lowe兄弟許多的時間來改良他們原先的設計，雖然他們沒有。</P><P>1977年Mark Vallance邀請我到英國幫他製造Friends，Mark是一位專注、多才多藝的人，同時也是第一位預見Friends會被廣泛使用的人，當然以目前來看這是無庸置疑的，但在當時卻不如此，Mark應是首位將Friends推上市場的人，次年Mark並成立了Wild Country開始銷售Friends。</P><P>←這些是後來一代的原型，1975到1978年間我用在優勝美地的攀登中，其時Friends已經量產上市。每種大小我都有五個。</P><P>如果要問我對今天到處充斥不同品牌的Friends有何看法？首先，我會認為部分根本是吹噓的次級品，如同我不會找赤腳醫生做腦部手術一樣，攀岩者不應選購劣質的次級品、便宜的材料，如果你的架上有任何這類的Firends應該考慮剔除它們。其次，目前市面上有些玩意並不穩固，起碼我個人認為如此，例如，三個凸輪的設計，如同三輪車終究被市場所淘汰，原因之一就是其先天上不穩固，還有其他小玩意也可能造成不穩定，千萬不要將性命交到它們手裡。第三，有些所謂的改良實際可能只是為了專利迴避而已，我懷疑它們終究會消失，所以千萬要注意誇大不實的推銷手法。最後，目前原始專利期限已將屆滿，市面上也會出現大量抄襲的產品，然而我個人還是只推薦最忠於原味的品牌。</P><P>譯註：Ray Jardine於1973～74年冬天發明Friends（當時他與他的朋友如此稱呼它），1974年春天開始於優勝美地使用該項發明，那年秋季他並於Summit雜誌投稿一篇文章（A VISION OF THE LAND OF SEM－by Ray Jardine）敘述使用這項發明攀登的兩條路線，但該文並未被接受，原因是其純科幻式的描述方式令當時主編覺得不可思議（當年曾目睹Friends的人不超過一打），或許是其刻意隱藏這項發明，所以遲至1978年後Friends才正式上市。<BR>(譯註：Friends原始專利 --- Climbing aids為美國專利字號4184657，申請日期May 30, 1978，公告日期Jan. 22, 1980，專利期限自申請日起算20年，所以目前應已屆滿。)</P><P></P><P></P><P><BR><div align=right><font color=#000066>[此贴子已经被作者于2004-3-24 12:59:23编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-24 12:58:58</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16869><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16869&id=1790&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16869&id=1790&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432412593417014.jpg" TARGET=_blank><IMG SRC="uploadImages/200432412593417014.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><BR>↑Ray Jardine－Photo 1978, Bill Wood</P><P></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-24 12:59:39</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>4</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1790" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1790" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1790" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1790&replyID=16848" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1790" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1790" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1790" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：299.805毫秒
+</td></tr>
+</table>
+</body>
+</html>

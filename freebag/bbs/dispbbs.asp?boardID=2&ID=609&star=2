@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--每周论题浏览：如果是我们，很想知道大家面临时会如何选择？[讨论]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=2">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=2">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=2">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=2&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 会员可在此专门讨论一些论题
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=2>每周论题</a> →  浏览：如果是我们，很想知道大家面临时会如何选择？[讨论]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=2"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=2"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=2&id=609&star=2"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>2601</B> 个阅读者<a href="go.asp?BoardID=2&sid=609"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=2&replyID=609&id=609&star=2&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=2&sid=609&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 如果是我们，很想知道大家面临时会如何选择？[讨论]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=2&id=609"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=2&id=609"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=2&id=609"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=2&id=609"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=2&id=609"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=2&id=609', ' 上海交通大学野外生存素质拓展基地 - 如果是我们，很想知道大家面临时会如何选择？[讨论]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6353><font color=#990000><B>bolanggu</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1984-8-13></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：434<br>&nbsp;&nbsp;积分：902<br>&nbsp;&nbsp;注册：2003-3-7<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=bolanggu',500,400)"><img src="pic/message.gif" border=0 alt="给bolanggu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=bolanggu" target=_blank><img src="pic/friend.gif" border=0 alt="把bolanggu加入好友"></a>&nbsp;<a href="dispuser.asp?id=114" target=_blank><img src="pic/profile.gif" border=0 alt="查看bolanggu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=bolanggu&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索bolanggu在每周论题的所有贴子"></a>&nbsp;<A href="mailto:bolanggu@yahoo.com.cn"><IMG alt="点击这里发送电邮给bolanggu" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=12204263" target=_blank title="bolanggu[12204263]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6353&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6353&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>11</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>上海游泳馆被关了，最早6月15日才开，好久没游了，手脚痒痒的说。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=114&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 17:49:04</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6354><font color=#000066><B>sunny</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：201<br>&nbsp;&nbsp;积分：411<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=sunny',500,400)"><img src="pic/message.gif" border=0 alt="给sunny发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=sunny" target=_blank><img src="pic/friend.gif" border=0 alt="把sunny加入好友"></a>&nbsp;<a href="dispuser.asp?id=19" target=_blank><img src="pic/profile.gif" border=0 alt="查看sunny的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=sunny&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索sunny在每周论题的所有贴子"></a>&nbsp;<A href="mailto:sunzh0501@163.com"><IMG alt="点击这里发送电邮给sunny" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6354&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6354&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>12</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>拜托，在这里就别灌水了</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=19&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 20:40:18</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6361><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2330<br>&nbsp;&nbsp;积分：2265<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6361&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6361&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>13</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>坚持看完了整篇文章，很累，但是感触很多<BR>让我感慨最多的是，这样的团队从一开始就是不切合实际的<BR>四个人都是互相不认识的。彼此不了解，根本不应该组成这样的团队。<BR>这样子，出事是很正常的，没出事才是奇迹呢<BR>面对那样的状况，我觉得我很难做出象行人那样的选择<BR>不是说我不高尚，实在是在那样的情况下，我很难不面对现实<BR>生命是无价的。我的是这样，别人的也是同样。<BR>自己的生命看的是很重的<BR>在平时，可以很崇高的说，我绝对不会丢下同伴<BR>但是在那样的状况下，你还能做出那样的抉择吗？？？<BR>很难吧？？？<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 23:54:15</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6377><font color=#000066><B>holawu</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z8.gif alt=天蝎座1982-10-28></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：小飞侠<BR>&nbsp;&nbsp;文章：1592<br>&nbsp;&nbsp;积分：1528<br>&nbsp;&nbsp;注册：2003-3-5<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=holawu',500,400)"><img src="pic/message.gif" border=0 alt="给holawu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=holawu" target=_blank><img src="pic/friend.gif" border=0 alt="把holawu加入好友"></a>&nbsp;<a href="dispuser.asp?id=100" target=_blank><img src="pic/profile.gif" border=0 alt="查看holawu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=holawu&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索holawu在每周论题的所有贴子"></a>&nbsp;<A href="mailto:holawu@sina.com"><IMG alt="点击这里发送电邮给holawu" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=29023423" target=_blank title="holawu[29023423]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6377&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6377&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>14</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>其实行人他们不应该走开的<BR>他们应该等待救援的嘛<BR>碰到这种情况总是一个人死好过一起死<BR>没有经历过这种事情，也不知道到时候自己会怎么决定<BR>可惜我是个太重感情的人，不一定会做出这样的决定</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=100&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-2 0:22:50</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6386><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2330<br>&nbsp;&nbsp;积分：2265<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6386&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6386&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>15</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>恩，赞同。太重感情的人就是你</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-2 0:36:42</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6391><font color=#000066><B>finerain5124</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：新手上路<BR>&nbsp;&nbsp;文章：8<br>&nbsp;&nbsp;积分：23<br>&nbsp;&nbsp;注册：2003-3-4<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=finerain5124',500,400)"><img src="pic/message.gif" border=0 alt="给finerain5124发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=finerain5124" target=_blank><img src="pic/friend.gif" border=0 alt="把finerain5124加入好友"></a>&nbsp;<a href="dispuser.asp?id=84" target=_blank><img src="pic/profile.gif" border=0 alt="查看finerain5124的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=finerain5124&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索finerain5124在每周论题的所有贴子"></a>&nbsp;<A href="mailto:finerain5124@eyou.com"><IMG alt="点击这里发送电邮给finerain5124" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6391&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6391&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>16</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>挺沉重的一个故事，选择真是太艰难。轻松的说出我绝不会丢下同伴不管，实际上意义并不大。就像“浪迹天涯”他清楚的知道这一点。每每读这种故事都很伤感，抉择人生一大困惑！</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=84&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-2 8:49:44</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6420><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level7.gif><br>&nbsp;&nbsp;等级：蝙蝠侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：879<br>&nbsp;&nbsp;积分：1233<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在每周论题的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6420&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6420&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>17</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>看完了全篇，当时不知该写些什么。<BR>思考了一天，仍不确定自己的选择。<BR>出于最本能，我也许会选择先离开。<BR>如果仅就去留，这样还有一线希望。<BR>故事中的四人都有各自的劣根所在。<BR>偏是一个最让人受不了的出了问题。<BR>现在只是作为旁观者冷静来的讨论。<BR>我都犹豫放弃的可能，后悔的结局。<BR>意外无法避免，不要人为制造混乱。<BR>出了森林，四人怎样漠然都无所谓。<BR>但当需要共同面对绝境时，要凝聚。<BR>所以最好不要出现那样残忍的选择。<BR>因为往往你能最终决定自己的选择，<BR>但却决定不了你要作出选择的选项。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-2 16:07:30</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6445><font color=#000066><B>w000000_0</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1983-5-22></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;文章：114<br>&nbsp;&nbsp;积分：135<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=w000000_0',500,400)"><img src="pic/message.gif" border=0 alt="给w000000_0发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=w000000_0" target=_blank><img src="pic/friend.gif" border=0 alt="把w000000_0加入好友"></a>&nbsp;<a href="dispuser.asp?id=15" target=_blank><img src="pic/profile.gif" border=0 alt="查看w000000_0的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=w000000_0&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索w000000_0在每周论题的所有贴子"></a>&nbsp;<A href="mailto:w000000_0@sina.com"><IMG alt="点击这里发送电邮给w000000_0" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89748995" target=_blank title="w000000_0[89748995]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6445&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6445&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>18</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face2.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>其实我们可以</b><br>其实这个故事讨论的并不是会不会游泳的事情，因为即使会游泳，也有很多无法应对的情况。看完文章，我觉得没什么特别想说的，但是有很多可以说，因为这个故事真得很沉重。它说了一个一般俱乐部都可能碰到的问题，但是最重要的是如何处理个人与集体的关系。其实救人等于救自己，与人为善就是与己为善，在我们会拖累全局的情况下，其实我们可以为其他人想想，然后就会放开一点；其实我们可以自私一点，向着让别人行动迅速的找人来救援……在有“累赘“的情况下，其实我们可以为那个人想想，把他带上是因为我们是集体；其实我们也可以自私一点，按着自己的想法去选择，虽然一定残忍，不管是对自己或是对他人，这都是一种生存的方式。其实我们可以做得很多，只要不会总是追悔当初就可以了；其实我们可以做得很少，因为我们其实只能做这些……选择……说了那么多，都不知道说了什么，其实我想说的就是绝对不能有悔恨，哪怕有一些不堪回首的记忆，但是想起来时会是一丝隐忍的微笑……</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=15&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-3 0:46:18</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6464><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2330<br>&nbsp;&nbsp;积分：2265<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6464&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6464&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>19</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>恩，是的<BR>做的选择，不管好或坏的结局，最重要的是不要后悔<BR>我相信生命本就是一种美，不需要太多的挑拣、后悔。<BR>如果让你再做一次选择，你仍会执着于走过的道路，那就可以了。=）</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-3 16:15:25</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6578><font color=#000066><B>changlinaa</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z10.gif alt=魔羯座2000-1-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level5.gif><br>&nbsp;&nbsp;等级：侠之大者<BR>&nbsp;&nbsp;文章：565<br>&nbsp;&nbsp;积分：476<br>&nbsp;&nbsp;注册：2003-2-12<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=changlinaa',500,400)"><img src="pic/message.gif" border=0 alt="给changlinaa发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=changlinaa" target=_blank><img src="pic/friend.gif" border=0 alt="把changlinaa加入好友"></a>&nbsp;<a href="dispuser.asp?id=66" target=_blank><img src="pic/profile.gif" border=0 alt="查看changlinaa的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=changlinaa&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索changlinaa在每周论题的所有贴子"></a>&nbsp;<A href="mailto:changlinaa@163.com"><IMG alt="点击这里发送电邮给changlinaa" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=66509365" target=_blank title="changlinaa[66509365]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6578&id=609&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6578&id=609&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>20</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>最后能不能把所有的装备都留给行人和那个胖子，让他们在河边等待救援<BR>然后浪迹天涯和花乌鸦两人先出林子找人来救他们呢？<BR>这样一来，先出林子的人能比较快地找到援助<BR>原地不动的人也很快就能被找到得救阿</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=66&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-5 1:47:21</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>57</b>，分页： <a href="?BoardID=2&id=609&replyID=609&star=1&skin=">[1]</a> <font color=#FF0000>[2]</font> <a href="?BoardID=2&id=609&replyID=609&star=3&skin=">[3]</a> <a href="?BoardID=2&id=609&replyID=609&star=4&skin=">[4]</a> <a href="?BoardID=2&id=609&replyID=609&star=5&skin=">[5]</a>... <a href="?BoardID=2&id=609&replyID=609&star=6&skin=">[6]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=2&ID=609" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=2&ID=609" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=2&ID=609" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=2&ID=609&replyID=609" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=2&ID=609" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=2&ID=609" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=2&ID=609" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=2&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：199.219毫秒
+</td></tr>
+</table>
+</body>
+</html>

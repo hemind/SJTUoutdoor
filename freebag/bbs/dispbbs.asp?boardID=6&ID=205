@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：[转帖]自行车旅行常识</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：[转帖]自行车旅行常识
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=205&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>103</B> 个阅读者<a href="go.asp?BoardID=6&sid=205"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=205&id=205&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=205&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： [转帖]自行车旅行常识</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=205"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=205"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=205"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=205"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=205"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=205', ' 上海交通大学野外生存素质拓展基地 - [转帖]自行车旅行常识')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=958><font color=#000066><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level7.gif><br>&nbsp;&nbsp;等级：蝙蝠侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：954<br>&nbsp;&nbsp;积分：1520<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=958&id=205&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=958&id=205&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face4.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>[转帖]自行车旅行常识</b><br><BR>自行车旅行常识 <BR>自行车旅游在国内外已经成为一种时尚的休闲方式，那么在我们在骑自行车旅行的时候应该注意哪些问题呢？ </P><P>　　自行车的选择 </P><P>　　由于自行车是旅游中的主要交通工具，所以旅游的成败与自行车 的好坏，有着直接密切的关系。自行车旅游属于一种体育运动项目， 往往需要考核运动速度，所以自行车旅游也可分成普通自行车旅游和 特殊自行车旅游。前者选用一般的加重型或标定型自行车，后者可选 用特制的赛车、山地车等。特种自行车车运动速度快，在不同的路线 行驶时，也更加灵活有力。此外，对自行车各部的机件做全面彻底的 检查，观其是否灵敏可靠，性能良好。出发时，要携带最常用的修理工具，如板手、钳子、气筒和各种易损坏的备用零件，如滚珠、车条、内胎、气门芯、闸皮等。以备发生故障时及时修理。在装配上，如有不合适的地方，应重新调整装配，使其何持最灵活的状态。 </P><P>　　道路的选择 </P><P>　　自行车旅游，对道路要求也比较高。旅游时应选择平坦、易于通行的道路除迫不得已，应尽量避免去坡道、土道，这对人对车都有损害。因此，只有在土路很明显是抄近，或非去不可的情况下，才能走土路。一般情况下，宁可多走几里，也要避开。俗话说："宁走十里坦，不走一里坎"，对于自行车旅游来讲也是有道理的。 </P><P>　　骑车技术 </P><P>　　有自行车旅游特别是长途旅游，掌握好自行车技术是很重要的，目的是为了节省体力，保证安全。自行车车座的调整，是自行车技术的一个重要方面。自行车车座应调整到什么高度为最佳呢？一般说来，以车座较低并有5-10度的后倾最便于长途旅游。因为低车座好处很多：一是低车座蹬车灵活，可用脚的不同部位轮流用力，这样可使 脚的各种肌肉轮流休息，延长耐久长；二是车座低，人的位置相对降低，可减少空气阻力，也便于伏在车把上，改进空气流张；三是车座低，微后倾，可使身体挺直，臀部受力均匀，减少疲劳感，同时又可 减轻双臂的负担，保护手腕；四是车座低于有利于安全，在遇到紧急情况时，双腿伸直便可着地，这样可避免造成危险。因此，旅游时对 车座的调整，应以低车座为最佳，这对保持体力、速度、耐力都有很大的好处。此外，自行车旅游选择好适当的速度也是非常重要的。一 般来讲，普通自行车，在体力正常、道路平坦等条件下的长途旅游，速度应何持在每小时15公里左右，体力好的可加快到每小时20公里。自行车旅游贵在保持速度，选择适当的速度，切忌忽快忽慢，有劲拼命骑，没劲步步停的现象。 </P><P>　　途中休息也可保持每二至三个小时一次，不要想停就停，应坚持到时间或预定地点再休息。在特殊的道路条件下行行车，适当地掌握行车速度更为重要。无论是山间小路，还是又长又陡的下坡道，车速度既不可太快，也不可太慢，应因地制宜选择速度。</P><P><BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-2-27 22:47:53</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=205&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=205&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=11096><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11096&id=205&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11096&id=205&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>最近有两个自行车出行的活动，现在把这个帖子顶出来，大家看一看，还是很有好处的。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-9-22 23:45:28</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=11130><font color=#000066><B>莽莽戈壁滩</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;文章：369<br>&nbsp;&nbsp;积分：484<br>&nbsp;&nbsp;注册：2003-8-27<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=莽莽戈壁滩',500,400)"><img src="pic/message.gif" border=0 alt="给莽莽戈壁滩发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=莽莽戈壁滩" target=_blank><img src="pic/friend.gif" border=0 alt="把莽莽戈壁滩加入好友"></a>&nbsp;<a href="dispuser.asp?id=298" target=_blank><img src="pic/profile.gif" border=0 alt="查看莽莽戈壁滩的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=莽莽戈壁滩&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索莽莽戈壁滩在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:IOUNYFR@163.COM"><IMG alt="点击这里发送电邮给莽莽戈壁滩" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11130&id=205&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11130&id=205&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>但问题是嘴皮子都磨烂了，箱子还是一窍不通。 肉肉还是继续用他的蛮力。</P><P>都是理论大于实践的家伙，烂泥糊不上墙</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=298&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-9-23 3:07:05</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=11133><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11133&id=205&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11133&id=205&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>呵呵，希望有方法可以改善<BR>我也很无奈，毕竟没有太多的时间。<BR>很想看到你耐心一点</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-9-23 3:43:13</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=11817><font color=#000066><B>蓝雨桐</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/http://><br>&nbsp;&nbsp;等级：顶极新手<BR>&nbsp;&nbsp;文章：20<br>&nbsp;&nbsp;积分：45<br>&nbsp;&nbsp;注册：2003-10-1<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=蓝雨桐',500,400)"><img src="pic/message.gif" border=0 alt="给蓝雨桐发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=蓝雨桐" target=_blank><img src="pic/friend.gif" border=0 alt="把蓝雨桐加入好友"></a>&nbsp;<a href="dispuser.asp?id=381" target=_blank><img src="pic/profile.gif" border=0 alt="查看蓝雨桐的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=蓝雨桐&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索蓝雨桐在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:pymly1983@163.com"><IMG alt="点击这里发送电邮给蓝雨桐" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11817&id=205&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11817&id=205&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>自行车的技术很多的，你们可以去请较一下去德清比赛的同学他们获胜很大方面是自行车帮的忙</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=381&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-4 20:59:03</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=11866><font color=#990000><B>凡凡</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z11.gif alt=水瓶座1984-2-17></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：48<br>&nbsp;&nbsp;积分：186<br>&nbsp;&nbsp;注册：2003-1-3<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=凡凡',500,400)"><img src="pic/message.gif" border=0 alt="给凡凡发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=凡凡" target=_blank><img src="pic/friend.gif" border=0 alt="把凡凡加入好友"></a>&nbsp;<a href="dispuser.asp?id=45" target=_blank><img src="pic/profile.gif" border=0 alt="查看凡凡的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=凡凡&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索凡凡在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:fanwing@eastday.com"><IMG alt="点击这里发送电邮给凡凡" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11866&id=205&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=11866&id=205&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><table style="width:80%" cellpadding=5 cellspacing=1 class=tableborder1><TR><TD class=tablebody1><b>以下是引用<i>蓝雨桐在2003-10-4 20:59:03</i>的发言：</b><BR>自行车的技术很多的，你们可以去请较一下去德清比赛的同学他们获胜很大方面是自行车帮的忙<BR></td></tr></table><br></P><P><BR>这次比赛，渔民他们在20公里自行车赛段就超越了所有队伍<BR>我们也超3个队伍<BR>以后还得多学学自行车的骑行技术</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=45&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-5 7:56:24</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>6</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=205" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=205" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=205" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=205&replyID=958" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=解固&BoardID=6&ID=205" title=将本主题解固>解固</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=205" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=205" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：210.938毫秒
+</td></tr>
+</table>
+</body>
+</html>

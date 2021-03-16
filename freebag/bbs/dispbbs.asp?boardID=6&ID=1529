@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：中国四大经典天然攀岩场</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：中国四大经典天然攀岩场
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1529&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>27</B> 个阅读者<a href="go.asp?BoardID=6&sid=1529"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1529&id=1529&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1529&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 中国四大经典天然攀岩场</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1529"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1529"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1529"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1529"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1529"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1529', ' 上海交通大学野外生存素质拓展基地 - 中国四大经典天然攀岩场')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15607><font color=#000066><B>labomba</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：270<br>&nbsp;&nbsp;积分：434<br>&nbsp;&nbsp;注册：2003-3-5<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=labomba',500,400)"><img src="pic/message.gif" border=0 alt="给labomba发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=labomba" target=_blank><img src="pic/friend.gif" border=0 alt="把labomba加入好友"></a>&nbsp;<a href="dispuser.asp?id=95" target=_blank><img src="pic/profile.gif" border=0 alt="查看labomba的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=labomba&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索labomba在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:sky_labomba@etang.com"><IMG alt="点击这里发送电邮给labomba" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15607&id=1529&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15607&id=1529&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>中国四大经典天然攀岩场</b><br>中国四大经典天然攀岩场</P><P><BR>阳朔，小资的岩上之舞</P><P>在阳朔有这样的一句很小资的话：我不在酒吧里,就在去酒吧的路上；我不在岩壁上,就在去岩壁的路上。</P><P>对阳朔的第一印象是1999年的夏天。那时黄超还在“红星特快”，我们坐在酒吧门前,晒着下午煦暖的阳光,喝着漓泉啤酒,吃着美味的PIZZA时,根本没有想到自己有一天会留在阳朔,而且还开着自己的酒吧。</P><P>当时是受丁丁的文章影响,觉得那里竟然有那么好的岩壁,那么舒服的生活,才计划去看看的，结果,就陷了进去。从那时起直到2000年底,我在短短的两年时间里,就去了阳朔8次!每次去都至少停留一周,攀岩,休息，再攀岩。累了,就去漓江或遇龙河里游泳。终于,我决定留在阳朔开个酒吧,以攀岩为主题的酒吧。</P><P>酒吧最大的特色就是里面修建了抱石壁,有直壁和斜面,有4米长的屋檐,也有2米高翻屋檐的直壁,是当时国内设计造型都很不错的抱石馆。我们每周末都举办抱石赛,奖品最初为啤酒。后来街上的酒吧、店面纷纷加入进来,要赞助PIZZA、服装等。有一次,我们的奖品竟是MOUNTAIN HARDWEAR的风衣以及SEA TO SUMMIT的绳包和粉袋，结果引来了激烈竞争，我作为主办方,不能参加比赛,只好瞪红了双眼给他们做裁判。</P><P>参加比赛的人各式各样,有阳朔本地的爱好者,也有各酒吧的服务员,更多的是来自全国各地的攀岩爱好者。每逢五一、十一、元旦、春节等传统大假,这里都人满为患。街上的人绝对可以用摩肩接踵来形容。节日一过,街上就很难再找到一个游客。偶尔有一两个漫步过酒吧街,每家的WAITRE都瞪大了双眼,恨不得能把他擒过来,摁住,*着他点两盘菜,喝杯酒,才可以放行。</P><P>阳朔很快地走过了,但我愿意跟大家分享我对阳朔的印象。</P><P>攀岩路线:</P><P>阳朔目前有近50条攀岩路线,大概分布如下:</P><P>1.月亮山：15条路线。开线者众多,有美国的TODD SKINNER, 香港的DANNIEL, 美国的CRAIG LUEBBEN, 还有一些日本人。难度在5.9—5.13D之间,路线长度在20-25米之间。带55米攀岩绳。</P><P>评价： 四星级攀岩岩场。路线很多,难度各异,风景秀丽,空气清新。</P><P>适宜攀岩季节：岩壁面向北，夏天最合适,晒不到太阳,有微风。刮风下雨都可以爬,因为有大屋檐可以挡雨。冬天不宜,岩石如同冰一样寒冷。</P><P>2.同门山：5条路线。开发路线的人是澳洲的KEN，他于2000年开发了5条路线，来自台湾的中中和来自北京的李树开发了第6条路线，难度在5.9—5.12A之间。</P><P>评价：五星级攀岩岩场。因为路线多,临近遇龙河,攀岩后可以游泳、划竹筏。</P><P>适宜攀岩季节：岩壁面向东，只要不下雨,都合适；夏天最好早上或傍晚去,不晒太阳；冬天最好中午去,温暖。</P><P>3.拇指峰：7条路线。澳洲人KEN开发了第一条挂片路线:“HAPPY NEW YEAR”之后,我和刘喜男开发了大款线、压岁钱线，和虫子开发了粽子路线和金舟路线，还有来自香港的3个英国人开发了红牛路线。以新年快乐最容易,难度为5.8—5.10，其他在5.11左右。</P><P>评价：三星级攀岩岩场。因为路线很多,难度各异；在路边,交通方便。</P><P>4.中指峰：2条路线。一条为TODD 攀的SNOOPY,另外一条是CRAIG LUEBBEN开发的BIG BROTHER路线。高度为80米左右,需要双绳攀爬。</P><P>评价：三星级攀岩岩场，传统攀爬的好去处。</P><P>5.蝴蝶泉：一条挂片路线,名称为“美丽的花蝴蝶”，由丁丁和我于2001年10月初开发，为第二届全国攀岩节比赛线路。难度为5.10B。</P><P>评价：一星级攀岩岩场，蝴蝶泉公园要收费,所以不爽。</P><P>6.酒瓶山：9条线路，大部分为来自北京的李树在东西坊的老板张雷霆的帮助下,还有中中,马辉以及秋乡的协助下完成。难度范围为5.8—5.11。</P><P>中国四大经典天然攀岩场NO2<BR>石林是抱石的天堂!在这里,方圆几百公里的面积内全是一个个独立的小石峰,高度在10米左右。每一个都是独立地耸立着,彼此观望,仿佛是古代的兵阵。</P><P>我在1999年第一次见到石林的时候,就被这里的情景惊呆了。当时是计划去石林看风景,结果看到了石林,就不再看风景了,而是尝试着去攀爬每一块可以攀爬的石头。</P><P>其实,石林公园只是石林的一小部分,面积约10平方公里。从南宁到昆明的南昆线上,大概有半个多小时左右的时间,是在石林的“海洋”里穿越!两岸全是高高低低的石头。喜欢抱石的朋友们一定会觉得是在抱石的天堂里遨游了。</P><P>昆明的王二带我们去了一处他们心仪已久的地方,就在石林火车站旁,向东大约200米。这一片的岩壁大约都是10多米高,最高的大约15米。去的那天,阳光明媚,气温在25度左右,有微风,比较惬意。</P><P>这里的地貌属于风蚀喀斯特地貌,所以石头表面要比阳朔的岩壁锋利，爬的时候都要比较小心,防止擦伤。尤其是石头顶部更锋利,像一把把尖刀,令人心寒。这一点,我体会最深,因为后来我SOLO了两个独立的石头。我并不是很支持SOLO的,因为自己觉得会很危险,尤其是没有攀过的岩壁,有很多的未知因素,比如松动的石头,或者潜伏的蝎子等（1994年我在爬北京白河峡谷的纪念碑时就在岩壁上的石片下面发现了一条浑身碧绿的蝎子)，但这里的石头都比较结实,岩质比较硬,也比较干净。</P><P>仔细侦察后,我挑选了另外一个比较简单的石头,高度在13米左右,难度不大,路线比较清楚。仔细地观看了上攀和下撤路线后,稳定了自己的情绪。抱石垫是放在岩壁下了,但我知道那是个摆设，真的掉下来,肯定不管事。</P><P>最初的4、5米,感觉跟一般的抱石一样,心里是没压力的,相信跳下去,没有什么问题。再往上,心里就有些不安了，因为这时侯向下看,已经感觉到抱石垫有些遥远,小花已经看不清楚了，但我知道自己手脚都还有劲,心里就没有慌乱,继续稳定地攀爬。</P><P>基本上,我是按照攀岩的基本要求向上攀爬:三点固定,移动另外一点，所以我向上伸手后,抓到了新的点,会用手使劲地拉拽几下,确认不会松动,可以承受力量,再施力。脚也一样,移上来后,先用力地踩踩,觉得不再松动,岩石的尖已经被踩掉,才会将重心移上去，就这样,我伴随着一路上不断听到的踩掉小石尖的脆裂的声音,移了上去。快到顶的时候,心里的压力也快到了极限:一方面,知道自己即将到顶,另一方面,也知道——如果松手,就会受伤,而且不轻。</P><P>交通:石林在昆明的东面,距离昆明80公里左右,每天有旅游专列往返(票价为40元往返),更有很多的过路车。汽车也很方便,大约一个半小时左右到,价格为25元。</P><P>攀岩NO3，华山，花岗岩壁的攀登</P><P>那年，我站在华山北峰下的一线天,看着华山西峰壁立千仞,心里就一直惦记着:有一天,我会回来,攀爬这块岩壁，并没有征服的想法,内心洋溢着的,是一种壮怀激昂。</P><P>时间很快过去,转眼毕业,转眼工作了6年，中间曾有几次冲动,想去再看看,但实在有太多因素牵绊,没有成行。也有几次是找不到合适的搭档,没有充足的装备,就都作罢了。</P><P>又过了一年,我转成了全职攀岩者。时间不再是问题,装备也有公司赞助,于是攀华山的想法又跃然而起。4月初,西安举办了全国首届电视塔攀爬比赛,刚好我和搭档刘喜南也在被邀请之列,就顺便去华山侦察了一番路线。</P><P>同去华山的还有来自天津的罗军以及西安的几个攀岩爱好者赵琨等。他们对华山比较熟悉,也知道前两年法国人攀爬的路线以及日本人攀爬的路线，其中的赵琨还在去年上山救了一名因逃票而困在悬崖上的小伙子。</P><P>我们一行人是从东山门进山的,走了大概3公里左右,过了3个大的”Z”型大转弯,看到对面有一大片巨石，这里有日本人去年开的5条路线。据说是日本顶尖的几位高手和他们的教练:一个60多岁的老头,在这里开发了5天才开好，其实每条路线都不长,13—15米左右,在一块硕大的石头上，每条路线都很有特色并且很干净。据西安的朋友讲,他们开路线只花了2天,但清理路线花了4、5天的时间。</P><P>由于我们到达岩壁下就已经是下午2点左右了，所以就没有攀完全部路线,只是爬了3条路线。每条都不简单,路线的走势清晰又有挑战性,可以看出来他们着实花费了很久的时间用在研究路线上,而不是简单地打好顶链,然后一边下一边打,距离合适就行了。</P><P>这里的岩质属于花岗岩质地,类似于北京的白河峡谷里的那些路线,都是点比较小,岩壁比较滑,需要很好的柔韧性、平衡感和技巧以及良好的心理素质!因为如果脚一滑,那就会贴到岩面上,被小的砾石划破皮肤，我当时爬的感觉就是谨小慎微,生怕自己的肚子被划开。所以我试了3次,才RED POINT (红点)了一条难度在5.11D左右的路线。因为那时我们已经在石灰岩质的岩壁上攀了一年半了,基本上忘记了如何攀爬花岗岩壁。</P><P>交通:现在从西安火车站有发向华山的旅游专线(大巴),每半小时左右一趟,票价25元左右。金龙客车,舒适豪华。车会停在华山的西山门边。这里是传统的上山路线,可以经过一线天、北峰、才到西峰。也可以坐华山管理处的旅游车,坐到东山门里的北峰索道下站,乘索道上山。车票10元，索道票为90元，华山的门票在80元左右。</P><P>中国四大经典天然攀岩场NO4<BR>昆明的攀岩起步比较晚,但进展的还可以。有几个中坚力量,像虫子、王二、小马等,为昆明的攀岩发展起到了领头羊的作用。在两年的时间里，他们采用刀耕火种的方式，在昆明滇池边的西山公园里开发了近20条运动攀岩路线。直到今年年初，他们一共8个人集资买了BOSCH的充电锤，才告别了用手钻开路线的历史,进入后现代路线开发。在3、4两个月里，集中开发了另外20多条路线，其中大部分集中在龙门村边的鸽子岩和猫头鹰岩。</P><P>鸽子岩和猫头鹰岩都在西山的下面，靠近滇池。在鸽子岩开发的路线，都尽量避免了骚扰鸽子，在比较平整的岩壁上开线。而在猫头鹰岩，则没有那么幸运，我们遭遇了猫头鹰,而且发生了正面的冲突。当然，结果是我们受到了袭击，不敢再去那里爬了。</P><P>昆明的攀岩环境，应该是国内最好的，因为这里秋冬春三季都适合攀岩，而且气温都不高，在20度左右。而夏季最好不去，会有连续半个月的雨,而且比冬天还冷。</P><P>攀岩路线：</P><P>在昆明西山老区,龙门景区处有近20条路线,10条打好挂片的路线，10来条传统攀岩路线。龙门下龙门村旁的鸽子岩那里有近20条挂片路线，难度各异，从5.8到5.13不等。在昆明附近富民县境内有一小溪谷里，新开了6-7条挂片路线，难度各异，全是仰角。</P><P>交通:</P><P>龙门村线:在梁家河车站(5、6路汽车总站)有小巴士到海口，经过鸽子岩区，4元去，回来3元。也可以在小西门那里坐公交车(十字路口的西北角向西50米,进一口,可见很多巴士进出的地方，找去海口的车，每半小时一班，4元)。</P><P>龙门线:上述两个地方，都有到西山的车，票价大约5元，可以直接到西山景区内缆车站旁的停车场。然后走路或坐旅游车到龙门景区门口，别进去，找下西山的台阶，下行20米左右，可以看到在一个转折处，立着“请勿私自攀岩”的地方，就是攀岩路线的小路了。</P><P>昆明山友联系:李智:（0871）3626377 (很热情，还可以帮忙安排吃喝)<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=95&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-10 23:09:14</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1529&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1529&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15615><font color=#000066><B>莽莽戈壁滩</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;文章：369<br>&nbsp;&nbsp;积分：484<br>&nbsp;&nbsp;注册：2003-8-27<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=莽莽戈壁滩',500,400)"><img src="pic/message.gif" border=0 alt="给莽莽戈壁滩发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=莽莽戈壁滩" target=_blank><img src="pic/friend.gif" border=0 alt="把莽莽戈壁滩加入好友"></a>&nbsp;<a href="dispuser.asp?id=298" target=_blank><img src="pic/profile.gif" border=0 alt="查看莽莽戈壁滩的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=莽莽戈壁滩&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索莽莽戈壁滩在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:IOUNYFR@163.COM"><IMG alt="点击这里发送电邮给莽莽戈壁滩" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15615&id=1529&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15615&id=1529&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>耗子上路了.   好,加油,多发点好东西</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=298&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-12-11 15:42:59</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>2</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1529" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1529" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1529" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1529&replyID=15607" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1529" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1529" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1529" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：164.063毫秒
+</td></tr>
+</table>
+</body>
+</html>

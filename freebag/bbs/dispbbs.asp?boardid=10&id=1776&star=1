@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：攀登能力之战术训练[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：攀登能力之战术训练[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1776&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>71</B> 个阅读者<a href="go.asp?BoardID=10&sid=1776"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1776&id=1776&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1776&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 攀登能力之战术训练[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1776"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1776"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1776"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1776"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1776"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1776', ' 上海交通大学野外生存素质拓展基地 - 攀登能力之战术训练[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16801><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16801&id=1776&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16801&id=1776&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>攀登能力之战术训练[转帖]</b><br>一、极限攀登能力之战术训练<BR>所谓战术，是指在合理范围内将选手能力完全发挥，从而达到某一特定目标的策略，与<BR>心理层面的潜能激发有所不同。极限攀登(redpoint)级数之所以高于首攀能力(on-sigh<BR>t)，是由于前者可经由不断练习，修正和避免先前所犯的缺失，寻找出最适当的攀登技<BR>巧、节奏及把点。现将极限攀登能力之战术训练分述如下﹕<BR>(一)路线选择﹕在提升极限攀登级数时，许多攀岩者往往会尝试远超出本身能力的路线<BR>，此种过于急躁之作法不但耗时、更将扼杀进步空间。由于极限攀登能力是建立在排除<BR>动作缺失的基础上，进而将体能与技巧发挥至极，所以建议以首攀最高级数加一级的路<BR>线进行极限攀登训练。<BR>(二)单一动作的缺失排除﹕在决定攀登路线后，接着便是依序解决不同的难点。每个动<BR>作之完成，皆须视攀登者对该动作的了解程度及体能状况而定。初次尝试时，仅能观察<BR>到把点的方向及位置，并依过去之经验攀爬。由于所知有限，不免耗费不需要的力量，<BR>但在调整姿势及寻找到休息点后便可较为省力。其次，在确保绳的辅助下，尚可排除体<BR>能变量，将技巧充份发挥。<BR>(三)数个动作之结合﹕在熟稔个别动作技巧后，便须将其结合。其要诀如下﹕<BR>1.分散疲劳﹕路线之所以困难，往往是因特定肌肉力竭所致。若使疲劳由不同肌群分摊<BR>，即能将肌力做最有效发挥，而极限攀登的特性便在于可事先构思最省力的攀登姿势。<BR>以把点而言，最简单的握法并不一定最省力，因为当一连串动作结合时，固定握法将使<BR>单一肌群迅速力竭。举例而言，倘若路线特性是连续使用第一指节前缘扣住把点(crimp<BR>)，便可在攀登前半段采开放型握法，为路线后半段预留所需肌力。此外，分散疲劳尚有<BR>以下几点技巧﹕(1)交换使用不同手指握点﹔(2)拇指出力，以减轻其余四指负荷﹔(3)以<BR>手掌外缘握住凸点，使手指暂时休息﹔(4)以动态姿势攀登简单路段，预留静态支撑动作<BR>所需之肌力﹔(5)将重心移至脚，使手臂暂时舒缓。总之，须全盘考量及配置整条路线的<BR>力量使用，并在难点前的路段预留体力。<BR>2.决定挂快扣及抹粉时机﹕就挂快扣而言，应选择较佳之把点，即使是上半身已超过固<BR>定点亦无妨。因为于过低位置将绳扣入钩环，不仅在抽绳时较耗时(尤其当确保者给绳较<BR>慢时)，若不幸松手，坠落距离将更可观。至于抹粉，则应选择最平衡及轻松的姿势，使<BR>肌肉获得真正舒缓。<BR>3.驱除先锋攀登的恐惧感﹕上方固定点确保与先锋攀登之差别，在于对坠落的恐惧感。<BR>为使其不致成为攀登能力之限制，可在每一固定点事先练习挂快扣的动作。<BR>(四)连续动作的缺失排除﹕在排除单一难点后，接着便是连贯一系列的动作。然而，从<BR>起攀处开始连贯动作并非最有效之方式。假设难度平均分散在整条路线上，体力必随攀<BR>登高度递减。在体力递减的情况下，技巧遂难以发挥，故须加重较高点之攀登技巧训练<BR>。易言之，应从"为何无法完攀路线﹖"，而非由"可攀至多高才坠落﹖"的角度思考问题<BR>。练习时须遵循以下两原则﹕从高处逐步向低处将动作连贯，而非每次皆从起攀点开始<BR>﹔对特殊难点加强练习。总之，训练时切勿高估自身能力，采较保守的方式方能避免费<BR>力耗时。<BR>(五)思考训练﹕攀岩动作具连续性，思考训练之目的为在脑中复习与整合先前的练习，<BR>藉以提升动作流畅性。首先，将不同动作转化成一连串的关键词以方便记忆，如﹕侧身<BR>上、动态等。接着，在冥想时若对某一动作产生迟疑，便须再回到岩壁上练习，并将其<BR>化解。最后，可将自我幻想成旁观者，以快动作或慢动作反复观察与记住自己的攀登姿<BR>势。<BR>二、首攀能力之战术训练<BR>首攀能力之训练重点在于注意力的集中，唯有全神贯注方能在有限时间内将体力和技巧<BR>全然发挥。由于仅有一次机会，因此其战术与极限攀登训练着重事先计划不同。在集中<BR>注意力方面，可分为宏观及微观两个角度。于攀爬简易路段时，较不需凝聚全部注意力<BR>，此时可采宏观角度，思考后续动作或审视整条路线的体力配置。但在困难路段则须采<BR>微观角度，全神贯注以突破体能与技巧之瓶颈。<BR>(一)宏观思考﹕首先于起攀前，可做以下的自我评量﹕1.路线长多少﹖2.中途是否有休<BR>息点可将路线分段﹖3.应采何种节奏攀登这些路段﹖4.何时挂快扣较适合﹖5.路线是否<BR>有陷阱或易失误之处﹖此外，首攀能力增进的另一个重点则是疲劳分散的技巧。为了在<BR>肌肉硬化时仍能藉休息将乳酸排除及恢复体力，便须掌握力竭的时间。为此，应采宏观<BR>角度审视后续路段，以变换握法延缓疲劳的到来，如﹕交替使用不同手指或以姆指分担<BR>四指之负荷。<BR>(二)微观思考﹕然而在攀登困难路段时，便须采微观思考代替宏观思考。此时无论是肌<BR>力动员或技巧施展皆处于临界点，攀登者唯有摒除杂念，方能突破眼前瓶颈。在此关键<BR>时刻，须全然忽略绳索、确保或坠落恐惧感等因素，并拥有良好的自我控制力及危机处<BR>理能力。所谓自我控制力，是指对自身体能的了解程度。以肌肉硬化为例，高手由于明<BR>了自我极限，因此可冷静面对此预警讯息﹔但对新手而言，便可能将其解释为坠落的前<BR>兆。至于危机处理能力，则是指危急时刻的反应敏捷度。由于这片刻的坚持乃首攀能力<BR>的指针，故如何激发完攀的斗志遂成为关键。其中，参加比赛可说是微观思考的最佳训<BR>练方式。由于比赛时，即使无法完攀，一步的差距亦可能全盘纽转排名。故选手即使力<BR>竭，亦会为争取佳绩去多攀一个点，从而发挥潜能与排除其余消极因素。<BR>(三)首攀能力训练﹕由于首攀能力取决于反应力与判断力，故唯有多攀登新路线方能进<BR>步。攀爬固定路线虽可锻炼肌力，但由于熟悉攀登姿势、无需费神思考，将大为减少路<BR>线之观察能力。为此，必须时常变更攀岩地点与岩质，避免使用特定的攀登姿势与技巧<BR>。此外，速度攀登或随机指点训练亦可提升选手的反应力与判断力。<BR>三、攀登级数金字塔<BR>在实际攀登中，多数人往往难以在攀爬路线的质与量间做一取舍。究竟应专注在攀爬少<BR>数自身能力极限的路线，还是多爬些能力范围内的路线﹖此种不确定尤其发生在攀登级<BR>数向上提升时。在攀登经验或体力仍不足的情况下冒然尝试难度过高的路线，不仅将带<BR>来挫折感，更可能引起运动伤害。相反的，始终裹足不前、畏于向高难度路线挑战，亦<BR>将扼杀进步空间。因此，必须有一适切的级数评定标准，下表的「攀登级数金字塔」可<BR>帮助选手明了自身级数与决定攀爬路线难度(表5-1)。倘若发现攀爬级数统计较此金字塔<BR>宽，表示已具备稳固的攀登基础，可向更高难度进级。但若统计结果较下表窄，便表示<BR>仍须加强奠基工作。无论是极限攀登能力或首攀能力皆是建立在攀爬经验与基础攀登上<BR>，唯有稳固的金字塔方能逐步提升攀登能力，及避免生理伤害与心理挫折。<BR>　 攀登级数金字塔 　 攀登路线数目<BR>　 　 　 　 12b 　 　 　 　 5.12b×1<BR>　 　 　 12a 12a 　 　 　 5.12a×2<BR>　 　 11d 11d 11d 11d 　 　 5.11d×4<BR>11c 11c 11c 11c 11c 11c 11c 11c 5.11c×8<BR>(表5-1)<BR>四、比赛之战术<BR>(一)战胜威胁感﹕比赛与平日攀登最大的差别，在于胜败的心理压力。而此压力对攀登<BR>者究竟是种助力或阻力，则须视个人的诠释与意志力而定。有人不认同比赛，且认为其<BR>竞争性全然违背攀岩的基本精神。不过也有人认为无论比赛中有多少竞争者，但最重要<BR>的还是战胜自我，并将最佳的一面表现出来。换言之，比赛的威胁感并非来自于对手，<BR>而是自己。此一认知虽无法全然驱除比赛压力，但却是建立正确观念的第一步。<BR>(二)赛前热身﹕赛前热身的目的，不仅在于提升体温以使生理状况做出最佳表现，更是<BR>为了使神经系统习惯于攀登动作。因此，必须与实际攀登结合，将协调性与技巧融入热<BR>身运动。由于肌肉的离心收缩可刺激最大动员力，故建议采上下攀的方式热身，以使最<BR>大肌力发挥至极。<BR>(三)选定目标﹕每个人参赛皆有其各别动机，但无论是战胜对手或挑战自我，皆须厘清<BR>参赛目标。唯有选定目标，方能集中精神与坚持理想。然而在难度攀登的竞赛中，选手<BR>无法得知对手的表现及定线员之意图，因此究竟应以提升名次或完攀路线为目标，便是<BR>一大难题。虽然需求因人而异，但若能根据自身的优缺点选择战略性目标，便能于难关<BR>前集中注意力、排除消极因素。其次，比赛时亦可选定某些战术性目标，以自我提醒的<BR>方式，弥补原有动作缺失及避免因紧张而失误。举例而言﹕别忘了"深呼吸"可使心情放<BR>轻松﹔记得"侧上、利用板面"等则可增加攀登的流畅性。不过，选择之目标数量勿过多<BR>，否则注意力将反而分散。<BR>(四)仿真赛时情境﹕当冷战方兴未艾时，苏联运动员经常须于国际比赛中忍受西方观众<BR>的嘘声。无论如何激励，选手之表现仍会受到负面影响。于是苏联教练决定在平日训练<BR>时仿真观众席的嘘声，使选手习惯赛时情境。不料此法果真奏效，苏联运动员之成绩因<BR>而大幅提升。上述例证可说明，在与竞赛相仿之环境下进行训练的重要性。倘若比赛时<BR>须连续攀爬五条持续10分钟的路线，平日训练便不能在每攀完一条路线后便做长时间休<BR>息。<BR>(五)恶劣环境训练﹕许多运动员为了切实仿真赛时情境，因而选择于最恶劣的环境下进<BR>行训练。如﹕排球选手刻意将球网拉高，以增进弹性﹔攀岩选手选择在烈日下训练，以<BR>适应在大热天举办的比赛。此种融入所有负面因素的战术训练，可使选手于赛时全神贯<BR>注，并坦然面对任何考验。虽然"机运"往往可左右比赛成绩，但唯有事先做好准备，方<BR>能在机会到来时切实掌握。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 3:06:48</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1776&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1776&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1776" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1776" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1776" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1776&replyID=16801" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1776" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1776" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1776" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：179.688毫秒
+</td></tr>
+</table>
+</body>
+</html>

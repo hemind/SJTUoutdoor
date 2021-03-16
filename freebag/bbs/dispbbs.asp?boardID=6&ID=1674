@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：上网查资料，在驴行天下找了这些东东</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、徒步、自行车运动
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：上网查资料，在驴行天下找了这些东东
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1674&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>3155</B> 个阅读者<a href="go.asp?BoardID=6&sid=1674"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1674&id=1674&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1674&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 上网查资料，在驴行天下找了这些东东</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1674"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1674"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1674"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1674"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1674"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1674', ' 上海交通大学野外生存素质拓展基地 - 上网查资料，在驴行天下找了这些东东')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16439><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16439&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16439&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>上网查资料，在驴行天下找了这些东东</b><br>都是署了不得转载的哟。呵呵，干了点不道德的事~</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:20:03</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1674&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1674&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16440><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16440&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16440&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>登山装备-睡袋的准备</P><P>睡袋是在户外宿营和旅行时必不可少的装备。睡袋种类繁多，适合不同的用途，各有特点，广大户外运动爱好者应怎样选择呢？<BR>根据用途不同一般把睡袋分为两大类，一类睡袋较薄，用于一般的旅行或露营，这些睡袋大都在春夏秋三季使用。还有一类睡袋用于较寒冷的环境，甚至是一些探险活动，这类睡袋一般被称为专业睡袋。<BR>普通的睡袋价格相对便宜，用途广泛。专业睡袋在设计和材料上都非常考究，价格也相对较高，但如果冬季露营或是去高海拔地区旅行缺少了专业睡袋是不行的。<BR>睡袋用途的不同决定了睡袋的保暖材料和制造工艺的不同。睡袋的档次和功能的差别也主要在于使用不同的面料和保暖层。市场上比较低档的普通睡袋面料使用一般的尼龙绸，保温层大部分是人造晴纶棉，这些睡袋保温性不是很好，一般只能在20c左右的环境中使用而且重量较重，压缩性也较差。高质量的普通睡袋在材料上要严格得多。象奥索卡系列睡袋中的“美梦”和“攀登者”等款式的睡袋面料采用有一定透气功能的尼龙，保暖层采用先进的微纤维棉。优质的材料使这几款睡袋在保暖性，重量和体积上都较为出色。<BR>这里还要补充说明一点，任何睡袋都有一个适宜的使用温度范围即不同的睡袋都有各自的“温标”。一般的温标由三个数据组成，一个最低温度：指该睡袋使用的最低极限温度，低于这一温度对于使用者来说是危险的。还有一个中间温度；指该睡袋使用最舒适的理想温度。最高温度是指温度使用范围的上限，高于这一温度，使用者将热得无法忍受。一般来说欧美原产的睡袋在温标上对于亚洲人来说不太适宜，因为欧洲人在耐寒能力上要高于亚洲人，因而我们在选择时要格外加以注意。曾经发生过温标最低温度标为-20c而在实际使用中-5c时使用者已无法忍受的情况。当然象奥索卡这样为中国市场进行过专门设计的睡袋。在温度标准上是不会出现问题的。近些年来出现了许多先进的人造纤维材料被广泛应用于睡袋的保温层。像杜邦公司的七孔或四孔棉，3M公司的Thisutale棉和Hoechst-Celanese集团的Polargucrd棉等些特殊材料大都是一些空心的纤维棉，和普通的化纤棉相比在质量和保温性上绝不是同一个水平。越来越多的普通睡袋和部队用专业睡袋开始采用以上的材料。<BR>尽管许多人造纤维厂商宣布自己的材料在重量和保温性的综合数据上要超过羽绒，但事实上远不是这样。真正专业睡袋特别是高质量的探险睡袋都离不开羽绒。一般来说专业睡袋的含绒量应在80%以上，普通羽绒睡袋的含绒量也不应低于70%，否则在压缩性，重量和保暖性上将无法满足要求。奥索卡专业系列的两款睡袋充绒量分别为800g、1000g, 含绒量高于85%，最低温度标准分别是-10c和-15c，冬季宿营比较合适。象西藏登山队在征服有吃人的恶魔之称的南迦巴瓦峰时使用的奥索卡专业睡袋充绒为2000g，含绒为85%的灰鹅绒，足以抵御-35c的严寒。羽绒的种类和篷松度也是一个因素，总的来说鹅绒要优于鸭绒。睡袋的面料最好能有少许防水的功能，以防睡袋被露水或帐篷内凝结的水雾打湿，影响保暖效果，当然透气性能相对要更重要一些，否则会很不舒服。有些品牌的睡袋面料采用特殊防水透气材料制成。睡袋在设计款式上主要是木乃伊式。这一设计带有头套，上大下小，和人体的形状相符合，睡袋的侧面装有拉链便于出入，这种设计形式保温性能好。此外，还有信封式睡袋，它不但使用舒适而且可以全部将拉链拉开当被子使用，在户外和家中都可使用。专业睡袋全部都彩木乃伊式，而且考虑到人在睡眠时脚部最易感到寒冷，在睡袋的下部特别加厚，有些款式还设计个加厚的脚垫。睡袋的颈部、头部都可以收紧，防止冷风吹入。特别值得一提的是在睡袋的保温层结构设计上，近年来高档的专业睡袋全部采用一种立衬设计，将睡袋内外面料直接缝合在一起。这种设计更好的防止羽绒在睡袋保温层空间内的移动，使羽绒分布更均匀。<BR>睡袋的种类很多，但在选择睡袋时和选择其它户外用品一样，并不是最贵的最先进的就是你应选择的，只有最适合你的，能和你从事的户外运动相匹配的才是最好的。<BR>睡袋在所有登山活动中是不可缺的一项重要装备，尤其在湿冷的登山环境，一个好的睡袋不仅提供登山者温暖而舒适的睡眠、提供体力快速恢复，在心理层次上有备无患更提高登山者安全的信心。睡袋之所以能够保暖，原理在于睡袋内部填充物与外界冷空气绝缘的效果。长久以来，天然的羽绒被视为最佳的填充物，随着科技的曰新月异，人造羽毛逐渐被众多的知名厂商所采用。然而若以保暖效率、单位重量、体积大小来衡量，天然的羽绒无疑有其不可取代的地位；而人造纤维材质之所以不断推陈出新且广泛被采用，其遇湿仍耐压力、抗撕扯的特性是非常重要的原因。<BR>睡袋的价格以耐寒程度而定；一般而言，越保暖的睡袋价格越高昂，以国产的羽绒睡袋而言，1000元左右的睡袋几乎就可以应付一般的高山情况了！如果在乎的是重量、体积和应付潮湿环境又不十分要求绝对的保暖功能，中空纤维睡袋倒是不错的选择，一个国产的一公斤中空纤维睡袋价格介于200-300元之间。注意！睡袋保暖与否除本身之填充材料质地因素外，睡袋与地面隔热效果和睡袋表层防水透气功能也影响保暖程度。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:21:39</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16441><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16441&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16441&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>登山装备-登山服装的准备</P><P><BR> 从事登山健行之类的户外活动一方面要面对由冷到热多变的天气变化，一方面又要忍受自己因为大量运动所造成的汗流浃背，若没有良好的衣物搭配会是一件痛苦不堪甚至于危害到生命的事情。有鉴于此，近年来由国外发展出一套“三层理论”的户外服装系统，籍由此系统表里互相增减搭配可以应付各式各样不同的气候类型。<BR> 排汗层：又称基本层（BASELAYER），顾名思义就是户外服装的基础，一般人称之为P.P排汗内衣，透过特殊的化学纤维处理，人体内经由运动造成的大量汗水不会附着在衣服的贴背处而是传导散发到衣服的外层，所以能够让穿着者有一种干爽的感觉。排汗内衣也有长袖及不同厚薄等类型，下肢方面有一般短裤及长卫生裤型。<BR> 保暖层：又称中间层（MIDDLELAYER），这一层主要的功用是隔离人体和外界冷空气直接接触，避免寒冷甚至于失温的情况发生。保暖层在市场上最具有代表性的莫过于美国MALDENMILLS公司开发生产的POLARTEC系列pile防寒衣产品了，POLARTEC根据保暖程度差别有厚薄之分，从最厚的300系列，多用途的200系列到柔软轻巧的100系列都有，此类产品有排汗快、重量轻、过湿仍然保暖及可以随意挤压而不变形等优点，一件进口200系列pile防寒衣价格介於1000-2000元之间不等，国内有厂商进口布料自行剪裁生产，价格也要几百元。也可视为中间层的一种，保暖效果比pile防寒衣更好，但是受潮之后几乎就没有保暖效果是其重大缺点，一件国产羽绒衣价格从100到1000元都有，此外，羽绒衣也可搭配在pile外层以达到最佳保暖效果！<BR> 阻绝层：位於三层系统的最外层（OUTERAYER），要抵御外界的风雪和暴雨，最理想的莫过於一层防水又透气材质的外衣了！上文提到的GORE-TEX及其他防水又透气材质雨衣都是十分理想的阻绝层。另外有一类质轻、抗风透气却不完全防水的风衣也是阻绝层的不错选择，此种风衣可以和一般不透气型雨衣搭配在不同气候类型穿戴。<BR> 以上三层服装的搭配是很具有弹性的，热天气适合穿单独的排汗层，若遇上突如其来的暴风雨或强风，直接加上绝缘层的风雨衣就十分理想，当一天活动结束，晚上宿营时，在排汗衣外加上一件保暖层的pile防寒衣是再理想不过的事了！<BR> “三层理论”的好处就在于因气候制宜、灵活运用。除了三层搭配原则外，也有许多人习惯穿一层毛、尼龙或棉、尼龙混纺的长袖衬衫，通常穿在排汗衣的外面提供多一层的保护（如遮阳、防刮伤）是很理想的选择，许多登山社团并将此种长袖衬衫订为社服穿着。<BR> 登山裤的选择也是一大学问，仅量避免牛仔裤或厚重棉制成的裤子，重量和遇湿难干往往是登山活动中最怕遇上的麻烦，一条200元左右化学纤维制成的耐磨，快干运动裤是很经济的选择，另外有一种40%棉和60%化纤纺或100%SUPPLEX尼龙布制成的登山裤具有快干、防风及质轻多项优点。这类裤子可以在专卖店内找到，只是价格较贵，约在500元以上。<BR> 帽子亦可视为户外服装。球帽最为广泛被使用，但是要小心后颈及耳背处曝露在阳光太久而晒伤。一种美军野战丛林帽四周有宽大的帽檐，遮阳避雨两相宜。帽子另外还有一项重要的保暖功能，在高海拔或冬天温度低寒的天气戴上一顶毛线帽或POLARTEC防寒帽可以减少大量的体温自头部消失。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:21:53</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16442><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16442&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16442&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>户外运动服装</P><P> “户外运动”的英文为Outdoor sports，它包括的内容很广泛，从一般的郊游或徒步旅行（treeking）到登山、攀岩（Rock climbing）、山地自行车（MTB）以及漂流、滑翔（Parglinding）等。因此户外活动服装的种类和款式也很多，如登山有专门的登山防风衣和背带裤，滑雪也有专门的连体滑雪衫。但根据穿着情况称为内层服装，保温层服装和外套层服装。<BR> 首先说说户外运动对服装的要求。第一项要求就是防水（雨）性，这是一项很基本的要求。其次是防风性能，因为象登山、滑雪或滑翔等运动都是在风速较大的环境中进行的，为了保持体温，防风性能当重要，同时还有一些听起来较苛刻的要求，比如服装的透气性，这一功能可保护身体的干爽和舒适。这三层服装互相组合或单独使用足以应付各种复杂的环境。<BR> 早期的户外活动服装都是使用自然材料，但随着科技的发展，目前大多数户外服装都采用先进的人造材料，只有象羽绒这样极少数的有着无可替代的优越性能的自然材料被保存了下来。户外运动服装对材料的苛刻要求使得只有极少数的高科技先进材料被用于现代户外运动服装。<BR> 内层服装：有些象我们平时穿着的秋衣、秋裤。这类服装一般都贴身穿着，其主要作用就是使身体保持干燥并有一定的保暖作用。内层服装的材料是由一些导水性极强的材料制成的。象美国杜邦公司的cool MAX，这些材料具有独特的速干性，有些材料在洗后10~15分钟即可变干。运动后衣服内层会积聚大量的汗液，就很容易着凉而引发感冒，在登山或极地探险活动中还会造成冻伤，这类材料在很大程度上解决了这一问题。<BR> 保暖层服装：包括羽绒，化纤棉类服装。这些衣服一般在冬季或比较寒冷的地区才使用。羽绒目前仍是被公认为最好的保温层材料。我们知道羽绒之所以能保温，就是因为其有保存空气的特性，因而羽绒服装的保暖性能主要取决于含绒量和充绒量这两个指标。含绒量是指羽绒中绒毛（Down）和羽毛（feather）的比例，含绒量越高服装的保温性和压缩性也越好。充绒量也直接关系到服装的保暖性能。当然随着含绒量和充绒量的升高，服装的价格也会直接上升。和羽绒相比人造化纤棉的价格要便宜许多，尽管整体性能也是羽绒所无法达到的，比如被水浸湿后的保温性能，人造纤维材料就明显优于羽绒。<BR> 英国杜邦公司的Thinsulate纤维棉，还有比较有名的polarguard3D/HV棉在各类户外服装中都比较常见。还有一类服装介于保暖层和内层服装之间，这就是抓毛绒（fleece）材料制成的夹克和背心。抓毛绒（fleece）是对一类材料的统称，这类材料质轻，而且保温性好，据说同等重量的fleece和同等重量的羊毛相比，前者的保暖性要强于后者。Fleece材料的导汗性也很不错，缺点是防风性较差，在有些地方不能直接穿着，还必须加上一层防风外套。Fleece夹克加上防风防雨外套这一组合已成为户外运动中非常流行的穿着方式。<BR> 外套层服装：习惯上也称为全功能外套，它是户外运动服装中最重要也是最轻典的部分。它们的款式为短风衣或束腰夹克的式样，大部分还带有帽子。内两层服装的不足都需要*这一层来弥补，象保温层服装大都耐磨性较差，抓毛绒夹克的防风性也不是很好。这类服装在设计上有许多独到之处，比如在这些服装肩部或肘部易磨的部位都加上防磨的牛津尼布，在衣服的缝合处还压上一层胶，防止雨水浸入，在衣服的袖子下面还增加了拉链，在运动时可以拉开透气。所有这些设计为使用者带来了极大方便。最值得一提的就是这类服装都是由一些具有防水透气功能的材料制成的，只要标有WATERpoor/breathable字样的材料或多或少都具有防水透气功能。美国W.LGORE公司生产的GORE—TEX材料在世界上名气较大，历史也较长，“奥索卡”系列登山风衣采用POLYCRETHANE防风透气材料，性能也很出色。所谓防水透气材料是指在布料的内层涂有一层胶质，其上有许多直径大于水分子和水蒸气，而雨水却无法透入，很好地解决了防水性和透气性这一对矛盾。正是这些新材料的出现为户外运动带来了巨大变革，人类可以在冬季或雨季挑战世界最高峰，这是原来所难以想象的。美国的THE NORTH FACE户外服装在世界上享有盛名，奥索卡系列户外服装尽管历史较短但质量也相当出色，THE NORTH FACE牌的许多款服装都是由生产奥索卡牌服装的利维高公司加工生产的。<BR> 户外服装在价格上要高于一般的运动服，但其功能或耐用性大都超过人们的期望值，绝大部分都是物有所值。目前喜爱旅行登山和攀岩等各类户外运动的人越来越多，但许多人并没有认识到户外服装的重要性，其实对一位登山者来说，一件保温性好而且防风，透气性好而且防风、透气的风衣在许多时候要比安全带或冰镐更为重要。目前国内市场上已有一些高质量的户外服装出售，广大户外爱好者不妨一试。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:22:07</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16443><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16443&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16443&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>登山装备-登山鞋的准备</P><P>对于那些希望通过旅行来改变自己生活的人们来说，普通的旅游已无法满足他们的要求，恶劣而艰险的环境往往意味着难得的体验和迷人的景色以及让人津津乐道的经历。而在泥泞的山路上，在布满碎石的旷野中，在终年积雪的山地，其中最引人注意的标志就是背包一族和大自然亲近的工具——户外登山鞋。登山鞋的起源在中国80年代中后期，穿着各类运动鞋日益成为流行的时尚，然后军靴也加入其中。<BR>这时运动鞋被称为“旅游鞋”成为旅行者们的选择对象，军靴则成为那些酷爱野外生存和户外运动者的首选用品。其实无论是运动鞋（主要是慢跑鞋或网球鞋）还是军靴都不是非常适合户外运动的，从上个世纪开始欧洲就已开始流行专门为爬山和旅行而设计制造的专业登山鞋。<BR>在欧洲阿尔卑斯山周边国家，登山和户外运动成为年轻人生活中必不可少的一部分，在这些山区的小镇上往往有许多生产和加工登山鞋的小作坊，他们通过精湛的手艺和自身对户外运动的了解生产出了许多经典的登山鞋，直到今天许多经典的登山鞋式样和一个世纪前并没有太大的变化。本世纪下半时期这些小作坊日益发展成为许多知名的国际品牌。现在绝大部分的著名户外鞋生产商都在法国、意大利和奥地利的阿尔卑斯山区的中小城市。 </P><P><BR>一双好的登山鞋具备的各种要素</P><P>野外各种严酷的环境对登山鞋提出了许多特殊的要求，不同的运动项目也使登山鞋更加细化，出现了更多的种类。<BR>防水性是现代登山鞋的首要功能。很多专业背包族选择购买登山鞋也正是看中了登山鞋的这一功能，这是运动鞋或普通旅游鞋所无法比拟的。一般旅游者大都比较注意鞋的舒适性，而对鞋的防水透气性关注较少。据专业测试，一双湿脚散热的时间（在冬季）约是干脚的23倍，而且在户外，一双湿脚很容易冻伤或受到其他伤害。一双湿鞋也很重，为行走增加负担。传统的工艺是通过油浸皮革达到防水效果，但这严重影响了鞋的透气性能而且还影响了鞋的外观。后来又出现了喷在鞋上的拨水剂，水滴上鞋表面时，会像水珠一样滑落，但如果水浸时间过长或表面受到压力，水还是会渗进 去，所以并不防水。直到80年代以后随着防水透气薄膜和涂层的出现，户外运动登山鞋在防水性上出现了革命性的变化，其中60%以上的户外鞋都采用美国WL.GORE公司的GORE-TEX材料，带有GORE-TEX铜牌的登山鞋几乎成了鞋质量和品质的标志，当然价格也令人吃惊，一般来说GORE-TEX材料的登山鞋售价在250美元左右，国内的售价也在1500元以上。GORE-TEX鞋的加工工艺要求很严格，要先将一个脚形的GORE-TEX薄膜放入加工好的鞋中，然后加压，再加上内衬，最后还要通过严格的防水测试。当然穿着这样的鞋你就再不会为泥泞的沼泽和天降大雨而发愁。<BR>登山鞋的鞋底也是很有特色的，不同的厂商根据各自的研究设计出了不同的鞋底花纹，当然绝大多数还是以大波纹形的底纹为主，这极有助于增大鞋的防滑性能。现代流行的运动鞋大都采用气垫设计，但这对于登山鞋来说并不合适，通过特殊的海绵泡沫结构来减轻足部的震动就足够了，因为对户外运动者来说脚踏实地的感觉往往比气垫的柔软更重要和安全。相对来说鞋底的刚性和耐磨性能显得更加重要。爬过山的人都了解在爬山或走长路时如果鞋底过软往往会造成小腿的过度疲劳，而且对于布满碎石的山路或岩石上的小小突起，鞋底的刚性和硬度可以起到关键的保护作用。意大利的Vibram橡胶材料是最通用的鞋底材料，它的耐磨性高于普通橡胶材料40%，而且刚性极好。当你在选择登山鞋时，鞋底是否使用Vibram橡胶是一个非常关键的因素。此外现在以休闲为主的登山鞋鞋底是采用既轻且软，也很耐磨的PU材料，大大减轻了鞋的重量，令穿着更加舒适。<BR>登山鞋外观粗犷，多为高腰设计，这样可以起到保护足踝的作用。<BR>早期的登山鞋多使用明线，这样外观看起来非常古朴，但也存在鞋身不耐磨的问题，新型登山鞋的明线非常少，耐磨性明显提高。登山鞋的特性是其他运动鞋和军靴所无法比拟的，所以当你决定去旅行和爬山之前选择一款适合你的户外鞋是必不可少的工作。</P><P><BR>登山鞋的分类</P><P>从功能上来看，登山鞋由专业到休闲可分为Pro-Mountain Boot、Mountain Shoe和Trekking Shoe三大类。<BR>Pro-Mountain Boot为专业登山靴，因为使用环境极为恶劣，这类鞋重量沉，非常坚固，保暖性极好，如用于6000米以上高山的登山靴外部由高级塑料制成外鞋壳，内部为保温用的内鞋，这样的双层设计足以抵御-40℃以下的严寒。这类登山鞋的另一个特点是可以在鞋下卡上专业的冰爪或滑雪板。这类高山靴大都价格较高。当然除非专业的登山者，绝大多数旅行者并不需要这样的鞋。<BR>Mountain Shoe为适合长途旅行或登山的皮面登山鞋，也是使用比较广泛的一类鞋。这类鞋讲究耐用和舒适，鞋的重量也比较大，底纹较深，鞋底大都用专业橡胶制成，鞋身采用GORE-TEX防水透气材料。这类鞋的售价大约在1500元左右。<BR>Trekking Shoe为一般徒步旅行用鞋，适合远足、郊游、野营等活动。这类鞋一般重量较轻，多为皮革和尼龙混合鞋身，鞋底花纹较浅，而且很少采用专业橡胶制造，一般也没有防水功能。这类鞋不但适合野外活动，还适合日常穿着，款式多样，价格也较低，一般在1000元以内。</P><P><BR>名牌登山鞋推荐</P><P>登山鞋的品牌很多，总体来说欧洲产的多为老牌子，知名度非常高，美国生产的式样新颖，采用了大量新技术。<BR>登山鞋的牌子和运动鞋的牌子是两个概念，尽管像NIKE和Adidas等驰名世界的运动鞋品牌也生产了一系列的登山鞋和户外运动用鞋，但无论在质量上，功能上还是产品知名度上都无法和那些以生产登山鞋为主的品牌相提并论。<BR>在知名度上意大利生产的登山鞋最负盛名。像著名的ASOLO，SCARPA和Dolomit，不但在欧洲而且在全世界都享有极高的声誉。这些企业的有些产品仍采用传统的手工加工方式，这可能也是许多登山者忠爱它们的原因。<BR>另一家生产户外鞋的著名意大利公司LASPORTIVA 最近刚刚被美国的户外运动产品巨人THE NORTH FACE收购，并将以全新的面貌推出它的系列新产品。最近在欧美和香港等地新上市的THE NORTH FACE 户外运动鞋也是出自这家公司。<BR>另外德国的LOWA也很有特色，它设计的登山鞋带有浓重的德国色彩，坚固而沉重。<BR>法国的SALOMON牌登山鞋是一个非常流行的登山鞋品牌，只是该公司前不久被Adidas集团收购，之后推出的X-Hikking系列登山鞋明显常有Adidas的特点，仿佛介于运动鞋和登山鞋之间，拥有登山鞋的功能和鲜艳的运动鞋外形。<BR>西班牙产的Boreal牌登山鞋外形简单，但质量上乘，是少数几个在北美也拥有极高知名度的欧洲品牌。<BR>美国的MERREL，Vasque等品牌在美国很畅销，这些品牌的产品在款式设计上突破了传统登山鞋的观念和式样，更加富于变化，不但成为旅行者而且成为普通年轻人选择的对象。 <BR>国内的登山鞋种类也越来越多，许多国外著名厂商都把中国市场作为下一个开发目标。丹麦ECCO、法国的AIGLE都是最近进入大陆的质量较好的户外登山鞋品牌。价格在1000-2000元之间。Olark今春也推出了三款全新的登山鞋。Salomon和Timberbland牌的登山鞋城北京和上海的大商厦也有销售。 </P><P><BR>如何选择登山鞋</P><P>在选择登山鞋时首先要明确使用目的，即你是要徒步旅行、爬山、还是其它户外运动项目，只有选择适当类型的鞋在使用中才不会遇到麻烦。并不一定最贵的鞋就是最适合你的。如果穿着重型的登山鞋去郊游就显得很无必要。鞋的防水性往往是制约价格的重要因素，但并非所有的项目都需要鞋具有防水功能。登山鞋的保养也很关键，不使用时最好在鞋中放入废报纸，防止鞋身变形，在涮鞋后一定要将鞋放在阴凉处阴干。 <BR>越来越多的年轻人特别是酷爱野外活动的背包一族开始偏爱登山鞋，不仅因为它有很强的功能性而且还有极酷的外观，无论是休闲装还是运动装都可以和它搭配。尽管在价格上登山鞋要比旅游鞋和休闲鞋贵许多，但还是物有所值的，一般而言一双登山鞋的使用寿命都在5年以上。当你在小溪中跋涉，在冰峰间行走，在林莽中穿行的时候，一双品质上乘的登山鞋一定不会生出麻烦，败坏你的兴致。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:22:25</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16444><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16444&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16444&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><BR>登山装备-帽子眼镜</P><P><BR>去野外活动，帽子和眼镜是必不可少的配备。<BR>一般的野营、郊游等户外活动，应戴一顶有檐的遮阳帽，夏天和爱梳马尾辫的女孩子可选择无顶的帽檐。如去阳光强烈的海边或沙漠地带，最好备一顶草编的凉帽，帽檐要宽大些的。我国南方沿海地区常见的斗笠也是极佳的遮阳用品。炎热的天气里将其打湿，还有助于降温和消除暑气。当然，即使有了帽子，防晒用品也是不可少的，尤其是去海边和高原，阳光极易灼伤皮肤，因此一定要使用防晒霜。<BR>去寒冷的地区活动，务必戴上一顶毛线帽或其它类型的保暖型帽子，帽子以能护住耳朵为最佳。<BR>普通的太阳眼镜能满足一般类型的野外活动需要。去有积雪覆盖的高山，为了防止雪盲，一定要戴上专用的高山眼镜。去滑雪时，为避免吹雪迷眼，则要戴防风护目镜。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:22:49</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16445><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16445&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16445&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>登山装备-雨具的准备</P><P><BR>对大自然多变的气候，一套防雨的用具十分重要。市面上贩售的雨衣林林总总，令人眼花缭乱。有一种一件式套头斗篷雨衣很适合短程郊山或露营穿用，价格方面也很便宜，但是防水效果甚差，并非常久之计。两截式（机车）雨衣比较适合登山活动使用，一般的登山用品店也有不少颜色鲜艳、款式大方的夹克式防水雨衣，价位从100-300元上下不等，雨裤最好挑选较宽松的好让登山裤在里面有活动的空间，因为要经常的穿脱和磨损，请注意耐磨性及价格上的考量。登山是一种高度消耗体能的活动，穿上传统的防水却不透气的雨衣往往有“外面下大雨、里面有下小雨”之憾，幸好这种遗憾随着防水兼透气材质布料的开发成功而消失了。现在外用品市场以GORE-TEX的防水透气布雨衣为大宗，不论进口国产品牌皆设计出不同等级的雨衣，价位从100-500元之间不等。如果有打算长期从事户外登山活动或是追求活动舒适而预算宽裕者，购买一件防水透气外衣是合理且值得的投资。针对不同季节和环境需要有多种的雨衣等级，购买者最好先衡量好自己常从事的登山形态再决定采用何种等级雨衣，一般而言，等级越高的雨衣结构越厚重，价格也越高昂，较适合冰雪地使用。基本型的雨衣结构简单、轻便，价格较为阳春。不论是何种等级雨衣，一定要检视其布车缝线处是否有以封胶作好防水处理，如此才代表这件雨衣可以达到完全防水的功效。另外进口的TRIPLE-POINT及TEX-POLE材质雨衣亦都标榜其优良的防水透气的功能，此类品牌的雨衣价位皆要1000元以上。</P><P><BR>雨衣的妙用</P><P>外出活动一定要带雨具，背着很重的背包撑一把伞在林中或山地行走会很不方便，因此雨衣便成为野外用雨具的首选。雨衣可分为分身和斗篷式两种。分身式由雨衣、雨裤两部分组成，挡雨性能好，在没有御寒衣物时还可临时代用，也有一定效果。若遇涉水时，将两个裤腿扎紧，抓紧，就成了一个救生浮子。必要时还可充当应急水容器。这种雨衣的缺点是透气性较差，出汗后会很难受。斗篷式雨衣最大的优点是通风透气，穿上后还能将背包一并遮住。其缺点是挡雨性能较差，尤其是对下半身的防护。一旦下雨，恐怕难逃“噩运”。选择斗篷式雨衣时应选大一点的，野餐时可当餐布，支起来可做凉棚。在没有雨衣的情况下，找一个大塑料袋底部剪一个头可钻过的洞，就成了一件雨衣了。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:23:07</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16446><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16446&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16446&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>8</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>登山装备-望远镜的准备</P><P>在野外活动，如探险、狩猎、勘察、旅游等，若此时您手中有一架称心如意的望远镜，那就再好不过了。<BR>目前，国内市场上出售的望远镜种类繁多，令人目不暇接。但总的来说可按以下几个方面来划分：按产地不同来划分，有国外的（日本、美国、德国等），国内的（广东、浙江、四川等）；探险牌子不同来划分，有仙力夫、宝龙、德宝、樱花、肯高、金三角等，按用途不同来划分，有变倍数镜、防水镜、夜视镜；按放大倍数不同来划分，有低倍数（2~5倍，多见于玩具产品）、中倍数（7~10倍）、高倍数（15~70倍）。<BR>人们在选购望远镜时，常见其价目表上有几个阿拉伯数字，那么这几个数字说明了什么技术参数呢？下面试举一例子说明一下。例如标有10×50mm5°，即表示其放大倍数为10倍，物镜的直径为50毫米，视野为5度（即在1000处视野宽度为87.4米）。可能有人会认为技术参数的数字越大越好，其实不然。放大倍数与视野宽度成反比，即放大倍数越大，视野宽度越小，这就不利于搜索。物镜直径与进光量越多，在光线不足时分辩能力就越强，但这必然导致到望远镜的体积增大不利于携带。经这么一说，您兴许感觉无所适从，但只要能取长补短，同样可以购得一架合意的望远镜。</P><P><BR>在此我想给大家提几点建议以供大家在选购望远镜时作为参考：<BR>第一，如想到海上或海滨旅游，请不要忘记购一架防水望远镜（特别携荐美国产的德宝offshore系列7×50mm防水望远镜）。<BR>第二，如想外出旅游观光，可购一架体积小具备变倍功能的望远镜。<BR>第三，如打算到那些“可远观而不可近探之”的危险地带猎奇，那就应该购一架高倍数的望远镜。<BR>第四，如要进行狩猎或长时间在外旅行，则最好购一架变倍数望远镜，现说明一下它的使用方法。因为变倍数望远镜可从低倍数逐渐调到高倍数，所以在使用时应先用低倍数、大视野进行粗略搜索，然后再用高倍数、小视野进行仔细观察。</P><P><BR>如何使用望远镜</P><P>望远镜是用来观察远方景物的一种仪器，在航海、军事、户外活动等领域里都有着不可低估的作用。但有的人却会因使用不当而出现头晕眼花、恶心呕吐等现象。正常使用望远镜应掌握如下要点：<BR>长期存放的望远镜启用时，要仔细检查一下，发现镜片有生霉、起雾现象的要擦拭干净；查看视度调整装置和调整瞳孔间隔的连接部分是否正常。<BR>装定视度分划。有的人两眼的视度不同，要分别调整、装定分划，使每只眼睛都能清楚地看到景物；调整瞳孔间隔，使两眼所见到的景物图象重叠在一起。<BR>观察时，姿态要自如，举镜应平稳。立姿用镜时，大臂略收，贴靠上体，避免两臂颤动。有条件时，可利用依托物支撑。保持正确的接额位置。<BR>不同型号的望远镜射出瞳孔距离不尽一致，接眼距离也不一样。例如，62式8倍望远镜，当把接眼镜护圈和眼窝保持若接若离状态时，接额位置较为适宜，此时，射出瞳孔距离大致为八毫米。<BR>观察目标。根据目标的距离，调整距离分划。观察远距离目标，应按先在镜外观察后转入镜内、先概略后精确的顺序进行观察。为此，应熟悉正确使用不同分划所对应的密位数（这只对军用望远镜而言），以便迅速地辩认目标位置，提高观察效率，缩短用镜时间。<BR>在雪天、强光、烟雾等不同天气条件下，要安装相应的滤光镜片，以减少白雪、强光对人眼的刺激，增加烟雾中景物的衬托度。白天使用带有红外感光屏的望远镜时，要把红外感光屏拔开，以避免因感光屏而引起的镜室发暗和视野变小，影响观察效果。<BR>平时要妥善保管，防止划伤镜面，保持清洁、干爽，避免受潮。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:23:19</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16447><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16447&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16447&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>9</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>登山装备-GPS的准备</P><P>使用GPS时常碰到的一些术语：</P><P>1.坐标（coordinate) <BR>有2维、3维两种坐标表示，当GPS能够收到4颗及以上卫星的信号时，它能计算出本地的3维坐标：经度、纬度、高度，若只能收到3颗卫星的信号，它只能计算出2维坐标：经度和纬度，这时它可能还会显示高度数据，但这数据是无效的。大部分GPS不仅能以经/纬度（Lat/Long)的方式，显示坐标，而且还可以用UTM（Universal Transverse Mercator）等坐标系统显示坐标，但我们一般还是使用LAT/LONG系统，这主要是由你所使用的地图的坐标系统决定的。坐标的精度在Selective Availability（美国防部为减小GPS精确度而实施的一种措施）打开时，GPS的水平精度在100-50米之间，视接受到卫星信号的多少和强弱而定，若根据GPS的指示，说你已经到达，那么四周看看，应该在大约一个足球场大小的面积内发现你的目标的。在SA关闭时（目前是很少见的，但美政府计划将来取消SA），精度能达到15米左右（GPS性能介绍上说的精度都给的是no SA值，唬人的）。高度的精确性由于系统结构的原因，更差些。<BR>经纬度的显示方式一般都可以根据自己的爱好选择，一般有"hddd.ddddd"，"hddd*mm.mmm""，"hddd*mm"ss.s"""（其中的“*”代表“度”，以下同）地球子午线长是39940.67公里，纬度改变一度合110.94公里，一分合1.849公里，一秒合30.8米，赤道圈是40075.36公里，北京地区纬在北纬40度左右，纬度圈长为40075*sin(90-40),此地经度一度合85.276公里，一分合1.42公里一秒合23.69米，你可以选定某个显示方式，并把各位数字改变一对应地面移动多少米记住，这样能在经纬度和实际里程间建立个大概的对应。大部分GPS都有计算两点距离的功能，可给出两个坐标间的精确距离。高度的显示会有英制和公制两种方式，进GPS的SETUP页面，设置成公制，这样在其他象速度、距离等的显示也都会成公制的了。</P><P>2.路标（Landmark or Waypoint）<BR>GPS内存中保存的一个点的坐标值。在有GPS信号时，按一下“MARK”键，就会把当前点记成一个路标，它有个默认的一般是象“LMK04”之类的名字，你可以修改成一个易认的名字（字母用上下箭头输入），还可以给它选定一个图标。路标是GPS数据核心，它是构成“路线”（见3） 的基础。标记路标是GPS主要功能之一，但是你也可以从地图上读出一个地点的坐标，手工或通过计算机接口输入GPS，成为一个路标。一个路标可以将来用于GOTO功能（见5）的目标，也可以选进一条路线（Route，见3）作为一个支点。一般GPS能记录500个或以上的路标。</P><P>3.路线(ROUTE)<BR>路线是GPS内存中存储的一组数据，包括一个起点和一个终点的坐标，还可以包括若干中间点的坐标，每两个坐标点之间的线段叫一条“腿”（leg）。常见GPS能存储20条线路，每条线路30条“腿”。各坐标点可以从现有路标中选择，或是手工/计算机输入数值，输入的路点同时作为一个路标（Waypoint/Landmark）保存。实际上一条路线的所有点都是对某个路标的引用，比如你在路标菜单下改变一个路标的名字或坐标，如果某条路线使用了它，你会发现这条线路也发生了同样的变化。可以有一条路线是“活跃”（Activity）的。“活跃”路线的路点是导向（见5）功能的目标。</P><P>4.前进方向（Heading）<BR>GPS没有指北针的功能，静止不动时它是不知道方向的。但是一旦动了起来，它就能知道自己的运动方向。GPS每隔一秒更新一次当前地点信息，每一点的坐标和上一点的坐标一比较，就可以知道前进的方向，请注意这并不是GPS头指的方向，它老人家是不知道自己的脑袋和运动路线是成多少度角的。不同GPS关于前进方向的算法是不同的，基本上是最近若干秒的前进方向，所以除非你已经走了一段并仍然在走直线，否则前进方向是不准确的，尤其是在拐弯的时候你会看到数值在变个不停。方向的是以多少度显示的，这个度数是手表表盘朝上，12点指向北方，顺时针转的角度。有很多GPS还可以用指向罗盘和标尺的方式来显示这个角度。一般同时还显示前进平均速度，也是根据最近一段的位移和时间计算的。</P><P>5.导向（Bearing）<BR>导向功能在以下条件下起作用：<BR>1.)以设定“走向”（GOTO）目标。“走向”目标的设定可以按"GOTO"键，然后从列表中选择一个路标。以后“导向”功能将导向此路标。<BR>2.)目前有活跃路线（Activity route）。活跃路线一般在设置->路线菜单下设定。如果目前有活动路线，那么“导向”的点是路线中第一个路点，每到达一个路点后，自动指到下一个路点。在“导向”页面上部都会标有当前导向路点名称（“ROUTE”里的点也是有名称的）。它是根据当前位置，计算出导向目标对你的方向角，以与“前进方向”相同的角度值显示。同时显示离目标的距离等信息。读出导向方向，按此方向前进即可走到目的地。有些GPS把前进方向和导向功能结合起来，只要用GPS的头指向前进方向，就会有一个指针箭头指向前进方向和目标方向的偏角，跟着这个箭头就能找到目标。</P><P>6.日出日落时间（Sun set/raise time）<BR>大多数GPS能够显示当地的日出、日落时间，这在计划出发/宿营时间时是有用的。<BR>这个时间是GPS根据当地经度和日期计算得到的，是指平原地区的日出、日落时间，在山区因为有山脊遮挡，日照时间根据情况要早晚各少半个小时以上。GPS的时间是从卫星信号得到的格林尼制时间，在设置(setup)菜单里可以设置本地的时间偏移，对中国来说，应设+8小时，此值只与时间的显示有关。</P><P>7.足迹线（Plot trail）<BR>GPS每秒更新一次坐标信息，所以可以记载自己的运动轨迹。一般GPS能记录1024个以上足迹点，在一个专用页面上，以可调比例尺显示移动轨迹。足迹点的采样有自动和定时两种方式。<BR>自动采样由GPS自动决定足迹点的采样方式，一般是只记录方向转折点，长距离直线行走时不记点；定时采样可以规定采样时间间隔，比如30秒、1分钟、5分钟或其他时间，每隔这么长时间记一个足迹点。在足迹线页面上可以清楚地看到自己足迹的水平投影。你可以开始记录、停止记录、设置方式或清空足迹线。“足迹”线上的点都没有名字，不能单独引用，查看其坐标，主要用来画路线图（计算机下载路线）和“回溯”功能。很多GPS有一种叫做“回溯”（Trace back）的功能，使用此功能时，它会把足迹线转化为一条“路线”（ROUTE），路点的选择是由GPS内部程序完成的一般是选用足迹线上大的转折点。<BR>同时把此路线激活为活动路线，用户即可按导向功能原路返回。要注意的是回溯功能一般会把回溯路线放进某一默认路线（比如route0）中，看你GPS的说明书，使用前要先检查此线路是否已有数据，若有，要先用拷贝功能复制到另一条空线路中去，以免覆盖。回溯路线上的各路点用系统默认的临时名字如“T001”之类，有的GPS定第二条回溯路线时会重用这些名字，这时即使你已经把旧的路线做了拷贝，由于路点引用的名字被重用了，所以路线也会改变，不是原来那条回溯路线了。请查看你GPS的使用说明书，并试用以明确你的情况。有必要的话，对于需要长期保存的Trace Back路线，要拷贝到空闲路线，并重命名所有路点名字。</P><P><BR>GPS的主要使用方法</P><P>GPS比较费电池，多数GPS使用四节碱性电池一直开机可用20-30小时，说明书上的时间并不是很准确的，长时间使用时要注意携带备用电池。大部分GPS有永久的备用电池，它可以在没有电池时保证内存中的各种数据不会丢失。由于GPS在静止时没有方向指示功能，所以同时带上一个小巧的指北针是有用的。标记路标时，GPS提供一个默认的路标名，比如LMK001之类，难于记忆，虽可改成一个比较好记一些的名字，但一是输入不便，用上下箭头选字母很费劲，二是一般只能起很短的英文名字，比如6或9个字母，仍然不好记，同时再带上一个小的录音机/采访机随时记录，是个不错的主意。<BR>1.有地图使用<BR>GPS与详细地图配合使用时有最好的效果，但是国内大比例尺地图十分难得，GPS使用效果受到一定限制。“万一”你有目的地附近的精确地图，则可以预先规划线路，先做地图上规划，制定行程计划，可以按照线路的复杂情况和里程，建立一条或多条线路（ROUTE），读出路线特征点的坐标，输入GPS建立线路的各条“腿”（legs），并把一些单独的标志点作为路标（Landmark/ Waypoint）输入GPS。<BR>GPS手工输入数据，是一项相当烦琐的事情，请想一下，每个路标就要输入名字、坐标等20多个字母数字，每个字母数字要按最多到十几次箭头才能出来，哈哈，这就是有人舍得花很多钱来买接线和软件，用计算机来上载/下载数据的原因。带上地图！行进时用，一是利用GPS确定自己在地图上的位置，二是按照导向功能指示的目标方向，配合地图找路向目标前进。同时一定要记录各规划点的实际坐标，最好再针对每条规划线路建立另一条实际线路，即可作为原路返回时使用，又可回来后作为实际路线资料保存，供后人使用。<BR>2.无图使用<BR>这是更为常见的使用方式。<BR>1.)使用路点<BR>定点：常用于确定岩壁坐标、探洞时确定洞口坐标或其他象线路起点、转折、宿营点的坐标。用法简单，MARK一个坐标就行了。<BR>找点：所要找的地点坐标必须已经以路标（landmark/waypoint）的形式存在于GPS的内存中，可以是你以前MARK的点或者是从以前去过的朋友那里得到的数据，手工/计算机上载成的路标数据。按GOTO键，从列表中选择你的目的路标，然后转到“导向”页面，上面会显示你离目标的距离、速度、目标方向角等数据，按方向角即可。<BR>2.)使用路线<BR>输入路线：若能找到以前去过的朋友记录的路线信息，把它们输入GPS形成线路，或者（常见于原路返回）把以前记录的路标编辑成一条线路。<BR>路线导向：把某条路线激活，按照和“找点”相同的方式，“导向”页会引导你走向路线的第一个点，一旦到达，目标点会自动更换为下一路点，“导向”页引导你走向路线的第二个点... 若你偏离了路线，越过了某些中间点，一旦你再回到路线上来，“导向目标”会跳过你所绕过的那些点，定为线路上你当前位置对应的下一个点。<BR>3.)回溯<BR>回溯功能实际是输入线路（route）的一种特殊方法，它在原路返回时十分好使。但有些注意事项，见“7.足迹线”。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:23:55</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16448><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16448&id=1674&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16448&id=1674&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>10</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>呵呵，换头衔了<BR>以上的好像离我们比较远，有两条还行<BR>下面的可能比较实用一点<BR>顺便说一句，报名清凉峰的人好少啊，我邮箱只收到一封报名的信。<BR>而且我手头的资料也不足，托复旦的朋友在他们论坛上找了一些，还缺最重要的路线及地图。求助！~</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:26:40</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>21</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=6&id=1674&replyID=16439&star=2&skin=">[2]</a> <a href="?BoardID=6&id=1674&replyID=16439&star=3&skin=">[3]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1674" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1674" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1674" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1674&replyID=16439" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1674" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1674" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1674" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：429.688毫秒
+</td></tr>
+</table>
+</body>
+</html>

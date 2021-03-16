@@ -1,0 +1,323 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：世界14座8000米以上高峰</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：世界14座8000米以上高峰
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1654&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>68</B> 个阅读者<a href="go.asp?BoardID=6&sid=1654"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=16346&id=1654&star=1&skin=0"><img src="pic/flatview.gif" width=40 height=12 border=0 alt=平板显示贴子></a>　<a href="go.asp?BoardID=6&sid=1654&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 世界14座8000米以上高峰</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1654"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1654"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1654"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1654"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1654"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1654', ' 上海交通大学野外生存素质拓展基地 - 世界14座8000米以上高峰')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16346><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16346&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16346&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>我登上了玉珠峰（古董大作）&nbsp;[转帖]</b><br>我登上了玉珠峰 </P><P>今年8月，我和几位朋友(丁丁、小龙、小金和小徐)就商议着准备攀登长白山脉的雪宝峰顶。为了这次登顶，我们曾在40℃的高温天里，每人负重30公斤，从苏州火车站徒步走到40多公里外的东山。除了体能训练，小龙还坚持在健身房中带着口罩练跑步机，以提高对缺氧环境的耐受力。</P><P>临出发前，我们得到消息：因为今年夏季气温偏高，长白山一时还“白”不起来，大家十分失望。不久，我们得知10月初有个玉珠峰登山节，于是便于9月28日出发前往青海。在葛尔本转车时，有个当地人取笑我们：“你们算是那种什么都玩够了、找不到更多刺激的人吧！要是我，给我一大笔钱都不会去！”</P><P>10月2日，我们前往登山大本营。大本营设在昆仑山口往东18公里的地方，去大本营的路上要通过一条据称是世界上海拔最高的隧洞。那时，我们都感觉到了“高原反应”的刺激：胸闷、呼吸急促，每分钟的心跳起码比平时多20下。</P><P>大本营的海拔在4700米左右。一到那里，还来不及安营扎寨，每个人的生理反应都十分强烈：恶心、呕吐，有人甚至还发起了低烧。一个先期到达的北京登山爱好者竟向我借刀子：“太阳穴涨得难受，索性拿刀捅一下，让血流个痛快！”</P><P>中国登山协会的教练怕我们一时兴奋，难以入睡，翻来覆去反而会消耗体力，索性让大家过了晚上11点才睡。可我实在困得不行，吃完晚饭后，倒在帐篷里就睡着了。</P><P>这一夜，大家都睡不安稳，高原反应成了来自北京、上海、重庆、贵阳、广州和深圳等地的登山爱好者难以逾越的关口。最绝的要数广州的覃小姐，半夜里，她忽然坐起来大口呕吐。睡在一边的队员沾了一身污秽，刚想和她理论，才发现她的眼睛竟然还闭着！</P><P>玉珠峰南麓坡度较缓，很适合入门者“小试牛刀”。但对于业余登山者来说，必须在登顶前通过雪地行走和冰雪训练两项测试。</P><P>“雪地行走”，目的在于通过负重步行，扩张血管，加速血液循环，尽快适应高原环境。10月3日上午，只有3公里的雪地行走却把每个人都累坏了———腿像灌了铅，雪地上迈一步的步幅只相当于平时的三分之一，走10多步就得歇一歇……教练再三告诫：“登山时一定要保持步速，不能逞一时之勇，盲目追赶他人……上山时只能用三分之二的体能，把余下的体能用在下撤上……”</P><P>第二天的“冰雪训练”更艰苦。训练营地设在海拔5300米的雪坡上，积雪很厚、地形复杂。我凭仅有的一次登山经验，充当了半个教练，向队员们示范登山装备的使用和紧急情况的处理———这些知识可以在特定时刻救人一命。比方说，冰镐一定要系在腰间的安全带上，拿在手上容易遗失。</P><P>晚上返回大本营，教练宣布了首批冲顶队员的名单，我是12名队员中唯一的上海人。</P><P>10月5日清晨，我和队员们向不远处的玉珠峰进发。冲顶前，教练反复强调纪律，但对以往的山难却避而不谈———这在登山中是很忌讳的，就像登山者宁愿亲友为自己接风而不是送行一样。</P><P>最初，走在我前面的是藏族教练次洛，后面是贵州的小林。可才走了一段路，他们就在我眼前消失得无影无踪。事后，我分析出自己落后的原因：背包带扣得太紧，影响了呼吸，获氧量大大减少。</P><P>3个多小时后，我到达了海拔5600米的C1突击营，我被眼前的景象怔住了———前一天下午，玉珠峰受到暴风雪的袭击，大本营的帐篷被吹得东倒西歪，丢在帐篷门口的背包和装备瞬间就被大雪掩埋了。靠着背包休息了一会儿，我和其他队员强打精神，平整雪地，支起帐篷。要在平时，支帐篷的活儿一个人花上三五分钟就能搞定。此时却必须一齐动手：分在同一帐篷内的3名队员，6只手抓住同一根撑杆：“一，二，三———起！”</P><P>10月6日，清晨5点46分，我们摸黑起床。在帐篷外刨了些雪，用随身带的瓦斯炉烧开水。3锅水才能烧满1升，花了1个多小时，总算灌满了2升的水袋。来不及吃早饭了，我抓了一把牛肉粒塞进外套的口袋。</P><P>教练考虑到我的年龄和体力水平，安排由我打头。走在队伍最前头的次洛负责探路，我负责踩路(就是踩实次洛在积雪上留下的脚印)，以便后面队员通过。队员彼此相隔1米左右，走36步就停下歇一歇。休息时，大家无力交谈，只是在胸前摆摆手，表示“我还好，请放心”。</P><P>登山时，我坚持敞开衣襟，不让汗水冷凝在羽绒服的尼龙衬里。停下休息时，就得赶紧拉上拉链保暖。步行中，次洛和另一个教练停下抽烟，竟把打火机伸进我的羽绒服里打火，万幸没有烧出一个洞来。结果，两人努力了半天才点燃了一支烟。</P><P>登上海拔6000米高度后，我的意识忽然恍惚起来，感觉困得不行，连忙抬腕看表：“现在才11点钟，怎么就想睡了呢？”我坚持着以数数字不让自己睡着。</P><P>爬过冰坡便是玉珠峰顶。剩下要做的动作简单而艰难———使用上升器，把自己拉上冰坡。人变得很沉，而手臂却酥软无力，只能一寸一寸向上挪……走到尽头，登顶终于成功了！我下意识地看了看挂在胸前的表：11点32分。我成了这批队员中第一个登顶的人，也是第一个看到玉珠峰顶的上海人！</P><P>登顶后，队员们都忙着拍照，以标志最高点的铁塔为背景，一一留影--倒不是为了日后炫耀，而是要证明自己确实“到此一游”过。下山后领取由中国登山协会颁发的登顶证书也全靠它了。</P><P>所有的队员都盼着能在下午4点(暴风雪高发时段)以前赶回营地。下山的路走得气喘吁吁、脚步趔趄。记得出发前，教练曾关照过：下撤时，人还沉浸在登顶的兴奋中，归途常会变成险途。5月的玉珠峰山难也就是在这一刻发生的。于是，我大声地提醒队友：重心后移，放慢步伐，走侧步。</P><P>在我们这批登顶的队员中，要数北京的小马最磨蹭，别人都管他叫“慢鱼”。17岁的小伙子自恃年轻力壮，出发时冲劲十足，只是耐力不够，成了“小尾巴”。好不容易登顶了，下撤时又拉在队伍最后头。其他队员都回到了C1，他却不见踪影。</P><P>我决定留下来等他。过了近两个小时，他终于出现在不远的山坡上。见他平躺在雪地上喘气，我兴奋地大叫：“别歇了！暴风雪要来了！”</P><P>路过冰雪训练营时，见到了被安排在第二批登顶的丁丁和小金。我用上海话问丁丁：“侬还好口伐？”这家伙竟然反问：“你是谁？”“能用上海话问你好不好的，除了我还有谁？”原来他出现了“意识滞后”！“意识滞后”是高原反应的一种，表现为目光呆滞，记忆模糊。他稍稍清醒后，再三嘱咐我：“你千万别先回家，等我……”</P><P>终于回到了大本营，见到了小龙--因为他也出现了“意识滞后”，最终没能获准登顶，只能窝在大本营里烧饭、看书、买装备、筹路费……前前后后共花了12000元，最终却与登顶失之交臂，他倒十分看得开：“能让我留在营地里给大家烧饭就知足了。今年不能登顶，明年再来”(董曙明)<BR> <BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 2:12:26</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>18</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=6&id=1654&replyID=16346&star=2&skin=1">[2]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table>
+<br>
+<table cellpadding=3 cellspacing=1 class=tableborder1 align=center>
+<tr><th align=left width=90% valign=middle> &nbsp;*树形目录</th>
+<th width=10% align=right valign=middle height=24 id=tabletitlelink> <a href=#top><img src=pic/gotop.gif border=0>顶端</a>&nbsp;</th></tr>
+<TR><td class=tablebody2 width="100%" height=22 colspan=2>主题：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16326&skin=1'>世界14座8000米以上高峰</a><I><font color=gray>(3238字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16340&skin=1'>世界现代登山运动大事年表</a><I><font color=gray>(3125字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16332&skin=1'>还有</a><I><font color=gray>(1094字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16333&skin=1'>继续……</a><I><font color=gray>(1662字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16334&skin=1'>索性多灌些</a><I><font color=gray>(6346字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16335&skin=1'>登山用语</a><I><font color=gray>(1033字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16346&skin=1'><font color=#FF0000>我登上了玉珠峰（古董大作）&nbsp;[转帖]</a><I><font color=gray>(5259字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16345&skin=1'>个人装备&nbsp;Personal&nbsp;equipment登山靴&nbsp;Climbin..</a><I><font color=gray>(1247字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16343&skin=1'>共同装备[转帖]</a><I><font color=gray>(1117字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16336&skin=1'>登山运动的分类&nbsp;[转帖]</a><I><font color=gray>(1100字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16328&skin=1'>继续贴，愤愤的</a><I><font color=gray>(8959字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16329&skin=1'>还是一道题目的答案</a><I><font color=gray>(211字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16339&skin=1'>现代登山运动的起源与发展</a><I><font color=gray>(3916字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16330&skin=1'>再一道</a><I><font color=gray>(440字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16331&skin=1'>又一道</a><I><font color=gray>(4662字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16342&skin=1'>我国古代登山活动大事表</a><I><font color=gray>(727字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16341&skin=1'>世界古代登山运动大事年表&nbsp;&nbsp;&nbsp;2003年3月24日11:02　&nb..</a><I><font color=gray>(1492字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=6&ID=1654&replyID=16327&skin=1'>世界14座8000米以上高峰</a><I><font color=gray>(568字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2004年3月11日</font></I></td></tr></table><br>
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：203.125毫秒
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：指力板&nbsp;訓練指南</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：指力板&nbsp;訓練指南
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1795&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>80</B> 个阅读者<a href="go.asp?BoardID=10&sid=1795"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1795&id=1795&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1795&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 指力板&nbsp;訓練指南</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1795"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1795"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1795"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1795"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1795"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1795', ' 上海交通大学野外生存素质拓展基地 - 指力板&nbsp;訓練指南')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16875><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16875&id=1795&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16875&id=1795&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>指力板&nbsp;訓練指南</b><br><BR>以下是Metolius攀岩好手多年來持續訓練，發掘問題，尋求解答，所歸納出來的訓練課程。</P><P>首先我們必須強調，每一個攀岩者都有自己非常特殊複雜的的身體狀況。為了達到訓練的成效，你的訓練課程必須先對自己的強處與弱點做深入且完整的評估，同時考慮個人攀岩的目標。希望以下的資訊能幫助你建立一套適合自己的個人化訓練課程。雖然目前市面上有各種的訓練書籍資訊，但是必須要瞭解這些資訊的提供對象是怎樣的攀岩者，而你自己的定位又如何，是能夠全時從事攀岩與訓練的專業攀岩者或是只希望能強化體能與信心的週末攀岩者？</P><P>蒐集各類的資訊，聽聽專家的意見，花些時間來試驗各種方法，然後進行對你最有效的訓練。唯有對自己的體能負責，對自己的訓練課程持之以恆，才能達到訓練的目標。</P><P><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432413472048041.gif" TARGET=_blank><IMG SRC="uploadImages/200432413472048041.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>指力訓練是改進攀岩能力的關鍵<BR>隨著室內岩場的增多與盛行，指力板已退居為第二線的訓練工具。但是我們認為指力訓練板具有方便性與特定性的優點。在家中門廊安裝一塊不佔空間的指力板讓你既使在忙碌中也能抽出時間進行快速的訓練。指力板的造型也能使你比在岩場更能有效評估特定力量進步的幅度。當你在指力板上抓著特定手點進行一組練習時，你很容易控制訓練的份量。因此你可以訓練到體能的極限，卻不易讓手指受傷。</P><P>指力訓練的進步幅度較不容易掌握。要瞭解到你所鍛鍊的是肌腱與韌帶締結組織。它們需要長時間才能夠增強，而當受傷時需要更長的時間才會痊癒。當你同時使用指力板與人工岩場訓練時，要小心避免手指與手臂承受過大的或過長期間的負荷。當有受傷徵兆時，要花時間讓它復原。當症狀持續，特別是有長期疼痛與腫脹時，請尋求運動傷害的專業醫師治療。</P><P>訓練課程<BR>你可以利用Metolius指力板做兩類的訓練：培養爆發力或是培養肌耐力。以耐力為導向的訓練能使你的肌肉在長期間下運作。這類的訓練通常是讓你的肌肉在處於接近有氧的狀態下運動，也就是在較輕的負荷下進行較長期間的運動。爆發力導向的訓練著重於短期間、高負荷的運動，讓你的肌肉在力量的極限下快速的疲乏。此類的訓練能增強肌力（肌纖維增粗且能支配更多的肌纖維），使你能做出快速的移動。</P><P>以下的訓練方法均假設你的肌力已經達到相當的水準。這些訓練也都以爆發力為導向，這是因為：</P><P> 我們認為你能從爆發力訓練中培養出一些耐力，但是卻無法從耐力導向的訓練中培養爆發力。當然，二者最好是能分別來訓練。<BR> <BR> 無論從生理上或心理上而言，長期間懸吊在指力板上訓練耐力都是極困難的。<BR> </P><P>每次訓練的負荷重量必須由你自己來決定。使用你在各階段的最大安全負荷量能帶給你最大的增益。負荷量的決定是以你的體重為基準。如果你需要增加重量，可以使用荷重的腰帶。如果你要減輕重量，可以將椅子或板凳放在指力板的後下方，以單腳下撐。記得另一腳留在你的正下方，當你墜落時能以此腳著地。你可以將磅秤放在椅子上，如此能夠精確的測量到減輕了多少的重量（如上圖）。如果你不放心這種方法，也可以找同伴來舉起你。</P><P>善用你的同伴<BR>同伴能幫你計時、增加或減少重量。他也能激勵你用盡最後的一分力量，保護你安全的墜落著地。</P><P>訂定訓練課程並且堅持下去<BR>製作一張表單來記錄你的訓練進度。如果你有每階段荷重的詳細記錄，就能逐漸增加份量，讓你的訓練得到最佳的效果。</P><P>使用不同的手點做各種的訓練動作<BR>你可能會發現某些手點較適合做引體向上而某些手點較適合做的懸吊或其他動作。很重要的一點是找出你的弱點並且優先訓練這部份。例如你或許較不善於抓住圓弧形的手點，那就在每次訓練的前期先專注於這類的訓練。每種訓練動作的手點最好每隔幾週能改變一下，讓你的訓練更加有效。</P><P>一些應避免的事宜</P><P><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432413475349392.gif" TARGET=_blank><IMG SRC="uploadImages/200432413475349392.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432413475785794.gif" TARGET=_blank><IMG SRC="uploadImages/200432413475785794.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P> 避免在指力板上做過多的引體向上。在固定的支點上做過多的引體向上容易導致肘關節受傷。如果你想要做比我們訂定更多的引體向上，建議使用Metolius指力環。<BR> <BR> 避免在指力板上做改變手指姿勢的動作。當你的手指承載了身體的重量後，不要再嘗試移動手指（例如以手指上拉），以免導致受傷。<BR> <BR> 手點的抓握方法是非常重要的。避免使用指關節彎曲超過90度的抓握法（cling/crimp)。即使在攀岩時也不宜經常使用這種方法，因為這種彎曲角度對指關節造成非常大的負荷，容易導致受傷。我們發覺如果採用張開式抓法(open hand)的訓練，你能夠安全的同時增強彎曲式與張開式抓法的力量。右圖繪出了這兩種抓法。訓練時使用岩粉，並在需要時以尼龍刷來清潔指力板。<BR> </P><P>訓練動作<BR>以下是在指力板上的基本訓練動作：</P><P> 懸吊 ─ 伸直或是彎曲手臂，單手或雙手。即使是伸直手臂，手肘仍須稍微彎曲。<BR> <BR> 引體向上 ─ 雙手對稱或是不對稱（一手抓較高或較小的手點）。不對稱式能增加對較高或較小手點的負荷，更能有效模擬某些攀岩狀況。<BR> <BR> 舉膝 ─ 抓住良好的手點然後將膝蓋舉至胸高，彎曲腰部與膝部。這個動作是鍛鍊常被忽略的腹部肌力。<BR> <BR> 聳肩 ─ 懸吊如上並在不彎曲手肘下提起、放上身體。這個動作鍛鍊肩部幾個不同的肌肉群。如同引體向上，我們建議低的重複次數。<BR> </P><P>訓練週期</P><P>就策略性而言，週期性的訓練能使你在最需要時達到顛峰，或許是比賽季節的進入，或許是攀岩旅行的開始。安排得當的話，運動傷害與心理倦怠的可能性會降至最低，而肌力、耐力能夠達到高潮。</P><P>整個原理很簡單：先建立基本的耐力，再培養最大的爆發力。如此的循環能使你獲得最大的力量增益並充滿鬥志。不至因日復一日重複同樣的訓練而陷入倦怠低潮，停滯在訓練的高原期。再完成高峰期循環後你必能邁向更新的攀岩挑戰。下表的週期範例可以在六月重新開始。</P><P>　</P><P>訓練強度</P><P>調適性週期<BR>強度 = 60%<BR>份量 = 中<BR>負荷 = 低<BR>次數 = 高<BR>頻率 = 每週 2-3 天<BR>熱身與主動式休息週期以準備更激烈的週期。<BR>2 週<BR>11月</P><P>負荷性週期<BR>強度 = 75%<BR>份量 = 中/高<BR>負荷 = 中<BR>次數 = 中<BR>頻率 = 每週 3-4 天<BR>基礎性、耐力性、締結組織力量、以及一些爆發力的建立。<BR>10 週  <BR>12月 - 1月<BR>   <BR>恢復性週期<BR>強度 = 50%<BR>份量 = 低<BR>負荷 = 低<BR>次數 = 低<BR>頻率 = 每週 2 天<BR>休息、恢復以準備高峰期。<BR>2 週<BR>2月</P><P>高峰性週期<BR>強度 = 80-100%<BR>份量 = 低<BR>負荷 = 高<BR>次數 = 低<BR>頻率 = 每週 2-3 天<BR>最大爆發力。大部分的動作要耗盡力量。於中期逐漸減少訓練而轉入攀登。週期結束後停止訓練。你應可擁有4至6週的攀岩顛峰狀況。<BR>8 週<BR>3月 - 4月 </P><P>定義：</P><P> 強度：就單一動作或整體訓練而言，達到最大能力的百分比。例如在充分休息後，你最多能在某一手點懸吊1分鐘，則65%強度代表在同一手點懸吊40秒。利用這樣的簡單測試方法來衡量你的最大極限。這些強度的數據必須注意調整，當你更強壯時向上調升，在你尚未自上次訓練完全恢復時向下調整。<BR> <BR> 份量：訓練的期間長短或做幾組或幾種動作。這是你在訓練中最容易調整的一項因素，當你更強時增加份量，當你尚未恢復時減少份量。要記得份量與強度是不同的。<BR> <BR> 負荷：從本身體重增加或減少多少重量。對許多動作而言，你必須根據不同的手點來增加重量（使用荷重的腰帶）或是減少重量（由同伴扶撐或以單腳輕踩下方的椅子）以達到一定的強度。<BR> <BR> 次數：做多少次引體向上或其他的動作。<BR> <BR> 頻率：每週訓練幾次。<BR> </P><P>其他的考慮因素</P><P> 熱身：多花些時間來伸展並運動你將要使用到的肌肉。在訓練中與訓練後多喝水。<BR> <BR> 清楚分辨正常肌肉酸痛與締結組織受傷疼痛的差異。在訓練中受傷是摧毀你攀岩目標的最快速方法。<BR> <BR> 休息：找出在不同週期中你需要多少的休息並且切實遵守。你每次開始訓練時應該完全沒有肌肉疼痛。<BR> <BR> 次週期：在你的漫長艱辛的負荷期與高峰期中再加以區分，以避免陷入停滯高原期。通常依次為困難日、輕鬆日、中等日。如此適量的讓你得到一些舒解，但也不至於使你身體安於中度的體能狀態。<BR> </P><P>10分鐘訓練課程</P><P>以下之10分鐘訓練範例對於耐力與爆發力訓練有很好的結合。每個人必須經過一些試驗後再加以調整，也可以針對特定的攀岩目標加以修正。爆發力訓練的期間短而負荷重或困難。耐力訓練的期間較長而強度較弱。</P><P>每個動作在一分鐘內完成。利用剩餘的時間休息。在指力板下方掛一支錶或在牆上掛上一個鐘，使你在訓練時能很容易看的到。</P><P>初級<BR>分鐘     手點                   動作<BR>1         大握點                15秒懸吊<BR>2         圓弧點                1次引體向上<BR>3         中岩角                10秒懸吊<BR>4         口袋點                15秒懸吊加3次聳肩                    <BR>5         大岩角                20秒懸吊加2次引體向上<BR>6         圓弧/口袋點         10秒懸吊加5次舉膝      <BR>7         大岩角                4次引體向上<BR>8         中岩角                10秒懸吊<BR>9         大握點                3次引體向上<BR>10       圓弧點                懸吊至無力為止 </P><P>中級<BR>分鐘     手點                   動作<BR>1         大岩角                15秒懸吊加3次引體向上          <BR>2         圓弧點/中岩角      圓弧點兩次引體向上，20秒岩角懸吊                  <BR>3         小岩角/口袋點      岩角20秒懸吊，15秒90度曲肘懸吊 2         <BR>4         圓弧點                30秒懸吊 <BR>5         大岩角/口袋點      20秒岩角懸吊加4次口袋點引體向上                        <BR>6         大握點/小岩角      每手3次非對稱引體向上(高手用大握點，低手用小岩角)   7         大握點/中岩角      大握點15次舉膝，15秒岩角懸吊  <BR>8         中岩角                25秒懸吊<BR>9         圓弧點/大握點      15秒圓弧點懸吊，大握點3次引體向上<BR>10       圓弧點                 懸吊至無力為止<BR>              <BR>                          <BR>   </P><P>熱身</P><P>充分的熱身是培養肌力和避免受傷的最重要步驟之一。最好是先從大肌肉開始熱身，再到較小的肌肉。你可以先做低強度的有氧運動，再做些一般性的重量訓練。然後在指力板上的各種手點做一兩下引體向上或10至20秒的懸吊，各個動作間隔30秒的休息。熱身後在花些時間作伸展運動，依然是從大肌肉開始再逐漸到手指部份。在你完全熱身後休息5到10分鐘再開始訓練工作。</P><P>其他一些訓練要訣</P><P>絕對要有足夠的時間來熱身，這是你能避免受傷的最佳方法。</P><P>在你開始懸吊前花點時間讓你的手指熟悉並抓穩手點，如此能使你抓握的更有力，並建立訓練前的心理準備。</P><P>當你抓好手點準備要開始懸吊時，讓你的身體在手點的正下方，如此能避免你提起腳時身體的擺盪。擺盪會使你很難懸吊住。</P><P>當你準備好懸吊後，不要再移動手指在手點上的位置，特別是在圓弧形的手點上。</P><P>經常刷乾淨你的指力板。乾淨不滑膩的手點對你心理上很有幫助。</P><P>在每個動作前手指要好好的抹上岩粉。Metolius Super Chalk岩粉能帶給你最佳的效果。</P><P>建立個人化的訓練課程並且堅持下去。如果你有均衡的、變化不枯燥的課程，你一定能夠變的更強壯。進步是需要時間的，耐心能使你更快看到成果。</P><P>如果你停滯在高原期的瓶頸，再回頭檢討一下當初的預期是否理想過高。通常停滯不前代表你可能需要更多的休息或者暫停某些例行訓練。或許你該想想如何更加的激勵自己。找個同伴一同訓練，夢想一下你的下一場比賽或攀岩活動，或者想像一下完成訓練後會有多強壯。任何能維持你正面態度的辦法都是值得一試的！</P><P>　</P><P>警語：指力板訓練潛藏著手指、手臂、肩部以及關節受傷的危險。請務必熱身、伸展、避免過度訓練、並且隨時注意身體徵狀以避免受傷。請切記即使在最佳狀況下仍有受傷的可能。安裝指力板時務必要穩固不晃動，以免在訓練時脫落。</P><P></P><P></P><P></P><P><BR><div align=right><font color=#000066>[此贴子已经被作者于2004-3-24 14:25:13编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-24 13:50:26</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1795&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1795&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1795" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1795" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1795" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1795&replyID=16875" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1795" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1795" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1795" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：219.727毫秒
+</td></tr>
+</table>
+</body>
+</html>

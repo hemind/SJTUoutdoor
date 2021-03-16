@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--每周论题浏览：如果由你来组织一次户外野营或野外自助游</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=2">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=2">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=2">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=2&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 会员可在此专门讨论一些论题
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=2>每周论题</a> →  浏览：如果由你来组织一次户外野营或野外自助游
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=2"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=2"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=2&id=1326&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>302</B> 个阅读者<a href="go.asp?BoardID=2&sid=1326"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=2&replyID=1326&id=1326&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=2&sid=1326&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 如果由你来组织一次户外野营或野外自助游</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=2&id=1326"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=2&id=1326"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=2&id=1326"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=2&id=1326"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=2&id=1326"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=2&id=1326', ' 上海交通大学野外生存素质拓展基地 - 如果由你来组织一次户外野营或野外自助游')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13917><font color=#990000><B>yaowu</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：107<br>&nbsp;&nbsp;积分：224<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=yaowu',500,400)"><img src="pic/message.gif" border=0 alt="给yaowu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=yaowu" target=_blank><img src="pic/friend.gif" border=0 alt="把yaowu加入好友"></a>&nbsp;<a href="dispuser.asp?id=16" target=_blank><img src="pic/profile.gif" border=0 alt="查看yaowu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=yaowu&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索yaowu在每周论题的所有贴子"></a>&nbsp;<A href="mailto:yaowu@89810.com"><IMG alt="点击这里发送电邮给yaowu" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=13917&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=13917&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>如果由你来组织一次户外野营或野外自助游</b><br>你认为首先你需要具备那些素质？该做那些准备工作，如何去组织，对参与者你有何要求？</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=16&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-23 22:40:41</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=2&id=1326&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=2&id=1326&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13936><font color=#000066><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level8.gif><br>&nbsp;&nbsp;等级：蜘蛛侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：1024<br>&nbsp;&nbsp;积分：1734<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在每周论题的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=13936&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=13936&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>要熟悉路线，即使没去过，也要有所了解<BR>……</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-23 23:22:13</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13945><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2321<br>&nbsp;&nbsp;积分：2247<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=13945&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=13945&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>ZT</b><br><BR>队伍属性与行程设计<BR>　　一般社团举办野外活动，从活动企画到活动结束的流程是环环相扣，它考验社团整体行政运作、社团干部间默契与领导统御能力。 </P><P>队伍属性与行程设计 </P><P>　　路线选择以预定队员的对象为主要考量，领队必须考虑全队的整体野外能力强弱，选择合适的活动行程。 </P><P>　　社团举办野外活动依据参加人员性质分为</P><P>　　一、非社员为主的队伍，参加人数期望是在20名以上，活动目地是吸收新社员、增加社团向导群干部带队经验与增加社团收入，此类活动通称全校性活动，所以社团举办此类活动必须考虑住宿方便避免宿营路线，因为此类队伍整体的总背负能力与野外能力薄弱，当领队考量层面总背负能力为全队男、女比例，此牵涉队伍行进速度，一般社员与非社员的背负能力，平均男为20±3公斤，女为15±3公斤，一般初次登山的队员会携带很多且千奇百怪个人装备，个人 装备的重量约占其背负能力的70%，所以队员的团体装备能背负重量为男 ：5～8公斤，女：3～5公斤(团体装备)，如此背负能力使得领队策划的行程路线无法超过三日二夜以上的宿营天数，否则向导群照顾全队起居生活会吃力不讨好，此种队伍野外活动时间愈长，领队与向导的心理压力与体力的负荷均相当重,且学校与家长皆不放心，学期期间的野外活动以单日往返的郊山或两日一夜的露营为主，学期结束的野外活动以四日三夜为上限，此类最好的行程路线 </P><P>　　1.全程宿山屋，自行炊事， <BR>　　2.全程住宿均公、民营山庄， <BR>　　3.两者混合的路线， <BR>　　4.住宿便利、步道良好的山区， <BR>　　5.郊山化的高山，即使露营活动，宿营必选 水源充沛、营地开阔或山屋， <BR>　　如此吃、玩俱佳的状况才能吸引更多的同学加入社团，增加新血轮。</P><P>　　二、社员为主的队伍：参加人数是在10名左右，此种活动为社团内部活动，目地是落实平日的各项训练与储训未来社团向导群干部，学期期间可运用全校性活动训练社员对器材的熟悉度与简单的行政作业，同时安排向导、攀岩、雪 地、自然观察各项的训练与室内演讲活动，此类队伍的队员平日的训练使得整体的野外能力与总背负能力比较强，男队员的背负能力为25±5公斤 ，女队员的背负能力为20±5，同时每位队员了解应携带的个人装备不会出现千奇百怪个人装备，个人装备重量占其背负重量的50%，所以整体的团体装备背负能力较高。寒、暑假期间领队策画野外活动行程最好是全程宿营且难度偏高的路线，活动出发时间不可安排於期中考与期末考结束当天，至少相隔一日，考完试的体能状况不佳，活动期间会累垮领队与向导 。 </P><P>　　当然不论队伍为何种型态，领队是负责活动期间队员安全。因此活动出发前到活动结束完全掌握于领队与所属向导群的决策、指挥与管理照料 ，领队必须秉持快快乐乐出门，平平安安回家，不可让队员处于任何的潜在危险的地方。</P><P>活动出发前准备工作流程<BR>　　一、粮食采购</P><P>　　二、清点器材<BR>　　可依据社团的团体装备表格逐一清点。<BR>　　集合期间流程<BR>　　集合时间到出发时间须30～60分钟的准备时间，流程如下：<BR>　　队员报到<BR>　　集合期间领队必须指派一名人员负责队员报到事宜，队员报到应(1)发给名牌，(2)告知组别，并请队员到组长处报到，(3)告知车位避免上车时争先恐后。清点、分配器材与粮食</P><P>　　活动出发前三日，队伍器材负责人必须和器材组组长完成清点，核对器材状况，队伍集合期间，领队必须指派人员与各组组长清点与核对器材与公粮，完成后才分配给队员背负，但每项器材须注明器材背负人与数量，避免漏带。</P><P>　　全队的背负重量为社员＞非社员＞向导＞领队。队员背包装填</P><P>　　领队与向导必须在队员报到前将自己的装备打包妥当，集合期间向导必须协助队员装填并察验队员携带个人装备状况，遇任何问题须马上解决，深夜出发队伍，各组组长须提醒队员取出御寒衣物预防熟睡著凉，领队须指派人员负责隔日早餐炊事，炊事使用之器材与餐点无须马上装填入背包仅须置於於车内即可，负责人不可将餐点或器材遗漏於集合地点或车内。</P><P>背包装填注意事项：</P><P>　　[1]重的器材置於上端且靠背部，重的器材为炉具、炊具、重的食物、雨具与水瓶，重心点太低或远离背会使身躯弯身行走，帐篷须使用伞带绑於背包顶端，燃料油与水须分开置放背包两侧避免污染食物与衣物。</P><P>　　[2]次重物品为备用衣物（必须用塑胶袋密封）、个人器具、头灯、地图、指北针、相机、置於背包中心和下方侧带。</P><P>　　[3]轻的物品为睡袋（必须用防水袋密封）绑於下方、营柱可置於背包两侧、睡垫可置於背包後方，背包须准备长伞带绑一些物品如三脚架。</P><P>　　[4]不耐挤压物品如鸡蛋、蔬菜、沙拉油、燃料油暂时不装填入背包先置於专车内，等隔日到登山口再装填，避免叠背包将粮食压烂。</P><P>整理环境</P><P>　　队伍出发前领队须指派人员整理集合地点环境不可留下脏乱同时检视是否有遗漏任何物品。</P><P>社团行政运作方面<BR>　　平日的器材保养与维修</P><P>　　器材维修不当会造成活动的流产或增加活动的危险性，如扎营发生营柱断裂、帐布毁损、火烧炉或锅组发霉等问题。</P><P>　　器材清点不当会发生营钉不足、没带外帐、少营柱、少备用瓦斯灯蕊……等问题。</P><P>　　每次活动出发前与结束後，领队必须指派人检员修保养与清洗使用器材，同时向导群必须配合器材组于学期期间至少排定两次教授器材使用与维修保养课程，课程时间以期中考前、後两周各一次较适当。</P><P>编列活动费用预算</P><P>A.领队、向导优待办法</P><P>　　社团最好明订明确办法让大家都有依循，日後若有任何不合时宜条款由向导群议决修订之，此种优待办法对各级向导均有实质与精神上的鼓励与荣誉感，主因是１、向导群举办全校性活动意愿较高，并藉此宣传社团整体带队能力与野外能力，如此吸收新社员才不会造成社团人员断层。２、社团不致沦为经常以自组队方式举办活动阻碍社团发展无法茁壮。</P><P>B.交通、住宿费</P><P>　　交通、住宿费用必须是领队亲自与车行、旅社、山庄洽谈，议价後才能租订，选择对自己有利的条件才能支付订金，以免当冤大头。</P><P>　　领队与车行洽谈必须给与行程资料避免口说无凭，事後出现纠纷，尤其是车辆须出入林道，更须了解车行负责人专精的程度，因为林道的路况普遍很差，一般司机技术无法胜任，同时保养不良的车辆行进於林道会出现惊险的状况。</P><P>　　领队与旅社洽谈必须明示代订住宿日期与餐数，同时邮寄支付订金须附居住日期与代办餐数避免口说无凭出现事後纠纷。</P><P>C：伙食费</P><P>　　全校性活动的队伍通常住宿於公或民营的山庄，领队须事前连同住宿费用谈妥即可，举办全程或部份行程宿营活动，伙食费预算无一成不变，须视当地，当时的市场行情而定，少买大家饿肚子，多买吃不完是浪费，如何拿捏视领队而定。领队须亲自或采购前指派人员开列与审核粮食计划与采购清单，避免漏买或数量短少，另文详述采购粮食。</P><P>D：保险费与山难基金</P><P>　　保险费是队伍当然支出项目，保险额度牵涉医疗给付金额，目前保险公司的医疗给付金额上限是保险金额的百分之十，登山活动是具危险的活动，保险金额最好是一百万。</P><P>E：行政事务费用</P><P>　　此项费用是支出该活动各项行政事务费，如影印简章、长途电话、海报、冲洗相片等费用，计算方式是总和各单项预算乘百分之十为行政事务费。</P><P>活动宣传</P><P>　　平日社团给予同学的好评价与强势的活动宣传才能招收到活动预定人数，宣传方式分为(1)海报：海报必须依靠社团美工组费心制作，而精心绘制的海报必须精心规划张贴於最有利的位置吸引全校注意，否则精美的海报亦白费功夫。(2)宣传单：宣传单是简述活动内容，最好能张贴於各教室。</P><P>粮食采购流程<BR>　　一、开列菜单</P><P>　　领队开列菜单必须考虑（1）季节变化对菜价波动与蔬菜种类的影响，如台风、豪雨後的蔬菜必大涨可考虑以果菜、根菜类或腌制菜为主，（2）路线是否宿营於缺水的营地，（3）忌购超市无真空包装之冷藏或冷冻食品　此类食品易腐败不易携带。</P><P>　　中式早餐以酱菜、肉松、花生、咸鸦蛋等混合搭配稀饭。稀饭是利用晚餐的剩饭加水泡软，缩短隔日早餐炊事时间。雪期宿营忌采用中式早餐，因为加水的饭易结冰会不易炊事且相当耗费燃料，雪地宿营期间最好采用西式早餐。</P><P>　　西式早餐：牛奶、麦片粥、米麸、花生酱、果酱、起司、白煮蛋混合搭配饼乾、面包。</P><P>　　缺水宿营地晚餐的菜单可以（１）面食取代米食，（２）利用大白菜于炊煮过程会出现较多水份期减少用水量，（３）生食小黄瓜、红萝卜，（４）喝茶代替汤期减少隔日行进耗水量。</P><P>　　下午茶：菊花茶、洛神花茶、柠檬茶、珍珠奶茶、果冻、冬瓜茶。</P><P>　　宵夜：视当夜向导群体能整体状况决定是否炊事，选择宵夜种类的考虑重点</P><P>水滚就可食用不会造成锅太油腻难清洗。</P><P>　　宵夜以绿豆、红豆或八宝豆汤加粉圆或白木耳，喝茶与零食，废弃茶叶可清洗油腻锅组。</P><P>二、采购粮食</P><P>　　采购粮食是一件相当伤神的事务，因为采购人员必须将所有的粮食采购齐全，缺一不可，小至盐，大到蔬菜、肉品，不论质与量均要精确计算，多买会使得成本提高与增加背负重量，少买会使得大家吃不够，如何吃的好是对初为登山社的领队与向导的一种严苛考验，采购人员面对主食、副食、佐料等各种粮食的需求，惟有身历其境才能了解其中甘苦。</P><P>三、粮食数量计算</P><P>　　计算单日单餐的粮食重量皆以十人为标准，米（含早餐与晚餐）：1.25公斤，牛、猪肉：4～6两，鸡肉：8～10两（１斤＝６００公克），青菜：１～1.5斤，燃料油：去渍油：0.5～0.8公升／日（非雪期～雪期）</P><P>　　社员或干部居多的队伍计算粮食的重量须再增加３０～５０％。</P><P>填妥采购清单</P><P>　　领队依据开列菜单区分传统市场，超级市场并依据同性质，如肉类　蔬菜、水果、杂货、乾粮、日用品等的类别逐一写妥采购清单，避免漏买。</P><P>蔬菜阴乾</P><P>　　购回之蔬菜与水果必须马上摊开置阴凉处风乾蔬果表面多余的水份，即使出现萎凋亦无关系，因为置於密闭的塑胶袋内易腐败且不耐持久携带。</P><P>鱼、肉类处理</P><P>　　鱼、肉类最好出发前一日采购与处理，不同路线有不同的处理方式分为</P><P>一、五日以内野外活动的肉类处理方式</P><P>　　购回肉类先清洗沥干再用米酒、酱油、盐、醋、沙茶酱等腌泡，佐料数量与种类选择合适自己口味。腌泡时间至少三小时、置于瓦斯炉煮熟。煮熟的肉类用金属滤网盆沥干、然後用铝箔纸密封。密封的肉类依然会渗出少许水可利用报纸吸干。</P><P>二、五日以上野外活动的肉类处里方式：</P><P>　　购回肉类先清洗沥干再用米酒、酱油、盐、醋、沙茶酱等腌泡　佐料数量与种类选择合适自己口味。腌泡时间至少三小时　然后用金属滤网盆沥干。沥干的肉品置於快锅蒸熟：无骨头肉品：15分钟；有骨头肉品：20分钟，开始计算时间以压力达到1.2大气压。蒸熟肉品会渗出少许水可用报纸吸干。</P><P>鱼类处理</P><P>　　购回鱼类先清洗沥干再用米酒、盐等腌泡，佐料数量与种类选择合适自己口味。　　腌泡时间至少三小时，然后用金属滤网盆沥干。沥干的鱼品置於快锅蒸熟；蒸熟时间：15分钟。蒸熟鱼品会渗出少许水可用报纸吸干。</P><P><BR>转自游牧人户外俱乐部<BR><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle><img src=pic/em26.gif border=0 align=middle></P><P></P><P><BR><div align=right><font color=#000066>[此贴子已经被作者于2003-10-24 1:29:34编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-23 23:38:31</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14002><font color=#990000><B>丁丁</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：4<br>&nbsp;&nbsp;文章：335<br>&nbsp;&nbsp;积分：523<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=丁丁',500,400)"><img src="pic/message.gif" border=0 alt="给丁丁发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=丁丁" target=_blank><img src="pic/friend.gif" border=0 alt="把丁丁加入好友"></a>&nbsp;<a href="dispuser.asp?id=13" target=_blank><img src="pic/profile.gif" border=0 alt="查看丁丁的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=丁丁&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索丁丁在每周论题的所有贴子"></a>&nbsp;<A href="mailto:lavender_amber@sjtu.edu.cn"><IMG alt="点击这里发送电邮给丁丁" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=14002&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=14002&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>大家不用回复了，照猪珠的做肯定够了。            多说就是灌水</P><P>我总觉得，野协还是说的比做的多。真正能组织好野外活动的人很少。所以大家要努力，多参加活动。不要以为看过书籍，听别人说了就能搞好活动了。</P><P>btw.我看像转载的，你们很不道德的，转载一定要注明zt,否则就是侵权。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=13&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-24 1:16:33</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14325><font color=#000066><B>gudavid</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：651<br>&nbsp;&nbsp;积分：791<br>&nbsp;&nbsp;注册：2003-7-9<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=gudavid',500,400)"><img src="pic/message.gif" border=0 alt="给gudavid发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=gudavid" target=_blank><img src="pic/friend.gif" border=0 alt="把gudavid加入好友"></a>&nbsp;<a href="dispuser.asp?id=238" target=_blank><img src="pic/profile.gif" border=0 alt="查看gudavid的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=gudavid&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索gudavid在每周论题的所有贴子"></a>&nbsp;<A href="mailto:gudavid@sjtu.edu.cn"><IMG alt="点击这里发送电邮给gudavid" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=14325&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=14325&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>这次徽杭古道的活动，所有的东西都会形成资料，保存下来：</P><P>有如下的资料：<BR>1，活动申请书兼策划书  （谷伟，小明）<BR>2，装备方案及通讯方案  （木耳）<BR>3，食品方案  （复旦）<BR>4，医药方案以及急救方案 （鱼雷）<BR>5，环保方案 （余力）<BR>6，行军纪律规定及紧急情况处理方案 （谷伟，孙振晖）<BR>7，营地管理方案 （杨岚）<BR>8，知情同意书（类似生死协议，是一个法律文书，有法律效应）  （谷伟）<BR>9，人员任务分派方案。  （KONIK，朱朱)<BR>10，财务方案及保险方案 （余画颖）<BR>11，准备会议议程及备忘录 （朱朱）</P><P>这是前期的工作，后期的活动汇报，也会整理出来。</P><P>这次的徽杭古道希望是对协会组织大型活动的一个完善，所以尽量做的正规。 希望能对以后的活动组织有所借鉴作用。</P><P>我们目前所作的已经比朱朱所转载的游牧人那个帖子里说的要详细得多了。</P><P></P><P></P><P></P><P></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=238&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-29 15:08:54</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14346><font color=#990000><B>jackchen</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：管理员<BR>&nbsp;&nbsp;文章：295<br>&nbsp;&nbsp;积分：570<br>&nbsp;&nbsp;注册：2003-10-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=jackchen',500,400)"><img src="pic/message.gif" border=0 alt="给jackchen发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=jackchen" target=_blank><img src="pic/friend.gif" border=0 alt="把jackchen加入好友"></a>&nbsp;<a href="dispuser.asp?id=388" target=_blank><img src="pic/profile.gif" border=0 alt="查看jackchen的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=jackchen&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索jackchen在每周论题的所有贴子"></a>&nbsp;<A href="mailto:lychen@sjtu.edu.cn"><IMG alt="点击这里发送电邮给jackchen" border=0 src=pic/email.gif></A>&nbsp;<A href="http://security.sjtu.edu.cn" target=_blank><IMG alt="访问jackchen的主页" border=0 src=pic/homepage.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=14346&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=14346&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>上面游牧人的帖子居然还有珍珠奶茶，真奢侈阿。<BR>觉得食品采购是个很艰巨的任务。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=388&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-29 20:44:32</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17665><font color=#990000><B>漂泊</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：19<br>&nbsp;&nbsp;积分：50<br>&nbsp;&nbsp;注册：2004-4-6<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=漂泊',500,400)"><img src="pic/message.gif" border=0 alt="给漂泊发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=漂泊" target=_blank><img src="pic/friend.gif" border=0 alt="把漂泊加入好友"></a>&nbsp;<a href="dispuser.asp?id=543" target=_blank><img src="pic/profile.gif" border=0 alt="查看漂泊的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=漂泊&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索漂泊在每周论题的所有贴子"></a>&nbsp;<A href="mailto:freelala619@163.com"><IMG alt="点击这里发送电邮给漂泊" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17665&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17665&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>组织活动好累啊，我算是深有体会了。<BR>最让人怕的因素是报名参加的人<BR>我们学生出行最要考虑的是时间和钱，参加的人数变了好几次，每次都得改计划<BR>还有开开准备会也经常会有时间冲突，没有能到全的<BR>不过我们协会开会好象有个特点，就是把来参加的晾在一边，自己人开始讨论，感觉有待改进<BR>感觉还是群众基础不够，看准一个活动就铁了心要去的（比如我: )）不多</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=543&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-4-19 11:41:13</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17699><font color=#000066><B>宣传部</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：协会管理层<BR>&nbsp;&nbsp;文章：22<br>&nbsp;&nbsp;积分：56<br>&nbsp;&nbsp;注册：2003-9-24<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=宣传部',500,400)"><img src="pic/message.gif" border=0 alt="给宣传部发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=宣传部" target=_blank><img src="pic/friend.gif" border=0 alt="把宣传部加入好友"></a>&nbsp;<a href="dispuser.asp?id=355" target=_blank><img src="pic/profile.gif" border=0 alt="查看宣传部的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=宣传部&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索宣传部在每周论题的所有贴子"></a>&nbsp;<A href="mailto:nympsyche@yahoo.com.cn"><IMG alt="点击这里发送电邮给宣传部" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17699&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17699&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>8</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>辛苦了<BR>这次回来需要好好总结一下<BR>很多不妥的地方<BR>玩的时候好好玩<BR>慰劳一下自己</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=355&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-4-20 1:01:17</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17708><font color=#990000><B>bolanggu</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1984-8-13></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：432<br>&nbsp;&nbsp;积分：897<br>&nbsp;&nbsp;注册：2003-3-7<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=bolanggu',500,400)"><img src="pic/message.gif" border=0 alt="给bolanggu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=bolanggu" target=_blank><img src="pic/friend.gif" border=0 alt="把bolanggu加入好友"></a>&nbsp;<a href="dispuser.asp?id=114" target=_blank><img src="pic/profile.gif" border=0 alt="查看bolanggu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=bolanggu&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索bolanggu在每周论题的所有贴子"></a>&nbsp;<A href="mailto:bolanggu@yahoo.com.cn"><IMG alt="点击这里发送电邮给bolanggu" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=12204263" target=_blank title="bolanggu[12204263]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17708&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17708&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>9</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>这次组织从头到尾有不少问题<BR>一个成熟的社团是不应该这样的<BR>以后要吸取教训<BR>明确分工<BR>王晨曲做了很多工作<BR>他的细心和恒心让我很感动<BR>但是这样所有的琐碎闲杂都抛给他是否合适???<BR>很多具体的细节<BR>他都没有办法问到<BR>比如路线时间交通之类<BR>只好估计与猜测<BR>如果活动中遇到问题<BR>那么多的人<BR>谁来对结果负责?!</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=114&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-4-20 15:55:11</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17770><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2321<br>&nbsp;&nbsp;积分：2247<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17770&id=1326&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=17770&id=1326&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>10</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>对于这次清凉峰的活动，我就是想好要让王晨曲来做。<BR>让他大小事情都体会一下，以后他就会明白组织一个活动需要付出多少，这对于一个领队的成长是很有帮助的。<BR>这样做也是不得以而为之，为了让他尽快上手。协会现在已经进入青黄不接的事情了，我不知道你们是怎么看这个问题的！<BR>而且这次活动的前期准备工作，我和裸奔还是做掉一部分的。<BR>至于变化什么的，这是无法避免的。人是社会的动物，有很多事情是人力无法改变的。只有你来适应变化，而不是要事物以不变来适应你。<BR>关于协会内部人员在开大会时开小会的问题，不是一次两次的在说了。凡是核心（包括我自己）都考虑一下，自己有没有这样做过，为会议的正常进行带来了多大的麻烦。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-4-23 11:56:30</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>11</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=2&id=1326&replyID=13917&star=2&skin=">[2]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=2&ID=1326" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=2&ID=1326" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=2&ID=1326" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=2&ID=1326&replyID=13917" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=2&ID=1326" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=2&ID=1326" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=2&ID=1326" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=2&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：261.719毫秒
+</td></tr>
+</table>
+</body>
+</html>

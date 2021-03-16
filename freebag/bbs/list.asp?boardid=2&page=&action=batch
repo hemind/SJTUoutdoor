@@ -1,0 +1,436 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--每周论题</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=2">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=2">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=2">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=2&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 会员可在此专门讨论一些论题
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+每周论题
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<TABLE cellSpacing=0 cellPadding=0 width=97% border=0 align=center>
+<tr>
+<td align=center width=100% valign=middle>
+<SCRIPT LANGUAGE='JavaScript' SRC='js/fader.js' TYPE='text/javascript'></script>
+<SCRIPT LANGUAGE='JavaScript' TYPE='text/javascript'>
+prefix="";
+arNews = ["<b><a href='announcements.asp?boardid=2' target=_blank><ACRONYM TITLE='当前没有公告'>当前没有公告</ACRONYM></a></b> ","","欢迎光临上海交通大学野外生存素质拓展基地每周论题","",
+"严禁恶意使用粗言秽语，违者经劝告无效，立即封ID。",""
+]
+</SCRIPT>
+      <div id="elFader" style="position:relative;visibility:hidden; height:16" ></div>
+      <SCRIPT language="">
+var dayarray=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
+var montharray=new Array("1","2","3","4","5","6","7","8","9","10","11","12")
+var cweather="<font color='#3FAFFF'></font>"
+var cxt=Math.round(Math.random())
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="夜深了"
+if (hours>=0 && hours<2) {dn="新的一天开始了"}
+else if (hours>=2 && hours<4) {dn="夜深了"}
+else if (hours>=4 && hours<5) {dn="天快亮了"}
+else if (hours>=5 && hours<9) {dn="早安朋友"}
+else if (hours>=9 && hours<11) {dn="上午好"}
+else if (hours>=11 && hours<13) {dn="该吃午饭了"}
+else if (hours>=13 && hours<18) {dn="下午好"}
+else if (hours>=18 && hours<23) {dn="祝心情愉快"}
+if (minutes<=9)
+minutes="0"+minutes
+//change font size here
+var cdate="<font color='#3FAFFF'>"+dayarray[day]+" "+year+"/"+montharray[month]+"/"+daym+" "+hours+":"+minutes+" "+dn
++"</font>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all)
+getthedate()
+function goforit(){
+if (document.all)
+setInterval("getthedate()",1000)
+}
+if(cxt==0) {window.onload=goforit}
+else {document.write(cweather)}
+</SCRIPT>
+      <SPAN id=clock></SPAN></td>
+</tr>
+</table><BR>
+<script>
+function loadThreadFollow(t_id,b_id){
+	var targetImg =eval("document.all.followImg" + t_id);
+	var targetDiv =eval("document.all.follow" + t_id);
+	if (targetImg.src.indexOf("nofollow")!=-1){return false;}
+	if ("object"==typeof(targetImg)){
+		if (targetDiv.style.display!='block'){
+			targetDiv.style.display="block";
+			targetImg.src="pic/minus.gif";
+			if (targetImg.loaded=="no"){
+				document.frames["hiddenframe"].location.replace("loadtree1.asp?boardid="+b_id+"&rootid="+t_id);
+			}
+		}else{
+			targetDiv.style.display="none";
+			targetImg.src="pic/plus.gif";
+		}
+	}
+}
+</script>
+
+<iframe width=0 height=0 src="" id="hiddenframe"></iframe>
+<!--<TABLE cellSpacing=0 cellPadding=0 width=97% border=0 align=center>
+<tr>
+<td align=center width=34 valign=middle> <img src="pic/gb.gif" border=0  width=20 height=17>
+</td><td valign=middle align=left>
+<b><a href='announcements.asp?boardid=2' target=_blank><ACRONYM TITLE='当前没有公告'>当前没有公告</ACRONYM></a></b> (2004-9-28 9:51:19)
+</td>
+<td align=right valign=middle><p>
+<form action="list.asp" method=get>
+<input type=hidden name=boardid value="2">
+<select name=selTimeLimit onchange='javascript:submit()'>
+<option value=all>查看所有的主题
+<option value=1>查看一天内的主题
+<option value=2>查看两天内的主题
+<option value=7>查看一星期内的主题
+<option value=15>查看半个月内的主题
+<option value=30>查看一个月内的主题
+<option value=60>查看两个月内的主题
+<option value=180>查看半年内的主题
+</select>
+</form></p>
+</td></tr>
+</TABLE>
+--><BR>
+<TABLE cellpadding=3 cellspacing=1 class=tableborder1 align=center>
+<TR>
+<Th height=25 width="100%" align=left id=tabletitlelink style="font-weight:normal">总在线<b>2</b>人，其中每周论题上共有 <b>0</b> 位会员与 <b>0</b> 位客人.今日贴子 <b><font color=#FF0000>0</font></b> 
+[<a href=list.asp?action=show&boardID=2&amp;page=1&skin=>显示详细列表</a>]
+</Th></TR>
+
+</td></tr>
+</TABLE>
+<BR>
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center valign=middle><tr>
+<td align=center width=2> </td>
+<td align=left> <a href="announce.asp?boardid=2"><img src="pic/blue/postnew.gif" border=0 alt="发新帖"></a>
+&nbsp;&nbsp;<a href="vote.asp?boardid=2"><img src="pic/blue/votenew.gif" border=0 alt="发起新投票"></a>
+&nbsp;&nbsp;<a href="smallpaper.asp?boardid=2"><img src="pic/blue/xzb.gif" border=0 alt="发布小字报"></a></td>
+<td align=right><img src="pic/team2.gif" align=absmiddle>  <a href="dispuser.asp?name=yaowu" target=_blank title=点击查看该版主资料>yaowu</a>&nbsp;</td></tr></table>
+
+<TABLE cellPadding=1 cellSpacing=1 class=tableborder1 align=center>
+<tr><td class=tablebody1 colspan=5 height=20>
+<table width=100% >
+<tr>
+<td valign=middle height=20 width=50> <a href=AllPaper.asp?boardid=2 title=点击查看本论坛所有小字报><b>广播：</b></a> </td><td width=*> 
+<marquee scrolldelay=150 scrollamount=4 onmouseout="if (document.all!=null){this.start()}" onmouseover="if (document.all!=null){this.stop()}">
+
+</marquee><td align=right width=200><a href='elist.asp?boardid=2' title=查看本版精华><font color=#FF0000><B>精华</B></font></a> | <a href=boardstat.asp?reaction=online&boardid=2 title=查看本版在线详细情况>在线</a> | <a href=bbseven.asp?boardid=2 title=查看本版事件>事件</a> | <a href=Boardhelp.asp?boardid=2 title=查看本版帮助>帮助</a> | <a href='?boardid=2&action=batch'>管理</a></td></tr>
+</table>
+</td></tr>
+<form action="admin_batch.asp" method=post name=batch>
+<TR align=middle>
+<Th height=25 width=32 id=tabletitlelink><a href="list.asp?boardid=2&page=&action=batch">状态</a></th>
+<Th width=*>主 题  (点<img src=pic/plus.gif>即可展开贴子列表)</Th>
+<Th width=80>作 者</Th>
+<Th width=64>回复/人气</Th>
+<Th width=195>最后更新 | 回复人</Th>
+</TR>
+<TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg153" style="cursor:hand;" onclick="loadThreadFollow(153,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=153" title="《你认为你目前，最想通过本协会，课程学到什么？》<br>作者：yaowu<br>发表于2003-1-17 11:11:25<br>最后跟贴：回答第一个问题......">你认为你目前，最想通过本协会，课程学到什么？</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=153&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=153&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>13/514</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=153&star=2#19248">2004-9-23&nbsp;22:59</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=45 target=_blank>凡凡</a></TD></TR><tr style="display:none" id="follow153"><td colspan=5 id="followTd153" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(153,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg107" style="cursor:hand;" onclick="loadThreadFollow(107,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=107" title="《如果你在野外与你的同伴走失又迷失了方向，该怎么办？》<br>作者：yaowu<br>发表于2003-1-10 10:28:30<br>最后跟贴：如果忘了回去的......">如果你在野外与你的同伴走失又迷失了方向，该怎么办？</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=107&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=107&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=107&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>23/882</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=107&star=3#18791">2004-7-31&nbsp;08:46</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=579 target=_blank>cerberus</a></TD></TR><tr style="display:none" id="follow107"><td colspan=5 id="followTd107" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(107,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1326" style="cursor:hand;" onclick="loadThreadFollow(1326,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=1326" title="《如果由你来组织一次户外野营或野外自助游》<br>作者：yaowu<br>发表于2003-10-23 22:40:41<br>最后跟贴：生活的乐趣不就......">如果由你来组织一次户外野营或野外自助游</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=1326&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=1326&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>10/419</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=1326&star=2#18790">2004-7-31&nbsp;08:44</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=579 target=_blank>cerberus</a></TD></TR><tr style="display:none" id="follow1326"><td colspan=5 id="followTd1326" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1326,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/lockfolder.gif" alt=本主题已锁定></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1942" style="cursor:hand;" onclick="loadThreadFollow(1942,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=1942" title="《对帽儿岭野外生存生活训练人员选拔及前期准备建议》<br>作者：yaowu<br>发表于2004-4-24 0:12:57<br>最后跟贴：[quote][b]以下......">对帽儿岭野外生存生活训练人员选拔及前期准备建议</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=1942&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=1942&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=1942&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>21/1063</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=1942&star=3#17950">2004-4-28&nbsp;14:40</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=315 target=_blank>小琳子</a></TD></TR><tr style="display:none" id="follow1942"><td colspan=5 id="followTd1942" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1942,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg809" style="cursor:hand;" onclick="loadThreadFollow(809,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=809" title="《各位外出活动的会员们请将你们的感受写出来让大家分享》<br>作者：yaowu<br>发表于2003-7-25 8:38:25<br>最后跟贴：姚老师至今还只......">各位外出活动的会员们请将你们的感受写出来让大家分享</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=809&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=809&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=809&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>22/788</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=809&star=3#17208">2004-4-3&nbsp;21:14</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=440 target=_blank>定风波</a></TD></TR><tr style="display:none" id="follow809"><td colspan=5 id="followTd809" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(809,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg213" style="cursor:hand;" onclick="loadThreadFollow(213,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=213" title="《[讨论]团队的作用1》<br>作者：yaowu<br>发表于2003-3-2 15:45:15<br>最后跟贴：团结就是力量，尤其是在一切靠人力的野外，...">[讨论]团队的作用1</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=213&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=213&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=213&star=3'><font color=#FF0000>3</font></a>  <a href='dispbbs.asp?boardID=2&ID=213&star=4'><font color=#FF0000>4</font></a>  <a href='dispbbs.asp?boardID=2&ID=213&star=5'><font color=#FF0000>5</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>41/1827</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=213&star=5#13414">2003-10-17&nbsp;23:34</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=430 target=_blank>maomisenlin</a></TD></TR><tr style="display:none" id="follow213"><td colspan=5 id="followTd213" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(213,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg963" style="cursor:hand;" onclick="loadThreadFollow(963,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=963" title="《闵行周五上野外生存训练课的来报道！！》<br>作者：locomotive<br>发表于2003-9-12 17:27:54<br>最后跟贴：呵呵&nbsp;你也很漂亮哦！我也想选看起来那么拽...">闵行周五上野外生存训练课的来报道！！</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=963&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=963&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=963&star=3'><font color=#FF0000>3</font></a>  <a href='dispbbs.asp?boardID=2&ID=963&star=4'><font color=#FF0000>4</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=309" target=_blank>locomotive</a></TD><TD class=tablebody1 width=64>39/1476</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=963&star=4#13395">2003-10-17&nbsp;23:07</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=430 target=_blank>maomisenlin</a></TD></TR><tr style="display:none" id="follow963"><td colspan=5 id="followTd963" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(963,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg91" style="cursor:hand;" onclick="loadThreadFollow(91,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=91" title="《如果你在野外突然不舒服，你会告诉你的同伴吗？》<br>作者：yaowu<br>发表于2003-1-3 21:12:12<br>最后跟贴：会的&nbsp;团队最重要了！不应该有什么隐瞒的！...">如果你在野外突然不舒服，你会告诉你的同伴吗？</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=91&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=91&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=91&star=3'><font color=#FF0000>3</font></a>  <a href='dispbbs.asp?boardID=2&ID=91&star=4'><font color=#FF0000>4</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>32/1147</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=91&star=4#13390">2003-10-17&nbsp;23:03</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=430 target=_blank>maomisenlin</a></TD></TR><tr style="display:none" id="follow91"><td colspan=5 id="followTd91" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(91,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg609" style="cursor:hand;" onclick="loadThreadFollow(609,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=609" title="《如果是我们，很想知道大家面临时会如何选择？[讨论]》<br>作者：yaowu<br>发表于2003-5-31 8:53:50<br>最后跟贴：里面问题最大的就是野山雀了，又自私又虚伪...">如果是我们，很想知道大家面临时会如何选择？[讨论]</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=609&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=609&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=609&star=3'><font color=#FF0000>3</font></a>  <a href='dispbbs.asp?boardID=2&ID=609&star=4'><font color=#FF0000>4</font></a>  <a href='dispbbs.asp?boardID=2&ID=609&star=5'><font color=#FF0000>5</font></a>  <a href='dispbbs.asp?boardID=2&ID=609&star=6'><font color=#FF0000>6</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>56/2616</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=609&star=6#13381">2003-10-17&nbsp;22:55</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=430 target=_blank>maomisenlin</a></TD></TR><tr style="display:none" id="follow609"><td colspan=5 id="followTd609" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(609,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img src="pic/nofollow.gif" id="followImg1065"><a href="dispbbs.asp?boardID=2&ID=1065" title="《野营常识》<br>作者：yaowu<br>发表于2003-9-27 6:54:39<br>最后跟贴：你是否也想调整一下，那公式化的的上班生活...">野营常识</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>0/127</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=1065&star=1#11435">2003-9-27&nbsp;06:54</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=16 target=_blank>yaowu</a></TD></TR><tr style="display:none" id="follow1065"><td colspan=5 id="followTd1065" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1065,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg925" style="cursor:hand;" onclick="loadThreadFollow(925,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=925" title="《给新会员点心得体会》<br>作者：nakedrun<br>发表于2003-9-7 16:37:20<br>最后跟贴：是的，全心的投入会给你带来最大的乐趣！=...">给新会员点心得体会</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=217" target=_blank>nakedrun</a></TD><TD class=tablebody1 width=64>8/276</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=925&star=1#10593">2003-9-17&nbsp;03:35</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=172 target=_blank>朱朱</a></TD></TR><tr style="display:none" id="follow925"><td colspan=5 id="followTd925" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(925,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg924" style="cursor:hand;" onclick="loadThreadFollow(924,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=924" title="《你知道遇险时如何得到水、食品、火种及容身之所[讨论]》<br>作者：yaowu<br>发表于2003-9-7 16:34:32<br>最后跟贴：交大这地方其实也很野的，不过可以叫到华联...">你知道遇险时如何得到水、食品、火种及容身之所[讨论]</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>2/159</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=924&star=1#9961">2003-9-8&nbsp;01:14</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=307 target=_blank>woodear</a></TD></TR><tr style="display:none" id="follow924"><td colspan=5 id="followTd924" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(924,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg337" style="cursor:hand;" onclick="loadThreadFollow(337,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=337" title="《户外活动准备2》<br>作者：yaowu<br>发表于2003-3-24 17:30:48<br>最后跟贴：热情、智慧和毅力...">户外活动准备2</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=337&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=337&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=337&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>20/707</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=337&star=3#7305">2003-6-15&nbsp;09:25</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=225 target=_blank>coxfaler</a></TD></TR><tr style="display:none" id="follow337"><td colspan=5 id="followTd337" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(337,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg338" style="cursor:hand;" onclick="loadThreadFollow(338,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=338" title="《户外活动准备3》<br>作者：yaowu<br>发表于2003-3-24 17:34:00<br>最后跟贴：一些必要的工具，比如小刀、多功能工具……...">户外活动准备3</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=338&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=338&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>12/381</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=338&star=2#6305">2003-5-31&nbsp;20:27</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=19 target=_blank>SUNNY</a></TD></TR><tr style="display:none" id="follow338"><td colspan=5 id="followTd338" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(338,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg518" style="cursor:hand;" onclick="loadThreadFollow(518,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=518" title="《如何看待户外运动中的安全问题》<br>作者：yaowu<br>发表于2003-5-11 19:13:52<br>最后跟贴：大家的见解都很有深度啊：）...">如何看待户外运动中的安全问题</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=518&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=518&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=518&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>22/639</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=518&star=3#5418">2003-5-16&nbsp;00:37</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=172 target=_blank>朱朱</a></TD></TR><tr style="display:none" id="follow518"><td colspan=5 id="followTd518" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(518,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg459" style="cursor:hand;" onclick="loadThreadFollow(459,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=459" title="《讨论:在野外最容易出的意外事件是什么？如何防御？》<br>作者：yaowu<br>发表于2003-5-3 2:07:51<br>最后跟贴：呵呵<BR> 下次选拔的时候，应该还要考虑一下...">讨论:在野外最容易出的意外事件是什么？如何防御？</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>8/189</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=459&star=1#3949">2003-5-8&nbsp;23:40</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=100 target=_blank>holawu</a></TD></TR><tr style="display:none" id="follow459"><td colspan=5 id="followTd459" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(459,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg184" style="cursor:hand;" onclick="loadThreadFollow(184,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=184" title="《自信与信任》<br>作者：yaowu<br>发表于2003-2-24 20:43:43<br>最后跟贴：沟通是最重要的...">自信与信任</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=184&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=184&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=184&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>22/703</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=184&star=3#3363">2003-4-22&nbsp;20:08</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=100 target=_blank>holawu</a></TD></TR><tr style="display:none" id="follow184"><td colspan=5 id="followTd184" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(184,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg278" style="cursor:hand;" onclick="loadThreadFollow(278,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=278" title="《户外活动准备&nbsp;1》<br>作者：yaowu<br>发表于2003-3-10 22:00:00<br>最后跟贴：自己平是也可以有这方面的练习，到时候可以...">户外活动准备&nbsp;1</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=278&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=278&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=278&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>21/787</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=278&star=3#3362">2003-4-22&nbsp;20:07</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=100 target=_blank>holawu</a></TD></TR><tr style="display:none" id="follow278"><td colspan=5 id="followTd278" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(278,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg359" style="cursor:hand;" onclick="loadThreadFollow(359,2)" title=展开贴子列表><a href="dispbbs.asp?boardID=2&ID=359" title="《[讨论]你认为参加户外运动需要那些素质？如何获得？》<br>作者：yaowu<br>发表于2003-3-30 21:48:58<br>最后跟贴：很有道理哦！<BR> 户外运动还要有纪律性，...">[讨论]你认为参加户外运动需要那些素质？如何获得？</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=2&ID=359&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=2&ID=359&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=2&ID=359&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=16" target=_blank>yaowu</a></TD><TD class=tablebody1 width=64>25/858</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=2&id=359&star=3#3235">2003-4-20&nbsp;13:50</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=4 target=_blank>camel</a></TD></TR><tr style="display:none" id="follow359"><td colspan=5 id="followTd359" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(359,2)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr>
+<tr><td height=30 width=100% class=tablebody1 colspan=5><select name=newboard size=1>
+<option selected>移动帖子请选择</option>
+<option>╋ 胡说八道</option><option value="1">　├有话就说</option><option value="2">　├每周论题</option><option value="5">　├活动快讯</option><option value="7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="3">　├装备总集</option><option value="6">　├理论与实践</option><option value="10">　├攀岩与登山</option><option value="11">　├自行车</option><option>╋ 管理区</option><option value="9">　├协会事务</option><option value="12">　├回收站</option>
+<input type=hidden value="2" name=boardid><input type=checkbox name=chkall value=on onclick='CheckAll(this.form)'>全选/取消 <input type=radio name=action value=dele>批量删除 <input type=radio name=action value=move>批量移动 <input type=radio name=action value=isbest>批量精华 <input type=radio name=action value=lock>批量锁定 <input type=radio name=action value=istop>批量固顶 <input type=submit name=Submit value=执行  onclick="{if(confirm('您确定执行的操作吗?')){this.document.batch.submit();return true;}return false;}"></font></td></tr></form>
+
+</table>
+
+<table border=0 cellpadding=0 cellspacing=3 width=97% align=center >
+</form>
+<form method=post action=list.asp>
+<input type=hidden name=selTimeLimit value=''><tr>
+<td valign=middle>页次：<b>1</b>/<b>1</b>页 每页<b>26</b> 主题数<b>19</b></td>
+<td valign=middle><div align=right >分页：
+<font face=webdings color=#FF0000>9</font>   <b><font color=#FF0000>1</font> </b><font face=webdings color=#FF0000>:</font>   
+转到:<input type=text name=Page size=3 maxlength=10  value='1'><input type=submit value=Go name=submit>
+</div></td></tr>
+<input type=hidden name=BoardID value='2'>
+</form></table>
+
+<table border=0 cellpadding=0 cellspacing=3 width="97%" align=center>
+<tr>
+<FORM METHOD=POST ACTION="queryresult.asp?boardid=2&sType=2&SearchDate=30&pSearch=1">
+<td width=50% valign=middle nowrap height=40>
+快速搜索：<input type=text name="keyword">&nbsp;<input type=submit name=submit value="搜索">
+</td>
+</FORM>
+<td valign=middle nowrap width=50%> <div align=right>
+<select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}">
+<option selected>跳转论坛至...</option>
+<option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=12">　├回收站</option>
+</select><div></td></tr></table>
+<BR>
+<table cellspacing=1 cellpadding=3 width=100% class=tableborder1 align=center><tr>
+    <th width=80% align=left>　<font color="#0000FF">◇</font><font color="#999999">◇</font><font color="#0000FF">◇</font>上海交通大学野外生存素质拓展基地图例</th>
+<th noWrap width=20% align=right>所有时间均为 - face/ &nbsp;</th>
+</tr>
+<tr><td colspan=2 class=tablebody1>
+<table cellspacing=4 cellpadding=0 width=92% border=0 align=center>
+<tr><td><img src=pic/blue/folder.gif> 开放的主题</td>
+<td><img src=pic/blue/hotfolder.gif> 回复超过10贴</td>
+<td><img src=pic/blue/lockfolder.gif> 锁定的主题</td>
+<td><img src=pic/istop.gif> 固定顶端的主题 </td>
+<td> <img src=pic/isbest.gif> 精华帖子 </td>
+<td> <img src=pic/closedb.gif> 投票帖子 </td>
+</tr>
+</table>
+</td></tr></table>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：199.219毫秒
+</td></tr>
+</table>
+</body>
+</html>

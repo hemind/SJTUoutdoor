@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：登山绳的选择[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：登山绳的选择[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1771&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>47</B> 个阅读者<a href="go.asp?BoardID=10&sid=1771"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1771&id=1771&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1771&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 登山绳的选择[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1771"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1771"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1771"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1771"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1771"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1771', ' 上海交通大学野外生存素质拓展基地 - 登山绳的选择[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16796><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16796&id=1771&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16796&id=1771&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>登山绳的选择[转帖]</b><br>1、选择什么样的绳子<BR>　　A.半静力绳（Semi-static rope）<BR>　　为探洞（caving）和探谷（canyoning）设计，它们弹性中等，能够吸收制止一些有<BR>限坠落的能量。<BR>　　B.动力绳（Dynamic rope）<BR>　　靠其技术特征和动力贮备（dynamic raservers），它能减缓冲击力，吸收坠落能量<BR>。在攀岩(climbing)和登山(mountainerring)中使用。<BR>　　C.单绳(Single rope)<BR>　　正象其名字所说的那样，是单根使用的。为攀岩面设计，它最适用于近于垂直角度<BR>和不从绳索下降的路线。<BR>　　D.双绳(Double rope)<BR>　　双绳主要用于登山和必须靠绳索下降的长路线攀岩。（温注：双绳比单绳细，一般<BR>同时用两根，坠落危险较小时也可单根使用）。它在保护的质量并不是十分可靠时，比<BR>如冰雪环境中，表现同样是很好的。<BR>　　E.孪生绳(Twin rope)<BR>　　由于总是必须两股一起使用，所以实际用途十分有限，最好停止这种绳子的生产。<BR>我们已经有了一种双绳IceLine和孪生绳同样轻。<BR>　　F.不同的玩法，不同的绳子(Rope by activity)<BR>　　登山、攀岩、探洞或是旅游用绳，从技术上说是分别针对不同的活动的，所以最好<BR>选择最适于你的范围和水平的绳索。<BR>　　G.绳头上的标志<BR>　　在绳头一般标有：<BR>　　H. 绳长<BR>　　I. 绳类型标志： ① 单绳 ； （1/2） 双绳 ；（00）孪生绳 ； C 探谷绳 ；O 旅<BR>游绳<BR>　　J. 遵循的标准： CE 欧洲标准 UIAA 国际登联标准<BR>　　2、基本指标<BR>　　A.冲击力(Impact force)<BR>　　<BR>　　对单绳来说，标准规定制止一个80KG重的物体发生的坠落系数是2（温注：坠落系数<BR>见后文）的坠落过程中最大不能超过12千牛。对双绳来说是在制止55KG系数为2的坠落中<BR>不超过8千牛。在经受了多次冲击和使用后，绳子的冲击力会增大。你所选用绳子的冲击<BR>力越小，就能使用得更长久。<BR>　　B.打结能力(Knotability)<BR>　　一个承受10KG拉力的单结的内径必须小于绳径的1.1倍，这个数越小，绳子越柔韧。</P><P>　　C.下坠次数(Number of falls)<BR>　　为满足标准，绳子必须能连续承受5次系数为2的坠落。可用的坠落次数随绳子使用<BR>时间而减少，所以坠落次数越大的绳子就能用得更久。注意：双绳和单绳的坠落次数没<BR>有可比性，因为它们测试时坠落体重量不同。<BR>　　D.锭数(Number of bobbins)<BR>　　护套包裹在绳芯的外面，它是绳子的可见部分。它由很多股单丝编成，每股单绕在<BR>一个锭子上，对相同的直径来说，锭数越多护套的动力性(dynamic)越好，锭数越少，越<BR>耐磨。所以一个人为动力性更好而选择48锭的单绳(Top Gun)或为更耐磨而选择32锭的单<BR>绳(Wall Master III).<BR>　　E.延展性(Extension)<BR>　　在80KG的拉力下，单绳不能超过8%，双绳不能超过10%。正是这弹性使绳子能吸收坠<BR>落能量。延展不能太大，否则它将变成一条蹦极绳。<BR>　　F.直径和重量(Diameter and weight)<BR>　　直径越大的绳子一般有更长的可用期，但它们也更重更不好使。在重量和易用性重<BR>要的线路上，最好选细些的绳子。绳子的总体性能应做为重量和动力性能的平衡来考虑<BR>。建议：对尺寸的测量不象重量那么精确，故最好比较绳子的重量而不是尺寸。<BR>　　G.护套滑动 (Sheath slippage)<BR>　　护套和线芯是两个独立的部分，若它们的结构匹配不好的话，将会有相对滑动的趋<BR>势，护套开始变形，在下降器的不断摩擦下，在绳芯周围形成松散地段和鼓包，发生了<BR>管套效应。这种现象导致更快的磨损，特别是在上方保护或用得厉害时，它还会导致绳<BR>子阻塞在下降器或保护装置上的危险。注释：这是唯一一项欧洲标准(EuroNorm)与国际<BR>登联(UIAA)要求不同的指标。欧洲标准规定把2米绳子在特定装置上拉过以后，护套滑动<BR>小于40mm或2%，而UIAA更严格，要求小于20mm或1%<BR>　　3、坠落系数<BR>　　坠落系数由坠落的严重程度决定。系数越大坠落越严重。在攀岩中，这个什是从0到<BR>2，它由下坠距离除以起作用的绳子长度计算出。坠落的严重程度不是坠落距离的函数，<BR>而是这个比率，因为绳子越长，它可作更长的延伸来吸收坠落能量。例如下坠5米，绳长<BR>2.5米，下坠系数是2。<BR>　　4、冲击力<BR>　　<BR>　　A．冲击力：<BR>　　是指坠落被制止住时传给攀登者的力量。它也延着绳子传到保护点(anchor points<BR>)、铁锁(carabiners)和保护人(belayer)。绳子的作用是吸收坠落能量，减小冲击力和<BR>它的作用。绳子的选择是基本因素。在这方面，绳子的质量是根据它导致低冲击力的能<BR>力和经受一次又一次冲击后保存谤种能力的本领来判断的。<BR>　　<BR>　　B．最大冲击力<BR>　　这是依标准所要求测量的，也就是最严重的情况：第一次坠落，系数是2。这就是在<BR>绳子的性能指标中给出的数字。<BR>　　C．冲击力的变化在连续的坠落中，绳子的动力性能减弱，冲击力加强，一条新绳的<BR>冲击力若接近标准的上限，那它就不能象另一条有更好动力性能的绳子一样用得长久。</P><P>　　<BR>　　D.冲击力太大会怎么样？<BR>　　E.在受力保护点(running belay anchor)的危险<BR>　　在坠落中，保护点受到两个力的作用：攀登者的和保护者的，这两者合成一股拉力<BR>。若绳子不能吸收足够的能量，保护点的受力会很大，增加了保护点失效的危险。低冲<BR>击力的绳子是减小保护点受力的关键。<BR>　　F.保护困难<BR>　　<BR>　　如果传给保护人的力量太大,制止坠落会更困难，绳子在保护装备里会跑得太快。<BR>　　G.攀登人的危险<BR>　　如果下坠没有很好地控制住，攀登人就要尝受直接后果。<BR>　　攀登主绳的性能<BR>　　首先，攀登绳索必须有UIAA认证。 UIAA对合格的攀登绳索有严格的要求，在此不再<BR>多说。对单绳来讲，最重要的两条：首次冲击力不得大于12kN（坠落物重80kg)，间隔五<BR>分钟（坠落系数为2）的连续坠落五次以内绳不断。 但大家不要以为同样标有UIAA的绳<BR>索性能相同。性能差别很大，使用寿命差别也很大。 怎样去判断绳索性能的差别，主要<BR>还是从以上两方面去看：最小的首次冲击力（impact force)意味着对攀登者坠落的更好<BR>的保护（及对保护者和固定点更小的拉力），UIAA falls越高意味绳索更长的使用寿命<BR>（绳索在一次又一次坠落后保持延展性的能力）。 在此将世界上几个主要绳索制造商的<BR>同级别绳索（9.7mm的不能和11mm的比）性能做一个性能比较：以供大家参考<BR>　　品牌　 　　| 产地 | 型号 | 直径 | impact | force | UIAA | falls | 延展率<BR> | 综合评价 |<BR>　　MAMMUT 　　| 瑞士 | Flash| ND 　| 10.5mm | 9.0kN | 8-10 | 5.9%　| 3<BR>　　BEAL　 　　| 法国 | TOP　| GUN　| 10.5mm | 6.8kN |　12　| 7.6%　| 4+<BR>　　Rivory 　　| 法国 | VIRUS| 10.2mm| 9.9kN | 6 　　| -- 　| 2<BR>　　EDELRID　　| 德国 |DUNALOC|10.5mm| 8.9kN | 9-11　| 6.6% | 4-<BR>　　EDELWEISE　| 奥地利|STRATOS|10.5mm|9.0kN | 10　　|　--　| 3+<BR>　　BLUE WATER | 美国 |Single|10.5mm|9.0kN　|　　 8　| 5.2% | 3-<BR>　　COUSIN 　　| 法国 |SUPERLIGHT|10.5mm|7.6kN| 8-10 | 5.4% | 4-<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 2:59:20</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1771&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1771&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1771" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1771" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1771" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1771&replyID=16796" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1771" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1771" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1771" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：189.453毫秒
+</td></tr>
+</table>
+</body>
+</html>

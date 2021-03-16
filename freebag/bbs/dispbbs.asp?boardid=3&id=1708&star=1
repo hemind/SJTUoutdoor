@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--装备总集浏览：关于冲锋衣z</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=3">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=3">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=3">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=3&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 装备说明、使用保养、供求信息
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=3>装备总集</a> →  浏览：关于冲锋衣z
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=3"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=3"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=3&id=1708&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>743</B> 个阅读者<a href="go.asp?BoardID=3&sid=1708"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=3&replyID=1708&id=1708&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=3&sid=1708&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 关于冲锋衣z</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=3&id=1708"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=3&id=1708"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=3&id=1708"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=3&id=1708"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=3&id=1708"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=3&id=1708', ' 上海交通大学野外生存素质拓展基地 - 关于冲锋衣z')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16620><font color=#990000><B>小琳子</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：553<br>&nbsp;&nbsp;积分：1046<br>&nbsp;&nbsp;注册：2003-9-12<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=小琳子',500,400)"><img src="pic/message.gif" border=0 alt="给小琳子发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=小琳子" target=_blank><img src="pic/friend.gif" border=0 alt="把小琳子加入好友"></a>&nbsp;<a href="dispuser.asp?id=315" target=_blank><img src="pic/profile.gif" border=0 alt="查看小琳子的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=小琳子&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索小琳子在装备总集的所有贴子"></a>&nbsp;<A href="mailto:changlinaa@21cn.com"><IMG alt="点击这里发送电邮给小琳子" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=16620&id=1708&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=16620&id=1708&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>关于冲锋衣z</b><br>引自绿野，作者faint<BR>  <BR>直到开始动手写这个回复，才发现自己并不清楚冲锋衣这个词在汉语中的来源， <BR>不知道是大陆自己搞的翻译还是从港台或者华语圈内其他国家引入的。 <BR>个人认为这个翻译并不算好，因为单纯从字面上来讲， <BR>冲锋衣就是登山冲顶时所穿的外套，所以哪怕是最经典的皮袍子也可以叫冲锋衣； <BR>而现在被户外店叫做冲锋衣的东西，实际上包含了Waterproof/breathable <BR>parka/jacket和Water-resistant/wind-resistant parka/jacket这两类价格相差很大的<BR>户外服装，甚至还包括一部分rain <BR>coat，这就造成了一定程度上的混乱。 </P><P>大家一般提到冲锋衣时所指的东西，在主要的生产商产品目录上大多被称为parka，也有<BR>少量的jacket。 <BR>按韦伯斯特词典的解释，parka这个词来自俄语，本意是一种俄国北极地区的带风帽的皮<BR>质套头衫。 <BR>后来引申为一切带有风帽并且可加装衬里的套头衫或夹克的统称。 <BR>式样上，现代的parka一般做成短风衣的款式，风帽上有滑扣之类的附件可以调节风帽形<BR>状和头型吻合； <BR>领口处通常有加厚或是一层薄的抓绒衬里以减少这里的热量损失； <BR>肩肘部有增强耐磨性的加厚； <BR>内包开口在拉练以外以减少热量损失，衣袋开口较高或有胸袋，避免被背包腰带压住衣<BR>袋取不出东西的情况发生； <BR>衣服的后片比前片略长，袖管略向前弯，以补偿运动； <BR>通常会有腋下拉链（但是也有例外，比如TNF臭名昭著的Core Vent系统），有的会有雪<BR>裙。 <BR>jacket的样式相对比较生活化，一般没有风帽。 </P><P>根据材料，parka和jacket又可以分成windproof/breathable，windproof/non-breathab<BR>le和wind-resistant/water-resistant三种，windproof/breathable的代表当然是著名<BR>的GTX。windproof/non-breathable也许有时会做得很fancy，但实际上就是塑料雨衣。<BR>至于wind-resistant/water-resistant的衣料，即使在小雨里淋久了也会漏水，在户外<BR>活动中并不是很实用，城市旅游中或许可以考虑。时装专卖店里卖的风雨衣多半是这类<BR>货色。后面两类除了在衣料上有区别，设计上也常常会简化掉一些东西，比如腋下拉链<BR>，雪裙，袖筒形状，风帽滑扣等等，从而看起来更生活化，不是那么奇怪。 </P><P>至于raincoat，并不是我们印象中的自行车雨披或者一次性塑料雨衣裤。而是对相对par<BR>ka而言比较轻巧的防水衣物的总称——有时也被归类为Ultralight rainwear。这类衣物<BR>为了减轻重量，通常取消了内衬，防水透气材料直接附着在面料内表面，parka上的加厚<BR>和其他小东西也被取消了，当然，也不能加挂抓绒内衬。raincoat牺牲了一定的强度换<BR>来的是更轻的重量——可以比同样大小的parka轻上1/3和更小的压缩体积——压缩后不<BR>到parka的一半。 </P><P>价格上当然是waterproof/breathable parka最贵，一般会在$200-500，water-resistan<BR>t/wind-resistant的就要便宜很多，多在几十美元到$200之间。raincoat里面waterproo<BR>f/breathable的也在这个价格段内。waterproof/non-breathable的最便宜——塑料雨衣<BR>再豪华，仍然只是塑料雨衣——几美元到几十美元就可以搞定（不过这东西的强度如何<BR>值得怀疑：我就在一个周末的两天里亲眼看到某人新买的塑料雨衣怎么从衣服一步一步<BR>变成麻袋片的）。因为国内大多数户外店并不会明确区分这几类服装而只是把它们统称<BR>为冲锋衣，这就需要你在购买的时候自己留心，多问多看。 </P><P>从上面提到的parka结构特征可以看出，这类衣服设计的时候优先考虑的是寒冷环境中的<BR>保暖，所以在不是那么寒冷的环境下，你绝不能预期它有很高的表现——即便是GTX-XCR<BR>的衣服，在北京周边这样的气候下，春夏秋三季穿上它再背上几十斤重的大包上串下跳<BR>半个小时，衣服里面也会积上一滩汗水排不出去。因为我主要在春夏秋三季外出活动，<BR>并且比较看重重量和透气性，所以我偏爱raincoat；当然对于那些活动强度更大，偏重<BR>考虑衣服的强度和可靠性的驴友，waterproof/breathable parka会是更合适的选择。如<BR>果只是在城市里旅游，一个小时内肯定能找到地方避雨，一件便宜的water-resistant/w<BR>ind-resistant jacket足矣，没有必要花更多的钱去追求永远用不到的那些功能。归根<BR>到底，还是那个老问题：我到底需要什么？弄明白了自己的需要，就会少花些冤枉钱了<BR>。  </P><P><div align=right><font color=#000066>[此贴子已经被作者于2004-3-19 2:50:39编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=315&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-19 2:33:20</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1708&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1708&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18603><font color=#000066><B>jinn</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：新手上路<BR>&nbsp;&nbsp;文章：6<br>&nbsp;&nbsp;积分：6<br>&nbsp;&nbsp;注册：2004-6-11<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=jinn',500,400)"><img src="pic/message.gif" border=0 alt="给jinn发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=jinn" target=_blank><img src="pic/friend.gif" border=0 alt="把jinn加入好友"></a>&nbsp;<a href="dispuser.asp?id=624" target=_blank><img src="pic/profile.gif" border=0 alt="查看jinn的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=jinn&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索jinn在装备总集的所有贴子"></a>&nbsp;<A href="mailto:BELL@CITIZ.NET"><IMG alt="点击这里发送电邮给jinn" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=18603&id=1708&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=18603&id=1708&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>看<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.rei.com>www.rei.com</a>上的分类<BR>上面经常有打折的好东西呀<BR>衣服打折也很多，尤其是WOMEN的<BR>PRIMUS OMNIFUEL 84美金+8%的税也比国内便宜<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=624&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-6-11 11:05:15</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18611><font color=#990000><B>maonaer</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：270<br>&nbsp;&nbsp;积分：724<br>&nbsp;&nbsp;注册：2003-3-16<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=maonaer',500,400)"><img src="pic/message.gif" border=0 alt="给maonaer发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=maonaer" target=_blank><img src="pic/friend.gif" border=0 alt="把maonaer加入好友"></a>&nbsp;<a href="dispuser.asp?id=166" target=_blank><img src="pic/profile.gif" border=0 alt="查看maonaer的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=maonaer&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索maonaer在装备总集的所有贴子"></a>&nbsp;<A href="mailto:maonaer@sina.com"><IMG alt="点击这里发送电邮给maonaer" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=2103485" target=_blank title="maonaer[2103485]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=18611&id=1708&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=18611&id=1708&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>算上运费了没有啊？？？？</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=166&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-6-12 10:40:22</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>3</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=3&ID=1708" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=3&ID=1708" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=3&ID=1708" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=3&ID=1708&replyID=16620" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=3&ID=1708" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=3&ID=1708" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=3&ID=1708" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=3&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：210.938毫秒
+</td></tr>
+</table>
+</body>
+</html>

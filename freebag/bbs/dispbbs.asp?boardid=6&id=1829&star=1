@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：骨折后的饮食</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、野外穿越的基本知识
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：骨折后的饮食
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1829&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>115</B> 个阅读者<a href="go.asp?BoardID=6&sid=1829"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1829&id=1829&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1829&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 骨折后的饮食</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1829"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1829"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1829"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1829"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1829"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1829', ' 上海交通大学野外生存素质拓展基地 - 骨折后的饮食')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17050><font color=#000066><B>激情似火</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：88<br>&nbsp;&nbsp;积分：188<br>&nbsp;&nbsp;注册：2003-9-25<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=激情似火',500,400)"><img src="pic/message.gif" border=0 alt="给激情似火发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=激情似火" target=_blank><img src="pic/friend.gif" border=0 alt="把激情似火加入好友"></a>&nbsp;<a href="dispuser.asp?id=358" target=_blank><img src="pic/profile.gif" border=0 alt="查看激情似火的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=激情似火&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索激情似火在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:iamkuangbiao@163.com"><IMG alt="点击这里发送电邮给激情似火" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17050&id=1829&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17050&id=1829&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>骨折后的饮食</b><br>骨折病人因其骨骼的愈合时间长，对人体生理干扰较大。所以，更应重视对病人的饮食调理，减轻病人痛苦，促进骨骼愈合。<BR>　　大部分骨折病人不伴有内脏损伤，但由于经历了创伤或手术打击，终日卧床，运动减少，原先的生活节律被打乱，往往会食欲下降，不想进食。老年患者、体质较弱或心理承受能力差的人更容易发生，受伤或手术后短时期内尤为明显。在心理护理的基础上，要在饮食上多下功夫。做到营养丰富，色、香、味俱佳，刺激食欲的提升。适当多吃一些辣椒、西红柿、苋菜、青菜、包心菜、萝卜等维生素C含量丰富的蔬菜，以促进骨痂生长和伤口愈合。 <BR>　　骨骼主要由有机物和无机物所构成。无机物中占比例最多的是钙，人体内99 %的钙集中在骨骼内。有人认为骨折患者多吃些钙质，可以加快愈合；又有人认为，骨头汤不宜吃，吃了反而对愈合不利。根据实践和研究显示，未发现骨折病人需要额外补充钙质的证据。但骨头汤营养丰富，既含蛋白又含钙质，决不可能成为骨折愈合的障碍，作为价廉物美的一般食物，并非不可。但有一点是肯定的，老年人因骨质疏松发生骨折，在治疗骨折的同时，必须积极补钙，同时还要补充维生素D，以协助吸收。 <BR>　　据最新研究，骨折患者可能需要补充锌、铁、锰等微量元素。这几种微量元素，有的参与组成人体代谢活动中的酶；有的是合成骨胶原和肌红蛋白的原料。经测定，骨折后病人体内这种微量元素的血清浓度均明显下降。因此，设想在骨折早期适当补充，可能有利于愈合。动物肝脏、海产品、黄豆、葵花子、蘑菇中含锌较多；动物肝脏、鸡蛋、豆类、绿叶蔬菜、小麦、面包中含铁较多；麦片、芥菜、蛋黄、乳酪中含锰较多。 <BR>　　骨折早期，病人因忧思少动，气机郁滞，无力推运，常有大便秘结，卧床病人更是多见。故宜多食富含纤维素的蔬菜，吃些香蕉、蜂蜜等促进排便的食物。必要时服用通便药物，如麻仁丸6克～9克，每日1次或2次；或液体石蜡20～30毫升，每晚1次。卧床病人易发生尿路感染和尿路结石，宜适当多饮水利尿。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=358&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-30 0:29:51</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1829&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1829&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17051><font color=#000066><B>激情似火</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：88<br>&nbsp;&nbsp;积分：188<br>&nbsp;&nbsp;注册：2003-9-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=激情似火',500,400)"><img src="pic/message.gif" border=0 alt="给激情似火发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=激情似火" target=_blank><img src="pic/friend.gif" border=0 alt="把激情似火加入好友"></a>&nbsp;<a href="dispuser.asp?id=358" target=_blank><img src="pic/profile.gif" border=0 alt="查看激情似火的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=激情似火&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索激情似火在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:iamkuangbiao@163.com"><IMG alt="点击这里发送电邮给激情似火" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17051&id=1829&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17051&id=1829&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>增強食譜</P><P>Breakfast<BR> <BR>有機豆漿 + 有機燕麥片 / 有機古麥薄脆餅  <BR>Organic Bonsoy + Organic Oat Flakes / Organic Spelt Snack  <BR> <BR> <BR>營養知識： <BR>豆漿含豐富鐵、鈣、鉀、維他命B, E, F以及卵磷脂，增強免疫系統，預防感染疾病。 <BR>Bonsoy, riches in Iron, Calcium, Potassium, Vitamins B, E & F, helps enhancing immunity and preventing from being infected.<BR> </P><P><BR> </P><P> </P><P> </P><P>Lunch <BR>瘦肉雜菌配苜蓿湯麵 / 有機車厘茄配羅馬生菜沙律  <BR>+ <BR>桑果汁 / 檸蜜(椴樹蜜) / 蕃石榴茶 / 有機甘荀汁 <BR>Alfalfa Soup Noodle with Pork & Wild Mushrooms / Organic Tomato, Cherry & Lettuce, Romaine Salad  <BR>+ <BR>Mulberry Juice / Linden Honey Lemon Water / Guava Tea / Organic Carrot Juice </P><P> <BR> </P><P></P><P><BR> </P><P>  <BR>營養知識： <BR>車厘茄含豐富維他命C、纖維及茄紅素，可提高人體免疫能力、抗衰老及有護膚效用。 <BR>Organic Tomato, Cherry, riches in vitamin C, dietary fibers and Lycopene, helps enhancing immunity, nourishing skin and slowing down aging of the human body. <BR>  <BR>苜蓿麵條含豐富營養素包括維他命B群、A、D和E、蛋白質、不飽和脂肪酸，不含防腐劑。幫助排出體內毒素及有害酸性物質，並可調理腸胃。 <BR>Alfalfa Noodle, riches in Vitamin B complex, A, D and E, Protein, Unsaturated Fatty Acid and no preservatives, helps detoxifying and removing harmful acids in the body. Cleanse and Tone the Intestines. <BR>  <BR>建議食法： <BR>瘦肉雜菌配苜蓿湯麵 Alfalfa Soup Noodle with Pork & Wild Mushrooms <BR>材料 Ingredients： <BR>瘦肉 Several slices of lean Pork 小?(略為調味) seasoned <BR>雜菌 Ox-liver shaped fungus, mushrooms… 任何您喜歡的菇菌 (如牛肝菌、香菇、秀珍菇、金菇等) <BR>苜蓿麵 Alfalfa Noodle 適量 </P><P>作法 Directions： <BR>1) </P><P> <BR> 將苜蓿麵煮熟後澀乾水份備用， <BR>Boil appropriate amount of water and then cook the Alfalfa noodles in the boiled water for 3-5 minutes. Dry it for later use. <BR>2)  煮開一小鍋水後，加入瘦肉、雜菌及適量的調味， <BR>Start 2 cups of water to boil in the pot; add sliced lean pork, the chopped fungus, mushrooms and seasonings in the boiling water. <BR>3)  瘦肉煮熟後，再加入已熟的苜蓿麵，熄火，即可食用。 <BR>Bring the noodle to boil again to serve. <BR> </P><P> </P><P> </P><P> </P><P>Tea <BR>小紅莓乾 / 車厘子乾 / 有機小麥餅 / 高纖燕麥班戟 <BR>+ <BR>有機綠茶 <BR>Dried Cranberry / Red Cherries / Organic wheat biscuit / Organic Oat Pancakes <BR>+ <BR>Organic Green Tea  <BR> </P><P><BR> </P><P>  <BR>營養知識： <BR>燕麥含豐富矽、磷，健脾益氣、強化骨骼、能幫助清除消化系統4及動脈的膽固醇、重組神經及生殖系統、有助強化心臟肌肉。 <BR>Oats, riches in Silicon and Phosphorus, is essential for strengthening bones. Helps removing Cholesterol from the Digestive Tract & Arteries Restore Nervous & Reproductive System. Strengthen Spleen-Pancreas & Cardiac Muscles . <BR>  <BR>建議食法： <BR>高纖燕麥班戟 Organic Seaweed Brown Rice Congee  <BR>材料 Ingredients： <BR>燕麥糠 Organic Oat Bran  50 克gm <BR>麵粉 Flour  50 克gm </P><P>發粉 Baking Powder 1 茶匙 teaspoon <BR>雞蛋 Egg, Beaten 1 隻 pc <BR>牛油溶液 Melted Butter 1 湯匙 Tablespoon <BR>奶 Milk 20 毫升ml <BR>糖 Sugar 50 克gm <BR>作法 Directions： <BR>1)<BR> 將所有材料加水攪勻成幼滑粉漿， <BR>Put everything in the bowl and mix well with some water. <BR>2)<BR> 平底鍋抹少釭o，燒熱，轉慢火，  <BR>Heat 1/2 teaspoon of oil until very hot. <BR>3)  倒入適量粉漿，煎至金黃色即成。 <BR>Put some pancake mix on the frying pan. Fry until brown, flip and repeat. <BR>4)  食時可塗上牛油及蜜糖。 <BR>Serve hot, with butter or honey. <BR> </P><P> </P><P> </P><P> </P><P>Dinner <BR>上湯燴有機甘筍 / 蒜泥菠菜  <BR>+ <BR>雞肉有機糙米菜飯 / 有機海帶糙米粥  <BR>+ <BR>有機雜菜湯 <BR> </P><P><BR> <BR>Organic Carrot / Spinach <BR>+ <BR>Shanghai-style Organic Brown Rice with Chicken / Organic Seaweed Brown Rice Congee  <BR>+ <BR>Organic Vegetables Soup <BR> <BR>  <BR>營養知識： <BR>菠菜含豐富維他命A及C維他命A是維持正常視力的重要營養素，有助體內細胞組織健康生長，增強對傳染病的抵抗力，能促進牙齒及骨骼正常生長。維他命C具有促進血液循環、消除疲勞、改善白血球機能、增強免疫力、預防壞血病、骨折降低膽固醇及高血壓、預防動脈硬化等多種弁遄C <BR>Spinach, is rich in Vitamins A and C.  <BR>  <BR>建議食法： <BR>雞肉有機糙米菜飯 Shanghai-style Organic Brown Rice with Chicken <BR>材料 Ingredients： <BR>雞柳 (略為調味) Chicken Breast 2 件 pcs  <BR>有機小棠菜 Brassica, Green 2 棵 pcs <BR>有機糙米 Brassica, Green 適量 <BR>作法 Directions： <BR>1) <BR> 把小棠菜洗淨，煮熟後切粒備用， <BR>Cook and slice the Vegetables after washed. <BR>2) 雞柳洗淨，切幼條及調味，煮熟備用， <BR>Cook the Chicken Breast after wash. Slice and season for later use. <BR>3)  有機糙米洗淨，煮熟後加小陪嘍Q，再加入預備好的小棠菜粒及雞柳撈勻， 即可食用。 <BR>Wash Organic Brown Rice. Add salt after cooked. Mix with all other . <BR> <BR>有機海帶糙米粥 Organic Seaweed Brown Rice Congee  <BR>材料 Ingredients： <BR>海帶 Seaweed  1 件 pc  <BR>有機綠豆、小米、糙米 Some Organic Mung Beans, Millet and Brown Rice 少量 <BR>作法 Directions： <BR>1) <BR> 海帶洗淨，切幼條備用 <BR>Wash Seaweed, slice for use. <BR>2)  把有機綠豆、小米、糙米先用水浸透，約半小時 <BR>Soak Organic Mung Beans, Millet and Brown Rice. <BR>3)  煮開一鍋水後，再加入把有機綠豆、小米、糙米及海帶條，煮熟後加入適量鹽調味即可。  <BR>Start 2 cups of water to boil; add all ingredients into water. Bring to boil. Seasoning before serve. <BR> <BR>有機雜菜湯 Organic Vegetables Soup <BR>材料 Ingredients： <BR>洋蔥 Onion 1 小個 pc (small) <BR>有機甘筍 Organic Carrot  適量 Some </P><P>西芹 Celery  適量 Some <BR>椰菜 Cabbage 適量 Some <BR>薯仔 Potato 1 個 pc <BR>有機蕃茄 Organic Tomatoes 2 個 pcs <BR>橄欖油 Olive Oil  1 茶匙 teaspoon  <BR>作法 Directions： <BR>1) 先將洋蔥、有機甘筍、西芹炒香， <BR>Add oil in the saucepan at medium heat. Add onions, organic carrot, celery, cook for 5 minutes, stirring occasionally. <BR>2) 再加入其他材料，倒入適量水，煮開後再煮15分鐘，加鹽調味，即可食用。  <BR>Add other vegetables, stir well with some water, heat and cover. Simmer over low heat for 15 minutes, add salt and serve. <BR> </P><P></P><P><div align=right><font color=#000066>[此贴子已经被作者于2004-3-30 0:31:11编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=358&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-30 0:30:43</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17052><font color=#000066><B>激情似火</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：88<br>&nbsp;&nbsp;积分：188<br>&nbsp;&nbsp;注册：2003-9-25<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=激情似火',500,400)"><img src="pic/message.gif" border=0 alt="给激情似火发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=激情似火" target=_blank><img src="pic/friend.gif" border=0 alt="把激情似火加入好友"></a>&nbsp;<a href="dispuser.asp?id=358" target=_blank><img src="pic/profile.gif" border=0 alt="查看激情似火的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=激情似火&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索激情似火在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:iamkuangbiao@163.com"><IMG alt="点击这里发送电邮给激情似火" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17052&id=1829&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17052&id=1829&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>骨折病人的饮食调养</P><P>   骨折病人除了在最初一些日子里可能伴有轻微的全身症状外，其余时间里大多没有全身症状，所以和一般健康人的日常饮食相仿，选用多品种、富有各种营养的饮食就可以了。要注意使食物易于消化和吸收，慎用对呼吸道和消化道有不良刺激的辛辣品（辣椒、生葱、芥末、胡椒）等。在全身症状明显的时候，应给予介于正常饮食和半流质饮食之间所谓软饭菜，供给的食物必须少含渣滓，便于咀嚼和消化，烹调时须切碎煮软，不宜油煎、油炸。 以上是骨折病人的一般饮食原则。为了更快更好地促进骨折愈合，骨折病人应根据骨折愈合的早、中、晚三个阶段，根据病情的发展，配以不同的食物，以促进血肿吸收或骨痂生成。<BR>   早期（1-2周）：受伤部位瘀血肿胀，经络不通，气血阻滞，此期治疗以活血化瘀，行气消散为主。中医认为，“瘀不去则骨不能生”、“瘀去新骨生”。可见，消肿散瘀为骨折愈合之首要。饮食配合原则上以清淡为主，如蔬菜、蛋类、豆制品、水果、汤、瘦肉等，忌食酸辣、燥热、油腻，尤不可过早施以肥腻滋补之品，如骨头汤、肥鸡、炖水等，否则瘀血积滞，难以消散，必致拖延病程，使骨痂生长迟缓，影响日后关节功能的恢复。在此阶段，食疗可用三七10克，当归10克，肉鸽1只，共炖熟烂，汤肉并进，每日1次，连续7-10天。<BR>   中期（2-4周）：瘀肿大部分吸收，此期治疗以和营止痛、祛瘀生新、接骨续筋为主。饮食上由清淡转为适当的高营养补充，以满足骨痂生长的需要，可在初期的食谱上加以骨头汤、田七煲鸡、动物肝脏之类，以补给更多的维生素A、D，钙及蛋白质。食疗可用当归10克，骨碎补15克，续断10克，新鲜猪排或牛排骨250克，炖煮1小时以上，汤肉共进，连用2周。<BR>  后期（5周以上）：受伤5周以后，骨折部瘀肿基本吸收，已经开始有骨痂生长，此为骨折后期。治疗宜补，通过补益肝肾、气血，以促进更牢固的骨痂生成，以及舒筋活络，使骨折部分的邻近关节能自由灵活运动，恢复往日的功能。饮食上可以解除禁忌，食谱可再配以老母鸡汤、猪骨汤、羊骨汤、鹿筋汤、炖水鱼等，能饮酒者可选用杜仲骨碎补酒、鸡血藤酒、虎骨木瓜酒等。食疗可用枸杞子10克，骨碎补1到5克，续断10克，苡米50克。将骨碎补与续断先煎去渣，再入余2味煮粥进食。每日1次，7天为1疗程。每1疗程间隔3-5天，可用3-4个疗程。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=358&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-30 0:31:35</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17053><font color=#000066><B>激情似火</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：88<br>&nbsp;&nbsp;积分：188<br>&nbsp;&nbsp;注册：2003-9-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=激情似火',500,400)"><img src="pic/message.gif" border=0 alt="给激情似火发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=激情似火" target=_blank><img src="pic/friend.gif" border=0 alt="把激情似火加入好友"></a>&nbsp;<a href="dispuser.asp?id=358" target=_blank><img src="pic/profile.gif" border=0 alt="查看激情似火的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=激情似火&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索激情似火在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:iamkuangbiao@163.com"><IMG alt="点击这里发送电邮给激情似火" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17053&id=1829&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17053&id=1829&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face12.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>顺便加道抗衰老食谱全当灌水</b><br>抗衰老食谱<BR> <BR> <BR>香菇汤 <BR>　　组成：香菇10个，鸡肉200克；碎芫荽等调料各适量。制法:先将香菇在水中浸泡1小时至软，去香菇蒂，与鸡肉（切块的）同煮，用旺火。服法：白天吃鸡肉，晚上喝汤1小碗。功用：强身延年，抗衰老。 </P><P>　　枸杞鲫鱼汤 </P><P>　　组成：鲫鱼3条（约600克，在鱼身两边划三刀），枸杞子15克，调料各适量。制法:锅内加油烧热，下姜丝、葱末煸出香味后，放人肉汤、黄酒、精盐、味精，再放入鲫鱼，烧沸后改用小火烧20分钟，拣出姜葱弃去，投入枸杞子，收汁淋入香油，即成。服法:常食用，可佐餐。功用:健身防衰，驻颜不老。 </P><P>　　核桃鸡丁 </P><P>　　组成：鸡肉（切丁）350克，核桃仁15克，枸杞子8克，调料各适量。制法:先将核桃仁用开水泡涨，剥去皮；鸡丁用精盐、蛋清拌好；另用小碗放入味精、白糖、胡椒粉，鸡汤、湿芡粉拌匀成汁；将放入猪油的锅烧至七成熟，放入核桃仁炸至微黄，捞起；再把浆好的鸡丁投入锅中，快速翻炒几下，放入姜片、葱末及已拌好的调味汁，快速翻炒，随即下核桃仁，枸杞子炒匀，淋入香油，即成。服法:经常食用。功用:补肾，益精，抗衰老。 </P><P>　　韭菜炒猪腰 </P><P>　　组成：鲜韭黄100克，猪腰l个。制法:先将猪腰洗净，切成薄片；再将鲜韭黄洗净切成小段，锅中加熟油，两味同放入锅中，加食盐、黄酒炒熟，即可。服法:每日1次，连服1月。功用:补肾强腰，延缓衰老。 </P><P>　　拌胡萝卜丝 </P><P>　　组成：胡萝卜500克，芫荽50克，调料各适量。制法:先将胡萝卜洗净、刨皮，切细丝，放温开水中泡软，捞出，挤干水分同姜丝拌匀，放入盘中，上面放上已洗净切段的芫荽，再将酱油、白糖、精盐、味精、麻油等调成的汁浇在胡萝卜丝上，即成。服法:常作佐餐。功用:补益健身，延年益寿。 </P><P>　　牛奶红茶 </P><P>　　组成：鲜牛奶100毫升，红茶25克，红糖适量。制法:先将红茶用水煎成浓汁，再和煮沸的牛奶掺和，加入红糖，拌匀，即可。服法:每日空腹饮功用:延年益寿。 </P><P>　　芝麻茶 </P><P>　　组成：芝麻5克，绿茶1克，红糖25克。制法:先将芝麻炒熟、研末，加人绿茶和红糖，用开水500毫升冲泡，搅拌，即可。服法:每日1剂，分3次，温饮。功用:滋养肝肾，抗衰老。 </P><P>　　银耳鸽蛋汤 </P><P>　　组成：银耳15克，鸽蛋2只，冰糖适量。制法:先将银耳放入水中浸泡，约2个小时后，洗净，放入锅内，加水炖，至粘稠，打入鸽蛋，加入冰糖和匀，再稍煮片刻，即可。服法:当早餐。功用:健脑强身，防衰老。 </P><P>　　姜枣桂圆汤 </P><P>　　制法:将红枣洗净、去核，用温水浸泡，再将水澄清过滤；将红枣、桂圆肉同放入锅中，加入过滤水和适量的清水，煎煮至七成熟时，加入1匙姜汁及蜂蜜、白糖、煮熟，即成。服法:随意食用。功用:滋补强壮，健身延年。 </P><P>　　鲜莲银耳汤 </P><P>　　组成：水发银耳15克，鲜莲子50克，调料各适量。制法:将水发银耳去杂质洗净，放入碗中，加鲜汤上笼蒸透；鲜莲子剥去皮，去莲心放入沸水锅中焯透，放在银耳碗里；将鲜奶、料酒、精盐、白糖、味精放入锅中，烧沸后倒入银耳莲子碗内，即成。服法:当早晨点心。功用:滋养强壮，延年益寿。 </P><P>　　酸奶 </P><P>　　组成：鲜奶适量，乳酸菌发酵剂、白糖各少许。制法:将鲜奶（牛奶）倒人耐高温的容器中，煮开，自然降温至38℃~40℃，加入少许乳酸菌发酵剂，搅匀；盖好容器，放置在30℃左右的地方，过10~12小时后，加入适量白糖，即成。服法:每日1次，每次200毫升；尤其适合早上空腹服用。功用:延年益寿。 </P><P>　　正气粥 </P><P>　　组成：黄芪20克党参10克粳米100克白糖适量。制法:先将黄芪、党参切片。用清水浸泡40分钟后，煎煮，取浓缩液30毫升。用粳米加水煮粥，待粥将成时，加人黄芪，党参的浓缩液，再煮至粥稠，加入白糖调味，即可。服法:早、晚各食1次。功用:补正气，抗衰老。 </P><P>　　人参粥 </P><P>　　组成：人参3克，粳米100克，冰糖适量。制法:先将人参切片，与洗净的粳米同入锅，加入适量的水，共煮粥，至粥熟，加入冰糖调匀，即可。服法:每日空腹服食。功用:益元气，抗衰老。 </P><P>　　扁豆花粥 </P><P>　　组成：扁豆花10克，粳米100克。制法:将粳米洗净，入锅，加水煮粥，至粥将熟时，放人扁豆花，继续煮至粥粘稠，即可。用法:早、晚服食。功用:健身抗衰。 </P><P>　　莲子粥 </P><P>　　组成：嫩莲子20克，粳米100克。制法:先将嫩莲子放在水中发胀后，用刷子擦去表层，抽去莲心，洗净后放入锅内，加水，煮烂熟；再将粳米洗净，加水煮成薄粥，粥熟后掺入莲子，搅匀，即可。服法:空腹或当饭服。 </P><P>　　牛奶大米饭 </P><P>　　组成：大米500克，牛奶500克。制法:将大米淘洗干净加水煮至半熟，然后加入牛奶，再用文火慢慢焖熟。服法:常食，当正餐。功用:抗衰老。 </P><P>　　肝肾米饭 </P><P>　　组成：大米150克，猪肝及猪肾各60克，热油、姜汁、酒、味精各适量。制法:先将肝肾切块。再用姜汁、酒、白糖等拌腌；然后将米洗净加适量水煮，煮到水收干时，把猪肝、猪腰平铺于饭面上，用小火将饭焖至熟透，最后拌匀。服法：经常食用。功用：明目，抗衰老。<BR> <BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=358&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-30 0:33:05</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17054><font color=#990000><B>小琳子</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：550<br>&nbsp;&nbsp;积分：1034<br>&nbsp;&nbsp;注册：2003-9-12<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=小琳子',500,400)"><img src="pic/message.gif" border=0 alt="给小琳子发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=小琳子" target=_blank><img src="pic/friend.gif" border=0 alt="把小琳子加入好友"></a>&nbsp;<a href="dispuser.asp?id=315" target=_blank><img src="pic/profile.gif" border=0 alt="查看小琳子的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=小琳子&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索小琳子在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:changlinaa@21cn.com"><IMG alt="点击这里发送电邮给小琳子" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17054&id=1829&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=17054&id=1829&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>呵呵<BR>好复杂哦……<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=315&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-30 0:42:25</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>5</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=12">　├回收站</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1829" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1829" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1829" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1829&replyID=17050" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1829" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1829" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1829" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：273.438毫秒
+</td></tr>
+</table>
+</body>
+</html>

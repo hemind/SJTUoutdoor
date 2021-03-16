@@ -1,0 +1,326 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--活动快讯浏览：[讨论]骑车去海宁观潮！</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=5">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=5">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=5">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=5&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 训练召集，出行及讲座信息
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=5>活动快讯</a> →  浏览：[讨论]骑车去海宁观潮！
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=5"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=5"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=5&id=832&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>9661</B> 个阅读者<a href="go.asp?BoardID=5&sid=832"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=5&replyID=9613&id=832&star=1&skin=0"><img src="pic/flatview.gif" width=40 height=12 border=0 alt=平板显示贴子></a>　<a href="go.asp?BoardID=5&sid=832&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： [讨论]骑车去海宁观潮！</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=5&id=832"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=5&id=832"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=5&id=832"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=5&id=832"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=5&id=832"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=5&id=832', ' 上海交通大学野外生存素质拓展基地 - [讨论]骑车去海宁观潮！')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=9613><font color=#000066><B>gudavid</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;文章：653<br>&nbsp;&nbsp;积分：796<br>&nbsp;&nbsp;注册：2003-7-9<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=gudavid',500,400)"><img src="pic/message.gif" border=0 alt="给gudavid发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=gudavid" target=_blank><img src="pic/friend.gif" border=0 alt="把gudavid加入好友"></a>&nbsp;<a href="dispuser.asp?id=238" target=_blank><img src="pic/profile.gif" border=0 alt="查看gudavid的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=gudavid&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索gudavid在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:gudavid@sjtu.edu.cn"><IMG alt="点击这里发送电邮给gudavid" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=9613&id=832&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=9613&id=832&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>风景: 海盐: 南北湖 <BR> <BR>   <BR>提供照片 更多照片 <BR>　　南北湖风景区总面积30平方公里，由湖塘、鹰窠顶、谭仙岭石城、三湾滨海五大景区组成，内有白鹭洲、白云阁、谭仙城、云岫庵、载青别墅、西涧草堂、黄源藏书楼等景点。其中载青别墅是韩国国父金九先生在南北湖的避难处。<BR>　　景区内湖光山色，山峦倒影，巨涛海浪融合汇一体，相互辉映，以其闲雅与野趣保留了江南一片真山水。若气候合宜，还可在鹰窠顶看到著名的“日月并升”自然奇观。<BR>　　南北湖景区内的谭仙岭石城，号称“天下第一小城”的谭仙岭石城位于南北湖西首，始建于鸦片战争期间。古城堡南北长72.4米，东西宽41.3米，高5.5米，石城周长不到1公里。城堡虽小，却碧瓦红墙，城堞箭楼，威武雄壮，有人称其为“江南八达岭”。<BR>　　交通：上海旅游集散中心有到南北湖的旅游专线车。每逢双休日上午8：15在虹口足球场发车，7：30在上海体育场发车，旅游套票含来回车票、景点门票100元。此外，从上海金山石化汽车站或杭州汽车东站安琪儿分站乘石杭线到澉浦镇下车，每天四班。杭州汽车东站到海盐的普通车，每天也有22班途经澉浦镇。<BR>　　门票：大门票15元，分景点门票：白鹭洲3元、白云阁3元、谭仙岭石城5元、云岫庵5元、载青别墅2元、西涧草堂2元、黄源藏书楼2元。<BR>    住宿：南北湖山庄<BR> <BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=238&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-9-1 1:32:17</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>105</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=5&id=832&replyID=9613&star=2&skin=1">[2]</a> <a href="?BoardID=5&id=832&replyID=9613&star=3&skin=1">[3]</a> <a href="?BoardID=5&id=832&replyID=9613&star=4&skin=1">[4]</a>... <a href="?BoardID=5&id=832&replyID=9613&star=11&skin=1">[11]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table>
+<br>
+<table cellpadding=3 cellspacing=1 class=tableborder1 align=center>
+<tr><th align=left width=90% valign=middle> &nbsp;*树形目录</th>
+<th width=10% align=right valign=middle height=24 id=tabletitlelink> <a href=#top><img src=pic/gotop.gif border=0>顶端</a>&nbsp;</th></tr>
+<TR><td class=tablebody2 width="100%" height=22 colspan=2>主题：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8914&skin=1'>[讨论]骑车去海宁观潮！</a><I><font color=gray>(1522字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10252&skin=1'>你么这样骑车岂不是没有休息时间了</a><I><font color=gray>(32字) － <a href=dispuser.asp?name=sunny target=_blank title='作者资料'><font color=gray>sunny</font></a>，2003年9月12日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10250&skin=1'>盐仓的潮确实比盐官的好要好看希望你们能早点到强个好位置看潮这几天人潮比海潮还要大..</a><I><font color=gray>(86字) － <a href=dispuser.asp?name=sunny target=_blank title='作者资料'><font color=gray>sunny</font></a>，2003年9月12日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10248&skin=1'>路上时间安排太紧估计很难赶上看潮沪杭公路的路况也不是很好一路上要特别小心..</a><I><font color=gray>(78字) － <a href=dispuser.asp?name=sunny target=_blank title='作者资料'><font color=gray>sunny</font></a>，2003年9月12日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10247&skin=1'>由台风的话就会有大潮建议可以坐车去海宁车票10元（从松江走）..</a><I><font color=gray>(64字) － <a href=dispuser.asp?name=sunny target=_blank title='作者资料'><font color=gray>sunny</font></a>，2003年9月12日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10243&skin=1'>就是不知道明天天气如何了。如果有台风，活动就要取消。</a><I><font color=gray>(60字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10048&skin=1'>看错了~~~大概要保持30公里的速度吧~~来会一共300公里，算是拉链？自虐？休闲？大家有把握吗？..</a><I><font color=gray>(94字) － <a href=dispuser.asp?name=shaka target=_blank title='作者资料'><font color=gray>shaka</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10047&skin=1'>感觉有点疯狂~~~~第一个50公里用时1小时？？？</a><I><font color=gray>(43字) － <a href=dispuser.asp?name=shaka target=_blank title='作者资料'><font color=gray>shaka</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10034&skin=1'>有这些就OK了，赶快去报名吧！我代表组织欢迎你们的加入，呵呵=）</a><I><font color=gray>(63字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10015&skin=1'>现在还能报名吗？</a><I><font color=gray>(16字) － <a href=dispuser.asp?name=shaka target=_blank title='作者资料'><font color=gray>shaka</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10016&skin=1'>[quote][b]以下是引用[i]shaka在2003-9-9&nbsp;11:53:21[/i..</a><I><font color=gray>(122字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10463&skin=1'>路上路况奇好我们走的是沪杭复线,暴爽而且时间也有多余,我们等潮水等了一个小时人好像没有那么多吧,很..</a><I><font color=gray>(107字) － <a href=dispuser.asp?name=holawu target=_blank title='作者资料'><font color=gray>holawu</font></a>，2003年9月15日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9980&skin=1'>你们的计划时间比较紧，还有这次游牧人去锦溪的就有一个复旦的他走过那条路晚上有些地方没有路灯你们最好..</a><I><font color=gray>(131字) － <a href=dispuser.asp?name=流氓兔 target=_blank title='作者资料'><font color=gray>流氓兔</font></a>，2003年9月8日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9981&skin=1'>[quote][b]以下是引用[i]流氓兔在2003-9-8&nbsp;17:51:19[/i]的..</a><I><font color=gray>(297字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月8日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9760&skin=1'>可乐猪是不是那个骑着GIANT装配车的帅哥哥？？？还是那个沉默寡言的王**？很想知道是哪位旷野的牛..</a><I><font color=gray>(137字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年9月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9685&skin=1'>对了，AMAZ的衣服全在重庆南路22号。不在江西南路20号。</a><I><font color=gray>(52字) － <a href=dispuser.asp?name=可乐猪 target=_blank title='作者资料'><font color=gray>可乐猪</font></a>，2003年9月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9674&skin=1'>建议你们本周有空的话先拉练一下，HINOMAD有本周去锦溪活动。对了，我前几天在公司收到一张AMA..</a><I><font color=gray>(200字) － <a href=dispuser.asp?name=可乐猪 target=_blank title='作者资料'><font color=gray>可乐猪</font></a>，2003年9月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10225&skin=1'>我们也没几个人去了。</a><I><font color=gray>(20字) － <a href=dispuser.asp?name=zenith target=_blank title='作者资料'><font color=gray>zenith</font></a>，2003年9月11日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10221&skin=1'>没有时间去，周日接你们吧！我的13012828267</a><I><font color=gray>(43字) － <a href=dispuser.asp?name=可乐猪 target=_blank title='作者资料'><font color=gray>可乐猪</font></a>，2003年9月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10150&skin=1'>山地的抗震性比较好，应该没有多大的问题</a><I><font color=gray>(38字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年9月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10125&skin=1'>不知道今天这队山地车们累不累？</a><I><font color=gray>(32字) － <a href=dispuser.asp?name=changlinaa target=_blank title='作者资料'><font color=gray>changlinaa</font></a>，2003年9月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10064&skin=1'>那是车子的问题，很无奈的</a><I><font color=gray>(24字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年9月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10059&skin=1'>哎，想起上次去佘山，被常林mm他们累的……………………不堪回首啊，我和维达兄差点就在路边永远倒下了..</a><I><font color=gray>(104字) － <a href=dispuser.asp?name=zenith target=_blank title='作者资料'><font color=gray>zenith</font></a>，2003年9月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10052&skin=1'>没问题的，野协的人出去玩大多都带点自虐性质的~</a><I><font color=gray>(47字) － <a href=dispuser.asp?name=changlinaa target=_blank title='作者资料'><font color=gray>changlinaa</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9724&skin=1'>[quote][b]以下是引用[i]可乐猪在2003-9-3&nbsp;22:52:26[/i]的..</a><I><font color=gray>(301字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月4日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9754&skin=1'>[quote][b]以下是引用[i]gudavid在2003-9-4&nbsp;23:53:57[..</a><I><font color=gray>(402字) － <a href=dispuser.asp?name=可乐猪 target=_blank title='作者资料'><font color=gray>可乐猪</font></a>，2003年9月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10043&skin=1'>谷伟,太过分了居然泄漏我的隐私:)我的电话:54740374..</a><I><font color=gray>(56字) － <a href=dispuser.asp?name=holawu target=_blank title='作者资料'><font color=gray>holawu</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9649&skin=1'>报名海宁观潮的全体人员：朱朱，bolanggu,&nbsp;沈艳君，常琳，&nbsp;李剑宇，&n..</a><I><font color=gray>(299字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10017&skin=1'>情况是这样的~~我和同寝室的同学共2人~~有自行车和睡袋~~~没有帐篷等装备~~体力应该没有问题~..</a><I><font color=gray>(105字) － <a href=dispuser.asp?name=shaka target=_blank title='作者资料'><font color=gray>shaka</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=10036&skin=1'>[quote][b]以下是引用[i]shaka在2003-9-9&nbsp;12:03:48[/i..</a><I><font color=gray>(368字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9641&skin=1'>不知道她是谁，不然可以提出建设性建议，呵呵=）</a><I><font color=gray>(45字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9637&skin=1'>我有车！！！我报名！！！期待ing&nbsp;[em05][em05][em05][align=r..</a><I><font color=gray>(148字) － <a href=dispuser.asp?name=渡口 target=_blank title='作者资料'><font color=gray>渡口</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9638&skin=1'>渡口美眉，提醒你一下，此行将十分艰苦，不知你的体能如何？如果你确信你能胜任，你的报名被批准。&nb..</a><I><font color=gray>(246字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9617&skin=1'>比原来的计划要合理</a><I><font color=gray>(18字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9615&skin=1'>乌镇</a><I><font color=gray>(1530字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9614&skin=1'>西塘</a><I><font color=gray>(1263字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9613&skin=1'><font color=#FF0000>风景:&nbsp;海盐:&nbsp;南北湖&nbsp;&nbsp;&nbsp;&nbsp;&nbs..</a><I><font color=gray>(1072字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9723&skin=1'>正要找你呢。呵呵，上次在江西南路买的特价商品，你还没给发票呢。你最好得朋友是你gf朋友？&nbsp..</a><I><font color=gray>(137字) － <a href=dispuser.asp?name=莽莽戈壁滩 target=_blank title='作者资料'><font color=gray>莽莽戈壁滩</font></a>，2003年9月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9753&skin=1'>[quote][b]以下是引用[i]莽莽戈壁滩在2003-9-4&nbsp;23:34:02[/i..</a><I><font color=gray>(254字) － <a href=dispuser.asp?name=可乐猪 target=_blank title='作者资料'><font color=gray>可乐猪</font></a>，2003年9月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9612&skin=1'>秦山核电站</a><I><font color=gray>(331字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9684&skin=1'>我是旷野的</a><I><font color=gray>(10字) － <a href=dispuser.asp?name=可乐猪 target=_blank title='作者资料'><font color=gray>可乐猪</font></a>，2003年9月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9680&skin=1'>确实是好东西，您是游牧人的？xdjm们，渔民建议大家一起行动吧，amaz好东西。我要出手了..</a><I><font color=gray>(86字) － <a href=dispuser.asp?name=zenith target=_blank title='作者资料'><font color=gray>zenith</font></a>，2003年9月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9611&skin=1'>南湖</a><I><font color=gray>(1320字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9610&skin=1'>修改后的活动计划！</a><I><font color=gray>(1009字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9645&skin=1'>呵呵她啊不用担心她的体力的</a><I><font color=gray>(30字) － <a href=dispuser.asp?name=holawu target=_blank title='作者资料'><font color=gray>holawu</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9609&skin=1'>山不在高，有仙则名，水不在深，有龙则灵。南北湖这一大自然恩赐的瑰宝，集山水之精华，聚人文之荟萃，成..</a><I><font color=gray>(1672字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月1日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9608&skin=1'>周五在南北湖休息扎营！</a><I><font color=gray>(512字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月31日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9444&skin=1'>报名的已经有10人了！朱朱，渔民，bolanggu,&nbsp;沈艳君，常琳，&nbsp;李剑宇，..</a><I><font color=gray>(92字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月21日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9634&skin=1'>想去的说</a><I><font color=gray>(8字) － <a href=dispuser.asp?name=holawu target=_blank title='作者资料'><font color=gray>holawu</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9635&skin=1'>[quote][b]以下是引用[i]holawu在2003-9-2&nbsp;10:51:43[/..</a><I><font color=gray>(168字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年9月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9181&skin=1'>我也要去。先要买车了。[em27][em27][em27][em27][em27]..</a><I><font color=gray>(56字) － <a href=dispuser.asp?name=丁丁 target=_blank title='作者资料'><font color=gray>丁丁</font></a>，2003年8月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9182&skin=1'>[quote][b]以下是引用[i]丁丁在2003-8-9&nbsp;22:20:21[/i]的发..</a><I><font color=gray>(166字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9339&skin=1'>觉得搞比赛的话，阿拉参加的机会就不大了。=（不过会热心支持的=）</a><I><font color=gray>(64字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年8月14日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9172&skin=1'>窃窃的问一句，还有位子吗？</a><I><font color=gray>(26字) － <a href=dispuser.asp?name=YouLey target=_blank title='作者资料'><font color=gray>YouLey</font></a>，2003年8月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9093&skin=1'>活动重要通知：到目前为止，我们已经有朱朱，渔民，bolanggu,&nbsp;沈艳君，常琳，&nb..</a><I><font color=gray>(2085字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月7日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9107&skin=1'>乘卡车好诱人啊我喜欢</a><I><font color=gray>(24字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月8日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9047&skin=1'>今天，渔民和我已经为海宁观潮购买了如下工具：&nbsp;码表一个，补胎的全套工具一套，以及两个备用..</a><I><font color=gray>(575字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9046&skin=1'>长途骑行注意事项！</a><I><font color=gray>(1422字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9048&skin=1'>去海宁观潮一下子装备这么复杂了啊到底带些什么呢迷惘中</a><I><font color=gray>(60字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9049&skin=1'>[quote][b]以下是引用[i]bolanggu在2003-8-5&nbsp;21:33:28..</a><I><font color=gray>(268字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9067&skin=1'>现在目标去借一辆车子HAMHAM</a><I><font color=gray>(30字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月6日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9234&skin=1'>很不错的设想呢不过变成比赛的话观潮本身的味道就变掉了。。。。..</a><I><font color=gray>(66字) － <a href=dispuser.asp?name=chiron target=_blank title='作者资料'><font color=gray>chiron</font></a>，2003年8月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9276&skin=1'>[quote][b]以下是引用[i]chiron在2003-8-10&nbsp;16:51:43[..</a><I><font color=gray>(242字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月11日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9235&skin=1'>[quote][b]以下是引用[i]chiron在2003-8-10&nbsp;16:51:43[..</a><I><font color=gray>(226字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9217&skin=1'>和协会几个部长商量以后，觉得协会很久没有大型的集体活动了，对协会的凝聚力不利，所以有意把这个活动办..</a><I><font color=gray>(1560字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9030&skin=1'>好像在读书</a><I><font color=gray>(10字) － <a href=dispuser.asp?name=holawu target=_blank title='作者资料'><font color=gray>holawu</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9010&skin=1'>对了，还有。渔民啊，你妈妈在我手里，我想要辆车……</a><I><font color=gray>(52字) － <a href=dispuser.asp?name=半兽人 target=_blank title='作者资料'><font color=gray>半兽人</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9009&skin=1'>这个，我也想去。。。可是，我的车技不是很好呀……没什么要求吧？例如，翻山跃岭什么的？..</a><I><font color=gray>(84字) － <a href=dispuser.asp?name=半兽人 target=_blank title='作者资料'><font color=gray>半兽人</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9121&skin=1'>当当，虽然大凸山在卡车上经过的的那段路让我们爽了很久~但是这里沿途不比山区，风景和空气未必会好！不..</a><I><font color=gray>(252字) － <a href=dispuser.asp?name=changlinaa target=_blank title='作者资料'><font color=gray>changlinaa</font></a>，2003年8月8日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9185&skin=1'>确实。。。可能。。。琳子说的有道理。。。</a><I><font color=gray>(44字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9129&skin=1'>[quote][b]以下是引用[i]changlinaa在2003-8-8&nbsp;23:39:..</a><I><font color=gray>(645字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9110&skin=1'>我要马拉大车：）&nbsp;&nbsp;&nbsp;骑当当会不会更好玩？</a><I><font color=gray>(39字) － <a href=dispuser.asp?name=zenith target=_blank title='作者资料'><font color=gray>zenith</font></a>，2003年8月8日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9186&skin=1'>渔民。。。你好BT啊。。。气愤中。。。</a><I><font color=gray>(40字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月9日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9044&skin=1'>[quote][b]以下是引用[i]半兽人在2003-8-5&nbsp;10:41:33[/i]的..</a><I><font color=gray>(444字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9102&skin=1'>B计划！</a><I><font color=gray>(7字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2003年8月8日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9008&skin=1'>大哥。几天不见，你好强了呀……鼓励一下，以表支持——“师傅，徒儿去勘察过了。海宁没有妖魔！”..</a><I><font color=gray>(92字) － <a href=dispuser.asp?name=半兽人 target=_blank title='作者资料'><font color=gray>半兽人</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9002&skin=1'>公路车不是没法背包的吗我们也分两队好了想去的说~~~~~上帝阿，你妈妈在我手里，我要辆车……..</a><I><font color=gray>(95字) － <a href=dispuser.asp?name=chiron target=_blank title='作者资料'><font color=gray>chiron</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9063&skin=1'>高魏的头盔还在我那……cei&nbsp;dong&nbsp;cei……</a><I><font color=gray>(46字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2003年8月6日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9043&skin=1'>这是个好主意！高魏的建议采纳！我们也分两队！欢迎高魏加入！</a><I><font color=gray>(62字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8997&skin=1'>骑什么车去？</a><I><font color=gray>(12字) － <a href=dispuser.asp?name=changlinaa target=_blank title='作者资料'><font color=gray>changlinaa</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8999&skin=1'>[quote][b]以下是引用[i]changlinaa在2003-8-4&nbsp;22:47:..</a><I><font color=gray>(167字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9000&skin=1'>有没有修车的工具？</a><I><font color=gray>(18字) － <a href=dispuser.asp?name=changlinaa target=_blank title='作者资料'><font color=gray>changlinaa</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9001&skin=1'>[quote][b]以下是引用[i]changlinaa在2003-8-4&nbsp;23:03:..</a><I><font color=gray>(207字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8995&skin=1'>小学里读过观潮的课文希望这次能亲眼目睹拉</a><I><font color=gray>(44字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8993&skin=1'>复旦车协也计划于同一天去同一地点观潮。他们将派两支小分队，一只公路车，一只山地车。如果有意，我们两..</a><I><font color=gray>(126字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8994&skin=1'>好耶现在就开始策划到时一定很稳妥</a><I><font color=gray>(36字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8988&skin=1'>小奴忠心地追随我我很感动</a><I><font color=gray>(28字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8986&skin=1'>现在正式报名的有4个了：沈艳君，BOLANGGU,&nbsp;渔民和我。还有若干会员有兴趣中。[a..</a><I><font color=gray>(177字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9038&skin=1'>谷伟啊，侬怎么好把我给忘了呢？？？侬还真是过分啊！！！</a><I><font color=gray>(56字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9076&skin=1'>谷伟帮忙带个手套？拜托了。谢谢哦=）</a><I><font color=gray>(35字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年8月6日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9092&skin=1'>[quote][b]以下是引用[i]朱朱在2003-8-6&nbsp;15:16:46[/i]的发..</a><I><font color=gray>(131字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月7日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=9045&skin=1'>[quote][b]以下是引用[i]朱朱在2003-8-5&nbsp;15:25:51[/i]的发..</a><I><font color=gray>(313字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月5日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8987&skin=1'>大叔，BOLANGGU少打了个G呵</a><I><font color=gray>(25字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8982&skin=1'>恩……看课表先翘课的话提前做好功课</a><I><font color=gray>(40字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2003年8月4日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8936&skin=1'>我想去！！！</a><I><font color=gray>(12字) － <a href=dispuser.asp?name=bolanggu target=_blank title='作者资料'><font color=gray>bolanggu</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8938&skin=1'>[quote][b]以下是引用[i]bolanggu在2003-8-3&nbsp;20:18:50..</a><I><font color=gray>(279字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8930&skin=1'>去去去。&nbsp;&nbsp;&nbsp;我建议去老盐仓，海宁不好看，曾经看着很麻木20号有协会..</a><I><font color=gray>(149字) － <a href=dispuser.asp?name=zenith target=_blank title='作者资料'><font color=gray>zenith</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8927&skin=1'>不错不错~被你们的贴子鼓动得想去的说：）</a><I><font color=gray>(45字) － <a href=dispuser.asp?name=changlinaa target=_blank title='作者资料'><font color=gray>changlinaa</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8922&skin=1'>潮来潮去原无定——最佳观潮地点为什么会变　　　　杭州以西湖景色优美闻名于世。在杭州当了三年刺史的白..</a><I><font color=gray>(3667字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8921&skin=1'>呵呵从来只知道钱塘江的潮水成因，却不知道有如此有趣的故事。</a><I><font color=gray>(58字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8920&skin=1'>江南忆，最忆是杭州，山寺月中寻桂子，郡亭枕上看潮头</a><I><font color=gray>(50字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8919&skin=1'>江南曲&nbsp;（唐）李益嫁得瞿塘贾，朝朝误妾期。早知潮有信，嫁与弄潮儿..</a><I><font color=gray>(71字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8918&skin=1'>酒泉子&nbsp;潘阆&nbsp;&nbsp;&nbsp;&nbsp;长忆观潮，满郭人争江上望。来..</a><I><font color=gray>(135字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8917&skin=1'>八月十八钱塘江观潮去钱江大潮直立推进，最高可达三米多，气势慑人。&nbsp;&nbsp;&nbsp..</a><I><font color=gray>(2663字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=832&replyID=8916&skin=1'>钱塘观潮天下奇&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;钱塘江潮，又..</a><I><font color=gray>(3555字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2003年8月3日</font></I></td></tr></table><br>
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：551.025毫秒
+</td></tr>
+</table>
+</body>
+</html>

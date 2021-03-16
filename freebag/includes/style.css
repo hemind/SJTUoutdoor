@@ -1,0 +1,30 @@
+A:active {FONT-SIZE: 10pt;COLOR: #ff0000; TEXT-DECORATION: underline;}
+A:Visited {FONT-SIZE:10pt;COLOR: #000000; TEXT-DECORATION: none;}
+A:hover {FONT-SIZE:10pt; COLOR: #ff0000;TEXT-DECORATION: underline;}
+A:link {FONT-SIZE:10pt;COLOR: #006666; TEXT-DECORATION: none;}
+.ptext{ text-indent:24pt}
+.date{font-size:10pt;background-color:#eeeeee}
+.date2{font-size:10pt;}
+.activitylink a:active,.activitylink a:hover{TEXT-DECORATION: none}
+.activitylink a:link{COLOR: #ff0000}
+.text{FONT-SIZE: 10pt; COLOR: #006666; line-height:13pt}
+.newstext{FONT-SIZE: 10pt;font-weight: bold;COLOR: #006666;line-height:140%}
+.newstext2{FONT-SIZE: 10pt;COLOR: #006666;line-height:140%}
+.newstextindent{FONT-SIZE: 10pt;font-weight: bold;COLOR: #006666;line-height:140%;text-indent: 2em}
+.maoershan{FONT-SIZE: 10pt;font-weight: bold;COLOR: #006666;line-height:140%}
+.newslink A:visited {FONT-SIZE: 10pt;COLOR: #ffffff; TEXT-DECORATION: none;}
+.newslink A:active {FONT-SIZE: 10pt;COLOR: #ff0000; TEXT-DECORATION: underline;}
+.newslink A:hover {FONT-SIZE:10pt; COLOR: #ff0000;TEXT-DECORATION: underline;}
+.newslink A:link {FONT-SIZE:10pt;COLOR: #ffffff; TEXT-DECORATION: none;}
+
+.pic {
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-right-color: #00FF66;
+	border-bottom-color: #00FF66;
+}
+.bgcolor {background-color:rgb(248,248,248)}
+.bgcolor2 {background-color:rgb(255,255,255)}
+.table {border: ridge;}

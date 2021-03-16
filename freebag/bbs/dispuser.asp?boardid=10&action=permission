@@ -1,0 +1,509 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--查询个人资料</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+查询个人资料
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table class=tableborder1 cellspacing=1 cellpadding=3  align=center>
+<tr> 
+<td height="25" colspan="2" class=tablebody1>
+您所属的用户组在 <B>攀岩与登山</B> 使用的是默认设置，具体的权限列表如下
+</td>
+</tr>
+<tr> 
+<th height="23" colspan="2" align=left>＝＝查看权限</th>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以浏览论坛</td>
+<td height="23" width="40%" class=tablebody1><B>√</B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以查看会员信息(包括其他会员的资料和会员列表)
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以查看其他人发布的主题
+</td>
+<td height="23" width="40%" class=tablebody1><B>√</B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以浏览精华帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr> 
+<th height="23" colspan="2" align=left>＝＝<b>发帖权限</b></th>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以发布新主题</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以回复自己的主题
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以回复其他人的主题
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以在论坛允许评分的时候参与评分(鲜花和鸡蛋)?
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>参与评分所需金钱
+</td>
+<td height="23" width="40%" class=tablebody1><B>5</B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以上传附件
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>最多上传文件个数
+</td>
+<td height="23" width="40%" class=tablebody1><B>3</B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>上传文件大小限制
+</td>
+<td height="23" width="40%" class=tablebody1><B>100</B> KB</td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以发布新投票</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以参与投票</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以发布小字报</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>发布小字报所需金钱</td>
+<td height="23" width="40%" class=tablebody1><B>50</B></td>
+</tr>
+<tr> 
+<th height="23" colspan="2" align=left>＝＝<b>帖子/主题编辑权限</b></th>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以编辑自己的帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以删除自己的帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以移动自己的帖子到其他论坛
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以打开/关闭自己发布的主题
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr> 
+<th height="23" colspan="2" align=left>＝＝<b>其他权限</b></th>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以搜索论坛
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以使用'发送本页给好友'功能
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以修改个人资料
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>帖子中可以查看其它人头衔
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>帖子中可以查看其它人头像
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>帖子中可以可以查看其它人签名
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以浏览论坛事件
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr> 
+<th height="23" colspan="2" align=left>＝＝管理权限</th>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以删除其它人帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以移动其它人帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以打开/关闭其它人帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以固顶/解除固顶帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以奖励/惩罚发贴用户
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以奖励/惩罚用户
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以编辑其它人帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以加入/解除精华帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以发布公告
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以管理公告
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以管理小字报
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以锁定/屏蔽/解除锁定用户
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以删除用户1－10天内所发帖子
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以查看来访IP及来源
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以限定IP来访
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以管理用户权限
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以批量删除帖子（前台）
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr> 
+<th height="23" colspan="2" align=left>＝＝短信权限</th>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>可以发送短信
+</td>
+<td height="23" width="40%" class=tablebody1><B><font color=#FF0000>×</font></B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>最多发送用户
+</td>
+<td height="23" width="40%" class=tablebody1><B>5</B></td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>短信内容大小限制
+</td>
+<td height="23" width="40%" class=tablebody1><B>300</B> byte</td>
+</tr>
+<tr>
+<td height="23" width="60%" class=tablebody1>信箱大小限制
+</td>
+<td height="23" width="40%" class=tablebody1><B>100</B> KB</td>
+</tr>
+</table>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：50.781毫秒
+</td></tr>
+</table>
+</body>
+</html>

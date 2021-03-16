@@ -1,0 +1,323 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--自行车浏览：为了普及自行车运动，我要发一些性价比较高的整车</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=11">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=11">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=11">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=11&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 自行车装备知识，骑行技术
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=11>自行车</a> →  浏览：为了普及运动，我要发一些性价比较高的整车
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=11"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=11"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=11&id=1196&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>424</B> 个阅读者<a href="go.asp?BoardID=11&sid=1196"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=11&replyID=18481&id=1196&star=1&skin=0"><img src="pic/flatview.gif" width=40 height=12 border=0 alt=平板显示贴子></a>　<a href="go.asp?BoardID=11&sid=1196&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 为了普及自行车运动，我要发一些性价比较高的整车</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=11&id=1196"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=11&id=1196"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=11&id=1196"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=11&id=1196"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=11&id=1196"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=11&id=1196', ' 上海交通大学野外生存素质拓展基地 - 为了普及自行车运动，我要发一些性价比较高的整车')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18481><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：顶极新手<BR>&nbsp;&nbsp;文章：14<br>&nbsp;&nbsp;积分：32<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=11&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在自行车的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=11&replyID=18481&id=1196&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=11&replyID=18481&id=1196&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>虬江路？？？！！！</P><P>听了就伤心</P><P>我的N辆自行车都是那里买的</P><P>这次还是要去那里</P><P>没办法</P><P>谁让咱们没钱呢</P><P>还想骑好车</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=11&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-6-2 1:05:05</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>20</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=11&id=1196&replyID=18481&star=2&skin=1">[2]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=2">　├每周论题</option></select></td></tr></table>
+<br>
+<table cellpadding=3 cellspacing=1 class=tableborder1 align=center>
+<tr><th align=left width=90% valign=middle> &nbsp;*树形目录</th>
+<th width=10% align=right valign=middle height=24 id=tabletitlelink> <a href=#top><img src=pic/gotop.gif border=0>顶端</a>&nbsp;</th></tr>
+<TR><td class=tablebody2 width="100%" height=22 colspan=2>主题：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12447&skin=1'>为了普及自行车运动，我要发一些性价比较高的整车</a><I><font color=gray>(1151字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=18481&skin=1'><font color=#FF0000>虬江路？？？！！！听了就伤心我的N辆自行车都是那里买的这次还是要去那里没办法谁让咱们没钱呢还想骑好..</a><I><font color=gray>(123字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年6月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=16385&skin=1'>美利达的公路很不错。</a><I><font color=gray>(20字) － <a href=dispuser.asp?name=maonaer target=_blank title='作者资料'><font color=gray>maonaer</font></a>，2004年3月12日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15717&skin=1'>上次在停车的地方看见一辆车样式非常普通但居然是EMELLE的横杠上好像是CAMEL不知道这个东西到..</a><I><font color=gray>(103字) － <a href=dispuser.asp?name=faknight target=_blank title='作者资料'><font color=gray>faknight</font></a>，2003年12月17日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15675&skin=1'>搭贴问一句,阿米尼的公路车怎么样?</a><I><font color=gray>(32字) － <a href=dispuser.asp?name=倚杖听风 target=_blank title='作者资料'><font color=gray>倚杖听风</font></a>，2003年12月16日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15694&skin=1'>EMELLE的东西都非常好的。&nbsp;我喜欢阿迷你</a><I><font color=gray>(37字) － <a href=dispuser.asp?name=莽莽戈壁滩 target=_blank title='作者资料'><font color=gray>莽莽戈壁滩</font></a>，2003年12月16日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12529&skin=1'>九月不是有个lafuma的背包要卖么？呵呵，上次我还联系你了。&nbsp;最后没买，太小了..</a><I><font color=gray>(73字) － <a href=dispuser.asp?name=莽莽戈壁滩 target=_blank title='作者资料'><font color=gray>莽莽戈壁滩</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12587&skin=1'>[quote][b]以下是引用[i]莽莽戈壁滩在2003-10-10&nbsp;2:06:26[/..</a><I><font color=gray>(187字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12521&skin=1'>我前天来过你们学校，最好你们不要购买UCAN，因为此车没有升级和改装余地，且车子很重，除了样子以外..</a><I><font color=gray>(372字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12518&skin=1'>建议LX最好不要改了，最多换个shimano刹车把，一般是50－60就够了，这样舒服些，其他的不需..</a><I><font color=gray>(93字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12508&skin=1'>九月给的都是整车：）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们协会9成会员都..</a><I><font color=gray>(239字) － <a href=dispuser.asp?name=莽莽戈壁滩 target=_blank title='作者资料'><font color=gray>莽莽戈壁滩</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15895&skin=1'>[quote][b]以下是引用[i]莽莽戈壁滩在2003-10-10&nbsp;1:37:40[/..</a><I><font color=gray>(591字) － <a href=dispuser.asp?name=ahphone target=_blank title='作者资料'><font color=gray>ahphone</font></a>，2004年2月29日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15912&skin=1'>[quote][b]以下是引用[i]ahphone在2004-2-29&nbsp;20:09:50..</a><I><font color=gray>(499字) － <a href=dispuser.asp?name=decathlon target=_blank title='作者资料'><font color=gray>decathlon</font></a>，2004年3月1日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15937&skin=1'>[quote][b]以下是引用[i]decathlon在2004-3-1&nbsp;16:58:4..</a><I><font color=gray>(166字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2004年3月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=16111&skin=1'>[quote][b]以下是引用[i]朱朱在2004-3-2&nbsp;1:13:49[/i]的发言..</a><I><font color=gray>(319字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2004年3月6日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12588&skin=1'>[quote][b]以下是引用[i]莽莽戈壁滩在2003-10-10&nbsp;1:37:40[/..</a><I><font color=gray>(569字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=12511&skin=1'>能用SPEEDER-LX改么？大概要多少？</a><I><font color=gray>(32字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2003年10月10日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=16116&skin=1'>去过，陪车友去找被偷的车子，唉。。</a><I><font color=gray>(34字) － <a href=dispuser.asp?name=九月鹰飞 target=_blank title='作者资料'><font color=gray>九月鹰飞</font></a>，2004年3月6日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=16112&skin=1'>哈哈，难道说九月也有去求将路的经历？&nbsp;&nbsp;窃喜</a><I><font color=gray>(42字) － <a href=dispuser.asp?name=decathlon target=_blank title='作者资料'><font color=gray>decathlon</font></a>，2004年3月6日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=11&ID=1196&replyID=15839&skin=1'>横杠上好像是CAMEL那不是祥子么？？/</a><I><font color=gray>(38字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2004年2月28日</font></I></td></tr></table><br>
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：269.531毫秒
+</td></tr>
+</table>
+</body>
+</html>

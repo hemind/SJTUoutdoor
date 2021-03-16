@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--装备总集浏览：gps扫盲篇</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=3">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=3">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=3">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=3&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 装备说明、使用保养、供求信息
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=3>装备总集</a> →  浏览：gps扫盲篇
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=3"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=3"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=3&id=2112&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>1100</B> 个阅读者<a href="go.asp?BoardID=3&sid=2112"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=3&replyID=2112&id=2112&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=3&sid=2112&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： gps扫盲篇</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=3&id=2112"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=3&id=2112"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=3&id=2112"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=3&id=2112"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=3&id=2112"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=3&id=2112', ' 上海交通大学野外生存素质拓展基地 - gps扫盲篇')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19003><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：98<br>&nbsp;&nbsp;积分：182<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在装备总集的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=123404750" target=_blank title="我爱玫瑰[123404750]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19003&id=2112&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19003&id=2112&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face3.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>gps扫盲篇</b><br><font size=4><font color=#DC143C>手持式gps特点</font></font></P><P>手持式GPS是GPS家族中产量最大、使用面最广、和个人用户关系最密切的GPS产品，虽然手持式GPS接收机体积小巧，价格便宜，用两节五号电池就能工作很长时间，但是它依然是通过接收20200公里高空的卫星信号来定位的，定位精度同样能达到5-10米。手持式GPS可以独立工作，这时候它能定位、导航、查找附近地物、记录行走路线(能记录几百到几千公里)，同时也是指南针、速度表、里程表、海拔表、最精确的计时器，还能提供最佳渔猎信息、日出日落月升月落的准确时间和月相；它还可以和电脑、掌上电脑组合起来使用，某些型号甚至能连接声纳、鱼探机。概括来说，手持式GPS有下列特点：</P><P>　　1 能适应苛刻的环境，能在各种气象条件下使用，比如IPX7级防水(一米深半小时)<BR>　　2 可靠、稳定、值得信赖<BR>　　3 功能强大、操作简单<BR>　　4 体积小巧、携带方便<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-11 17:22:52</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=2112&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=2112&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19004><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：98<br>&nbsp;&nbsp;积分：182<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在装备总集的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=123404750" target=_blank title="我爱玫瑰[123404750]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19004&id=2112&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19004&id=2112&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><font color=#DC143C>你需要手持式gps么</font></P><P>您是驴友吗？您喜欢下列活动吗？<BR>　　1 旅游、经常去外地、外国<BR>　　2 爬山、野外穿越、攀岩<BR>　　3 帆船、冲浪、漂流、泅渡<BR>　　4 跳伞、滑翔伞、动力伞、热气球<BR>　　5 钓鱼、打猎、摄影<BR>　　6 自行车、摩托车、汽车<BR>　　如果您符合上述条件中的任意一条，恭喜您，手持式GPS非常适合您！<BR>　　或者说，就是想知道自己在什么地方、目的地在哪个方向还有多远、自己走的什么路线，手持式GPS也是您的良伴。<BR>　　拥有一只手持式GPS，哪怕是一只最小巧的腕表式GPS，也能给您的活动带来很多安全保证，并增加相关活动的乐趣。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-11 17:24:25</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19005><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：98<br>&nbsp;&nbsp;积分：182<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在装备总集的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=123404750" target=_blank title="我爱玫瑰[123404750]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19005&id=2112&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19005&id=2112&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><font color=#DC143C>麦哲伦gps简介</font><BR>民用GPS领域的很多第一都来自麦哲仑公司，现在它是全球第二大GPS供应商，它的手持式GPS有3大系列，十几个型号。虽然产品线不是最宽，但是每款产品都有自己鲜明的特色。麦哲伦手持式GPS的三大系列是：<BR>　1 子午线(Meridian)系列，5款产品<BR>　2 探路者(SporTrak)系列，5款产品<BR>　3 探险家(Explorist)系列，3款产品</P><P>　麦哲仑子午线和探路者的特点是：<BR>　1 均有日月罗盘技术，静止或无信号时也能判断方向<BR>　2 使用四叶螺旋天线，接收效果更好<BR>　3 能漂浮在水面上<BR>　4 有中国区等高线地图<BR>　5 基础地图和详细地图能叠加显示<BR>　6 有位置平均功能，定位更精确<BR>　7 子午线系列支持SD存储卡，存储空间能无限扩展。<BR>以下是麦哲伦探路者手持式gps彩色版<BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200491117282113287.jpg" TARGET=_blank><IMG SRC="uploadImages/200491117282113287.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-11 17:28:56</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19006><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：98<br>&nbsp;&nbsp;积分：182<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在装备总集的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=123404750" target=_blank title="我爱玫瑰[123404750]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19006&id=2112&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19006&id=2112&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><font color=#DC143C>garmin手持式gps简介</font></P><P>高明(Garmin)现在是世界上最大的民用GPS公司，产品线非常宽广，仅手持式GPS就有7大系列将近30款产品。7个系列如下：<BR>　1 GPS 7系列，共7款产品，两款彩屏机<BR>　2 GPS 60C系列，两款均为彩屏机<BR>　3 eTrex系列，共8个型号，两款彩屏机<BR>　4 小犀牛Rino系列，有对讲机功能，三款<BR>　5 小壁虎Geko系列，最小巧的手持机，三款<BR>　6 领跑者ForeRunner系列，为体育锻炼、户外运动做了充分优化的腕表式GPS，两款<BR>　7 ForeTrex系列，最小巧的腕表式GPS，两款<BR>　<BR>Garmin手持式GPS的主要特点是：<BR>　1 地图、软件丰富<BR>　2 轨迹记录能力强<BR>　3 附加功能多<BR>以下是Garmin Rino110和60CS<BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20049111731046725.jpg" TARGET=_blank><IMG SRC="uploadImages/20049111731046725.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-11 17:31:13</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19007><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：98<br>&nbsp;&nbsp;积分：182<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在装备总集的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=123404750" target=_blank title="我爱玫瑰[123404750]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19007&id=2112&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19007&id=2112&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><font color=#DC143C>现在天上到底有几颗GPS卫星？天上最多允许多少颗GPS卫星？</font></P><P>24颗？ <BR>您看的是N年前的材料吧？ <BR>正确的数字是：现在有29颗。请看下面的报道。 </P><P>[美国《航空航天技术周刊》2004年8月31日报道] 美空军的下一代"全球定位系统 Ⅲ"(GPS Ⅲ)计划将于2005年春季接受系统需求评审(SRR)，之后于秋季将做出阶段的决策。 <BR>　　由洛克希德·马丁公司和波音公司牵头的团队正在竞争GPS Ⅲ计划的第一阶段。空军计划在2005年末或2006年初发布一个关于该计划第二阶段的开放式建议征询， <BR>2006年夏季将授予第二阶段合同。该合同预期价值数亿美元。 </P><P>　　在2005财年国防授权法案中，GPS获得了全部7.878亿美元的预算申请，这其中包括用于GPS Ⅲ的4050万美元。未来几年内对GPSⅢ的资助将急剧增加以支撑第二阶段，最终2012年能够实现首次发射。 </P><P>　　除了提供增强的抗干扰能力和点波束能力，GPS Ⅲ卫星将具备通过交叉链路彼此通信的能力，交叉链路将允许地面控制人员更快捷地将指令传送给卫星。在现有系统条件下，每一颗卫星必须与美军5个地面站中的一个进行一对一的对话。 </P><P>　　目前的GPS星座包括29颗Block Ⅱ卫星，这些卫星的寿命期为8年。9月份GPS ⅡR-13卫星发射之后，现有的GPS星座将"创纪录"的达到30颗。这将是现有地面控制系统许可的最大值。 </P><P>　　根据预期的老卫星的寿命年限，美空军正以每年4颗的速度发射GPS替换卫星。来自洛·马公司的8颗升级的GPS ⅡR-M卫星计划于2005年3月发射，之后是2006年发射波音公司建造的GPS ⅡF卫星。 </P><P>　　GPS ⅡR-M卫星和GPS ⅡF卫星将引入GPSⅢ也支持的特性，包括新军用信号M码(M-code)和民用用户的新信号。按照上述发射速度，整个GPS星座在2017至2020年间将纳入Block Ⅲ卫星。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-11 17:40:56</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19008><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：98<br>&nbsp;&nbsp;积分：182<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在装备总集的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=123404750" target=_blank title="我爱玫瑰[123404750]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19008&id=2112&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19008&id=2112&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><font color=#DC143C>Garmin Legend , Vista 的优缺点</font></P><P>先说说LEGEND，厂家说有8MB内存，实际上LEGEND内部是一颗16MB的FLASH芯片，只是其中固化美国地图占用了将近8MB的空间，剩下的可用内存空间也就只有8MB了。暂时没有看到替换固化的美国地图的办法，所以那部分存储空间咱们没法使用。</P><P>再说VISTA，VISTA大小和LEGEND一模一样，只是外壳颜色不同，LEGEND是半透明的蓝色，VISTA是不透明的银色。VISTA在LEGEND的基础上把内部的16MB FLASH芯片换成了32MB的 FLASH芯片，同时增加了电磁罗盘和气压计。</P><P>总结一下LEGEND和VISTA的优点：</P><P>1 小巧轻便，适合单手操作(按键在机器上部)，能拴挂绳。</P><P>2 屏幕分辨率高。不过在开车使用的时候这个优点刚好转变成缺点，因为屏幕尺寸小分辨率高，因此地图很难看清楚。</P><P>3 最大比例尺是5米(是不是有必要是另外一个问题)，能随时显示定位精度</P><P>4 电池寿命比Meridian系列要长一些，且有多种电池类型的选项，预报的电量比较准确。</P><P>5 当前轨迹最多10000点，包含每个点的准确时间，另外还可以保存10条轨迹，每条最高750点，保存的轨迹中没有时间数据。</P><P>6 航点数目最高1000</P><P>7 附加功能丰富，有测量距离、面积计算、月历、函数计算器、日月位置及月相变化的动态演示等花哨功能。月历功能甚至可以给每一天简单记录一些事情，长期旅行的时候很方便，只是用指点杆输入的时候比较麻烦。</P><P>VISTA还多了一项跳伞时候很有用的功能，能根据水平速度、下降速度、距降落点的水平和垂直距离，判断是否能降落到预定地点。</P><P>eTrex系列的主要缺点是不支持存储卡，不过在大多数时候地图容量和轨迹容量已经够用了。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-11 17:57:06</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>6</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=3&ID=2112" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=3&ID=2112" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=3&ID=2112" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=3&ID=2112&replyID=19003" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=3&ID=2112" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=3&ID=2112" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=3&ID=2112" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=3&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：308.594毫秒
+</td></tr>
+</table>
+</body>
+</html>

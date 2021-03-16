@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：在北京所学（技术篇）[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：在北京所学（技术篇）[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1485&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>45</B> 个阅读者<a href="go.asp?BoardID=6&sid=1485"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1485&id=1485&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1485&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 在北京所学（技术篇）[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1485"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1485"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1485"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1485"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1485"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1485', ' 上海交通大学野外生存素质拓展基地 - 在北京所学（技术篇）[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15379><font color=#000066><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level7.gif><br>&nbsp;&nbsp;等级：蝙蝠侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：954<br>&nbsp;&nbsp;积分：1520<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15379&id=1485&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15379&id=1485&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face7.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>在北京所学（技术篇）[转帖]</b><br>来源：厦门大学登山协会  作者：崔小狄 <BR>以下是老大和我在怀柔国家队跟孙膑教练所学，老大的笔记，稍有修改。 <BR>                                           在北京所学 <BR>     登山里面没有绝对的标准，不要教条主义，尽管布林结死过人，出过事，但不能因此就 <BR>不用它，每种绳结都有它的优缺点，都有它适用和不适用的地方。我们要弄懂得是原理， <BR>而不是遵循什么绝对的标准。搞清楚安全的隐患在哪，用最合适的装备和绳结，技术来保 <BR>障，既可以大胆的操作了。 <BR>     </P><P>    登山攀岩的原则是更安全(safer)更快捷(faster)更快乐！ <BR>    </P><P>    装备是我们的生命之所系，每次活动前都要检查装备，确保没有严重的磨损和伤害。装备 <BR>部应定期检查我们所有的装备，适时的淘汰一些陈旧的，存在安全隐患的装备。绳自应细 <BR>细的从一头检查到另一头，看看磨损程度，有无割裂，内绳有没有露出来，锁具听其打开 <BR>时的声音，若不清脆，发出沙哑或不正常的声音，说明该上点油啦（机油，润滑油?）上完 <BR>油后应把表面的油用纸巾擦去，防止弄脏了绳子，所有的有缝制程序的装备，如安全带， <BR>机制扁带套，应定期检查其缝合处是否结实依旧，有无被锋利的东西割过。 </P><P>  安全带 <BR>  安全带的材料都是扁带，都能承受很大的冲坠力量。但扁带的缺点是怕撕裂，而且当它 <BR>扭曲时受力能力会大打折扣，所以穿安全带时注意一定不要扭曲，要理顺。其二是腰带一 <BR>定要反扣，而且反扣后多出部分的带长要长于8cm.。衣服要尽量穿在安全带里面，这样人 <BR>显得干练，也便于挂环上取挂东西。安全带穿好后的松紧程度以这样为宜：要带出可塞进 <BR>一横拳，但塞不下一竖拳。 <BR>   </P><P>  大锁的一个性能指标：开门宽度。门开的越宽越方便操作，所以也会贵一些。丝扣锁何 <BR>时 上锁：当它；用于保护式上锁，平时挂在腰间没必要上锁，这体现了快捷的原则。上锁 <BR>时应先旋紧再回拧半圈，这样既保证安全又防止锁紧了到时螺丝拧不开。若遇到这种情况 <BR>可用石块轻敲，使螺丝松动。大锁的螺纹要注意防尘和细纱。锁门与锁的连接处要检查， <BR>那里有铆钉且有脱落的可能，另外锁一定是要经过UIAA认证的品牌，以前发生过锁因扭曲 <BR>受力断裂的事情。欧洲的一些工厂，意大利的，西班牙的，那里堆成山的主锁，但在工厂 <BR>附近的小店里，有出售次品的（即经工厂检验不合格的产品）。小锁可提供短时保护，大 <BR>锁则提供长时保护（锁，据其形状有D形，梨形，O形直门弯们，由螺丝，无螺丝等）。 <BR>  一个原则：所有操作要一次性完成（即要专注），不能因为与别人讲话或接电话等小事 <BR>而忘记了手头的操作，这样会出现差错造成危险。（北大攀岩的一次事故）。 <BR>  </P><P>   安全带的腰带，腰环（连接绳结或主锁的），腿带，腿环，，挂环（可以挂其它随身装 <BR>备），保护环（连接绳结或主锁的），腰扣。打保护或练习上升下降时，保护器械（主锁 <BR>或绳结）可直接扣在保护环上，这样活动空间大，方便。进行先锋攀登和其他危险性较大 <BR>的操作时（一般指会有冲坠的操作）。应把绳结或主锁同时连接到腰环和腿环，这样安全 <BR>带可以收紧一点，缩小了空间，不会荡来荡去，也更安全（但不如连在钩环上快捷，我们 <BR>提倡在safer的基础上还要faster）。挂环用于挂东西，不可作保护。往挂环上挂东西（一 <BR>般指主锁，小锁）由下往上扣会更顺手，易取下。大锁较多时要整齐排列，挂冰锥时要求 <BR>冰锥夹朝后，长冰锥在前，短冰锥在后。在挂环上取、挂东西要熟练，有序，闭着眼睛都 <BR>可以操作。（这样会显得你很专业，也很酷。）长绳套可斜跨在肩上，短一些的可打几个 <BR>活结（使其变短）挂在小锁上。 <BR>  </P><P>   任何时候手里只拿一件东西，不用的则挂在腰间，防止在空中操作是东西掉下去，所以 <BR>八字环要用大头挂在主锁上（有关八字环的操作）。 <BR>操作完成，要开始攀爬，下降即要开始处于危险之中 。在此之前，都要让别人给你检查一 <BR>遍，即二次检查（double check）,要明白哪里会有安全隐患，有针对性的检查，不能应付 <BR>了事。不管是天黑啦，暴风雨腰来啦，还是困了，饿了，一定不要怕费时间，不怕麻烦， <BR>在检查一遍，确保万无一失。如：检查保护点是否依旧牢靠（尤其是攀冰时的保护点，温 <BR>度升高冰会融化，要经常上去检查冰锥），能否承受得起冲坠；检查安全带扭曲了没，反 <BR>扣了没，反扣长度够不够；检查主锁锁了没，绳结安全否（留出绳头长于6cm左右，或该绳 <BR>直径的5倍左右~~~~防止绳头松动自动打开，也便于用完后人为打开。绳透出一般要打一个 <BR>防脱~~~单渔人结），绳子磨损否（起毛）以及八字环、上升器等一些器械是否连接好…… <BR>  </P><P>   绳子分为三种。动力绳，由6~8%的弹性，一般为9~11mm，用于可能产生冲坠的攀岩、攀 <BR>冰。经理绳，没有弹性，一般用于下降,救援。静力绳，无弹性只能静静地、均匀的受力， <BR>不可突然之间瞬间受力。动力绳有弹性，可在缓冲冲坠的瞬间产生巨大冲量，不会骤然断 <BR>裂。第三种是Code，即细绳。直径一般从2mm~8mm不等，最粗可达9mm，此种绳承受力较 <BR>小，不可用于攀登和保护，只能用于作绳套（现在细绳的可承受强度越来越大了）。扁带 <BR>属于静力绳，code好像也是静力绳（此段有些是老大的个人体会，不一定正确）。动力绳 <BR>可承受25~30kN的力。打结后会打折扣，登山圣经上有列表，扁带打结不好，容易扭曲受力 <BR>而产生撕裂的危险（给扁带所以打结时一定要理顺）。 <BR>  </P><P>作保护 <BR>    </P><P>   下方使用者需使用“8”字环，GriGri,ATC,revosle等下降器。首先站位呈平衡姿势（重心 <BR>向后），使绳子尽量垂直，但不要在攀爬者正下方，以免碰到。搞清楚哪种是安全状态， <BR>哪种是不安全状态，在不安全状态要少停留。作保护的收绳一般分五步（也有用四步的， <BR>如8848岩壁），第二步是危险状态，动作要快，制动时手要用力，向身后绕向绷住，万不 <BR>可松开。保护注意力要集中，观察攀爬者的状态和行进情况（攀爬着胸前不要留绳，也不 <BR>要太紧）。刚开始爬3、4米高时，一旦攀爬者掉落，由于绳子的弹性，可能回落到地上， <BR>出现危险，收绳一定要快，并拉紧，随时做好制动准备，也可请第三人打副保护（从背后 <BR>抓住作保护者腰上的安全带）。若攀爬者爬得太快，而未来得及收绳，则需向后退几步来 <BR>应急，后在调整到原位。没有上升器时可用抓结代替，连接在腿带上。攀岩者快到顶时已 <BR>经疲劳（提醒攀爬者重心不要高过保护点，这样会有较大冲坠），很易脱落，这时绳要收 <BR>紧，已稍微帮助他。到顶后轻轻地，均匀的将其放下，快到底时放绳调慢，并提醒他，防 <BR>止跌坐在地上，到底后再多放些绳子以免将其拉的太紧。若最坏的事发生~~攀爬着脱离保 <BR>护掉落，要落地时，保护者要个其一横向的推力。 <BR>  </P><P>下降 <BR>  孙斌教了一种新的下降方法，这套系统的优点是可以代替GriGri，而且解决了“头发缠 <BR>进下降器”这个麻烦（清华有过），在悬崖边下降时用抓结，还有利于在主绳上装下降器 <BR>的操作。所需个人装备：安全带，主锁*3，下降器，扁绳套（扁带套），圆绳套。具体不 <BR>详述，已教会永赞，袁绚，培明，婧姝。 </P><P><BR>攀冰 <BR>  小冰镐的镐尖要经常磨，这样切冰时才锋利，省力。镐头很脆，砸进去取不出来时，千 <BR>万不要左右摇摆，而应上下推卸，待松动时握紧手柄上提即可。必要时小冰镐的镐头可 <BR>换，要注意定期检查固定镐头的螺丝是否松动。腕带可调节长短：握住手柄，将镐头甩 <BR>出，压腕，此时，腕带刚好绷紧的长度为宜。 再攀爬过程中将冰镐砸牢后，手不必全力握 <BR>手柄，靠腕带就可承受身体的重量。 <BR>    </P><P>    冰爪分为卡式和捆式，有12齿，10齿，6齿，4齿等。卡式比较方便，快捷，但必须用在专 <BR>业高山靴；而捆式则可以绑在各种硬底鞋上。冰爪的齿也要定期磨才会锋利；冰爪不可用 <BR>来踩石头。 <BR>     </P><P>    冰锥。冰锥的齿也要磨，冰锥上的螺纹要定期检查，重点保护。若螺纹磨损严重时应淘 <BR>汰，这种冰锥设置的保护点是很危险的。冰锥虽有长有短，但他们的螺纹长度大多一样， <BR>若冰不厚，冰锥露出比较多时，可直接将绳索固定在冰锥的主体杆子上（没有螺纹的光滑 <BR>尾部）。冰锥必须用主锁与绳索连接。 <BR>    </P><P>    设置保护点：由于冰具有很大的可变性，不稳定性，所以通过冰锥设置的保护点不是十分 <BR>安全的，万一在攀冰时脱落，要求攀爬者把脚抬起来，使冰爪离开冰面，否则冰爪刮到任 <BR>何障碍物都可能导致脱落人的腿断。保护点设置好后每爬一次都要检查一次，冰上可能已 <BR>有大裂纹或已融化等情况，切记。首先要认识冰况，可用来攀爬的冰一般要有70~80cm厚， <BR>绿冰比较暖，蓝冰比较冷，墨冰和灰冰最冷。不同的冰有不同的温度，冰层下可能会有岩 <BR>石，会损坏冰锥尖。打冰锥一般选择凹陷的地方，避免凸起的地方。因为冰锥一拧进去， <BR>附近的冰层就会产生裂纹，可能导致整块冰层脱落。两个冰锥的距离一般要保持70cm以 <BR>上，尽可能使其不在一个大冰快上，防止两个保护点同时失败。注意观察冰面，表层的冰 <BR>可能是浮冰，冰层下也可能有气泡，如，冰锥往下拧时突然很轻松。遇到这种情况可先把 <BR>表层浮冰除去，使气泡下的应冰层楼出来，或者干脆换个地方。冰锥设置好后可用碎冰覆 <BR>盖以防日晒。冰锥使金属的，热容比水小，升温快，有可能太阳直射后，冰锥一用力就提 <BR>起来。登山时甚至会发现整只冰锥暴露在外面，歪倒在冰坡上（表面冰融化造成）。一个 <BR>保护点往往要打两三个冰锥，夹角越小越好（60度是谬论）。以前都喜欢用扁绳套连接冰 <BR>锥和大锁，用两根主绳（10.5mm），3m和5m长，两头各打一个“8”字结，3m的打两个冰锥 <BR>时用，5m的打三个冰锥时用。扁绳套可自由滑动，受任何一方的力；而主绳则是在受力方 <BR>向上打个结，这样可以使每个冰锥独立起来（即保护点设置原则之一independence），万 <BR>一有一个脱落，不会影响整个系统。而扁绳套的方法相当于一个系统。不能独立受力，有 <BR>一个脱落，剩下两个也很危险。 <BR>      </P><P>   攀爬：头盔一定要遮住前额，那时最脆弱的部位，最需要保护。攀冰时往往会有冰块落 <BR>下来，一旦有较大的冰块掉下来，攀爬者应大叫“冰块！！！”一提醒保护者。保护者注 <BR>意力要集中，尽量避开落冰路线。攀爬的方法与攀岩一样，三点固定移动另一点，一般姿 <BR>势为两脚平行，一手固定，移动另一只手。主要靠脚来支撑，而不是手。两脚踢稳后身体 <BR>站起来，腿和躯干伸直，即可支撑全身重量（有几种攀爬方法，如猴子式）。 <BR>  </P><P>   镐法：选择凹陷的地方，大臂带动小臂，抡圆，抡正，狠一点儿，砸进去，用力一定要 <BR>正，自然些，也不要太大力，镐会反弹的，有种切豆腐的轻松感，砸进去的同时要自然的 <BR>压腕收手，否则手碰到锋利的冰面上，可能会擦伤出血，取出冰镐时不可用力过猛，以防 <BR>由于惯性导致冰镐后部砸到眼睛。为防止此危险，可将网球切成两半，分别扣在两制冰镐 <BR>的镐头后部。 <BR>      </P><P>    脚法：注意前齿是4个，要全踢进去。其动作是：钩脚尖，踢进去，站起来就不要动啦， <BR>尤其是脚后跟不要试图调整，否则只能从新踢一次。此过程主要是充分调动你的踝关节， <BR>根据不同的冰面调整你脚的入冰角度，需细心体会，才能踢得轻松准确。易范毛病：脚跟 <BR>过高。</P><P>  <BR>      绳结：布林结    一棵树     一条蛇    一定要打防脱结，绳头一定要留的够长；渔人 <BR>结的特点就是越用力越收紧；“8”字结很安全，但多次受力后不易解开，布林结则易解。 <BR>猪蹄扣（双套结）：左向前，右向后，然后对折。特点：可两个方向受力，越拉越紧，不 <BR>会松开，而且可以调节两头绳子的长度，往往用于先锋攀的自我保护。变形：a：单手打到 <BR>小锁上去。b：打到固定的闭合保护点上，比如栏杆或树杆。平结，左压右，右压左，用于 <BR>连接两根绳子，但两头要打渔夫结防脱。单结，也非常好用。Italy半扣：非常magic,可用 <BR>于保护技术，但要与下降器的拉绳方向相反。一般不用意大利结下降，因为对绳子磨损太 <BR>大。抓结：可代替上升器。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-11-23 18:12:07</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1485&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1485&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15407><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15407&id=1485&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15407&id=1485&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>俱好的一个东西，建议大家都来看一下，长点知识，不要跑出去了什么都不知道，蛮丢人的。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-11-27 11:54:16</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16081><font color=#990000><B>maonaer</B></font></a>	</td><td width=25 valign=middle><img src=pic/Male.gif alt=帅哥哟，在线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：157<br>&nbsp;&nbsp;积分：371<br>&nbsp;&nbsp;注册：2003-3-16<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=maonaer',500,400)"><img src="pic/message.gif" border=0 alt="给maonaer发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=maonaer" target=_blank><img src="pic/friend.gif" border=0 alt="把maonaer加入好友"></a>&nbsp;<a href="dispuser.asp?id=166" target=_blank><img src="pic/profile.gif" border=0 alt="查看maonaer的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=maonaer&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索maonaer在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:maonaer@sina.com"><IMG alt="点击这里发送电邮给maonaer" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=2103485" target=_blank title="maonaer[2103485]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16081&id=1485&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16081&id=1485&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>这些在我们这次的冬训中都提到过，现在的趋势就是，不再提倡使用散装扁带就是用水结连接的那种。尽量使用6-8MM辅绳的绳套。</P><P>在结组攀登的时候上方要岩壁上保护只允许用单环结和Reverso,以Reverso来替GRIGRI。还有一种可以带自锁的ATC，国内没有买。8字在这种情况下是被UIAA禁止使用的。</P><P><div align=right><font color=#000066>[此贴子已经被作者于2004-3-5 1:00:57编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=166&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-5 0:57:09</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>3</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1485" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1485" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1485" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1485&replyID=15379" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=解固&BoardID=6&ID=1485" title=将本主题解固>解固</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1485" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1485" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：195.313毫秒
+</td></tr>
+</table>
+</body>
+</html>

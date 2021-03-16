@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--每周论题浏览：如果是我们，很想知道大家面临时会如何选择？[讨论]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=2">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=2">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=2">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=2&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 会员可在此专门讨论一些论题
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=2>每周论题</a> →  浏览：如果是我们，很想知道大家面临时会如何选择？[讨论]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=2"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=2"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=2&id=609&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>2600</B> 个阅读者<a href="go.asp?BoardID=2&sid=609"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=2&replyID=609&id=609&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=2&sid=609&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 如果是我们，很想知道大家面临时会如何选择？[讨论]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=2&id=609"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=2&id=609"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=2&id=609"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=2&id=609"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=2&id=609"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=2&id=609', ' 上海交通大学野外生存素质拓展基地 - 如果是我们，很想知道大家面临时会如何选择？[讨论]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6280><font color=#990000><B>yaowu</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：107<br>&nbsp;&nbsp;积分：225<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=yaowu',500,400)"><img src="pic/message.gif" border=0 alt="给yaowu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=yaowu" target=_blank><img src="pic/friend.gif" border=0 alt="把yaowu加入好友"></a>&nbsp;<a href="dispuser.asp?id=16" target=_blank><img src="pic/profile.gif" border=0 alt="查看yaowu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=yaowu&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索yaowu在每周论题的所有贴子"></a>&nbsp;<A href="mailto:yaowu@89810.com"><IMG alt="点击这里发送电邮给yaowu" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6280&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6280&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>如果是我们，很想知道大家面临时会如何选择？[讨论]</b><br>转载：<BR>【一】 我的生活一直都一帆风顺。<BR>从小到大，我都不知道什么是坎坷，也不知道什么是困境。我读过的小学、中学、大学都是数一数二的名牌，甚至连幼儿园也是最好的。 <BR>大学毕业以后，我顺利地进入一家外资公司，三年后升任公司市场部经理。这份工作使我的生活质量和生活水平都提升到了一个较高的层次。在很多人眼里，我二十多岁，有车有房，出入高档专卖店，从来不为钱操心，这样的生活无疑是优越和令人羡慕的。 <BR>但是，我一点也不快乐。<BR>也许是因为自己的道路太平坦，就象一杯寡淡无味的白开水，总是令我感到无限空虚和不满足。我渴望有不同寻常的经历，渴望自己的生活充满激情，更刺激，更有色彩，总而言之，我不愿这样平凡地过完此生。 <BR>我没完没了地在网上猎奇，去各式各样奇怪的网站看些稀奇古怪的东西。我也常去专门讨论探险活动的论坛，在那儿我有一大帮哥们，我们发贴跟贴，互相肉麻地吹捧、不着边际地胡侃海侃，总希望能侃出一两件惊天动地的事来。 <BR>那天看到浪迹天涯发起五一探险活动时，我惊喜又兴奋，几乎是在他的贴子贴出来的同时，我就报了名。 <BR>浪迹天涯是老朋友了，我们常常在论坛里讨论诸如野营装备、探险之类的问题，彼此之间也比较熟悉。这次他联系了车子，准备组织一大帮论坛上的哥们在五一节期间徒步穿越一片原始森林无人区。那片原始森林在三百公里外的雪山附近，方圆几百平方公里，他的计划是穿越雪山脚下最狭窄的地带。由于那里的森林是依山而下，所以地形比较复杂，一路上必须要越过很多起伏的小丘、山涧，还得渡过两条小河。无疑，这是一次很有挑战性的穿越。 <BR>浪迹天涯的这个提议在BBS上引起了热烈的响应，可惜由于条件所限，最后确定参加这次活动只有我、行人和野山雀三个来自同一城市的网友。我们几个在网上都打过交道，因为大家都是一个地方的人，所以也特别谈得来。接下来的几天，我们四个一直孜孜不倦地反复讨论装备、准备工作和各种细节。几个外地网友也参与了我们的讨论，虽然他们无法参加活动，但还是忍住羡慕的口水，热心地为我们出谋划策。 <BR>那时我发现行人绝对是个悲观的人，他几次提到：虽然我们几个在论坛上都是朋友，但毕竟没有见过面，彼此间缺乏必要的了解。而且大家都是热度很高的理论家，说起来一套一套，可是实际经验一点也没有，全是纸上谈兵。他认为这会产生很多不确定因素，甚至存在一定的危险性。 <BR>我的天！不到二百公里，而且还是直进直出，我们甚至可以不带指北针，光看太阳和树叶就能走完，这也算危险？行人立即被淹没在一片唾沫中。<BR>我是一个酷爱发白日梦的人。多少次，我幻想自己于千军万马中取敌首级；或有绝顶高强的武功，出生入死，除暴安良……然而现实中的我却不得不中规中距，上班得听老板的旨意，下班后也无所事事，只能看书上网，最多也就是去迪厅蹦腾蹦腾。生活是如此的不堪，可现在仅仅背上背包去穿越一片树林，都还要前怕狼后怕虎！我心中十分不满，而且也很看不惯这个无胆的鼠辈，那天我跟贴：我们带上装备，绕着二环路走七天怎么样？SB！ <BR>如果一次探险活动的一切都是太太平平的，那也就失去了它原本的意义。也许会有一些意外，会有危险，这又算得了什么？我们就是为这个去的。在我的设想中，这应该是一次危机四伏的旅程，种种危险和困难将会接踵而至，而我则沉着应对，用自己的智慧和勇气去解决一切问题。为此，我几乎翻烂了约翰．怀斯曼写的《生存手册》，还专门托朋友买了一把价值两千多元的Cold Steel的“小狗腿”砍刀。 <BR>我想当时的我已处于个人英雄主义极度膨胀的高度亢奋中。 </P><P>【二】<BR>四月二十日，我们几个在一个闹哄哄的小酒吧里碰了头。<BR>出来迎接我的人给我的第一印象是开朗大方、热情洋溢而且精力旺盛，绝对属于团队中的领袖型人物，这与我想象中的浪迹天涯完全吻合，我毫不费力就叫出了他的名字。然而令我尴尬的是，我很自信地把那个健壮挺拔，浑身黝黑的人当做是野山雀，另一个皮肤雪白、全身虚胖，看起来有点胆小怕事的家伙我却一口咬定是行人！于是只好干笑。 <BR>那天的碰头会的主要目的是让大家先见个面，彼此熟悉一下，以便行动时不至于太拘束，这也是行人唯一有价值的提议。短暂的拘谨后，我们的碰头会又恢复了网上那种不着边际、天马行空的气氛。两杯啤酒下肚，野山雀的话多了起来，俨然以户外运动专家自居。他夹七夹八讲了很多，似乎很深奥，在他所提及的很多术语中，我唯一记住的只有“真北”和“磁北”，而且到现在我也不知道是什么意思。反正当时我听得云里雾里，为了掩饰自己什么也不懂，我认真听着，不懂的也不问。看看其他人，都是一脸严肃，听得不住地点头，可他们的眼睛里全是一片茫然。 <BR>说实话，我并没有类似活动的经验，只有满脑子的《生存手册》和健身房里练出来的小块肌肉，我也不相信其他人会好到哪儿去。至于野山雀，他庞大身躯始终令我有些担心，我隐隐觉得搞不好他还会拖累大家。不过他讲得倒是挺精彩，最终使我们相信他还是具备一定素质的，于是大家不再对他那酒桶般的身材耿耿于怀。但我敢打赌：这几天的爬山涉水至少能让他减二十斤膘。<BR>那次见面是愉快的，我们彼此之间都留下了较好的印象，这是一个良好的开端。后来的日子，我一直处于热切的期待中，而且从来没有象那样看重一个普通的节日，也许我真的有点迫不及待了。 <BR>【三】 <BR>五月一日的清晨，汽车轻快地前进着。一路上，浪迹天涯吹着轻松的口哨，不时和我们开着玩笑；野山雀还没有睡够，独自在后排继续做梦；远离城市，抛下了令人窒息的西装领带，我除了兴奋还是兴奋：目光炯炯，不停地把手掰得噼啪作响，象个职业打手；行人则很舒适地坐在车窗旁看外面的风景，偶尔向我投来一束不解的目光…… <BR>终于站在了森林的边沿！ <BR>望着那茫茫无际的绿色，我的心情为之一畅。浪迹天涯和野山雀掏出指北针和地图开始讨论从哪里进入，我和行人则站在那里欣赏眼前的景致：依山而上的密林，郁郁葱葱，波峦起伏。远处是洁白的雪山，雪山被一片翠绿包围着，高耸入云。呼吸着清新的空气，我们几乎醉了。<BR>刚进森林，我就迫不及待地抽出了我的小狗腿。它沉重、锋利，重心集中在刀的前端，非常利于劈砍。一刀在手，另外三人垂涎欲滴的神情立现，并且马上变得蚂蚁般渺小，同时我心中诸如万夫莫当、力拔山兮气盖世的豪情有如怒涛狂涌，仿佛想借刀锋一泄而出。我想就算当时有一群熊出现，自己也肯定会毫不迟疑地冲上去将它们一一剁碎。 <BR>然而现实对我是绝情寡义的，因为我很快发现林中只有低矮的灌木和杂草，如果执意要当开山先锋，就只能采取类似鸡啄米的姿势去斩断那些轻易就能跨越的草木，这当然于我的英雄形象十分不符，同时也令我感到万分索然。<BR>后面的时间，小狗腿就一直在我背包里。其间偶然遇到有乱枝挡道时，他们就会象发现新大陆一样，毕恭毕敬地把我推到前面，在“酷！一定要酷！”吵嚷声中，依着他们制定的瞳孔收缩、刀闪、藤断三大步骤挥出小狗腿，完事后还得按要求神情落寞地吹去刀身上粘的绿色汁液！ <BR>这班衰人幸灾乐祸的神情和鬼脸使我发现自己已经沦为一个笑料，不过对他们的捉弄我还是很配合的，即使随便带把BUCK的折刀也比小狗腿实用得多，谁让我愚昧呢？ <BR>浪迹天涯是一家规模不小的电脑公司的经理，应该算是IT精英吧，他头脑灵活，遇事果断，待人诚恳热情，也善于与人沟通，很具有领袖的气质，其实我们一直都是把他当做领队的。 <BR>野山雀是个程序员。走了不到一小时我就看出来，他所吹嘘的自己理论经验和实际经验丰富完全是在胡诌，那厮既白又胖还极端缺乏锻炼，走不了一会就得停下来喘气。猛一眼看上去还觉得他老实可怜，可整人出坏点子全有他。哼！以后我再遇到看上去老实巴交的人，一定要加倍提防。 <BR>胆小怕事的行人倒是游历过许多地方，不过都是坐火车坐飞机去的，徒步旅行之类的事却从没干过。他看起来仿佛挺深沉，话虽不多但还算精辟，就是有点杞人忧天。另外，他皮肤很黑，比炭还黑。<BR>在嬉戏般的路途上，我们一直都走得很轻松，遇到复杂的路况，大家互相帮助，提携而上，我们彼此之间的好感也在逐渐增加，我开始喜欢他们，喜欢这个团体，那时我觉得我们能走更远的路，甚至可以走到世界上的任何一个角落。 <BR>林中的景色是别致的，森林仍保持着完好的原始风貌，参天的树木枝繁叶茂，即使此刻外面是阳光普照，林子里也是幽暗深邃，雾气氤氲。这里远离城市的喧嚣，潮湿的空气中充满着草木的清香，我喜欢这里，虽然一路平坦，无险可冒，但我仍然认为不虚此行。<BR>那天傍晚，我们在一个小水潭边宿营。潭水清澈透底，成群结队的小鱼在其中游弋。为了改善生活，我们冲进水中，把住了四个方向，在动用了刀叉棍棒甚至饭盒等武器下，历时一个多小时，终于弄上来几条小鱼。又经过长达半小时的激烈争论，我、行人、浪迹天涯以压倒性优势战胜了想喝汤的野山雀，小得可怜的鱼迅速被送上了简易烤架。 <BR>吃着前所未有的美味，我们海阔天空地闲聊，谈人生、谈理想、谈女人……没有酒，就猜拳喝潭水。我们时而瞪着眼争得面红耳赤，时而又摊成一排大字学远处的狼叫…… <BR>后来的几天几乎都是这样度过的，我们成了无话不谈的哥们，称兄道弟。为此大家都很感谢发起这次活动的浪迹天涯，感谢发明互联网的人，惊叹冥冥中的缘分。如果不是天气转坏，让我们不得不呆在各自的帐篷里听雨声，我们或许已经撮土为香，对着明月结拜成兄弟了。 <BR> <BR>【四】 <BR>从第三天开始，沿途的树木越来越粗，地上的杂草也变得稀疏，我们已经深入了森林腹地。天气变得很糟糕，始终下着蒙蒙细雨，雪山方向的天空更是阴沉得可怕，云层几乎贴在地面上，不时传来隆隆的雷声。林中溪水的流量明显增大，而且十分浑浊，由此我们推断山上肯定在下暴雨。 <BR>然而森林色彩却由此而显得更加动人，空气也更加清新，虽然地面变得泥泞湿滑，虽然浑身都被雨水湿透，但我们全不在意，大家士气高昂，甚至唱起了歌。漫步在雨中的原始森林里，与大自然最真实，最彻底地拥抱，这的确是一种独特的体验，它使我感到前所未有的新奇和快乐。 <BR>如果说当时有什么缺憾的话，那就是野山雀在几天的跋涉中体力消耗巨大，这直接导致了他惊人的食欲。他很快就吃光了自己的全部口粮，并且开始蚕食我们的库存。浪迹天涯带的食品口味很好，所以他受损最为严重，他开玩笑说最近两天一听到野山雀叫饿就紧张，不光心里紧，甚至连脚趾都紧抓着地！ <BR>不过说归说，大家还是很照顾野山雀的，我们三个都自觉地控制了自己的食量，尽量节省出干粮满足他。我想我们几乎是兄弟了，有了困难自然要互相帮助，况且，也没剩太多的路。 <BR>下午，我们到达第一条河。由于暴雨的原因，河水浑浊而湍急，在岸边徘徊了一会儿，浪迹天涯自告奋勇去探路。我们屏住呼吸，盯着浪迹天涯拄着棍子在河里摸索。河水大约齐腰深，很急，他几次险些被冲倒，但终于还是保持住平衡，跌跌撞撞地过了河。看着他在对岸得意地挥手，大家一阵欢呼。 <BR>我们随即沿着浪迹天涯的路线下了水，行人在最前面，我在中间，野山雀势大力沉，断后。河水冲得我们摇摇晃晃，大家不得不手拉着手，小心翼翼地前进，不一会儿就走到了河心。<BR>【五】 <BR>我曾无数次地想象，自己是如何的英勇，如何从容地化解可能出现的各种危险。然而，真正的危险并不在我预计的时间和地点出现，它潜伏着，观察着，然后猝然出击！它降临的时候，我毫无准备。 <BR>当时我很清楚地听到背后的野山雀叫了一声，接着被他猛然一拉，我本能地使劲攥紧前面的行人，我们三个徒劳地挣扎了几下，最终还是失去平衡，一齐倒在水中，奔腾的激流顿时把我们冲了出去。 <BR>肩上的背包很快就吸饱了水，变得异常沉重。我不停地试图用脚踩河底，却发现下面是空荡荡的。我的水性很好，当时并没有慌张，我一边盘算着从哪里上岸，一边设法除去背包，减轻负重。<BR>但是，万万没料到身边的野山雀根本不会游泳，突然间他死命地抱住了我！我用尽全力挣扎，但他的手象钢箍一样，指甲也深深地抠进我的肉里。我还没来得及换口气，就被野山雀沉重的身体拖下了水面。 <BR>肺部象是在燃烧，非常地难受。可是我无法摆脱野山雀，也无法解开背包，更无法浮出水面呼吸。这时体内生出一股强大的力量，强迫我打开口腔呼吸。但我不能，也不敢，我只能苦苦地抵御着这种巨大的痛苦。我知道，最终我会因无法忍受缺氧而不由自主地呼吸，大量的水会涌进我的肺，那时，就是终点了。死亡的脚步迅速逼近，我感到十分恐惧…… <BR>不知道当时野山雀有没有想到，要是他松开我，那等于是救了他自己。河并不宽，我肯定能够把他弄上岸。而他却始终象死猪一样紧抱着我，令我不能动弹，这样我们只有一起完蛋！我感到十分愤怒，而且从来没有象那样憎恨过一个人。 <BR>混沌中，行人出现在身旁，他艰难地弄断我们的背带，甩掉背包，又竭尽全力把我俩往上一托。虽然只是短短的一秒钟，但已经足够了。我深深吸了一大口久违了的空气，立刻恢复了镇定。 <BR>狼狈不堪地爬上岸才发现，我们被河水冲出去近百米。我瘫在岸边，看着湍急的河水，不知道自己在想什么，也不知道应该想什么，脑子里一片空白。<BR>不远处，行人和浪迹天涯手忙脚乱地拍打着野山雀的背，伺候他吐水。我本应该过去帮忙或表示关心的，但我没有动弹，那会儿我根本就不愿意看到野山雀的那张胖脸。 <BR>天空还是那么阴沉，仍旧下着雨，但对于一个劫后余生的人来说，所有的一切都是那么的不同，一切都是那么的亲切可爱而且真实。 ——<BR>浪迹天涯向我走来的时候表情很阴郁，他闷闷地告诉我一个难以接受的事实：这次遇险我们总共失去了三个人的装备和食品。 <BR>大家一言不发地注视着浪迹天涯慢慢打开自己的背包，里面是单人帐篷、水壶等等野外用具，而全部食品就只有几块压缩饼干、十来根火腿肠和两大块巧克力。这点东西还我们不够吃一顿，可是我们还得再走三天！ <BR>五月的天气虽然已经比较暖和，但浑身湿透的我还是禁不住打起了寒战。 <BR>当晚，我们找了一个干燥的地方扎营，为了节约食品，大家都没有吃东西。最受不了的是野山雀，他不停地喝了很多水，仍然无法压下饥火。他看上去很痛苦，但是我们也没有其他办法，只能把唯一的帐篷让给他。<BR>【六】 <BR>第五天早上，雨仍然细细密密地下着。<BR>早晨的空气潮湿，清新，醒来的后第一个深呼吸就让我精神一振。其实我一直是个很乐观的人，对我来说，每个早晨都是一个好的开端，通常我都是从宽大的床上一跃而起，心情舒畅地开始一天的生活。<BR>而那天我的肚子却不失时机地叫了，我顿时想起自己是刚从树洞里钻出来，想起了目前的处境，于是我迅速萎顿下来。 <BR>我们面临的情况很糟糕，剩下近60公里的路程，其中大部分是山地，起码得走两到三天。我们体力消耗肯定会很大，而食物却严重短缺。虽然三天时间饿不死人，但我们肯定会很惨很惨。未来的这几天将如何度过？谁也说不清，望着无尽的绿野，我第一次生出厌恶的情绪。 <BR>和行人一起来到野山雀帐篷前，浪迹天涯正一脸不耐烦地在催促他起床。浪迹天涯无精打采地打着呵欠，情绪似乎比较低落，他甚至仰头对着天空自言自语地嘟囔，好象是抱怨这该死的雨吧？ <BR>野山雀在帐篷里磨蹭了很久，总说没有穿好衣服。行人开玩笑说我们就要冲进帐篷时，他却连声阻止，声音也变得惊慌失措。 <BR>我心里摹地闪过一个不祥的念头！为了防止野兽来偷吃宝贵的食物，头天晚上浪迹天涯把我们唯一的背包交给野山雀，让他带进了帐篷，会不会……浪迹天涯好象也同时意识到了这一点，他猛然上前，拉开了帐篷，却愕然发现野山雀正衣冠整齐地端坐在帐篷里，神情极其不自然。<BR>突然间浪迹天涯就象变了一个人，他的表情一下变得十分冷酷，冷酷得令人不寒而栗。他盯着野山雀，一字一顿地问道：“我们的干粮呢？”<BR>野山雀开始支支吾吾地东拉西扯，言语含糊不清，可能他自己都不知道说了些什么，他的眼神也一直涣散游离，根本就不敢和人对视。 <BR>浪迹天涯没有说话，只是站在那里，锐利的目光就象刀一样，逼视着他。野山雀胡乱翻腾着背包，终究什么也没翻出来。他猛地把手上的东西一扔，象个女人一样哭了起来，“我吃了！呜呜！我真的是饿得受不了了……” <BR>我心里一沉，紧跟着怒火腾地从我心头窜起，一个想把野山雀撕成碎片的念头越来越强烈，我试图克制，但毫无用处，终于我抄起一截枯木棍就往前冲，行人却在后面死死地把我抱住。我俩正扭作一团时，野山雀的惨叫声响起，声音之凄厉，把我和行人都吓了一跳。 <BR>“猪！你这个只会吃的猪！” 浪迹天涯一边咬牙切齿地骂着，一边对满地打滚的野山雀拳打脚踢。浪迹天涯长得很壮实，出手也特别狠，野山雀全无招架之力，被打得不停地嚎叫。 <BR>看到野山雀挨打，我的气消了大半，但是行人仍不敢放开我，只是不断高声叫浪迹天涯住手。到了后来，连我都觉得野山雀很惨，于是颓然扔掉木棍，让行人去劝劝浪迹天涯。<BR>那时我才发现自己并不完全了解我的这些同伴，野山雀根本不考虑别人，毫无节制，就象头自私、贪吃的猪。平时看起来有几分儒雅的浪迹天涯此刻的表现也同样令人吃惊，他英俊的脸几乎扭曲，完全象一头暴怒的猛兽，差点连行人一块揍了。而行人却在关键时刻表现出成熟和理智，他最终镇住了浪迹天涯，让他停了手。<BR>再次上路时，队伍里已没有了欢笑，大家各怀心事地走着，气氛很沉闷。野山雀跟在最后，哼哼唧唧地小声哭泣着，没人愿意搭理他。虽然他被打得鼻青脸肿，可他的肚子是充实的，我想他也该知足了。只可惜那两大块巧克力，巧克力是野营者的必备品，它能提供很多热量，本来我们是准备省到最后关头才吃的，结果全到野山雀一人肚子里去了，除了再给他添点肥膘外起不到任何作用。幸亏他的天良还没有丧尽，给我们剩下了三块压缩饼干，真不知道我们是否应该为此而感谢他。 <BR>地面经雨水多天的浸泡，变得泥泞不堪，石头也格外湿滑，在往日，我们都是互相拉扯着前进的，然而那天我和浪迹天涯都没有管野山雀，所以他走得相当艰难，不多会儿他就上气不接下气，喘息声大得惊人。 <BR>野山雀再次摔倒在泥泞中，这次他显得筋疲力尽，没能马上爬起来。浪迹天涯看了他一眼，好像有点幸灾乐祸。我犹豫了一下，但报复心还是占了上风，那时我已连续一整天没吃任何东西，胃酸正像刀一样在割着我的胃，腹部的持续疼痛总让我不能克制地想起野山雀那张蠕动着的嘴。我的器量不算小，但也不大，反正不能这么快原谅他，于是我和浪迹天涯继续向前走，没有理他。 <BR>走在前面的行人却折了回来，朝野山雀伸出了手。 <BR>我不能不佩服他的大度，早上所发生的事情严重地影响了我们的心情，行人对此也不可能无动于衷，而他在那种情况下还是能向野山雀伸出援手，这多少令我隐隐感到有些惭愧。 <BR>至于野山雀，他今后完全可以去演戏，至少他已经具备了丰富的生活体验，他在一早上流出了惭愧的泪、疼痛的泪和委屈的泪，现在，他的眼眶里又包着感激的泪水了，死胖子！<BR> <BR>【七】 <BR>我们一直走的是直线，所以不可避免地要越过一些小丘、溪涧。路上，行人一直在帮助野山雀，他俩都累得够呛。也许正是这样，才使得行人的体力过量消耗，才导致了意外的再次发生。<BR>那天中午，我们从一个小山涧底部往上爬时，行人没能拉住野山雀，让他摔下去了。开头我们都没在意，因为那并不高，最多只有一米多点，但是几乎是同时，野山雀哭爹叫娘的惨叫声传来，我们顿时紧张起来，赶紧跳下去帮忙。 <BR>野山雀倒在一片乱石中，嘴里含糊不清地嚎叫着，满脸涕泗纵横。他的右脚扭向了一个不可思议的角度，明显是腿骨完全折断了。我最见不得这种场面，浑身上下顿时一阵酥软。还是行人和浪迹天涯坚强，他们手忙脚乱地把野山雀的脚弄直，又用树枝固定起来。中间行人不断向野山雀道歉，但我想他肯定没听见，因为我们扳直他的脚时，他痛得几乎昏了过去。<BR>野山雀痛苦地呻吟着，我们三个却面对面地发呆。浪迹天涯脸色铁青，一言不发，我想他和我一样，都陷入了深深的悔恨中。如果我们了解野山雀的底细，就决不会和他一起出来，如果我们不是那么意气用事的话，如果我们能不计前嫌帮野山雀一把的话，一切也许都不会发生……可惜后悔起不到任何作用，该发生的还是都发生了，我们不仅仍然缺乏食物，而且还多了一个天大的累赘。 <BR>后面的几天是我所遇到过的最为艰苦的日子，我们彻底断粮了。其实这情形是我出发前就设想过的，但是我当时想在绿色的森林里总能够找到食物，我们可以狩猎、还可以去找能食用的植物……我曾经幼稚地认为自己可以仗着一本《生存手册》走遍天下，而那时我才知道自己以前的想法是多么乐观、多么愚蠢！没有工具，没有经验，狩猎是根本不可能的，我们只能寄希望于寻找植物。可惜书上介绍的植物多半都不是亚洲的。尽管如此，我们还是找到和吃过一些植物，但那滋味也绝不是我们这些城市人所能忍受的，所有植物无一例外地苦涩和难以下咽，尝过一两次后我就发誓，即使是饿死都不会再去吃那些鬼东西了。 <BR>而缺粮还不算最糟糕的，我们遇到的最大问题是缺水。以前我们谁也没有想到过在森林里还会有缺水的问题。 <BR>水虽然在森林里随处可见，但都是一汪汪的死水，里面充满了细菌和寄生虫，在人迹罕至的森林里喝下这种水无异于自杀，所以我们只敢喝小溪里的活水。不幸的是小溪并不是随时都有，有的时候我们会连续遇到几条溪流，有时候又会一两天都看不见一条。我们四个只剩下一只水壶，即便是遇到可以饮用的水也带不走多少。那时我才认识到我们是如此的缺乏经验，假如我们把水壶这类重要物品随身携带的话，另外三只水壶本不会丢失，然而我们却没有。 <BR>干渴始终折磨着我们，为此我们想尽了一切办法，每天清晨浪迹天涯和我都要四处去收集露水，这也解决不了什么问题。发现小溪时，我们都会欣喜若狂地扑过去又喝又洗，但是终究我们是要离开的。每次离去时我们都把浪迹天涯的水壶装得满满的，但大家都知道，装得再满也坚持不了多久。 <BR>我们的消耗远远大于吸收，大家的身体虚弱得厉害。尽管我们自己都走不稳，但还得轮流去抬担架。野山雀太重，我们走得跌跌撞撞，抬不了多久就必须换出一个人休息。前进的速度也因此而大受影响，每天最多只能走五六公里，还不到前几天的十分之一。 <BR>一切都令人绝望。 <BR>浪迹天涯的脸色越来越阴沉，他几乎不怎么说话了，而且他看着野山雀的眼神也变得越来越古怪，不知道他在想什么。野山雀的变化最大，他的脸上时刻带着谦卑和讨好的笑容，总想取悦我们。他从不随便说话，也不主动要求喝水，即使是路上的颠簸碰了他的脚，他也强忍着痛不出声。他似乎很怕得罪我们，大概是怕我们扔下他不管吧？ <BR>这期间我们和行人发生了一次激烈的争吵，原因是他背着我们把自己的压缩饼干分了一半给野山雀。这令我和浪迹天涯感到十分气愤，认为要分也应该先分给我们。我们吵得声嘶力竭，而且什么样的脏话都说出来了，之后，我们和行人陷入了冷战。 <BR>也许有很多人，尤其是我的亲人和朋友们都不会相信，我会在短短的几天时间里变得这么卑琐，但事实就是那样，我不再象平日那么洒脱大方，我开始对抬担架的轮换时间和次序，对水的分配这类事情斤斤计较。我虽然也不满意自己的这种变化，但是我太累、太饥渴了，有的时候我简直无法控制住自己。</P><P>【八】<BR>第七天下午。在我们的计划中，这本应该是我们离开森林回家的时候，然而那时我们还在林子里艰难地挣扎着，谁也不知道什么时候才能离开这该死的森林，绝望的气氛笼罩着我们。 <BR>雨终于停了，疲惫不堪的我们随便找了个地方，打算在那里过夜。浪迹天涯放下担架就去找食物，行人出去找水，我留下来看护野山雀。<BR>不久，浪迹天涯捧着几个翠绿的野果子回来，他告诉我不远处还有很多这种果子。这真是天大的喜讯！已经饿得七荤八素的我顿时精神振奋，立刻冲了出去。果然，那里有一片长得很茂盛的树木，上面结满了绿油油的果子。我爬上去就摘，手拿不了就脱下衣服装。 <BR>野果不大，很硬，象李子一样，我想它一定会很可口。但是我还是不能完全放心，于是我停下来弄开一只野果闻了一下，它的气味不怎么难闻，甚至还有一丝清香，我顺势把它的汁液涂在手臂上，又开始疯狂地采摘起来。 <BR>这是《生存手册》上介绍的一种简易鉴别法：首先切开未知毒性的植物嗅闻，如果没有刺激性气味，就可以将它的汁液涂在皮肤上，再无明显反应，则可试吃微量植物，五六小时后仍然没有反应才能食用。 <BR>然而还没到五分钟，我的左臂就传来一阵剧烈的刺痛，抬手一看，整个手臂都红肿了。当时我的心情真无法用语言来形容，就象是沙漠里的迷途客，在快要渴死的时候猛然发现绿洲就在前方，连滚带爬地扑过去却发现那不过是海市蜃楼……我失望到了极点，整个身体仿佛一下失去了支撑。 <BR>良久，我才没精打采地往回走。满地散落的毒果显得是那样得水灵，饱满，我心里一阵恶心，但我连把它们踩碎的力气都没有了。<BR>… … <BR>远远看到营地一片混乱，确切地说，只有行人一个人手忙脚乱。 <BR>野山雀撑在地上大口大口地呕吐，行人在一边替他拍背，又趁他呕吐的间隙朝他嘴里灌水，浪迹天涯抄着手站在一旁，冷漠地看着他们。 <BR>我曾经专门与浪迹天涯讨论过《生存手册》，知道他对这本书也是烂熟的，所以我丝毫没有担心他们会中毒。然而，不该发生，不可能发生的事还是发生了。 <BR>上下打量浪迹天涯，他身上没有一处红肿。我猛然抬头，瞪着浪迹天涯，他也正盯着我，他的目光依然锐利，带着一丝理所当然和满不在乎。 <BR>实际上，我对这个快把我们拖垮了的野山雀已经没有任何好感，对于他终于栽在自己的嘴上，我也只能感到遗憾。虽然我心里觉得浪迹天涯的做法很不对，但我当时认为我们的这个团体已经到了崩溃的边缘，不值得再为野山雀弄得四分五裂。最终，我选择了沉默。 <BR>野山雀不停地吐，最后连胆汁都吐了出来。不久，他开始发烧，面色潮红，不断地胡言乱语。行人十分焦急，但也只能一遍遍地给他冷敷，这根本解决不了任何问题。夜里，野山雀陷入了深度昏迷。 <BR>【九】 <BR>第八天清晨，我和浪迹天涯一起出去采集露水。<BR>空气清新的早晨对我来说也不再是好的开端，我反倒觉得每一个早晨都是恶梦的开始，我也不知道自己从什么时候开始变得这么悲观。 <BR>野山雀摔断腿以来的几天，我们顶多只走了20公里，我感到自己的生理和心理承受力都已经到了极限，好象随时都有倒毙在路边的可能，然而还有30多公里坎坷的道路在等着我们。30公里，如果是公路，踩几脚油门就到了，就算是走路也用不了几小时，可是对于我们来说，那段路起码得走五天，五天后我还活着吗？巨大的生存危机使得我脑子里邪恶的念头一个接一个。对于自己的这种变化，我既沮丧又无能为力，也许魔鬼已经悄悄地占据了我的心灵。<BR>我拖着沉重的脚步走着，身边的浪迹天涯也显得心事重重。一天前发生的事让我对他产生了新的看法，具体的我也说不清，反正他总不会是什么善男信女吧？ <BR>“花乌鸦，你觉得我这个人怎么样？”浪迹天涯一边问，一边乱摇着一棵小树，任由树叶上的露珠洒落在自己的身上。 <BR>我没料到他会突然这么直截了当地问我，但我也没感到特别意外，回答道：“不好说。” <BR>“如果我告诉你昨天我没有给野山雀吃那果子，你相信么？” <BR>我一楞，心想这个可能性倒是很大的。 <BR>“我的确没有叫他吃，昨天我把果子拿回营地，放下后就出去找水了，等我回来才发现野山雀已经那样了。”浪迹天涯漫不经心地说。 <BR>尽管这种可能性是存在的，但是我也只能相信一半，事实究竟是怎么样的只有老天才知道。不过，我还是宁愿相信他的这种说法，我早就觉得，野山雀迟早要栽在自己的那张臭嘴上，于是我说：“真对不起，昨天我还以为是你让他吃的呢。” <BR>浪迹天涯淡淡地笑了一下，说：“其实我心里倒还真这么想过，哎！如果换了是你，你会怎么办？” <BR>突如其来的问题让我措手不及，我一下子不知道该怎么回答，义正辞严地说我绝对不会？可是几分钟前我还在设想，如果野山雀就这么毒发身亡，或者凭空消失就好了，那我们就可以轻装前进，或许还能走出去……但是我也不能说我会，毕竟我只是在心里设想，况且我还得给自己留点脸面。<BR>浪迹天涯一直在很仔细地揣摩着我的表情，不知道他是否看出了我心里的想法，我尽量不流露出任何表情，但还是发现他最终表现出成竹在胸，一切都尽在掌握的神情，这使我很恼火，所幸前面出现的小溪适时地中断了我们的交谈。 <BR>【十】 <BR>下午，我们跌跌撞撞地来到了第二条河边，浑浊的河水象脱缰之马一样奔流而下，发出震耳欲聋的巨响，狭窄的河面上涌起一个个的漩涡。我们被眼前的景象惊呆了！ <BR>但浪迹天涯似乎并不在意，他把担架一扔就扑倒在地上睡起觉来。担架上的野山雀一骨碌滚落在地，一头撞在块石头上，额头上马上鼓了一个大包。抬前面的行人一个踉跄，险些摔倒。当他发现是怎么回事后，顿时呼地挺直身子，脸涨得通红，他紧握青筋暴起的拳头，怒视着正在地上呼呼大睡的浪迹天涯，但看得出，他在竭力控制自己的情绪。 <BR>我对眼前发生的一切都漠不关心，连续四天没有吃任何东西，我浑身上下没有半点力气，当时唯一想做的就是赶快睡觉，也只有睡着了才能忘记饥饿和疲乏。 <BR>醒来后看看四周，浪迹天涯坐在一旁，正望着河水出神。我坐起来，发现自己的肚子仍然很空，但没有丝毫饿的感觉，我的精神稍微好了点。这时行人过来催促我们准备过河，浪迹天涯用一种很奇怪的眼神看了他一眼，没有动弹。我心里隐隐约约感觉到会发生点什么事，也坐着没有动。行人很敏感，他来回看看我们，最后面向着我们坐了下来。<BR>我们三个就那么坐着，用探索的目光互相研究着，都没有说话。最后，还是浪迹天涯首先打破了沉默。 <BR>“先不讨论怎么过河的问题，刚才我算了一下，剩下的路大概有30公里，不算远。但是以我们现在的速度，却要走五到六天，”他说，“到现在为止，我们已经有整整四天没吃东西，再也不可能坚持那么长的时间。”<BR>我已经猜到了他想说什么，侧头看看野山雀，他就躺在不远处的担架里，双目紧闭，显然还处于昏迷中。我知道此时他什么也听不见，但我的呼吸还是不由自主地急促起来。 <BR>浪迹天涯接着说，“但是如果没有负重的话，依我们现在的身体状况，一天大约能走十多公里，也就是说两天多时间我们就可以走出去。”他的话条理分明，语气中没带任何感情色彩。 <BR>虽然我曾多次希望野山雀自动消失或者死掉，但那终归是压抑在自己心底的一个龌龊的想法而已。现在野山雀还活着，还躺在一边！而我们却堂而皇之地讨论着是否抛弃他。浪迹天涯甚至没有提及他的名字，仅仅使用了“负重”这个词。<BR>“不行！我们绝不能抛弃同伴，不管是在哪种情况下。”行人小声但又很坚决地说。 <BR>“我同意！我也有过和你一样的想法，所以这些天我一直在坚持着。但是一个人的能力是有限度的，我们总得面对现实吧？你看看现在的情况，带着他我们根本出不去。”浪迹天涯一指旁边的河，河水怒涛奔腾，“看这条河！比上条河宽了多少？急了多少？别说带他出去，我们自己过去都成问题！” <BR>“这是你的借口吧？我们都会游泳，刚才我已经想好了，我们可以用木筏把野山雀漂过去！”行人一下激动起来，“现在野山雀有伤，又中了毒，扔下他他怎么办？如果是你受了伤，你希望我们扔下你吗？！” <BR>浪迹天涯的声音一下子变得激昂起来，就象在演说，“我不会因为个人的利益而影响集体，我拿得出壮士断腕的气魄！如果影响集体的人是我，我也能牺牲掉自己。”马上，他又换成推心置腹的口气，“况且，我们也不是要真正扔下野山雀，一出林子，我们可以马上带人再回来接他啊。” <BR>浪迹天涯能言善辩，行人根本无法驳倒他，于是他把无奈的目光转向我，问道：“花乌鸦，你的意见呢？” <BR>“对！我们各占一票，就看花乌鸦的意见了。”浪迹天涯立即附和道。 <BR>那真是一个艰难的选择。我知道，如果丢下野山雀，就算我们能回来救他，他生还的机率还是等于零，虽然我很讨厌这个胖子，但那毕竟是个活生生的人啊！<BR>“花乌鸦，我知道你很为难，但是在这种情况下你必须得做出选择，”浪迹天涯对我说，见我仍然举棋不定，他又补充道，“如果你不能正确决定，我们只能一齐死在这里。” <BR>想到死，我有些不寒而栗。几天前，我曾与死神擦肩而过，人在最后时刻的那种绝望和恐惧在我心里留下了巨大的阴影，我还发现自己并不象幻想中那么勇敢无畏。我害怕死，也不想这样死掉，我有亲人朋友，有不错的工作，我还有大把的将来……终于我心一横，低声着对行人说，“你……和我们一块走吧。” <BR>行人眼里期待的光芒一下子暗淡下来。 <BR>【十一】 <BR>收拾行装准备出发时，行人在一直在旁边默默地注视着我们，他决定留下来陪伴野山雀。我们反复地劝说，几乎磨破了嘴皮，得到的始终是一个坚决的“不”字。 <BR>其实我们并没有什么可收拾的，无非是勒紧皮带，系好鞋带之类，但我们一直磨蹭着，拖延着，希望行人能改变主意。最后，我们彻底失望了。<BR>“那你怎么办？”临走时我忍不住问行人。 <BR>“我等水退下去再想办法，只要不放弃，总会有机会的。”他坚决地说。 <BR>那一刻，我感到在他的面前自己就象一粒微不足道的尘埃，我无法找到适合的文字来形容当时的场面。以前我看到文学作品中对这种场面的描写时，心里都颇不以为然，觉得俗，特俗，而轮到我来描述的时候，我才发现自己的语言是那么贫瘠，文字是那么苍白无力。<BR>不知道是幻觉还是心理作用，我甚至看见行人全身仿佛都罩在圣洁的光圈里。强烈的对比使我们的内心完全失去了平衡，同时生出巨大的失落感。 <BR>一贯争强好胜的浪迹天涯显然不习惯处于这种劣势，他悻悻地说：“那你还需要我们回来找你么？” <BR>行人的表情象顿时雕塑一样凝固了。 <BR>良久，我看见他眼框里慢慢涌出晶莹的泪花，那一定是伤心到极点的泪水。他饱含着热泪，用难以置信的目光看着我们，仿佛盯着两个素不相识的人。 <BR>他的眼睛里透出失望，那是对他曾经看做兄弟的人的失望，是对我们心灵的肮脏和人性的彻底泯灭的失望！ <BR>即使是我们做出了那样的选择，他也能够理解。他是善良的，他始终认为世界是美好的，每个人的内心其实也是善良的。然而我们却残忍地在他的心口上戳了一刀。<BR>当一个人的希望完全破灭时，他的心里会是怎样的痛？ <BR>那时我觉得用尽世上最恶毒的词汇来形容我们都不过分，我们慌乱地躲避着他的目光，甚至不敢直视他的眼睛，我们无地自容，更无法面对他，只能落荒而逃。 <BR>【十二】 <BR>该死的雨又下起来。 <BR>我们泅渡过河，象丧家之犬一样仓惶奔窜。那是厄梦一样的路途，饥饿，干渴，四肢极度疲惫，身体虚弱到了极点，最可怕的是我的内心如同荒漠般空虚。 <BR>我俩没日没夜地走着，最后，我们几乎是爬出了森林。远远看见一个山民向我们走来，我心里一阵轻松，紧跟着失去了知觉。 … … <BR>醒来时我发现自己躺在医院的病床上，浪迹天涯已不知去向。 <BR>尽管当地没有专门从事营救的机构，但是他们还是很快组织了一支由一百多名当地群众组成的搜索队，冒雨进入森林进行地毯式搜索。一周时间过去了，搜索队沿着我们的来路仔细地搜索到那条小河，没有任何迹象表明行人和野山雀过了河。队长告诉我：那条河的水位仍然很高，行人带着野山雀根本无法过河，他们唯一的选择只能是沿着河朝下游走，但是起码得走一两个月才能走去。他俩没有食品，一个极度疲惫，另一个完全没有行动能力，以那种状况想走出森林是根本不可能的。 <BR>这个事实将对我的一生产生巨大的影响，我不愿也不能接受它，所以我还是固执地等候着。搜索队继续沿着河的两岸向下搜索，又过了一周，还是没有任何消息。他俩什么也没留下，就这么消失了。 <BR>那时我开始相信这世上有奇迹的存在，回城后我反复拨打行人和野山雀的电话，尽管我再也没有脸面对他们，但是我还是希望能听到他们的声音，确定他们还活着。然而，他们的手机永远处于关机状态。 <BR>最后的一线希望也破灭了！我想，他们真的回不来了。 <BR>通过移动公司的朋友查到了行人的地址。连续几天，我一直在他家附近徘徊。那些天总有一对中年夫妇频繁出入，他们显得很憔悴，神情中显露出焦急和担忧，也许是他们就是行人的父母吧。 <BR>对于行人的父母来说，自己的儿子发生了什么事，是生是死？他们一无所知，他们唯一知道的是儿子带着行囊外出，然后一去不归。<BR>我很想做点什么，我觉得自己有义务告诉他们事实的真相，然后跪在他们面前，向他们忏悔，尽一切可能去补偿他们。但我始终犹豫着，心乱如麻。 <BR>我时时刻刻都沉浸在内疚和悔恨中，白天我总是精神恍惚，夜里不断地做着噩梦，我的心里象是始终压着一块千斤巨石，不能有片刻轻松。我很痛苦，但又不敢找人倾诉，所有的一切都只能郁积在我的内心深处。 <BR>除了这件事的另一当事人浪迹天涯，我想不出还有谁能够和我交流这件事的感受。我想他现在大概也很不好受，和他聊聊或许能有一些共鸣和鼓励，或许能有勇气去面对行人和野山雀的亲人们，或许能让自己的心灵得到安宁。<BR>拨通了浪迹天涯的手机，IT精英正在开会。听出是我，他似乎感到很突然，但他还是立刻镇定下来，“那是我们当时的唯一选择，对个人来说，也是最正确的选择，我不认为有什么错……”我不耐烦地打断他，告诉他行人和野山雀不可能活着回来了。他略微迟疑了一下，继续说“我们能活着回来也很不容易，所以得好好地生活下去啊！我承认我们的选择伤害了其他人，但是凡事总得朝前看，总不能永远耿耿于怀，背一辈子心理上和经济上的包袱吧？听我的，当这事没发生，忘了它吧……” <BR>我心底突然涌起一阵莫名的火气，歇斯底里地破口大骂“你这个王八蛋！”电话那边喋喋不休的声音嘎然而止，良久的沉默后，听筒里传来一个平静的声音，“你也一样。” </P><P></P><P><div align=right><font color=#000066>[此贴子已经被作者于2003-5-31 8:55:50编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=16&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-5-31 8:53:50</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=2&id=609&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=2&id=609&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6281><font color=#000066><B>尼布甲尼撒二世</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z2.gif alt=金牛座1983-5-2></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;文章：302<br>&nbsp;&nbsp;积分：292<br>&nbsp;&nbsp;注册：2003-1-5<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=尼布甲尼撒二世',500,400)"><img src="pic/message.gif" border=0 alt="给尼布甲尼撒二世发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=尼布甲尼撒二世" target=_blank><img src="pic/friend.gif" border=0 alt="把尼布甲尼撒二世加入好友"></a>&nbsp;<a href="dispuser.asp?id=51" target=_blank><img src="pic/profile.gif" border=0 alt="查看尼布甲尼撒二世的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=尼布甲尼撒二世&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索尼布甲尼撒二世在每周论题的所有贴子"></a>&nbsp;<A href="mailto:Tristan9@163.com"><IMG alt="点击这里发送电邮给尼布甲尼撒二世" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=99646747" target=_blank title="尼布甲尼撒二世[99646747]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6281&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6281&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>无论如何我也不会丢下同伴。<BR>溪水上涨，就扎筏顺流而下，既节省体力，又节省时间。<BR>水源边总会有人家。<BR>但有一点，上帝与我同在，我与同伴同在。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=51&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-5-31 11:16:27</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6303><font color=#000066><B>SUNNY</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：201<br>&nbsp;&nbsp;积分：411<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=SUNNY',500,400)"><img src="pic/message.gif" border=0 alt="给SUNNY发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=SUNNY" target=_blank><img src="pic/friend.gif" border=0 alt="把SUNNY加入好友"></a>&nbsp;<a href="dispuser.asp?id=19" target=_blank><img src="pic/profile.gif" border=0 alt="查看SUNNY的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=SUNNY&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索SUNNY在每周论题的所有贴子"></a>&nbsp;<A href="mailto:sunzh0501@163.com"><IMG alt="点击这里发送电邮给SUNNY" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6303&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6303&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>我想现在的想法和身在那种处境下的想法肯定不一样，就像这篇文章的作者一样，想法会发生变化的。当一个人身在困境的时候，特别是自己的生命受到威胁的时候，想法自然和平时不一样，以生命为第一考虑，这可能就潜藏在意识的深处，因为平时衣食无忧也就没有表现出来。我希望我能像行人一样，坚持到最后，不放弃每一个伙伴。也希望协会的每位会员能像行人一样，坚持到最后。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=19&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-5-31 20:20:47</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6304><font color=#000066><B>SUNNY</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：201<br>&nbsp;&nbsp;积分：411<br>&nbsp;&nbsp;注册：2002-12-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=SUNNY',500,400)"><img src="pic/message.gif" border=0 alt="给SUNNY发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=SUNNY" target=_blank><img src="pic/friend.gif" border=0 alt="把SUNNY加入好友"></a>&nbsp;<a href="dispuser.asp?id=19" target=_blank><img src="pic/profile.gif" border=0 alt="查看SUNNY的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=SUNNY&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索SUNNY在每周论题的所有贴子"></a>&nbsp;<A href="mailto:sunzh0501@163.com"><IMG alt="点击这里发送电邮给SUNNY" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6304&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6304&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>从上面的文章可以看出，溺水后的不能拖住同伴<BR>这点我也深有体会，不过没这么危险<BR>以前游泳时被人拖住后就完全不能动了，不会游泳的人在水里会抓住一切可以抓的东西，救人千万不能给抓住。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=19&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-5-31 20:24:28</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6306><font color=#000066><B>changlinaa</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z10.gif alt=魔羯座2000-1-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level5.gif><br>&nbsp;&nbsp;等级：侠之大者<BR>&nbsp;&nbsp;文章：565<br>&nbsp;&nbsp;积分：476<br>&nbsp;&nbsp;注册：2003-2-12<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=changlinaa',500,400)"><img src="pic/message.gif" border=0 alt="给changlinaa发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=changlinaa" target=_blank><img src="pic/friend.gif" border=0 alt="把changlinaa加入好友"></a>&nbsp;<a href="dispuser.asp?id=66" target=_blank><img src="pic/profile.gif" border=0 alt="查看changlinaa的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=changlinaa&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索changlinaa在每周论题的所有贴子"></a>&nbsp;<A href="mailto:changlinaa@163.com"><IMG alt="点击这里发送电邮给changlinaa" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=66509365" target=_blank title="changlinaa[66509365]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6306&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6306&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>建议协会成员都要学会游泳！！！<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=66&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-5-31 20:50:40</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6309><font color=#000066><B>尼布甲尼撒二世</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z2.gif alt=金牛座1983-5-2></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;文章：302<br>&nbsp;&nbsp;积分：292<br>&nbsp;&nbsp;注册：2003-1-5<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=尼布甲尼撒二世',500,400)"><img src="pic/message.gif" border=0 alt="给尼布甲尼撒二世发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=尼布甲尼撒二世" target=_blank><img src="pic/friend.gif" border=0 alt="把尼布甲尼撒二世加入好友"></a>&nbsp;<a href="dispuser.asp?id=51" target=_blank><img src="pic/profile.gif" border=0 alt="查看尼布甲尼撒二世的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=尼布甲尼撒二世&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索尼布甲尼撒二世在每周论题的所有贴子"></a>&nbsp;<A href="mailto:Tristan9@163.com"><IMG alt="点击这里发送电邮给尼布甲尼撒二世" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=99646747" target=_blank title="尼布甲尼撒二世[99646747]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6309&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6309&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>包在我身上，<BR>至少让大家回狗刨式:)<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=51&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-5-31 21:46:00</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6316><font color=#000066><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level8.gif><br>&nbsp;&nbsp;等级：蜘蛛侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：1090<br>&nbsp;&nbsp;积分：1636<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6316&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6316&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>游泳馆呢? 也包在老兄身上么?     呵呵,好想游泳阿,可惜学校取消了</P><P>文章太长了,没看完.   就游泳而言,尽量拿工具救人.   我的肌肉达不到能从后面拖住溺水者的高度.</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 0:19:10</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6320><font color=#000066><B>尼布甲尼撒二世</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z2.gif alt=金牛座1983-5-2></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;文章：302<br>&nbsp;&nbsp;积分：292<br>&nbsp;&nbsp;注册：2003-1-5<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=尼布甲尼撒二世',500,400)"><img src="pic/message.gif" border=0 alt="给尼布甲尼撒二世发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=尼布甲尼撒二世" target=_blank><img src="pic/friend.gif" border=0 alt="把尼布甲尼撒二世加入好友"></a>&nbsp;<a href="dispuser.asp?id=51" target=_blank><img src="pic/profile.gif" border=0 alt="查看尼布甲尼撒二世的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=尼布甲尼撒二世&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索尼布甲尼撒二世在每周论题的所有贴子"></a>&nbsp;<A href="mailto:Tristan9@163.com"><IMG alt="点击这里发送电邮给尼布甲尼撒二世" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=99646747" target=_blank title="尼布甲尼撒二世[99646747]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6320&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6320&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>8</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>思源湖可是不错的资源。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=51&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 0:52:20</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6324><font color=#000066><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level8.gif><br>&nbsp;&nbsp;等级：蜘蛛侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：1090<br>&nbsp;&nbsp;积分：1636<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在每周论题的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6324&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6324&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>9</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>我怎么没想到呢？     呵呵，以后会长以身作则，第一个带领我们下水。</P><P></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 1:42:11</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=6340><font color=#000066><B>holawu</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z8.gif alt=天蝎座1982-10-28></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：小飞侠<BR>&nbsp;&nbsp;文章：1592<br>&nbsp;&nbsp;积分：1528<br>&nbsp;&nbsp;注册：2003-3-5<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=holawu',500,400)"><img src="pic/message.gif" border=0 alt="给holawu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=holawu" target=_blank><img src="pic/friend.gif" border=0 alt="把holawu加入好友"></a>&nbsp;<a href="dispuser.asp?id=100" target=_blank><img src="pic/profile.gif" border=0 alt="查看holawu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=holawu&BoardID=2&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索holawu在每周论题的所有贴子"></a>&nbsp;<A href="mailto:holawu@sina.com"><IMG alt="点击这里发送电邮给holawu" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=29023423" target=_blank title="holawu[29023423]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6340&id=609&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=2&replyID=6340&id=609&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>10</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>下水摸鱼？</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=2&userid=100&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-6-1 15:57:28</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>57</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=2&id=609&replyID=6280&star=2&skin=">[2]</a> <a href="?BoardID=2&id=609&replyID=6280&star=3&skin=">[3]</a> <a href="?BoardID=2&id=609&replyID=6280&star=4&skin=">[4]</a>... <a href="?BoardID=2&id=609&replyID=6280&star=6&skin=">[6]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=2&ID=609" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=2&ID=609" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=2&ID=609" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=2&ID=609&replyID=6280" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=2&ID=609" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=2&ID=609" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=2&ID=609" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=2&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：390.625毫秒
+</td></tr>
+</table>
+</body>
+</html>

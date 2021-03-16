@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--活动快讯浏览：04年两岸三地高校联合攀登幕士塔格峰活动介绍</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=5">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=5">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=5">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=5&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 看看自称最牛鼻的斑竹会给你们带来什么好东东
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=5>活动快讯</a> →  浏览：04年两岸三地高校联合攀登幕士塔格峰活动介绍
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=5"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=5"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=5&id=1580&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>22</B> 个阅读者<a href="go.asp?BoardID=5&sid=1580"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=5&replyID=1580&id=1580&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=5&sid=1580&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 04年两岸三地高校联合攀登幕士塔格峰活动介绍</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=5&id=1580"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=5&id=1580"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=5&id=1580"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=5&id=1580"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=5&id=1580"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=5&id=1580', ' 上海交通大学野外生存素质拓展基地 - 04年两岸三地高校联合攀登幕士塔格峰活动介绍')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15864><font color=#990000><B>zenith</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1983-8-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：1091<br>&nbsp;&nbsp;积分：1623<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=zenith',500,400)"><img src="pic/message.gif" border=0 alt="给zenith发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=zenith" target=_blank><img src="pic/friend.gif" border=0 alt="把zenith加入好友"></a>&nbsp;<a href="dispuser.asp?id=9" target=_blank><img src="pic/profile.gif" border=0 alt="查看zenith的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=zenith&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索zenith在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:zenith@sjtu.edu.cn"><IMG alt="点击这里发送电邮给zenith" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=27116713" target=_blank title="zenith[27116713]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=15864&id=1580&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=15864&id=1580&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>04年两岸三地高校联合攀登幕士塔格峰活动介绍</b><br><BR>提纲<BR>一、序言暨活动主题<BR>1、中国有史以来第一次全国大学联合登山<BR>2、为2008年北京奥运会圣火传递拉开序幕<BR>3、宣传“环境与人类——从征服自然到天人合一”计划<BR>4、向全国人民展现当代大学生风貌<BR>二、山峰介绍<BR>1、概况<BR>2、气候<BR>3、攀登路线<BR>（附慕士塔格山进山路线图和攀登示意图）<BR>三、活动组织者<BR>四、组织机构<BR>五、登山活动计划<BR>六、活动战术及注意事项<BR>七、攀登计划及日程<BR>八、高山营地及营地装备<BR>九、食品计划<BR>十、经费预算<BR>十一、经费来源</P><P>一、序言暨活动主题<BR>随着我国经济的发展，人民生活水平得到了很大改善。登山，一项富有挑战性的运动，正在中华大地悄然兴起。其实自古登山就是人类历史重要的组成部分，不同时期，人类都为了不同的目的而登山——公元前3300年，特洛尔人为狩猎而攀登阿尔卑斯山；公元前138年，张骞为出使西域而攀越帕米尔冰山雪岭；公元627年，唐代高僧玄奘为取经而跨越葱岭；公元1521年，西班牙将军科尔梯斯为军事目的登上了勃勃卡铁贝特尔火山顶峰。登山，在人类历史的壮丽史诗上画上了优美的音符。在现代，登山的旋律依旧激昂——公元1953年，希拉里为征服而登上珠峰，创造了人类首次登顶珠峰的记录；2002年，中国地质大学为庆祝建校50周年而登顶各拉丹东峰；2003年，中国登协为纪念人类登上珠峰50周年而让五星红旗在8848飘扬；而在2004年，我们，中国大学联合登山队，同样拥有明确的目的和坚定的信念：</P><P>1、中国有史以来第一次全国大学联合登山<BR>    建国以来，大学的登山活动都是以个人或学校为单位组织进行的。像这样全国性质的大学联合登山活动，还是第一次。此次联合登山的大学，既有来自中国中部的中国地质大学（武汉）、武汉大学，又有来自中国北部的清华大学、北京大学，还有来自中国东部的上海交通大学、上海复旦大学、厦门大学、浙江大学。我们还特别邀请了来自香港特别行政区的香港中文大学、来自澳门特别行政区的澳门大学和来自台湾省的台湾清华大学。此次联合登山活动将会极大地促进中国大学之间的交流与合作，增进大学之间的联系和友谊，增强两岸三地大学之间的了解，拉近两岸三地大学之间的距离，为中国大学今后的共同发展与进步奠定良好的基础。我们的活动将使祖国各地的交流和联系达到一个新的高度，为祖国统一大业做出大学生力所能及的贡献。</P><P>2、为2008年北京奥运会圣火传递拉开序幕<BR>    “人文奥运”是北京奥运会的主题之一。2008年奥运会文化计划的主题是“和谐、交流和发展”，重点是奥林匹克教育。通过媒体报道、学校教育以及奥林匹克圣火的传递，奥林匹克精神将得到前所未有的普及。做为中国当代大学生，我们应该响应奥运号召，将奥林匹克精神在祖国大地上传播和发扬。2008年的奥林匹克圣火传递活动，是北京奥运会文化计划的第一个主题，我们中国大学生联合登山队，积极响应奥运会文化计划，我们将在雪山上点燃圣洁的火种，为祖国祝福，为奥林匹克圣火传递拉开序幕。我们坚信，我们的行动将得到全国人民和各大媒体的积极响应；并且，我们的行动将使新一代的中国青年受到以体育、文化和环境为三大支柱的奥林匹克运动的教育和启迪，奥林匹克精神将在他们心中孕育出灿烂的果实！</P><P>3、宣传“环境与人类——从征服自然到天人合一”计划<BR>    从人类足迹踏入山地的那一刻开始，就难免会给那些地区带来一定数量的垃圾，也多少会打破山地原有的自然平衡，不论是低海拔的健身性登山运动，还是一般海拔高度的户外探险运动，甚至是高海拔的雪山探险运动，目前都出现这方面的问题。“由于在管理和观念上还多少存在一定程度上的欠缺，我们很多山地的环境保护工作还做得很不到位，产生了不同程度的环境问题。” 国家体育总局登山中心户外部主任李舒平说：“虽说这应看做登山运动发展中的一个阶段，但我们不能因此放松在山地环境保护方面的努力。”2006年的“环境与人类——从征服自然到天人合一”计划，也是2008北京奥运会文化计划的一个主题。我们中国大学联合登山队不仅会在登山日程中安排“清理垃圾，为雪山净身”活动，为全国人民树立正确的环保意识；而且，在我们返校后，将在各个大学内进行环保的大型宣传活动，让更多的当代大学生参与到环境保护中来。</P><P>4、向全国人民展现当代大学生风貌<BR>中国共产党第十六次全国代表大会于2002年11月8日在北京召开。自十六大召开以来，全国各阶层的同胞们都以优异的成果向党和人民交上了自己的答卷。作为当代中国的大学生，我们也必须交上一份让党和人民满意的答卷才行。参加此次联合登山的大学生们，都是在校成绩优异的学生。在此次活动中，中国大学生联合登山队将展现当代大学生的精神风貌——我们是德、智、体全面发展的四有新人！此次活动也将锻炼我们的意志品质，让坚韧、信念、激情、智慧感染全国人民，成为中国人的基本素质，伴我们走向未来！</P><P>人生最大的辉煌、最高的境界是超越自我，而这一切只能用我们自己的力量和意志去实现。“会当凌绝顶，一览众山小”，登山以其独有的魅力吸引着智慧勇敢的中华儿女。我们渴望通过艰苦的攀登磨练自己，向往那站在雪山之巅用我们的心灵与大自然对话的感觉。我们渴望通过自己的努力，为国家的繁荣昌盛做一些力所能及的事情。长樱在手，时不我待；弄潮涛头，舍我其谁！让我们携手并肩走向雪山，那将是全国大学生坚韧、信念、激情、智慧的共同胜利！</P><P>二、山峰介绍<BR>    慕士塔格山是此次全国大学联合登山的目标。<BR>1、概况<BR>　　慕士塔格山，海拔7509米，位于东经75.1度，北纬38.5度，在新疆阿克陶县与塔什库尔干的交界线上，属西昆仑山脉，与公格尔峰，公格尔九别峰并称东帕米尔高原三高峰。山峰西边坡势平缓，北边和东边却十分险峻。该峰山体浑圆，状似馒头，常年积雪，雪线约海拔5200米，冰山地貌发育十余条冰川，其中最大的栖力冰川和克麻土勒冰川将山体横切为两半，冰川末端到达海拔4300米。该峰主要有四条山脊：南山脊、西山脊、西北山脊、东北山脊，西坡坡势平缓，但多裂缝，北坡和东坡均十分险峻。从山脚的卡拉库里湖边看去，该峰就象是白发苍苍的老人，当地人称之为“慕士塔格阿塔”，“慕士塔格”意为“冰山”，“阿塔”意为“父亲”。平缓的西坡是滑雪的好场所，每年吸引了大量欧洲的登山滑雪者。慕士塔格是世界上最高的能滑雪的山，在欧洲的登山滑雪者当中是滑雪圣地。</P><P>2、气候<BR>该地气候与公格尔山相似。由于有众多山系阻隔着印度洋、太平洋气流的进入，因而气候十分干燥，降水主要来自高空西风带气流和极地冷湿气流的相互作用。在海拔7500米左右地区，平均气温在-20度，最低可达-30度，最大风力9-11级，通常风力是7级左右。天气频繁变化是这一地区的一大特点，即使在夏曰，山上也可能风雪交加，气温可下降到-20度。通常登山活动一般安排在6-8月为宜。</P><P>3、攀登路线<BR>    慕士塔格山西山脊路线是攀登慕士塔格山的最佳路线。西山脊路线的特点是：<BR>(1)攀登路线短，坡度小。山体为18度，冰石坡度为25度。意外事故少，登顶成功率高。<BR>(2)交通方便。苏巴什距离喀什约200公里，从喀什出发沿中巴国际公路约5小时便可到达。登山大本营(BC)距离中巴公路9公里，而且汽车还可上至4300米，距大本营仅4公里左右。<BR>(3)距苏巴什牧点近，便于雇佣牲畜进行运输和补充物资。<BR>(4)西山脊两条攀登路线的大本营均在谷地中。谷地平坦，水源充足且干净，易于扎营和休整。</P><P>西山脊的两条攀登路线如下：</P><P>    第一条路线：大本营设在4350米的谷地中。从大本营出发沿西山脊北侧（即克玛吐勒加冰川南侧，克玛吐勒加冰川原称羊布拉克冰川）上攀登至5400——5500米设C1营地，路线为坡度较缓的碎石坡。5500米以上为冰雪地形，转沿西山脊南侧向上攀登约至6800米与第二条路线回合。此段路线冰雪坡多明暗冰裂缝，尤其是在大雪之后，裂缝被雪覆盖，攀登时会有一定的危险性。曾经发生过攀登者掉进冰裂缝的事故。</P><P>    第二条路线：大本营设在4500米的谷地中。沿西山脊支脊喀尔塔玛克冰川南侧向上攀登。在6000米到6800米路线上亦多冰雪明暗裂缝和雪桥。6800米向上至顶峰是坡度较平缓的冰雪坡。</P><P>    由于慕士塔格山攀登路线坡度较缓，高山营地的可选范围大，可根据各队的实力和装备等因素在不同高度设营地，一般均设3——4个高山营地。突击营地在6500米、6800米、7100米均曾建过。</P><P>总之，对于第一次全国大学生联合登山这样的重大活动，不论是从成功率还是安全角度来说，慕士塔格都是最佳的选择。 </P><P></P><P></P><P>慕士塔格山进山路线图<BR> </P><P></P><P></P><P><BR>慕士塔格山攀登示意图<BR> </P><P></P><P></P><P></P><P></P><P></P><P></P><P>三、活动组织者<BR>本次登山活动由中国地质大学（武汉）组织。中国地质大学是全国最早开展登山运动的大学。从五十年代起，中国地质大学就向全国各地输送了大批的登山、地质人才。王富洲、李致新、王勇峰、马欣祥、张志坚、董范、次洛……一个个耳熟能详的名字，让地大和登山紧紧地联系在了一起。中国地质大学曾成功举办过多次登山活动，如2002年的格拉丹东、1999年的珠峰、1997年的希夏邦玛等等，对组织登山活动有丰富的经验。我们坚信，凭着我们的热情及经验，我们也一定能够成功地举办本次的首届大学生联合登山活动。</P><P>四、组织机构<BR>1、登山队名称：两岸三地大学生联合登山队<BR>2、组织单位：中国地质大学（武汉）<BR>3、组织设置（参与学校在回函后将作为组委会成员，重新设置组织机构）：<BR>   组委会 主  任：张锦高            总指挥长：郝翔<BR>副主任：杨昌明、丁振国    副总指挥长：欧阳建平、傅安洲、郑超<BR>顾  问：李致新、王勇峰、马新祥、张志坚<BR>委  员：张建国、童德卿、余心根、查道林、张聪辰、吴信才、<BR>龙朝双、潘铁虹、余瑞祥、刘俊民、杨伦、董范、王甫、<BR>赵舒、黄卓<BR>           秘书长：童德卿<BR>           队  长：董范<BR>           体能教练：杨汉 <BR>		    副秘书长：卢杰、赵舒<BR>           后勤部主任：卢杰<BR>           医  疗：刘亚非<BR>           联络官：石磊 黄卓<BR>           联络员：彭琳、郭冰鑫等<BR>           队  员：参加此次活动的各大学选派队员2-3人<BR>           聘请中国登山协会教练员，西藏登山协会教练员作为技术指导</P><P>五、登山活动计划<BR>1、活动时间：2004年7月16日－8月6日<BR>2、出发地点：中国地质大学（武汉）<BR>3、行程路线：武汉—喀什—BC（高山活动）—喀什<BR>4、装备总表<BR>①组织方可提供借用装备：<BR>技术装备	装备名称	数量<BR>	高山靴	1<BR>	冰爪	1<BR>	雪套	1<BR>	踏雪板	1<BR>	安全带、上升器、下降器、绳套、铁锁等	1<BR>	冰镐	1<BR>	羽绒睡袋（1500克）	1<BR>	睡垫	1<BR>	帐篷	</P><P>②个人装备表<BR>个<BR>人<BR>防<BR>寒<BR>装<BR>备</P><P>	个人装备种类	最小数量<BR>	羽绒衣裤	1<BR>	绒衣裤	1<BR>	防风衣裤	1<BR>	防寒帽	1<BR>	套头帽（睡帽）	1<BR>	防风手套	2<BR>	羽绒手套	1<BR>	绒、毛手套	2<BR>	毛袜	3<BR>	山地鞋	1<BR>	背包(55-70升)	1<BR>	雪镜(墨镜)	2<BR>	头灯、水壶、瑞士军刀、防晒霜、唇膏	1<BR>	雪杖	1-2<BR>5、车辆调配<BR>①面包车 ②吉普车 ③小卡车<BR>6、交通信息<BR>①火车：<BR>序号	车次	离站时间	到站时间	运行时间	距离<BR>汉→乌	T192<BR>T193	9：30	8：53<BR>（第3日）	47时23分	3595千米<BR>乌→汉	T194<BR>T191	20：50	21：19<BR>（第3日）	48时29分	3595千米<BR>乌→喀	K886<BR>K887	13:22	13:16<BR>(次日)	23时19分	1589千米<BR>	K5806/<BR>K5807	15:59	16:07<BR>(次日)	24时08分	1589千米<BR>喀→乌	K888/<BR>K885	14:52	14:52<BR>(次日)	24时10分	1589千米<BR>	K5808/KK5805	18:35	19:40<BR>(次日)	25时05分	1589千米</P><P>② 航班：乌鲁木齐—喀什 <BR>航空<BR>公司	机型	班机	起飞时间	降落时间	境外价	国内价<BR>新疆航空公司	Xo0991<BR>752	1234567	19:30	21:00	1220	1311<BR>新疆航空公司	Xo9903<BR>752	1234567	22:00	23:30	1220	1311<BR>新疆航空公司	Xo9905<BR>752	1234567	23:20	24:50	1220	1311<BR>新疆航空公司	Xo9909<BR>752	1234567	23:30	01:00	1220	1311<BR>新疆航空公司	Xo9991<BR>752	1234567	23:40	01:10	1220	1311<BR>新疆航空公司	Xo9965<BR>73G	1.3.5.7	12:30	16:50	1220	1311</P><P>六、活动战术及注意事项<BR>1、登山路线：西部传统路线<BR>2、注意事项：<BR>①参加本次登山活动的人员须身体健康，无心肺脑疾病、慢性病等以及其他不宜进行高海拔活动的疾病（请咨询医生）。以团队形式参加活动的须有一名领队，负责全队的组织工作；<BR>②参加登山活动的人员须自行准备个人防寒装备及其他个人物品包括：羽绒衣裤、防风衣裤、绒或毛衣裤、帽子、防风手套、绒毛手套、运动袜、毛袜、徒步登山鞋，雪杖、头灯、墨镜、水壶、野外用小刀（瑞士军刀）、防晒霜（40SPF以上）、唇膏等。（由于慕士塔格海拔较高，山上气温极低，防寒装备必须保证质量，特别是羽绒衣裤、手套、袜子等；墨镜需有备用的；此次活动基本全程使用雪杖，请务必购置。）详情可参照《个人装备表》；<BR>③活动参加者须具备基本技术或高原经历，提前作好体能训练。<BR>④个人技术装备自备，组织方可提供装备； <BR>⑤签定活动协议书。</P><P></P><P></P><P>七、攀登计划及日程<BR>时间	教练	A组	B组	备注<BR>7.23	BC	BC	建营<BR>7.24	BC→C1→BC	巴、景、次	大本营周围适应	<BR>7.25	BC→C1→BC		BC→C1→BC	队员分组<BR>7.26	BC→C1	巴、景、次、马	BC→C1	BC  休息	两个教练随队行军<BR>7.27	C1→C2→BC(	次住C1	C1→BC	BC→C1	<BR>7.28	BC   休息	BC 休息	C1→BC	<BR>7.29			BC→C1	BC 休息	<BR>7.30			C1→C2	BC→C1	<BR>7.31			C2→BC	C1→C2	<BR>8.1			BC →C1	C2→BC	教练分组<BR>8.2			C1→C2	BC→CI	<BR>8.3			C2→C3	C1→C2	<BR>8.4			C3→TOP→C2	C2→C3	<BR>8.5			C2→BC	C3→TOP→C2	<BR>8.6			BC 休息	C2→BC	<BR>8.7-12	机动		BC→喀什	BC→喀什	<BR>8.13			解散		</P><P>八、高山营地及营地装备<BR>营地	高度(M)	装备<BR>BC	4420	5个大帐篷，10个两室一厅帐篷<BR>C1	5400	8个 两室一厅，8个套锅，8个炉头<BR>C2	6150	8个三人帐，8个套锅，8个炉头<BR>C3	6900	8个三人帐，8个套锅，8个炉头</P><P>九、食品计划<BR>①购买食品的标准依据<BR>	行军	次数	宿营地	天数	大本营	天数<BR>	BC周围	1	C1	1	BC	1<BR>	BC→C1→BC	1				<BR>	BC→C1	1			BC  (半天)	1<BR>	C1→BC	1			BC  (半天)	1<BR>					BC休息	2<BR>总<BR>计	BC→C1	1	C1	1	BC	1<BR>	C1→C2	1				<BR>	C2→BC	1	C2	1	BC  (半天)	1<BR>	BC→C1	1	C1	1	BC  (半天)	1<BR>	C1→C2	1	C2	1	BC休息	4<BR>	C2→C3	1	C3	1		<BR>	C3→TOP→C2	1	C2	1		<BR>	13次	7天	12天</P><P>②高山行程食品表<BR>名称	数量（顿）	重量（斤）	备注<BR>高山行程食品<BR>	13次	280	派1600个（1人×2个/次）<BR>果冻1600个（1人×2个/次）<BR>巧克力800个（1人×1个/次）<BR>威化800个（1人×1个/次）<BR>火腿600根（1人×1根/次）<BR>糖<BR>高山营地食品<BR>	7天	360	方便面800袋（1人×2袋/天）<BR>火腿400根（1人×1根/天）<BR>咸菜80袋<BR>速食粥160袋<BR>汤料400袋<BR>果珍80袋<BR>咖啡1600小袋（1人×2包/顿）<BR>牛奶80袋</P><P>①大本营食品表<BR>名称	标准	 内容	总量<BR>主食类	2两/人/顿	大米、挂面等	大米    袋<BR>挂面    箱<BR>副食类	2两/人/顿	花生米、粉丝、绿豆、银耳等	粉丝    袋<BR>绿豆    袋<BR>银耳    袋<BR>肉蛋类	2两/人/顿	牛羊肉、熏肠、鸡翅、鸡蛋等	牛肉 120斤<BR>羊肉 80  斤<BR>鸡翅 40  斤<BR>肠   40  斤<BR>鸡蛋 240 个<BR>水果类		哈密瓜、苹果等	哈密瓜 50  个<BR>西 瓜  50  个<BR>苹果   120 个<BR>梨     120 个<BR>桔子   120 斤<BR>饮料类		啤酒、可乐、速溶饮料	啤酒 5 箱<BR>可乐 1 箱<BR>雪碧 1 箱<BR>白酒 5 瓶<BR>蔬菜	3两/人顿	各类时鲜蔬菜	白菜   斤<BR>萝卜   斤<BR>大蒜   斤<BR>土豆   斤<BR>调料		油盐酱醋	</P><P><BR>其他		本营零食	花生米  袋<BR>瓜子    袋<BR>饼干    袋</P><P>②高山行程食品表<BR>&#8226;每顿食品：派（120克）、果冻4个（100克）、巧克力威化1块、巧克力2块、奶糖5颗、果糖5颗、葡萄干（50克）<BR>&#8226;高山行程食品：180顿<BR>名称	数量	名称<BR>派	720袋	<BR>果冻	150斤	喜之郎<BR>巧克力	720块	德芙或几百利<BR>威化	720块	雀巢<BR>水果糖	60斤	玉米、话梅糖<BR>奶糖	60斤	徐福记<BR>葡萄干	80斤	<BR>肠	720根	</P><P>&#8226;高山营地食品共计300顿<BR>&#8226;每顿食品为：方便面1袋/顿	（120克）、肉罐头100克/顿、咸菜0.5袋/顿、速食粥30克/顿、饮料25克/顿、汤料1袋/顿、肠、干肉、葡萄糖。<BR>名称	数量	备注<BR>方便面	600袋	<BR>肉罐头	160斤	（鱼多一些）<BR>咸菜	200袋	（雪菜要多）<BR>速食粥	80斤	<BR>饮料	60斤	奶粉、果珍、咖啡<BR>汤料	1000袋	紫菜、脱水蔬菜<BR>葡萄糖		</P><P>十、经费预算（按四十人预算）<BR>1、	装备费（个人装备、技术装备） 共40万元；<BR>2、	交通费（包括往返、进山费用、物资运送）共20万元；<BR>3、	食品费（途中餐饮费、大本营食品、高山食品、高山炊具等）共10万元；<BR>4、	训练补助、资料费 共3万元；<BR>5、	宣传费用 共5万元；<BR>6、	专家、技术人员、教练等聘请费用 共25万元。<BR>    共计费用：103万</P><P>十一、经费来源<BR>    主要靠厂商赞助，学校补缺。</P><P></P><P></P><P></P><P></P><P></P><P><BR>2003年全国大学生联合登山活动协议书</P><P>为保证本次登山活动顺利进行，参加活动人员将遵守以下协议。</P><P>一、须知<BR>1、登山活动是一项带有危险性的探险活动，任何不可预测的情况均可能发生，参加登山节活动的人员须认同这一点且完全自愿参加。<BR>2、登山活动是一项对体能要求很高的运动，很可能因体能和天气、攀登技术问题而达不到个人的预期目标，队员对此应有充分的心理准备。<BR>3、队员须自行或委托组织者购置必备的装备以及个人用品，经组织者检查认为不符合登山要求的，应及时更换，不听劝告而造成冻伤等意外，或因个人装备问题造成的后果，均责任自负。<BR>4、登山活动期间，队员须服从组织者的活动安排，凡因个人私自行动而造成的一切后果完全责任自负。<BR>5、登山活动期间，凡因个人隐瞒实际情况（病史、身体状况及其他状况）所造成的一切后果责任自负。<BR>6、登山活动期间，凡因自然和个人因素队员不能继续攀登、或未能登顶，组织者不承担责任。<BR>7、登山活动期间，组织者根据当时情况有权终止团队和个人的攀登活动。组织者宣布登山活动终止后，参加人员或团体的任何行为其后果自负。<BR>8、登山是一项团队活动，队员应团结友爱、互相协作。凡队员个人之间发生的任何纠纷自行解决，导致后果的，组织者不承担责任。<BR>9、个人物品妥善保管。<BR>10、活动结束后，组织者向队员颁发中国登山协会的登高及登顶证书，但不负责运动员等级的申请。<BR>11、保险由个人自行购买，活动组织方不予负责。特殊情况下（如需外界救援等）的额外支出，属于个人行为造成的由其个人承担，属于团队情况的（自然等不可抗力因素）均摊。<BR>二．中国登山协会对此次登山活动负责。<BR>三．未尽事宜，协商解决。</P><P></P><P><BR>协议人（签字）：                                中国登山协会（盖章）</P><P></P><P>签约日期：<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=9&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-2-28 23:22:21</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=5&id=1580&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=5&id=1580&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15871><font color=#990000><B>bolanggu</B></font></a>	</td><td width=25 valign=middle><img src=pic/FeMale.gif alt=美女呀，在线，快来找我吧！></td><td width=16 valign=middle><img src=star/z5.gif alt=狮子座1984-8-13></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：399<br>&nbsp;&nbsp;积分：663<br>&nbsp;&nbsp;注册：2003-3-7<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=bolanggu',500,400)"><img src="pic/message.gif" border=0 alt="给bolanggu发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=bolanggu" target=_blank><img src="pic/friend.gif" border=0 alt="把bolanggu加入好友"></a>&nbsp;<a href="dispuser.asp?id=114" target=_blank><img src="pic/profile.gif" border=0 alt="查看bolanggu的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=bolanggu&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索bolanggu在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:bolanggu@yahoo.com.cn"><IMG alt="点击这里发送电邮给bolanggu" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=12204263" target=_blank title="bolanggu[12204263]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=15871&id=1580&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=15871&id=1580&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>希望你们能成行呀<BR>看上去真是太棒了<BR>要是成功的话<BR>我们协会真是能挺直腰板在体总混了<BR>可是要说服那帮人<BR>贫嘴张大民定要大大努力！！！</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=114&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-2-29 14:00:49</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>2</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=5&ID=1580" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=5&ID=1580" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=5&ID=1580" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=5&ID=1580&replyID=15864" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=5&ID=1580" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=5&ID=1580" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=5&ID=1580" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=5&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：265.625毫秒
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--装备总集浏览：户外服装3（ZT白浪）</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=3">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=3">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=3">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=3&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 装备说明、使用、购买信息等等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=3>装备总集</a> →  浏览：户外服装3（ZT白浪）
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=3"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=3"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=3&id=1618&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>12</B> 个阅读者<a href="go.asp?BoardID=3&sid=1618"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=3&replyID=1618&id=1618&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=3&sid=1618&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 户外服装3（ZT白浪）</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=3&id=1618"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=3&id=1618"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=3&id=1618"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=3&id=1618"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=3&id=1618"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=3&id=1618', ' 上海交通大学野外生存素质拓展基地 - 户外服装3（ZT白浪）')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16085><font color=#990000><B>maonaer</B></font></a>	</td><td width=25 valign=middle><img src=pic/Male.gif alt=帅哥哟，在线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：157<br>&nbsp;&nbsp;积分：371<br>&nbsp;&nbsp;注册：2003-3-16<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=maonaer',500,400)"><img src="pic/message.gif" border=0 alt="给maonaer发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=maonaer" target=_blank><img src="pic/friend.gif" border=0 alt="把maonaer加入好友"></a>&nbsp;<a href="dispuser.asp?id=166" target=_blank><img src="pic/profile.gif" border=0 alt="查看maonaer的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=maonaer&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索maonaer在装备总集的所有贴子"></a>&nbsp;<A href="mailto:maonaer@sina.com"><IMG alt="点击这里发送电邮给maonaer" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=2103485" target=_blank title="maonaer[2103485]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=16085&id=1618&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=16085&id=1618&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>户外服装3（ZT白浪）</b><br>面料</P><P>文：古董</P><P>最后再简单讲讲常见的户外服装的材料吧(排名先后按字母排列)。 <BR>activent<BR> 这是美国gore公司出的一种既防风，又非常透气，还能防一点水的化学材料。它是一种薄膜，需要和别的尼龙类材料压合在一起用，比较适合自行车爱好者穿。<BR>coolmax<BR>这是美国dupont公司出的一种聚脂纤维。它的排汗性能很强，可以很快把汗水从里层排到外面，使你的身体保持干爽。coolmax干的很快，而且穿在身上很舒服，是做内衣和袜衬的理想材料。有些冲锋衣也用coolmax做网状内衬。 <BR>cordura <BR>是美国dupont公司出的一种高强度尼龙。以xx纤度(denier)为强度标准，越高越结实。例如，160 d 是最薄的，330 d 就比较结实了。500 d 的韧度很高，很多好的背包都选用它做面料，而1000 d 的cordura只用在极品背包上。不但背包选用cordura做材料，很多冲锋衣和抓绒衣也都在肩膀和肘部易磨损的地方用cordura加固。<BR>ｃonduit<BR>这是mountain hardware公司自己研制的一款防雨防风透气的材料，主要用于本公司的各款户外服装，如ascent、tundra jacket、exposureii。此材料被称为活的干燥剂，大自然中风雨雪的克星。 <BR>down (羽绒) <BR>这是天然的材料。主产地为中国和匈牙利。羽绒保暖性强，而且极轻，还可以压缩到很小，不占地方。羽绒服、羽绒睡袋在高寒地区是必不可少的。对羽绒的分级，全世界没有统一标准。在美国是以fill power来测量的。fill power越高越好。500和550是现在市面上比较低的，其含绒量相对较低，羽毛和杂质的比例较大，所以蓬松度低。700fill power的鹅绒以上就很好了，800-830是最好的了。如果保养方式正确的话，一个好的羽绒睡袋或羽绒服可以用10-20年。 <BR>dryloft <BR>这是gore公司推出的一种极轻的防水材料，主要用来做睡袋外套。它和羽绒合用做的睡袋既轻又暖和还可以防水。 这几年这种材料也被由于制作羽绒服，登山爱好者特别钟爱。gore-tex <BR>这是gore公司的王牌产品。它的学名polytetraflouroethylene(ptfe)，gore-tex是一种多孔的薄膜, 它需要压合在一层尼龙材料里面才可以做衣服面料。因为它的小孔比水分子小而比气体大，所以理论上讲可以防水透气。透过冲锋衣裤的网状内衬，你会看到压合在尼龙材料上面的白色胶状薄膜。3层(3-ply)gore-tex是2层的材料里面又加上了一层透气的材料。因为3层面料紧粘在一起，你就看不到里面那层gore-tex薄膜。它的优点是里面那层面料可以更好的保证gore-tex薄膜不被磨损，但它的缺点是比2层gore-tex重，而且透气性稍逊。因为绝大部分gore-tex都是压合(laminate)在尼龙材料上，你摸着的感觉是一层。我用gore-tex产品的感觉是防水不错，但透气性能不如其它不防水的材料。总的来说，gore-tex综合效果还不错，是目前最常用的防水透气产品。当然，这几年gore-tex炒的太没谱，希望大家不要迷信它。 <BR>gore-tex paclite <BR>这是gore公司最新的防水透气材料。它比一般的gore-tex轻至少15%, 压缩后装包体积也很小。实际上，采用paclite做的冲锋衣非常轻。tnf用paclite做的ama dablam冲锋衣只有传统的mountain jacket一半重。gore公司1999年的秋天才开始授权少数几个厂家生产。如美国的marmot, mountain hardware, the north face.美国境外的厂家mammut,berghaus, schoffel，peak performance。 <BR>hecvytaslon3000<BR>这是德国t’tiss品牌常用的一种面料，由100%的涤纶材料加pu涂层制成，面料纤维异常纤细，手感柔软且纹理细密，是制作外衣的理想材料。这种材料的耐水性能可达5000mm，透气度每平方米在24小时内可达到5000克。<BR>omni-dry<BR>columbia公司自己研制的吸湿速干的材料，这款布料不但可以迅速将水份吸收，而且会有效的将水份带到面料外面挥发。它的吸水性能是一般棉布的三倍，挥发速度是一般棉布的二倍，因而能使穿着者经常保持干爽舒适，适合于参加各种户外活动。这款材料主要用于生产t恤、衬衫、休闲裤等。<BR>ni-stop<BR>omni-stop fleece是columbia公司的另一个比较有特点的产品，它用防水、防风、透气的omni-tech与保暖的mtr fleece压制而成，从而成为防风、保暖、透气的服装，在寒冷的环境下非常适合。<BR>omni-tech<BR>omni-tech是 columbia公司的一项专利，它与gore-tex材料一样具有防水、防风、透气的功能。面料表面加有dwr（durable water repellent）防水涂层，令雨水无法渗入。并于面料底层压上透气膜，帮助排出体汗，加上接线处的压胶处理，使之具备了艰苦环境下的专业功能。即便经过20次的洗涤，仍能保持80%的防水效果。<BR>outlast<BR>outlast这种材料可以称之为人的体温调节器，它能够吸收、储存及释放身体的热量，令我们的身体在极端的天气下也能保持正常的体温。常被用作内衣及袜子（lorpen就选用这种材料）的材料。<BR>polartec <BR>这是美国malden mills公司推出的材料。迄今为止是户外市场上最受欢迎的抓绒产品。polartec比一般的抓绒衫要轻、软、暖和，而且不掉绒。它不但干的比较快，而且伸缩性也不错。polartec分轻量级，中量级，和重量级。100系列的为轻量级，适合做抓绒裤。200系列最常见，保暖性比100系列好，又没有300系列那么重，算多面手。300系列更暖和，不去很冷的地方用不着。还有200bipolar和300bipolar系列，这些是双层抓绒衣，比较厚。bipolar保暖性能更强，适合在高寒地带穿。值得注意是，一般人买200系列最好，如果冷，可以套一件羽绒背心。300以上的穿在身上相对较沉重又有些裹得荒，太热了穿不住，脱下来又冷，在日常的穿着中不太适合。 <BR>ripstop <BR>这就是那种有小方块儿的尼龙。它的坚韧度比一般尼龙要强，好点儿的冲锋衣裤多用ripstop做外层面料。 <BR>sympatex <BR>sympatex 是vaude 公司的一项专利，它与gore-tex材料一样具有防水、防风、透气的功能。常用在公司自己设计制造的冲锋衣、裤上，当然，现在国内也有一些品牌的户外鞋在用这种材料。<BR>exapore<BR>这是jack wolf skin公司自己研制的一种具有防水、防风、透气功能的材料。<BR>thermastat <BR>是dupont公司出的一种材料。既排汗又保暖，是做内衣的理想材料。 <BR>windbloc 这是malden mills推出的防风材料。windbloc是一种薄膜。采用windbloc做的抓绒衣很保暖，而且非常防风。它可以防一些水，但透气性一般。可以做外套穿，也可做保暖层的抓绒衣(但透气性差)。 <BR>indstopper <BR>这是gore公司推出的防风材料，也是一种薄膜。它没有什么防水功能，但防风透气，而且比一般抓绒产品暖和，可以做外套穿，也可做保暖层的抓绒衣。 <BR>xf windshield<BR>在低温天气运动中，这种面料能确保身体的热量。面料中层薄膜具有100%的防风功能，充分透气，并具有防水的性能。面料的表面经过耐磨处理，不会起球，穿着非常舒适。<BR>需要指出的是，上面所说的只是在欧洲及美国比较流行的面料。这些公司经常出资赞助探险活动，所以它们的产品名声更响。现在各种化学产品种类繁多，亚洲类似的产品也不少。也许它们在名声上面比不了xxxx-tex, 但真正的功能相差不会很大。买东西的时候，千万不要让商家的广告牵着鼻子走。 要记住，适合你的，才是最好的。<BR>同时由于本人的水平有限，所写的东西只能给大家一个参考，希望大家不要迷信。随着科技的发展，许多新的材料在不断出现，因为还不了解，暂时还不能介绍给大家，等我充完“电”后再向大家介绍。<BR>谢谢大家花时间看我的文章，希望能提出批评以便我有更大的提高。<BR>同时欢迎大家转贴，只是希望能表明出处。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=166&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-5 1:05:28</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1618&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1618&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=3&ID=1618" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=3&ID=1618" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=3&ID=1618" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=3&ID=1618&replyID=16085" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=3&ID=1618" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=3&ID=1618" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=3&ID=1618" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=3&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：148.438毫秒
+</td></tr>
+</table>
+</body>
+</html>

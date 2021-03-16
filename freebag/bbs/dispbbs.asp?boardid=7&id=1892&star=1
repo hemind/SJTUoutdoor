@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--游记 心情 随想浏览：朱家尖随想[讨论]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=7">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=7">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=7">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=7&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> %这里是分享历程的大地
+%这里是分享心情的天空
+%这里是分享随想的海洋
+%
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=7>游记 心情 随想</a> →  浏览：朱家尖随想[讨论]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=7"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=7"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=7&id=1892&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>57</B> 个阅读者<a href="go.asp?BoardID=7&sid=1892"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=7&replyID=1892&id=1892&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=7&sid=1892&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 朱家尖随想[讨论]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=7&id=1892"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=7&id=1892"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=7&id=1892"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=7&id=1892"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=7&id=1892"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=7&id=1892', ' 上海交通大学野外生存素质拓展基地 - 朱家尖随想[讨论]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17485><font color=#990000><B>洪涛</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z4.gif alt=巨蟹座1969-7-7></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：430<br>&nbsp;&nbsp;积分：1211<br>&nbsp;&nbsp;注册：2003-10-1<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=洪涛',500,400)"><img src="pic/message.gif" border=0 alt="给洪涛发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=洪涛" target=_blank><img src="pic/friend.gif" border=0 alt="把洪涛加入好友"></a>&nbsp;<a href="dispuser.asp?id=382" target=_blank><img src="pic/profile.gif" border=0 alt="查看洪涛的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=洪涛&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索洪涛在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:hong__tao@citiz.net"><IMG alt="点击这里发送电邮给洪涛" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=17485&id=1892&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=17485&id=1892&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>朱家尖随想[讨论]</b><br>加入游牧人俱乐部算来也快一败涂年了。在这一年之中我也参加了俱乐部大大小小不少活动，认识了不少朋友。不过以前都是市内活动，好不容易大家终于盼到了一次大型的出游。目标就是朱家尖的阳光海滩。<BR>　　说实话，４等Ａ的船舱比我想象中的要好。晚上在船舱里和朋友们玩了一会牌。等到天完全黑下来以后，我就和几个朋友一起到船尾去吹海风看星星。<BR>　　天很暗，于是星星就都显得很亮了。抬起头，便是漫天闪烁的的繁星。我是一个在城市中长大的孩子，平时根本没有机会看到如此多而清澈的星星，所以对这样漫天繁星的景象感到很新奇和兴奋。说来惭愧，我长这么大，竟然还是第一次看到北斗七星完整而清晰的展现在我的面前。SingleWalker指给我看天上的银河，只可惜天上有雾，加上空气不好，根本看不清楚。我只能看到一条颜色很淡的白色带子。SingleWalker告诉我他小时侯在乡下看星星的情景，那个时候的空气很干净，夜晚坐在屋前除了可以看到漫天的繁星以外，还可以清楚的看到银河。银白色的一长条，上面点缀着无数星星，很美。<BR>　　突然间我开始羡慕SingleWalker，羡慕像他那样出生成长在７０年代的人们。我是一个出生成长在８０年代的孩子，我们这一代人的童年大多数都是在老石库门和弄堂里度过的。自然没有机会去体会生活在田野乡间的乐趣。如果SingleWalker知道我的想法，我可以想象他一定会这么说，“羡慕个啥呀，咱还羡慕您呢，多年轻啊。”呵呵，为什么人总是这样，生活在都市的时尚男女们向往乡村的纯真朴实，生活在乡村的人们又向往都市的浮华。人们总是向往自己得不到的生活，即使得到了，又有多少人会真正的适应和珍惜呢。<BR>　　人面对大海的时候，总会勾起许多思绪。表达这种思绪的最好方式，就是唱歌。我和SingleWalker在船尾唱起了许多老歌，越唱越响，越长越忘我。终于，一名船员从后面船舱走出来，央求我们去别的地方唱，因为我们打扰了他们的休息。我和SingleWalker只好无奈的相视一笑。今夜会有多少人无眠呢。<BR>　　凌晨４点半时我醒了。因为今天和朋友们约好一起看日出。我的生物钟很好，只要脑子里想着早上有事，就绝不会睡过头。差不多约好看日出的都醒了，SingleWalker，tommylei，wafei，cleye等等。大家一起走出船舱，去迎接清晨的第一缕阳光。<BR>　　海上的雾挺大，想要看到完美的日出是不太可能了。我们在船尾痴心的等了半个多小时，终于看到了太阳。很遗憾的是，看到的日出并没有我想象中的那样完美。我想象中的日出应该是一个金黄的太阳缓缓的从地平线上升起，把周围的海和天空染成一片金黄。而这次日出的时候，我们的视线正好被海上的一座山挡住了。所以我们看到的日出是从山峰后升起而不是从海上升起。尽管这多少有些遗憾，但这并不影响日出本身所固有的美。特别是那一缕阳光照在海面上，在海面上印射出一条金色光芒的时候，我从内而外都感受到了一种久违了的温暖和震撼。<BR>　　到达朱家尖后，我们第一个去的地方是朱家尖上的一座小岛。美名曰：情人岛。<BR>　　进岛之前，看看外面的旅游地图。情人岛的景点还真不少，什么“海枯石烂”“蛟龙出洞”“龙洞蛇洞”之类人模狗样的还真像这么回事。等真的到了这些所谓的景点一看，还真的是人模狗样的。都是些人为的东西，一块石头一个洞随便编个传说往那一竖，就变成景点了。和我以前在五泄所看到的自然天成的景色可是差远了。直到我们到了落鹰峰，我才有了点感觉。<BR>　　落鹰峰是孤独的。他孤独的矗立在海边。石碑上说那是海鹰聚集的地方。可我没看到一只海鹰，应该说连一只鸟都没有。所以落鹰峰便孤独了，它和大陆隔开，孤零零的矗立在不远处的大海中。孤独的面对海风，孤独的承受海浪。我是一个从小就迷恋孤独的人，很多时候我喜欢一个人时的那种感觉。即使有时和朋友们在一起，我还是会躲进自己孤独的空间。没什么原因，只因为我喜欢这种感觉。<BR>　　我喜欢落鹰峰，因为他让我感到有着和我一样的气质。如果可能的话我真想触摸它，可是不行，因为前面就是悬崖。那一刻我多么希望自己能化成一只海鹰，飞过去，在它的头顶盘旋。<BR>    在情人岛上，我们还经历了一次小小的勇敢者之路。<BR>　　不知是谁带路，把大家带到了一条早已荒废的小路上。而且这一走上就回不了头了。小路上荆棘丛生，走到后面连路都没有了。而右边就是陡峭的山崖，除了本俱乐部几个有经验的老驴以外，其他人都是走一步看一步，走的心惊肉跳的，就怕脚下踩空。幸好最后所有人都安全走回了大路，只是cleye的脚被荆棘划了一道口子。真可谓是立经艰辛啊。而非常巧的是在我们走出来的地方正好是一块景点示意图，于是我们便把我们刚刚走过的这条勇敢者之路在图上标了出来，并起名曰：畅游之路。<BR>　　没想到第一次去朱家尖的海滩，却已是在没有月光的夜里。<BR>　　主要是因为我们去沈家门吃海鲜耽误了时间，到海滩时天早已暗了下来。但这并不影响我的兴致。黑夜里在沙滩漫步也是别有一番风味的。<BR>　　赤脚走在没有月光的沙滩上，感觉脚下柔软的细沙温柔的划过指间，那是一种很难用语言表达的舒适感觉。我们大家一起并排站在海水里，迎接海浪一波又一波的冲击。在那样的夜里似乎连海浪也变的格外的温柔，轻轻的触摸我们的双脚。<BR>　　我站在那里，天上是无尽的星空，脚下有着随海浪冲上来的鳞光。静静的听着海的声音，闻着海的味道，看着黑夜里朦胧的大海。那一刻，感觉整个天与地，沙滩和大海都好象只为自己而存在。就像小时侯总是以为世界为自己而存在一样，那种感觉是很奇妙的。小时侯总是以为世界为自己而存在，直到有一天知道自己错了，才发现其实自己已经长大了，于是那种奇妙的感觉也就消逝了。但是在那个晚上，我发现那种奇妙的感觉又回来了。<BR>　　离开沙滩，是要走一段较长较难走的山路的。下来的时候我看不清路，在有手电的情况下也觉得路挺难走。可是上来的时候，即使没有手电我也觉得眼前的路显得格外清晰，真奇是怪。既然看的清，那就别浪费了。于是我走到一批人前面带路。身后的fuyangsh突然说，你是一只狼，两眼会发光，在黑夜里也看的清路。孤独的狼。我没有回话，无奈的笑了笑。我想她一定是看过了我写的东西，否则又怎会说我是狼呢。呵呵，狼就狼吧，随便。只要能带路就是好狼。<BR>　　第二天大家分头活动。一拨人去了普驼山，一拨人去了大青山，剩下的连我在内的大部分人去了南沙海滩浴场。<BR>　　巨大的海浪，沙黄的海水，穿着泳装的人群，无数的遮阳伞。南沙海滩就和大多数海滩浴场一样，没什么特别之处。唯一不同的是多了一排沙雕节留下的沙雕，只可惜我对这种用沙雕砌的艺术并不感兴趣。<BR>　　即来之，则安之。我和大家一起在海水中和海浪“搏斗”了一上午。成功的把自己的皮肤晒成了猪肝色。注意，是猪肝色，不是性感的小麦色也不是流行的古铜色，而是猪肝色。代价是就痛苦的感受今年的第一次蜕皮。<BR>　　从南沙回来洗完吃完睡完后，本次的朱家尖之行也接近了尾声。<BR>　　在候船大厅我和畅游的朋友们一一合影留念。应该说，我会加入畅游俱乐部是个小小的意外，而和畅游俱乐部里比我年长的朋友们玩在一起更是意外之外的意外，以前我从没想到过自己会和７０年代的人们玩在一起。刚参加畅游活动的时候，因为年龄的关系我曾经犹豫过，不知是该继续玩下去还是就此退出。现在我很高兴当时没有选择退出，否则就不会认识这么多志同道合的朋友，也不会有这么多美好的回忆。加入畅游，也许我的一生会因此而改变。<BR>　　回来的那个晚上，我和SingleWalker，wafei一起在船尾大声歌唱，只是这次再也没有人来赶我们了。<BR>　　早晨六点，我走出船舱。清晨的空气里有着都市的气息，迎接我的，是刚刚苏醒的上海。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=382&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-4-11 10:59:04</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=1892&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=1892&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=7&ID=1892" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=7&ID=1892" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=7&ID=1892" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=7&ID=1892&replyID=17485" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=7&ID=1892" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=7&ID=1892" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=7&ID=1892" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=7&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：179.688毫秒
+</td></tr>
+</table>
+</body>
+</html>

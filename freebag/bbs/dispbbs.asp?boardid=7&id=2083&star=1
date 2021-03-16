@@ -1,0 +1,335 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--游记 心情 随想浏览：帽儿山日记之陆昊篇</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=7">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=7">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=7">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=7&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> %这里是分享历程的大地
+%这里是分享心情的天空
+%这里是分享随想的海洋
+%
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=7>游记 心情 随想</a> →  浏览：帽儿山日记之陆昊篇
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=7"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=7"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=7&id=2083&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>1638</B> 个阅读者<a href="go.asp?BoardID=7&sid=2083"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=7&replyID=2083&id=2083&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=7&sid=2083&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 帽儿山日记之陆昊篇</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=7&id=2083"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=7&id=2083"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=7&id=2083"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=7&id=2083"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=7&id=2083"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=7&id=2083', ' 上海交通大学野外生存素质拓展基地 - 帽儿山日记之陆昊篇')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18822><font color=#000066><B>小明</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：379<br>&nbsp;&nbsp;积分：488<br>&nbsp;&nbsp;注册：2003-3-13<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=小明',500,400)"><img src="pic/message.gif" border=0 alt="给小明发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=小明" target=_blank><img src="pic/friend.gif" border=0 alt="把小明加入好友"></a>&nbsp;<a href="dispuser.asp?id=146" target=_blank><img src="pic/profile.gif" border=0 alt="查看小明的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=小明&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索小明在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:zhuoml@sjtu.edu.cn"><IMG alt="点击这里发送电邮给小明" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=70955220" target=_blank title="小明[70955220]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18822&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18822&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>帽儿山日记之陆昊篇</b><br>7月21日                        晴          很热</P><P>   早上六点时就已烈日灼人，大包小包得拿上车，似乎更像是举家出游，大家都是从容并且快乐的，希望这样的从容和快乐能一直坚持下去。<BR>   昨天已经尽量加快速度了，到最后还是折腾到了夜里一点。光装备清单就写了两大张纸，可最后还是拉下了东西，唉，真是百密一疏阿！<BR>   对活动的内容，性质，意义和活动中可能发生的情况已经想了很多遍了，但直到走的时候心里还不踏实，总觉得准备得还不够充分，真不知什么样的准备才能让我满意！但我知道，此行我要做的就是：做好我认为对的每一件事。<BR>   下午天依然很热，就像我们的热情。第一次这么热情投入的唱一首歌《野百合也有春天》。这是前几天就被选为队歌的那首歌，直到今天才有空拿出来学一下。但不知是我天生五音不 全，还是对歌词的理解不够，“深情永不变”这一句总也唱不对。<BR>   中午的饭很香，虽然没有吃饭的地方，只是找了个洗手的池子将就了一下。其实对饭的感受不一定全都在于饭本身，心情很重要，其他的东西也是同样的道理。<BR>   该讲讲最令我兴奋的事了：我被选为此行的队长。意料之中也是意料之外。按道理讲这一次是个培养新人的好机会，肯定会产生新的leader,可自己却从来没往这方面想过，只是某天晚上和宝宝聊天的时候谈到我们这群人里缺少一个核心。如何由任命的队长变为公认的核心，这是我接受这项任务的一个挑战。但我最大的责任是，如何让交大在这次活动中展现其应有的风采，发掘此次活动的深层意义。<BR>   但是时不予我，组织的第一个活动就不是很成功。。。进度太慢了。老师布置了一项任务，让我们自己定队名，队歌，队徽。最后队名定为“皓星”，队训定为：星辰不灭，斗志不减，饮水思源，勇往直前。<BR>   晚上按照我的计划在最后讨论了遍野外意外情况的处理，复习了一下绳结，都是练过的东西，进行得颇为顺利：）几个记者也学绳结学得不亦乐乎，看来和他们打好关系大有希望了，他们本来也像贴近我们吗！！</P><P></P><P>7月22日                          晴        气温30 度以上</P><P>  看着靠在火车边一排整齐的包，心中颇有成就感。快到站了，心情很是激动，期待着。。。<BR>中午到餐车吃了顿饱饭，的确很饱，似乎现在做的每一件事情都是为接下来的四天蓄积能量。上午和同志们一起向记者们发起主动进攻，同车前来的有三个，央视五套的邱奇，新闻晚报的李征，和青年报的鲁海涛。任务进行得比想象中的容易得多，记者们也比想象中的容易相处得多。看着前面几件都进行得颇为顺利，心中不免长期了幸福的小调，看来未来四天的生活还是很光明的。<BR>  在和记者的聊天中受到了启发，协会一直以来受资金问题的困扰，其实可以通过向发售协会LOGO物品这样的方式轻松解决。很多人都还是很想为协会尽份力的，只是我们没有为他们创造这样的机会。<BR>  同行的隔壁铺位有个黑龙江的女孩，很随和，正是个好机会给我介绍一下东北，介绍一下哈尔滨。可我们这群“坏人”硬是要说明我和人家有什么什么，真是拿他们没有办法。在接下来的几天里作为队长肯定要亲密接触更多的人，真不知会被他们想象成什么样。。。<BR>  通过和为数不多的几个东北人接触，就已明显感觉到了南北文化的差异。看了他们的土地他们的建筑之后隐约的感觉到，这种差异似乎是由生存条件引起的。在看了他们的城市之后，又深深感觉到老东北是需要振兴了，哈尔滨也算是东北最重要的城市了，可她看上是一点没有北方明珠的感觉，最好的地方尚且如此，其他边远地区就可想而知了。可能我看得城市还不大真切，但大概的印象总不会相差很远。<BR>  经过在火车站前拍照时的喧闹，终于坐上来往大本营驶去的汽车。心情异常的平静，并没有想象中的期待和迫切，而是一直在思考，我为什么会踏上这片土地。。。同车的人的眼神都是疲惫的或是好奇的，看来从他们那里找不到答案。<BR>  终于到了，赶紧先搭好营地，可这第一件事就遇到了麻烦，帐杆带错了。心中暗骂带这个帐篷的人真浑球，来之前也不检查好。强压着怨气和小明一起尝试着替代方法，幸好很快就搞定了。发生这事时其他人都比较慌乱，看来，这次活动要是出了什么问题，小明还是可以信赖的。在我看来，发现几个关键时刻可以信赖的人至关重要。<BR>  吃饭时同桌的就是韩国女生，一见面就互相产生了浓厚的兴趣。又犯了老毛病，一兴奋起来就忘了北，直到小明来提醒才记得饭后还有一大堆的工作要做，真该死。我现在是队长了，做事要从交大的角度出发，而且交大又是第二组的组长单位，我又要更多地考虑怎么才能团结整个组，把他们凝成铁板一块。草草扒了几口饭，就开始干活了。稍微整理了一下思绪发现今晚我们有几件事情要做：食物，衣物，装备，队伍LOGO,参观沙盘。先把整组的食物领来分好，我们交大的兄弟分好再让各队来领。然后让兄弟们赶紧参观沙盘模型，参观完之后让各队除两个人设计出队伍LOGO。看完沙盘才感觉到这次面对的形势的严峻性，整个行程我们没有向导，全靠学生自己导航，老师不参与指导。倒抽了两口凉气，赶紧叫别人记下这次的大致行军路线，拿相机拍下可食用植物，问清楚当地的一些情况才缓缓得离去。找齐已到的四个学校的人，找个地方就开始了队伍LOGO的设计，我还要去联络其他的事，就委托给小明代我主持一下，辛苦他了。后来做出来的东西很不错，只是花的时间太长了，还好有交大的这群好兄弟支持我：）要着重提出来的是：这次的组织工作太差了，北林的接待液态逊色了点。第二天一早就要正式开始了，前一天晚上十点多的时候组委会还没人知道衣服在那里领，幸好我到处打听才没有错过领衣服的时间。到晚上十点半的时候，我们组的最后两支队伍：本来传说放弃这次活动的清华和地大才姗姗到来。他们的到来给我心里打了镇定剂，地大在这方面一向很强，这次由他们压阵就不怕出什么问题了。但最令我担心的还是六个柔弱的韩国小姑娘，整个晚上打扮的时间都花在他们的身上，语言的不便造成沟通不畅，很难向她们解释清楚她们面临的是怎样的一种挑战，能否帮助他们顺利地完成这次的任务从目前看来是此次最大的挑战。想把她们分开插在各学校中间，不知这样的想法会否被老师们采纳。晚上，好不容易等到姚老师回来，等到安顿好都已经一点多，草草记了些日记就和衣睡下了。</P><P></P><P>7月23日                  阴           有时有阵雨</P><P>   终于正式开始了，现在记日记的时候腰还是酸酸的。<BR>   早上四点多就被姚老师叫醒了，真不舒服。草草得吃了顿早餐就开始了开营仪式。竟然让我在前面举旗，着实感到光荣，但又有一丝遗憾，因为撑的是香港特别行政区的区旗。不过背着四十多斤的大包，在至少90分贝的高音喇叭前站了半个多小时后，这种光荣感就早已消失殆尽，心里只剩下坚持，和盼望着形式化的开营仪式快点结束。终于结束了，但接踵而来的却是一个令人很惊讶的消息：我们的宝宝要被交换到第一组去了。这本来是一件好事，在一个陌生的环境中进行这样试验，对自得的锻炼会更加大一些，应该说是一个更好的机会。但开着她哭得红肿的眼睛，也不免为她伤心，和自己在一起经历过风风雨雨的队友在上战的前一刻分离，对谁来说，那种滋味都不好受。安慰她已没有必要，她自己想通了就好了。临别时拉着她照了张相，嘱咐了几句就去种树了。交换到我们组的是华师大的鸣叫写进的小姑娘，看上去很文静，当感觉很健康，第一眼就让我放心了，还有分配到我们组的两个韩国女孩Candy和河春子。她们看上去就柔弱的多了，还好candy的中文不错，交流上的便利或多或少会弥补些身体上劣势。最后一个完成了种树，赶到集合地点，召集好我们组的全部人马，在一阵嘹亮的口号：“行走天地间，斗志用不灭”后就踏上了四天的辛苦征途。<BR>    今天算是全程中最轻松的，项目是攀岩，溜索，速降，和捉鱼，走的路基本上就是公路。<BR>在攀岩的时候我们遇到了些麻烦，由于我们以前没有这方面的经验，只能等别人都做完了才能进行。岩壁不难，但需要花时间。令我很气愤的是其他几个学校在活动中根本就没有表现出互助的精神，每个学校在自己队员完成之后，就开始休息了，也不管其它学校的死活。以至于所有的韩国女生最后都落到我们组来保护，以至于影响了时间。这样的问题在开始的两天里表现得比较严重。最后在交大队员的努力下，韩国女生和交大的队员终于都成功爬上了岩壁。后面的溜索纯粹是娱乐性的项目，就刺激而言他一点也不逊色，但就意义而言，它就没有多少的价值了。速降都是以前做过的项目，相对容易得多。中间还有一处小插曲，邱奇记者曾想试图在岩壁上对我进行采访，但问了几个无关紧要的问题之后，就只有作罢。接下来的是抓鱼的活动。这个活动进行的就只能用惨不忍睹来描述。一个一米宽二十米长的小水塘，几十个汉子站下去就把里面挤满了，这哪能抓鱼啊！各个学校就顾着抢自己的鱼，把水搞得很浑。后来想想，在这个项目中，大家根本就没有协作可言，只管自己学校的利益，根本没把它当成一些集体完成的项目，反倒更像是各学校间的比赛。后来进行的是扎筏泅渡，我们先帮韩国女生把东西搬过去，然后再把自己的东西搬过去，中韩之间体现了协作，而中国人之间却是各自为政，难道这就是中国人的特点？我作为队长没有提出这一点也没有找出解决方案这是一个很大的失败。问题接二连三的出现了。刚上岸，我们就迷路了。首先镇静下来确定现在的位置，用对讲机联络前队，我们则是原地等待！等了很久才发现前方有一个人来接应我们。但是前方的道路还是要趟水过河，这对我们来说很不方便，因为有很多人只带了一双鞋，湿了后第二天的行军就会有问题。不过，趟水也有其好处，就是在治国和得多城中体现出了团队协作，有水鞋的人下水，帮助运送行李和协助赤脚的人过河。看着在冰凉的激流中被冲刷的一双双的腿，心中颇有些感动。赶到营地，赶紧分工，搭帐做饭。照了个好心的东北人家要了些饮用水，煮了香肠饭，鱼和汤。可惜河春子的胃有点问题，吃下饭就会吐出来，连给她送去的姜汤都给吐了，我看问题严重，就义不容辞的去关心了一下，交流沟通了将近半个小时才搞清楚，它想观察一下明天早上的身体情况再作判断是否继续参加活动。和姚老师沟通了一下，后来找来了医生，吃了点药，就好好休息了。做饭的时候有个小插曲，火烧得正旺的时候突遇大雨，赶紧找来雨衣拉成一大片，四个人分站四角，给我们辛苦达成的灶遮风挡雨，和风雨奋斗了将近一个小时，雨终于停了。可能老天是被我们的精神感动，看着一个个湿透的兄弟，再看看渐烧渐旺的营火，心中格外的骄傲，他们才是我最可爱的朋友。雨停后，地大的同学从帐篷里钻了出来，拨弄了一下他们的灶，费尽吹了一段时间，他们的灶竟然又着了！最好笑的是，他们的人竟然忘乎所以得高呼“我们的灶是防火的”真是太可爱了。晚饭后陪candy去找洗澡的地方，正巧与地大的女生同路，却被地大的女生讥笑为护花使者！哎，无奈！夜里睡得正熟，来了几个人传来了紧急任务，明天不探老道洞了。所以可以晚一点出发了。哈，可以多睡一会了，难得有点幸福的小日子：）可哪知就在同一时刻我们宝宝所在的第一组出了些问题，据说晚上十点半才到营地，真是为她担心，希望不会出事，我们都会为你祈祷的。</P><P></P><P>7月24日                         晴</P><P>    因为这一天晚上的头灯坏了，所以没有及时记下来，写得会有些简单。<BR>    早上一开始就是一段强度很大的爬坡，坡度很陡，路程又长，candy和春子很快就不行了，赶紧和小明进行分工，每人重点保护一个。我照顾的candy 实在是不行了，本想找个想到帮她背包，但又想到如果我这么做的话，这次活动她就此就算失败了，不能这样帮她，于是把它包里所有中的东西一股脑都掏了出来塞进了我的包里，让她被一个接近空了的包，相信她是可以坚持下来了！再试了试我的包，哇，可真够沉的！哎是让我是队长呢，当然是我来背！<BR>    顶上的风景真是异常得美，足够可以驱散一个上午的劳累了！豁然开朗，让我觉得我正屹立在天地之间，俯瞰整个大地，满眼都是一片平整的郁郁葱葱！很像东北人的心胸，是那样的开朗！上山容易下山难，下山极不顺利，小明还差点被上面人踩下的一块石头砸中！因为时间很充裕，下午改变计划去探洞，仍是大老师带队。对于地大老师的带队，我有一些看法，并不是说他带得不好，而是指他这样的包办已经使学生失去了锻炼的价值！没法体会到生存的真正意义了！<BR>    从老道洞下来时发现地大的老师似乎和体院的发生了一些矛盾，看来苗头不好，不仅没有团结起来，而且还有恶化的危险。要赶紧想出办法来。<BR>    在和记者的沟通中感觉到要想做一个好的leader,不但要以身作则，控制好内部，更要和记者搞好关系，让他们也融入进来，对我们的报道就会更客观一点。<BR>    回来一路上就和地大的玉洁一起聊天，做访谈。看看他人眼里的这次活动时怎样的。<BR>    晚上曹云峰身体不好，早早就进帐睡了。能隐约的感觉到有其他的同志已经对他有了些意见。既要安抚好他，又要化解队伍里的矛盾，挑战可不小阿！<BR>    得知明天全是无聊的徒步，便召集了各队的队长，讨论一下解决方案。最后达成一致意见，完全打乱分组，控制好男女生比例。正好也可以借以化解早就存在的各队间的矛盾，促进交流。希望明天能按预期的进行。</P><P></P><P>7月25日                          晴</P><P>   最无聊的一天终于过去了！整天都只是在徒步！在丛林中了无止境的走，最受不了的是根本就看不到目标，搞不清楚方向。就完全像是一个机器人，也许机器人会做得比我还好！相信其他人也会有同样的感受。可是这样会很打击士气的！要想办法让他们转移精力才对。督促他们尽量找旁人聊天，在邱记得带动下吹口哨给他们听，讲讲笑话，唱唱歌，十八般武艺都亮出来，效果还是不大好，看来调动气氛还不是我的强项！！以后要多锻炼一下！<BR>   忘记记下我的新队员了！早上匆忙排好名单后，给他们简单的提示说明了一下，就开始行军了。我们组是四女三男加一个老师。女生有地大的刘玉洁（小鸭蛋），萧颖（小坏蛋），浙林的俞啶铭和candy。男生是我，地大的俞悠，清华的戴明。虽然女生很多，但男生都很强&#61514;，相信不会有问题。<BR>   一路上和他们聊得都不错，也加深了一些了解。下午，在回程的路上，已经到了我今天最疲惫的时候，和刘玉洁走在一起，它的一个动作深深的触动了我！她在不经意间掏出相机，对着我们的背影拍了张照，我没有说什么，只是让我们的话题自然的进行下去。。。相信这张照片会有美好的回忆。天上云很蓝，蓝的是那么得纯净，空中慵懒得躺着几朵白云，她的脸在蓝天白云的映照下都是那样的美丽，每个人的脸也都拥有同样的神采&#61514;。<BR>   晚上抓鸡时我可是大显身手，既然各个学校都还没有学校的界限，拿我也就不能相让了！<BR>开始声刚落，我就扑住了那只最明显的大黑鸡，雄赳赳的举着它走了出来。再等了一下，就看见小明一手领着一只也雄赳赳得走了出来！匆匆合了张影后就把那只黑鸡送给了地大的男生，看得出他对这只鸡很期待，可他接过后连声谢谢都没送给我，唉！！晚上折腾了好久才把两只鸡做完，看来做饭的效率还是太低了，真不知问题出在了那里！！</P><P></P><P>7月26日                        晴</P><P>  最后一天荡绳过涧，已经平安了三天，终于出了些问题。春子落水受伤了。幸好没有大碍！<BR>  在去漂流的路上，candy送了一堆礼物给我。一张韩国传统纸，一个小挂件，两张我至今不知道是什么的纸，还有一张写满了字的卡片。而且不让我当场看卡片上写的是什么，很神秘。韩国人有很多值得我们学习的地方。我们随自古就号称礼仪之邦，但我觉得韩国人比我们更懂礼貌。做好的饭一定会给老师先吃，别人帮助一定会说谢谢，活动结束后会给每个认识的人都送上礼物！而且他们虽是文弱女生，但都有一种永不服输，坚韧的精神。记得春子说过一句话：中国女生都上去了，我一定要上去！人家送我礼物，当然也要回礼了。只好照了张小纸片，随手折了个小船和一只千纸鹤写上祝语送给candy。一路上和戴明candy和另一韩国女生笑着唱着，就在欢笑中不知不觉地走到了漂流点。<BR>   漂流实在是难得的休闲的好机会。刚开始还和他们泼水嬉戏，可是不知怎么的，似乎惹恼了刘玉洁，一看形势不妙，赶紧上去陪罪，还好有那三寸烂舌头，好不容易把她逗得破涕为笑。经过刚才的喧闹，该停下来静静的欣赏一下大自然的美丽了。翻身躺在船上，白云从眼前掠过，树影婆娑，蓝天才是美丽的底色，溪水哗哗得轻轻响动。陶醉在大自然的怀抱中，多么希望生活在钢筋水泥里人们能缓下脚步，留心一下自然界的美丽，远离都市的浮躁。快到终点了，远远的就看见一群人气势汹汹的守在岸边。原来泼水大军在这里，幸好我一路拦下不少人，组成一只航母舰队。哈哈，我可不怕。。。你们。翻起一只小艇做盾牌，其他人从边路包抄。水仗打得很是精彩，性情也格外的舒畅，几天来心中的怨气也随着水花泼溅了出去。换下了湿衣服就开始伤员救护了！邱奇这小子又给我出了个难题，让伤员完全模拟实际情况，必须躺在地上接受接受包扎。还好没有慌张，有较了两个人过来右腿作为三个支撑架，把伤员的身体架了起来，这样帮绷带就方便多了。好不容易固定好，一路高喊着口号就向终点冲了过去。到了终点上了车，向着大本营进发。一路上每逢遇到徒步的一组的兄弟，就会全车雷动，“加油”声充斥了整个空间。终于看到了我期望的那种精神。不过这种精神在利益的冲突下还是很难体现出来的。晚饭前韩国队就匆匆的离开了，看着他们离去的背影，心中很是失落，四天的快乐时光如电影胶片般在眼前闪过。四天的时间太短了！多么难忘的四天啊！！晚餐时只要是认识的每人都喝了一杯，还是没有醉，看来心没有醉，酒就不会醉人。<BR>晚上的篝火晚会挺有水准，看来林大是花了不少心思的！！上台代表二组讲了讲话，唱了首歌“I Believe I C Fly”当时，也只有歌词才能抒发我心中的感慨。漫天的烟花告诉我，到了该离去的时候了！！别了，帽耳岭！别了，二组的兄弟姐妹！别了，东北的父老乡亲。<BR>   谈到烟花突然想到这次的组织问题，从到达哈尔滨道活动结束的晚会都比较混乱，从任何一个工作人员那里都得不到准确信息，真不敢相信这是准备了两年的一个活动。而且活动在表面形式上做足了文章，内容却要单薄许多。活动中各个小项目的设置不可谓不丰富多彩，可基本没有一样能称得上安全合理的。再看最后的晚会，准专业级的歌舞演员召集了不少，焰火也放了不少，可这既没多少意义，又劳民伤财，还不如只是升几堆篝火，让活动参与者自由表演呢。据我在活动当晚的了解，哈尔滨几百万的人口，竟有四十多万的下岗职工，而且不少是军工厂倒闭出来的，如果他们把这些做表面文章的钱花在安置下岗职工方面，政府会少了安全稳定方面的忧患！这些都是题外话，切勿当真。</P><P><BR><div align=right><font color=#000066>[此贴子已经被作者于2004-8-13 20:00:42编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=146&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-8-13 19:57:45</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=2083&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=2083&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18823><font color=#000066><B>小明</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level3.gif><br>&nbsp;&nbsp;等级：业余侠客<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：379<br>&nbsp;&nbsp;积分：488<br>&nbsp;&nbsp;注册：2003-3-13<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=小明',500,400)"><img src="pic/message.gif" border=0 alt="给小明发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=小明" target=_blank><img src="pic/friend.gif" border=0 alt="把小明加入好友"></a>&nbsp;<a href="dispuser.asp?id=146" target=_blank><img src="pic/profile.gif" border=0 alt="查看小明的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=小明&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索小明在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:zhuoml@sjtu.edu.cn"><IMG alt="点击这里发送电邮给小明" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=70955220" target=_blank title="小明[70955220]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18823&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18823&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>据说，陆昊的文章里面有某个名字出现的频率极高<BR>大家有兴趣就找出来吧<BR>呵呵</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=146&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-8-13 20:02:13</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18849><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2359<br>&nbsp;&nbsp;积分：2337<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18849&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18849&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>candy！</P><P>呵呵，没错吧？=）</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-8-25 16:12:19</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18873><font color=#990000><B>漂泊</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：37<br>&nbsp;&nbsp;积分：83<br>&nbsp;&nbsp;注册：2004-4-6<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=漂泊',500,400)"><img src="pic/message.gif" border=0 alt="给漂泊发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=漂泊" target=_blank><img src="pic/friend.gif" border=0 alt="把漂泊加入好友"></a>&nbsp;<a href="dispuser.asp?id=543" target=_blank><img src="pic/profile.gif" border=0 alt="查看漂泊的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=漂泊&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索漂泊在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:freelala619@163.com"><IMG alt="点击这里发送电邮给漂泊" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18873&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18873&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>bigo!!</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=543&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-8-27 21:43:46</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18875><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2359<br>&nbsp;&nbsp;积分：2337<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18875&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18875&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><table style="width:80%" cellpadding=5 cellspacing=1 class=tableborder1><TR><TD class=tablebody2><b>以下是引用<i>漂泊在2004-8-27 21:43:46</i>的发言：</b><BR>bigo!!<BR></td></tr></table><br></P><P>呵呵，我真够聪明的！=）</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-8-27 23:47:25</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18886><font color=#000066><B>chiron</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;文章：178<br>&nbsp;&nbsp;积分：392<br>&nbsp;&nbsp;注册：2003-1-3<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=chiron',500,400)"><img src="pic/message.gif" border=0 alt="给chiron发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=chiron" target=_blank><img src="pic/friend.gif" border=0 alt="把chiron加入好友"></a>&nbsp;<a href="dispuser.asp?id=44" target=_blank><img src="pic/profile.gif" border=0 alt="查看chiron的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=chiron&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索chiron在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:gaoweimj@sjtu.edu.cn"><IMG alt="点击这里发送电邮给chiron" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18886&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18886&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>还有一个 ，继续找~</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=44&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-2 13:30:10</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18892><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level7.gif><br>&nbsp;&nbsp;等级：蝙蝠侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：885<br>&nbsp;&nbsp;积分：1260<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18892&id=2083&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=18892&id=2083&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>忽忽<BR>我来算算是韩国远还是湖北远<BR>……</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-9-2 19:31:50</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>7</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=7&ID=2083" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=7&ID=2083" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=7&ID=2083" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=7&ID=2083&replyID=18822" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=解固&BoardID=7&ID=2083" title=将本主题解固>解固</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=7&ID=2083" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=7&ID=2083" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=7&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：281.006毫秒
+</td></tr>
+</table>
+</body>
+</html>

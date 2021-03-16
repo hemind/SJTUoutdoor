@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--装备总集浏览：关于户外服装1(转载）</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=3">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=3">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=3">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=3&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 装备说明、使用、购买信息等等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=3>装备总集</a> →  浏览：关于户外服装1(转载）
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=3"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=3"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=3&id=1616&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>9</B> 个阅读者<a href="go.asp?BoardID=3&sid=1616"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=3&replyID=1616&id=1616&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=3&sid=1616&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 关于户外服装1(转载）</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=3&id=1616"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=3&id=1616"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=3&id=1616"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=3&id=1616"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=3&id=1616"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=3&id=1616', ' 上海交通大学野外生存素质拓展基地 - 关于户外服装1(转载）')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16080><font color=#990000><B>maonaer</B></font></a>	</td><td width=25 valign=middle><img src=pic/Male.gif alt=帅哥哟，在线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：157<br>&nbsp;&nbsp;积分：371<br>&nbsp;&nbsp;注册：2003-3-16<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=maonaer',500,400)"><img src="pic/message.gif" border=0 alt="给maonaer发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=maonaer" target=_blank><img src="pic/friend.gif" border=0 alt="把maonaer加入好友"></a>&nbsp;<a href="dispuser.asp?id=166" target=_blank><img src="pic/profile.gif" border=0 alt="查看maonaer的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=maonaer&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索maonaer在装备总集的所有贴子"></a>&nbsp;<A href="mailto:maonaer@sina.com"><IMG alt="点击这里发送电邮给maonaer" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=2103485" target=_blank title="maonaer[2103485]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=16080&id=1616&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=16080&id=1616&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>关于户外服装1(转载）</b><br>户外专业服装</P><P>文：老古董</P><P>   写了几篇有关户外的文章以后，突然觉得有点害怕。不是怕别的，只是因为科技发展的迅猛，而我了解的东西有限，怕把别人领入一个误区。我写这些文章的本意是让朋友们更多的了解户外用品的知识，文章中提到的一些产品是我参照欧美市场上的一些资料写的，并不很全面，只是希望能给大家带来些参考。大家千万不要产生什么崇拜感，那样的话容易走入一种物质化的误区。<BR>   户外服装，主要讲的就是防水，防风，保暖和透气。另外，这些衣服的耐磨性能也要求比较高。正是因为户外运动对服装的这些特殊要求，户外用品厂家在设计服装时就会去不断尝试使用新的材料。尤其是近40年来，对特殊化学材料的运用促成了户外运动产品的技术革命。我们这些普通户外爱好者现在用的一些专业器材和服装已经比几十年前首次攀登珠峰的那些前辈用的东西要好的多了。<BR>   让我们先讲讲穿衣服分层(Layering)的概念吧。 什么是分层呢？一般来讲，户外服装分三层穿（COLUMBIA提出了四层概念）。它们是排汗层/内层(Wicking Layer/Base Layer)，保温层(Insulation Layer)，和外套(Shell)。并不是什么时候都需要这三层的。冷了就加一层，热了就减一层。每次出发前，你可以根据你的目的地的天气情况自由搭配，不要完全接受所谓的“前辈”给你的建议。<BR>  排汗层<BR>   内衣经常是容易被忽视的。很多人参加户外运动时穿的还是平日的内衣。其实我平时也只穿天然织物，以前除了纯棉的我看都不看（这可能和我接受的中国传统文化有关）。但是在户外运动中，尤其在温差大的地方，棉制品绝对属于禁忌。棉吸水性很强，但干的慢。当你剧烈活动出了一身汗以后，一停下来你很有可能因为受凉而得病。在高寒地区，棉内衣可以成为杀手。户外的内衣就像我们穿的秋衣秋裤（南方称之为棉毛衫裤），但一般都采用排汗性比较强的材料。如果你去湿度大或是不太冷的地方，CoolMax（或采用Columbia的Omni-Dry的材料）这种导水排汗性能好的材料做的内衣是最理想, 真丝的也可以。但如果你去比较冷的地方，Thermastat做的内衣则比较理想。Thermastat和CoolMax都是杜邦公司的产品。Thermastat除了排汗以外，保暖性能也很好。目前也有用CoolMax和羊毛交织的方法制成保暖排汗内衣。内衣也不用讲什么品牌样式了，买一套试穿两次。如果效果比较好，以后就可以一直用它了。我个人认为“V”字领的比“一”字领的要好，负重行走的时候不会勒你的脖子。内衣的尺寸不能太大，否则会影响保暖性；当然，太紧了也不成，裹在身上影响你活动的自由，在高山地区还会影响你的呼吸（我自己曾在登山时发生过这样的事情）。在国内，“AmazTEK”这个品牌的运动型内衣还是可以的，排汗功能不错，价格也便宜，是比较受欢迎的产品，目前穿着的人很多。除此之外，除了各品牌商自己生产的运动内衣外，瑞典的CRAFT也是一个高档的可供选择的运动内衣。<BR>  保温层 <BR>   这一层的材料有很多，羽绒，羊毛，以及各种人造材料制做成的抓绒面料（摇粒绒）都是重要的成员。羽绒轻，保暖性强，是户外产品中最受欢迎的天然材料。尽管人造材料越做越好，羽绒还是不可取代的。轻巧的羽绒服和羽绒背心都是保温层很好的选择。不过羽绒也有缺点，当羽绒受潮时，它的保温性能将会大大降低，而且干的很慢。羊毛保暖性也不错，但羊毛衣防风性差，湿了以后干的也很慢。另外，羊毛衫容易变形，而且怕虫咬，同时自身分量也重，不易携带。这些弱点是它近年来不被看重的主要原因。最近这几年抓绒衫(Fleece)越来越流行，其主要原因是它的保暖性能很好，而且干的也比较快。另外，好的抓绒衫比较轻，面料不但滑爽不起球，还能防一点儿水，而且透气。传统的抓毛绒防风性不太好，风大时就不能当作外套穿。不过，最新型材料像WindStopper基本解决了这个问题。WindStopper采用了一种类似Gore-Tex的薄膜,虽然不能完全防水，但防风性能很好，比一般的抓绒衫要强好多。抓毛绒的缺点是体积太大，带两件以上装包时会占据很大的空间，但这并不影响它成为主流。 目前各大户外产品厂家都在生产各式各样的保暖层服装，而且大部分都可以和它们自己厂生产的外套连起来穿。买的时候要注意，袖口，肩膀和肘部等部位最好有Cordura一类的材料加固。另外，质量不好的抓绒衣物容易掉绒，试穿时留心一下。抓绒衫不贵，300元以下即可买到质量不错的东西。大多数抓绒衣的标签上注明的都是100%polyester或100%polyester microfiber的成分。购买时一定要注意分辨，如果你不放心小摊贩的东西，去一些休闲服装专卖店也可买到，当然最好到专业户外用品店或大商厦的品牌店去购买。 <BR>  外套<BR>   这一层的材料要求是可以防水防风，这样不管刮风还是下雨你都会受到保护。我们习惯把外套称之为“冲锋衣”（或许在最外层就有冲锋陷阵的寓意吧）。目前在中国市面上我们常见的防水衣料有以下几类面料：Waterproof/Breathable(防水透气型，诸如采用Gore-Tex的压合尼龙料)Waterproof/Non-Breathable(防水不透气型，做雨衣帐篷一类有PVC涂层的厚重尼龙材料)。Water Resistant/Repellent(挡水型，只能挡少量水的密织尼龙面料)。要注意的是“防水(Waterproof)”和“挡水(Water Resistant/Repellent)”的区别。有Waterproof功能的面料可以在有一定水压的时候防止水的进入。而有Water Resistant/Repellent功能的面料只是可以挡少量的水，雨下大了或者稍微有些水压的时候，它们就不管用了。采用XXXX-Tex等防水透气材料做的外套，可以保证你坐在或跪在潮湿的表面而衣服里面不会湿。不过，不管什么防水材料，用过一段时间以后也需要进行DWR处理。DWR是Durable Water Repellent的缩写，是一种防水的胶。像Gore-Tex的冲锋衣，穿一定时间后最好用Gore公司出的Revivex来处理一下。<BR>    随着XXXX-Tex等材料的出现，防水透气不再是什么矛盾的概念了。总的来说，这些防水透气材料的防水效果与透气性相比的话，防水性要更好些。不过，这些材料还是比那些只能防水的材料要好。如果只防水不透气，衣服里面还是会很湿的。在天气很冷的时候，衣服里面甚至还会结霜。另外买外套的时候最好买宽松一些，这样你可以在里面套上保暖层和排汗层的衣服。至于裤子，宽松的牛仔裤可以满足一般的远足。但如果你的目的地天气情况很复杂，你最好买一条防水裤。最好买那种侧面是全拉链的，这样你可以随时根据天气变化穿上脱下。一般好的外套在易磨损的部位都采用耐磨材料加固。冲锋衣的设计都大同小异，但好的品牌在细节方面做的更好些。其实那些叫的响的品牌多是靠赞助探险活动而出名的。它们的优势在于那些探险运动员可以为它们提供直接的反馈，这样有利于厂家改进产品设计。其中最早使用Gore-Tex材料是美国最著名的 Columbia 公司，而今，它也拥有了自己的防水透气材料——OMNI TECH。Columbia品牌所赞助的就是世界著名的“体验大自然”的活动(Eco Challenge)。<BR>   很多朋友都关心他们买到的衣服是否属于真的防水透气材料，这个问题很难说清楚。即使请有经验的朋友帮你当场鉴定，绝大多数人也不可能辨出真假。一般来说可以当场测试防水性，注意看接缝处是否漏水。因为新衣服外层都经过DWR防水胶处理，一个明显的特点是不沾水。即使你拿到水龙头底下冲上几分钟，或者做个水窝等上几分钟，你甚至可以用手去挤压衣服上的水，面料外层也不会沾水，里面也不会湿。透气性可以通过热水测试。你可以使用这样一个办法：倒半杯热水在杯子里，将衣服里侧罩在杯口，用一个玻璃杯压在衣服外侧，看玻璃杯里是否有水蒸气。以上办法只是证明了那件衣服的面料是防水透气的。具体是不是XXXX-Tex还是不知道，但好像这个时候是否是XXXX-Tex的也不重要了。毕竟防水透气的性能是卖点，名字和牌子不是。如果是用Gore-Tex材料制成的衣服，另外你还可以检查衣服的做工和辅料。因为用Gore-Tex材料制成的衣服必需用Gore公司指定的Gore Tape Seam(压胶条)。针距的密度也都有特殊要求，不能太稀疏也不能太密。网状内衬的黑色纤维上应该有细微小孔，所有的拉链都应该用YKK的。 现在美国及欧洲的市面上卖的大多数户外服装都是Made in China的。一件Gore-Tex的冲锋衣在美国卖200-450美元。即使在过季清仓时也要卖120-250美元。它的成本价不会很高，但最少也要在60-100美元之间。但这些厂家大都是在国内下订单生产服装的，在国内并没有正式的销售渠道。一般市面上流出来的最好的大概是来料加工的余料做成的，偶尔还能见到一些出口剩下的次品，但这些东西的量极少。像北京的“秀水街”、上海的“襄阳路市场”那儿的东西，早期1000件里能找出20件真的就不错了，一般只有个别摊主才有。而现在，你根本就甭想。如果你买到一件3、4百元的Gore-Tex冲锋衣, 可以肯定它是假的。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=166&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-5 0:46:59</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1616&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1616&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=3&ID=1616" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=3&ID=1616" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=3&ID=1616" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=3&ID=1616&replyID=16080" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=3&ID=1616" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=3&ID=1616" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=3&ID=1616" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=3&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：156.250毫秒
+</td></tr>
+</table>
+</body>
+</html>

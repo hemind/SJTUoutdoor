@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：The Nose</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：The&nbsp;Nose
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1793&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>612</B> 个阅读者<a href="go.asp?BoardID=10&sid=1793"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1793&id=1793&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1793&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： The&nbsp;Nose</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1793"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1793"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1793"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1793"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1793"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1793', ' 上海交通大学野外生存素质拓展基地 - The&nbsp;Nose')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16870><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：189<br>&nbsp;&nbsp;积分：401<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16870&id=1793&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16870&id=1793&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>The&nbsp;Nose</b><br></P><P>The Nose</P><P>from Dave Bengston's El Cap Page<BR> <BR>The longest part of El Capitan's face is in the middle, around "The Nose." It rises over 3000 feet from the valley floor, which is around 3500 feet elevation. You can see Half Dome just to the right of El Cap's lower right shoulder. The right side of El Cap is shorter; it ranges from the full 3000 to only about 1000 feet. It's overhanging from the ground to the top. BASE jumpers love it, even though their game is illegal -- but, that is a different story. The extreme steepness of the right side is due to the North America shaped areas of more friable dioritic rock. In contrast, the left side is longer, generally around vertical with iron hard granitic rock.</P><P> <br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241321669979.jpg" TARGET=_blank><IMG SRC="uploadImages/20043241321669979.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>There are over 70 different routes up this face, although, their difficulties vary dramatically. Most of them require both Aid and Free Climbing, in some combination. "Aid Climbing" is used when the rock is too shear and steep to climb using only the climber's body, so the rope and gear must also be climbed. "Free Climbing," on the other hand, is a game where climbers try not to use the gear and rope for any thing other than a safety net, in case they fall. Free Climbing, when possible, is quicker, but physically demanding. Aid is technically demanding, but sure and steady. Hard Aid is just plain scary. </P><P>The Nose Beta</P><P>Written by Quang-Tuan Luong </P><P><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241364558270.gif" TARGET=_blank><IMG SRC="uploadImages/20043241364558270.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>The Nose of El Capitan, Yosemite, is one of the most long, beautiful, classic, and sought after, rock climb in the world.</P><P>Conditions: <BR>From May to September, the chances of being hit by a Pacific storm are very low. April and October can be very fine but the weather is less certain. It was not crowded this April. In summer, it gets real hot in the Valley, and consequently on the bottom part of the route. Up high, there is usually a thermal breeze which helps a lot. On Labor day the temps are fine. I would recommend a gallon of water in summer plus some extra water (better not to run out), and three quarters otherwise. </P><P>Gear: </P><P><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241373699424.jpg" TARGET=_blank><IMG SRC="uploadImages/20043241373699424.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>Two climbers joining their racks have enough. It is always useful to have plenty of free biners. Think about the number you'll need, and then add 10 or 20 more. There are kilometers of crack climbing, so be sure to bring plenty of cams (two full sets). The camalot #4 is not required (several were fixed in the Stovelegs were it is not actually needed 4/94). However, George Bell had one and found it very useful on pitches 12 and 14. He thinks that the important thing is you need 2 pieces that are either #4 Friends or #4 Camalots. On the other hand, you'll need the RP's for the glowering spot and maybe also above Camp 6. There is normally no need for pins.</P><P>Ropes: <BR>You need three full ropes, and one 30m rope to fix to Sickle. Have a friend pick up any ropes you leave below Sickle. Several climbers had their rope stolen before they could pick them up after the climb. The day when we fixed, some guys dropped one pack. Then we saw two climbers asking us if it was ours. After we said no, they seemed to be heading towards the direction of the impact. If you have to leave your rope, it is probably safer not to drop it. Most parties take three ropes, because it is necessary to lower out for the king swing. However, Bill Wright has done The Nose and recommends some interesting strategies. He recommends taking only 2 50m ropes. He said all the traversing pitches are short enough that you can tie the haul bag in short and lower out on the end of the haul line. The advantage of 2 ropes is less chance of them getting all tangled together, stuck under flakes, etc. After the pendulum into the Stovelegs, Bill says the leader should begin leading on the haul line. And on the King Swing(s), Bill recommends tieing the pig in as short as possible, with the second keeping hold of the end. After the bag is hauled, the leader lowers the second on the haul line which is clipped into the anchor at Boot Flake. The second then clips his jumars into the lead line and swings over to it as he is lowered. This method has been found to work very well by George.</P><P><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241382895081.jpg" TARGET=_blank><IMG SRC="uploadImages/20043241382895081.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>Belays: <BR>The belays are mostly shiny bolts and are all bombproof. They can be used to rap down the route in need (some belays are used only for rapping, some belong also to the climbing route). Using fixed belays and a 165' rope, pitches 10 & 11 can be put together as well as the two pitches before camp 6 ( = above the "glowering spot") and the two pitches after camp 6. It is a good idea in the last two cases because the intermediate belays are not too good. </P><P><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241385224110.jpg" TARGET=_blank><IMG SRC="uploadImages/20043241385224110.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>Difficulty: <BR>For my partner and me this was the first big wall (we did before 7 pitches on the South Face of Washington Column, but we had no haulbag and tried a speed ascent strategy). However, I would not necessarily recommend the climb as a first big wall. The well-established progression is to do first the Regular Route on the NW face of Half-Dome. If you are a big-wall beginner, you will find Paul Brunner's tips very useful.</P><P>Collectively, my partner and me had a considerable alpine experience, and we were used to spending days on mountains and long climbs in a more hostile environment. We have found that the route is extremely sustained, compared to most alpine routes but that there was nevertheless no exceptional technical challenge or risk, the main problem being that you tend to be worn by the succession/alternative of hard free and aid, pendulums, traverses, maneuvers, stuck ropes and haulbags, hauling and jugging, lack of sleep, food, heat and cold, uncomfortable stances, etc... </P><P>The four first pitches are delicate, in the sense that there are not always good placements and you have to do some free (or French-free) between aid moves. Other than this, the crux aid of the route is the "glowering spot", where you climb a steep and thin crack on small nuts, RP's, and TCU/Aliens. The only part of the route which as to be freed is the Texas Flake at 5.8, but the route would be more enjoyable if you can crack climb at 5.10. Nevertheless you don't need to be a good climber to complete the route. At the time I did it, I was just able to lead 5.8 or 5.9. The free ratings in the guidebook are not very consistent (but most of the time on the severe side). I am not good enough to judge them objectively, but I've been told that those of Lynn Hill (in French magazine Vertical) or of her partner (in Climbing) are more accurate. There are numerous pendulums, but most of them are not difficult. There are no expanding flakes. </P><P><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241392883193.gif" TARGET=_blank><IMG SRC="uploadImages/20043241392883193.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>Bivies: <BR>The only good sites on the route are Sickle, Dolt, Towers, Camp 4,5 and 6, the best sites being Towers and Camp 5. On the left and below Camp 4, there is a huge ledge, but it is part of the Muir route, not the Nose. There are a couple of places where you could sit (on Texas flake, Boot flake, under camp 4). If Towers are full, there is a place for two near the base of the chimney on the next pitch. Camp 6 seems to smell as bad as John Long describes it in fall, but in April it's fine. </P><P>Timing: <BR>The route can normally be done in four days (two nights on the wall): fix the descent from Sickle ledge (4 ropes, from the lowest belay station to the ground it is about 30m so you don't need four full-size ropes), and get the haul bag up to the top of 5th pitch on the first day. Then get an early start the next day, (be jumaring just before first light), and you can make it to El Cap Tower. Early start the next day and you can make Camp 5. If you have opportunity, fix a pitch or two above each bivy. </P><P>In these times, the "crowd factor" is not included. It can take longer if crowded. Often it can be hard to pass and if the climbers ahead of you are slow you may be reduced to their speed it can mean an extra day. George writes: " To get an idea of the crowds, here are our bivuoac sites and the total number of climbers sleeping on them that night (including us): El Cap Tower (7 people), Camp 4 (5 people), Camp 5 (7 people). A party of 3 very slow Japanese ahead of us caused many problems because it took them 6 days to climb the route. Everyone was snarling below them. For example, we reached Camp 4 fairly early, but the Japanese were at the great roof (having started that day from Camp 4!!) and effectively blocked the way ahead. Incidentally, they failed to reach Camp 5 that night and spent (another) night in slings. " </P><P><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200432413101196641.gif" TARGET=_blank><IMG SRC="uploadImages/200432413101196641.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>Specific route beta:  </P><P>The pendulum to Stovelegs:</P><P>It is best not to get too high in the crack system before this pendulum, ie use the belay marked with a dashed circled 7 on the Meyers/Reid. This means that when you are at the belay below the "burner" you are already too high. We met two guys who said that the burner is something to avoid. The Stovelegs are first perfect hand size and get wider as you are climbing up (lots of spots to have the rope stuck). </P><P>The Texas Flake:</P><P>A chimney, it is the only part of the route which cannot be aided. I thought (I let my partner led it :-)) that the chimney is not that bad, the tricky part being getting inside. George reports (9/96) that there is a brand new 3/8" bolt two thirds of the way up this chimney, which makes the pitch much safer, BUT he still managed to fall while leading this pitch. The next pitch is bolt ladder and then a perfect hand crack. </P><P>The King Swing: </P><P>I would not recommend to do the "King Swing" with only one HUGE swing instead of one big swing and one shorter swing. The two belays are almost at the same height, and there is 15/20m horizontal distance between the two. I also recommend to use a lower-out line for the haulbag. Have the best climber lead the pitch. There are tricky moves after the pendulum, and you might have a lot of rope drag or bad protection, depending whether you clip low points or not.</P><P>Using a 55m lead rope is sufficient for the second to lower himself using the rappel technique, provided that the intermediary point is used. </P><P>Under Camp 4 (Pitch 20):</P><P>You'll find a fixed traversing rope. By daylight, what to do is fairly obvious. Not so by night. For god's sake, DON'T follow this rope until its end (you would find an unpleasant "surprise") but leave it as soon as you get to a vague ledge. </P><P>The roof is easy because it is entirely fixed. It is a long pitch. I had just a couple of meters left with a 165 feet (55m) rope. The Pancake flake is nice to climb, but the pitch under camp 5 is nasty. </P><P>The death flake at the top of pitch 31 is still there, as of George ascent (9/96), hanging by the same piece of crappy webbing. As Scott Ghiz mentions in his beta, there is another suitcase sized death block on pitch 32. With a 60m rope, he believes it is possible to combine pitches 31 and 32, thus avoiding the "death block belay" (the party behind them did this). </P><P>"Got the word that the death block on the Nose is gone. While the park was closed it seems that 2 famous climbers who shall remain nameless rapped in and booted it. Finally, the block that has raised many a tut-tut is gone. Now get up there! Russ Walling, Sat, 29 Mar 1997 " </P><P>The last pitch:</P><P>No difficulty (shiny bolt ladder), beware of rope drag, it can turn the final (easy) slab into an unpleasant experience. </P><P><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241313240265.jpg" TARGET=_blank><IMG SRC="uploadImages/20043241313240265.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>問答集（FAQ）</P><P>EL CAPITAN, YOSEMITE NATIONAL PARK</P><P>from Dave Bengston's El Cap Page</P><P>Frequently asked questions: </P><P>How long does it take? </P><P>The average ascent of El Cap takes about 4 days, although, it has been done as fast as 4 1/2 hours -- That's the record on the nose route, the easiest route up the middle. On the other extreme, it has taken as much as 40 days, and can easily take 7-9 days. The length of an ascent depends on plenty: the weather, the length and difficulty of the route, the experience of the team, the time of year (the length of the days), the number of times that the route has been previously climbed, and more... </P><P>What do you eat? </P><P>It doesn't help to bring freeze dried food, because we would just have to bring up the water too. We bring whatever we like, but on the shorter routes and summer routes we don't bring a stove. As you might imagine, breads/bagels, canned food (canned fruit is a tremendous hit up there), cheese, fruit, that sort of thing. </P><P>How do you sleep? </P><P>Sometimes we sleep on natural ledges on the cliff, but sometimes we have to bring Portaledges. A portaledge is a metal frame with a hammock strung tight within it, which folds up when not in use. The bed then attaches to a secure point on the rock, that we rig, by adjustable straps on the corners. There's also a rain-fly that goes over this contraption in bad weather. Natural ledges can be comfortable, but there is no changing them, so they can also be very uncomfortable. After all of the work of the day, fatigue makes it easy to sleep. No matter what, we are tied in to the cliff at all times, even while sleeping. </P><P>How much do you bring? </P><P>A 2 man team that plans to spend 6 days might start out with over 200 pounds of gear, which is hauled up, from anchor to anchor, in a big haul bag on the end of a rope. We use a hauling system with a pulley and a cam, to stop the rope from pulling back out. This is an approximate break down: </P><P>7-8 gallons of H2O, 60 lbs <BR>food, 35 lbs <BR>clothes and personals, 40 lbs <BR>2 sleeping bags and 2 pads, 20 lbs <BR>2 portaledges with rain flys, 35 lbs </P><P>On top of these things are the ropes (2-3 @ 8 lbs each) and hardware. If pitons are required then the pins, carabiners, wedges of metal called stoppers, camming devices, and other hardware weigh 30 - 60 lbs. If no pins are required then "the racks" check in at 15 - 30 lbs. Of course, as you climb the food and water weight disappears. Even so, there is usually a fair bit to carry down. </P><P>How do you get down? </P><P>There are a number of options for the descent. There are a couple of long trails -- about 10 miles each. The most popular method, however, down the east shoulder, the East Ledges Descent. It starts with a 1/4 mile hike, but steep and treacherous, to a point where you can rappel 3 rope lengths past a steep section. From there, you continue scrambling down a steep, loose, dirty, climber's trail to the valley floor. With big packs this journey can take all day. </P><P></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-24 13:17:59</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1793&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1793&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16873><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：189<br>&nbsp;&nbsp;积分：401<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16873&id=1793&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16873&id=1793&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>進入大岩壁的世界&nbsp;—&nbsp;認識酋長岩（El&nbsp;Capitan）</b><br><BR>酋長岩岩壁最長的部份是在中間"The Nose"附近，從谷底矗立超過三千英呎，海拔大約三千五百英呎。你可以看到半圓頂岩就在 El Cap 較低右肩的右邊，它的高度從三千英呎到一千英呎，從地面到頂都是懸岩。BASE jumper 很喜歡它，雖然他們的遊戲是非法的，但那是另一個故事了。右側非常陡峭是因為北美地形之多變產生的易碎閃長岩；相反的，它的左側很長，幾乎垂直，充滿了堅硬的花崗岩。</P><P>這面岩壁上大概有七十條不同的路線，其難度相差懸殊，大部份都需要人工或自由攀登或是混合攀登。當岩面太破碎或太陡無法用人身攀登時就用“人工攀登”，繩子及其他器材都可以來幫助攀登；相反的“自由攀登”就是攀登者僅使用工具或繩子確保墜落時的安全，不是幫助攀登。如果可以自由攀登則速度比較快，但是有體力要求；人工攀登比較需要技術，但較穩定不會失手，困難的人工攀登例外，是很可怕的。</P><P>優勝美地裏酋長岩的鼻子是世界上最長、最美、最經典、最吸引人的岩壁之一。</P><P>狀況：<BR>從五月到九月，被太平洋暴風雨侵襲的機會很少，四月和十月也很好但天氣可能不穩定，今年四月較不擁擠。在夏天，在山谷會很炎熱，因此影響岩壁下面的路線。到高處，溫暖的和風使人舒服很多，在勞動節的時候，溫度就很宜人。我建議在夏天帶一加侖的水再多一點（最好別用完），其他時候四分之三加侖就夠了。</P><P><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043241326454255.jpg" TARGET=_blank><IMG SRC="uploadImages/20043241326454255.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>工具：<BR>兩個攀岩者的裝備合在一起應該就夠了。鉤環愈多愈好，估計你需要的量，再加一、二十個，這條路線有一公里多的裂隙要攀登，所以要帶足夠的活動岩楔（Friends兩整組），Camalot#4不需要（在 Stovelegs已經有固定點，並不是真的需要），然而 George Bell發現在第十二和十四繩距很好用，他認為應該要帶兩個 — Friends#4或是 Camalots#4。另一方面，Glowering Spot 和Camp 6以上，可能會需要 RP's。然而這條路線通常是不需要岩釘的。</P><P>繩索：<BR>你需要三條全繩，和一條三十米的繩子固定在 Sickle，找個朋友幫你撿回留在 Sickle 下的繩子。很多攀登者的繩子在回來拿之前就被偷走了。我們架固定繩的那天，不知哪個傢伙掉了個背包，然後我們看到兩個攀登者尋問是否我們的，我們說完不是之後，他們似乎朝向撞擊的方向走去。假如你不得不留下繩子，最好是留在路線上不要解開繩子丟下。大部份的隊伍帶三條繩子，因為在King Swing 有必要先下降。然而 Bill Wright 爬完 The Nose 後推薦一些有趣的策略，只要帶二條五十米的繩子，他說所有橫渡的部份都很短，你可以使用同一條繩子固定拖包，然後用此繩之另一端下降，二條繩的好處是比較不會彼此纏結，卡入岩板的機率也比較低。擺盪到 Stoveleges 後，Bill 說先鋒者應該開始用拖拉繩攀登；到 King Swing後，Bill 建議固定拖包的繩索盡量縮短，由第二位抓住拖拉繩尾端。當拖包拉上去後，先鋒者用拖拉繩把第二位降下（繩索要扣入Boot Flake的固定點），在下降的同時第二位將他的猶瑪固定至先鋒繩，然後擺盪過去，這種方法 George 用了之後說不錯。</P><P>確保：<BR>確保點大部份都是發亮的膨脹錨樁，很安全，需要時可以用它們來下降（有些只能用來下降，有些屬於攀登路線）。用固定的確保點和一條一百六十五英呎的繩子，第十一和十二繩距可以像Camp 6前的兩個繩距一樣連起來一起攀登。在最後這兩個地方是個好主意，因為中間的確保點都不好。</P><P>困難：<BR>對我的伙伴和我來說這是第一個大岩壁（我以前在 Washington Column 南面爬過七個繩距，但沒有拖包而且是用快速攀登方式）。然而，我並不推薦第一次就爬這大岩壁，按照級數先爬半圓頂西北面的一般路線，假如你是個大岩壁入門者，去找 Paul Brunner's tip 很有用。</P><P>整體而言，我的伙伴和我已有相當的阿爾卑式攀登經驗，而且我們常去好幾天的登山和在不佳的環境作長距離的攀登。我已經知道比起其他阿爾卑式路線這條路線很長，但是沒有出乎預料的技術挑戰或風險，主要的問題在於你用連續或替換的自由或人工攀登、擺盪、橫渡、策略、爬繩子、拉拖包、整理東西、缺乏睡眠食物，時熱時冷、保持不舒服的姿勢後會筋疲力竭等問題。</P><P>剛開始的四個繩距就需要技巧，要知道放置確保點不是很容易，只能在人工攀登之間做些自由攀登（或法式自由攀登）的動作。除此之外，最難的路線是"glowering spot "，是一段很陡且細只能用小nuts、RP's和TCU/Aliens的裂隙，這部份的路線就如 Texas Flake 用自由攀登只有5.8，但假如你會5.10的裂隙攀登，路線會變得比較有趣，不過，你不一定要是個非常好的攀岩者才能完成這條路線，當時我只能先鋒攀登5.8或5.9，自由攀登路線在 guidebook 不是很可靠（但大部份偏向困難），我能力還不足來評論這些，據說，Lynn Hill和她夥伴的資訊是比較正確的。有很多擺盪，但大部份都不難。</P><P>過夜：<BR>唯一比較好的地方是Sickle，Dolt，Towers，四五六營，最佳的場所是在Towers和第五營。在第四營的左邊及下面有一個大的岩階，但那是Muir路線的一部份，不屬於Nose；還有一些能讓你坐下來的（在Texas flake，Boot flake，第四營下面）。假如Towers 客滿了，在下個pitch的煙囪基部附近還有一個地方可以讓兩個人休息，John Long描述第六營在秋天似乎會有怪味，四月的時候就還好。</P><P>時間：<BR>這條路線一般四天可以爬完（二個晚上在岩壁上過）：從Sickle 岩階下降（四條繩子，從最低的確保點到地上大概三十米，所以你不需要四條全繩），在第一天拖拉裝備到第五繩距頂端，然後第二天一大早就出發，（天亮前先用猶瑪上升），就可以到達El Cap Tower，隔天早點出發，可以到達第五營，假如你運氣好，可以在過夜前多掛一兩個繩距。</P><P>計算這些時間時，“擁擠因素”不包含在內，假如很多人時間就會拉長，假如有攀登者在你頭上又爬很慢通常很難超越他，只能和他同速前進，意思就是得多一天的時間。George寫說：『要曉得人數概念，這裏有些我們過夜處和人數的資料（包含我們）：El Cap Tower（七人），第四營（五人），第五營（七人），有個三人的日本隊伍在我們前頭且爬得很慢造成很多問題，因為他們要花六天的時間爬這條路線，每個人在他們後面糾結住了；譬如我們到達第四營相當早，但日本人在great roof（那天從第四營出發！！）完全檔住我們的路；附帶一提，他們在晚上無法到達第五營，只好綁著渡過夜晚。』</P><P>特別的路線資訊： </P><P>The pendulum to Stovelegs: 擺盪到 Stoveleges: </P><P>最好擺盪前在裂隙系統不要太高，就是使用在Meyers/Reid虛線所標記的七號圓圈處確保。這表示當你在"burner"處確保就太高了，我們遇到兩個人說最好不要到Burner，大概就指這意思。Stoveleges 是第一個符合手大小的裂隙，越往上爬越寬（很多地方會卡住繩子）。</P><P>The Texas Flake：</P><P>是個煙囪，是路線中唯一不能人工攀登的部份，我覺得（我讓我的繩伴去先鋒攀登 :-)）那個煙囪並沒那麼難，訣竅是要將身體塞進去。George的報告（9/96）說在爬上煙囪三分之二之處有一個新的3/8"bolt，讓這條路線安全許多，但是他仍然盡量控制在先鋒攀登這個繩距時不要墜落。下一個繩距是一排膨脹錨樁，然後是一個很好的手裂隙。</P><P>The King Swing：</P><P>我建議在"King Swing"不要只做一個非常大的擺盪，最好是分成一個大擺盪加上一個小擺盪；兩個確保者幾乎在同一高度，約有十五至二十米的平行距離，我也建議用一條較短的繩子將裝備降下，請最強的攀登著來爬先鋒，在擺動之後的攀爬有些訣竅動作，而且可能有很多繩子拉著你或遇到不好的確保點，看你是否掛得太低與否。</P><P>使用中間點的話，一條五十五米的先鋒繩應該足夠讓第二位下降。</P><P>第四營下方（第二十pitch）：</P><P>你會發現一條固定的橫渡繩，在白天一切都很容易的看到，但晚上就沒辦法，要注意，不要跟著這條繩子到末端（你會發現一個不好的驚奇），最好到達岩階後就趕緊離開它。</P><P>Great Roof的地方很簡單因為都有固定點了，這個繩距很長，我當時用五十五米的主繩，爬完這個繩距時僅剩不過幾米而已。Pancake flake 很好爬，但是第五營下面的那個繩距很難纏。</P><P>根據George 9/96的記錄，第三十一繩距頂的死亡岩塊仍在那裏，用一條癟腳的扁帶吊在那裏；在Scott Ghiz的資訊中提到，另一個手提箱大小的死亡岩塊躺在第三十二繩距處，他相信如果用六十米長的繩子，可以把第三十一和三十二繩距合起來爬，如此可以避免在死亡岩塊處確保。（他之後的一組繩隊就是這麼做）。（譯註：死亡岩塊是指鬆動的岩石，如果不幸掉落會對下面攀登隊伍造成嚴重的影響）。</P><P>「據可靠消息指出 Nose上的死亡岩塊已經不見了。當優勝美地國家公園關閉時，有兩個知名的攀登者溜進去，並將這個令人嘖嘖的岩塊清掉。」一九九七年三月二十九日。</P><P>最後一pitch：</P><P>沒什麼困難的（都是新得發亮的固定點），小心繩子卡住，那將會使這最後的一個斜板變成不快的經驗。</P><P>要花多少時間？</P><P>爬上 El Cap 平均大概要花四天的時間，雖然曾有人四個半小時就完成了，那是 nose這條路線的最快記錄；相反地，也有人花了四十天，花個七到九天則是常事；時間的長久會依天氣、路線的長度難度、隊伍的經驗、季節（白天長短）、路線被爬過的次數等等．．</P><P>吃些什麼東西？</P><P>不限定只能帶冷凍乾燥的食物，反正水也是要帶的；基本上，喜歡什麼就帶什麼，但是在較短的路線或是夏天我們就不帶爐子，也許你能想像麵包、圈餅、罐頭（水果罐頭在那裏是很奢侈的）、乳酪、水果那類的東西。</P><P>怎麼睡覺？</P><P>有時候我們睡在絕壁的岩階上，但有時候我們要帶吊床，吊床是一種普通吊床緊綁在金屬架裏面，不用時可以摺疊起來。調整角落的皮帶可以將吊床固定於確保點上；那也有雨篷奇妙的設計可以渡過惡劣天氣。天然的岩階比較舒服，但無法調整，也可能會很不舒服，在累了一天之後，疲勞另人容易入睡，不論如何，我們在岩階上隨時都將身體綁著，甚至睡覺也一樣。</P><P>帶多少東西？</P><P>兩人繩隊六天的攀登計畫，裝備重量將會超過兩百磅，這些是使用拖包綁在拖拉繩上，從一個支點拉上另一個支點。我們的拖拉系統有一個滑輪和一個凸輪，在拉繩時才不會往回跑。大約細分如下：</P><P>七八加侖的水，六十磅<BR>食物，三十五磅<BR>衣服和個人用品，四十磅<BR>二個睡袋睡墊，二十磅<BR>二個有雨棚的吊床，三十五磅</P><P>最重要的還有繩子（二三條每條八磅）和工具，假如需要岩釘，則軸釘、鉤環、stoppers、camming devices和其他工具重三十至六十磅；假如不用岩釘，則需十五至三十磅。當然，隨著你的攀登，食物和水的重量會減少，雖然如此，還是有不少東西要帶下來。</P><P>你怎麼下來？</P><P>下來有很多種選擇。有兩條小徑，差不多都十哩長；最常見的方法，是從東邊的肩部下來（East Ledges Descent），要先健行四分之一哩，但很陡且不安全，到一個點你可以垂降三條繩子長度來通過峭壁，從那裏，你可以繼續下攀到一個陡鬆垮的小徑回到谷底；背一個大背包得花一整天的時間。</P><P><BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-24 13:30:35</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>2</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1793" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1793" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1793" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1793&replyID=16870" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1793" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1793" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1793" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：402.344毫秒
+</td></tr>
+</table>
+</body>
+</html>

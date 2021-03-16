@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：上网查资料，在驴行天下找了这些东东</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、徒步、自行车运动
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：上网查资料，在驴行天下找了这些东东
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1674&star=2"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>3154</B> 个阅读者<a href="go.asp?BoardID=6&sid=1674"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1674&id=1674&star=2&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1674&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 上网查资料，在驴行天下找了这些东东</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1674"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1674"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1674"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1674"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1674"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1674', ' 上海交通大学野外生存素质拓展基地 - 上网查资料，在驴行天下找了这些东东')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16449><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16449&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16449&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>11</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>野外露营必读指南<BR>喜欢野外露营的朋友一定要事先掌握一些有关的知识。</P><P>简言之，就是六大要素：避险、近水、背风、防兽、日照、平整</P><P>避险：<BR>选择营地首先要考虑的就是安全。在野外，很多意外都可能发生。在低海拔地区，危险性要小得多，但仍必须遵循营地选择的基本原则。<BR>在搭帐篷之前，必须仔细勘察地势，营地上方不要有滚石、滚木以及那些风化的岩石，一旦发现附近有岩石散落的迹象，绝对不可以再搭帐篷了，尤其是靠岩石壁越近的地方越要留意，尽量要避免在凹状的地方扎营。万一发现滚石，应立即大声喊叫，通知同行伙伴。<BR>不要在泥石流多发地建营。许多石块有被泥土包裹的痕迹，这是识别发生泥石流的主要标志。营地不要选在离泥石流通道太近的地方。<BR>雷雨天不要在山顶或空旷地上安营，以免遭到雷击。也不要在河滩、河床、溪边及川谷地带建立营地，以防被突如其来的洪水冲走。许多时候，营地都会选择在山脊上或河的两岸，以便于欣赏风景。<BR>较为理想的露营场所，不外乎河岸的台地或宽大的河岸。沙地平坦又干燥，而溪谷边有清澈的水流，也有可作为薪材的流木，气候良好时，这里是很不错的宿营地。<BR>但是，如果下起倾盆大雨，山谷里的水很可能会突然暴涨，使河岸没入水中，冲走登山鞋、食品等，甚至连人一起被水流冲走。因此，雨季在野外宿营前一定要关注宿营地当地及河流上游地区的气候、水文情况，宿营时要注意在离水面几公尺高的高地上搭帐篷，不要选择雨水通道，要选排水良好的地方，还要选择危险时可逃生的路径。<BR>当一切都安顿好，还需时常注意水源流水量及浑浊情况以及流水声。一旦感觉异常，就要赶快逃。深夜或疲惫时都是导致灾难的主要原因，千万不要粗心或观察不仔细。</P><P>近水：<BR>营地要选择离水源近的地方，这样既能保证做饭饮用的用水，又能提供洗漱用水，如果远离水源则会给营地带来很多不便，甚至是危险的。但是深山密林中，近靠水源会遇到野生动物，要格外小心注意。</P><P>背风：<BR>风会迅速带走人体的热量，给人制造寒冷，甚至引发疾病，同时大风会卷走帐篷，至少会搅得人员无法休息，点燃篝火就更困难了，做饭取暖也难以保证，所以营地一定要避风。最好是在小山丘的背风处、林间或林边空地、山洞、山脊的侧面和岩石下面等等。</P><P>防兽：<BR>建营地时要仔细观察营地周围是否有野兽的足迹、粪便和巢穴，不要建在多蛇多鼠地带，以防伤人或损坏装备设施。要有驱蚊、虫、蝎药品和防护措施。在营地周围遍撒些草木灰，会非常有效地防止蛇、蝎、毒虫的侵扰。</P><P>日照：<BR>营地要尽可能选在日照时间较长的地方，这样会使营地比较温暖、干燥、清洁，便于晾晒衣服、物品和装备。</P><P>平整：<BR>营地的地面要平整，不要存有树根草根和尖石碎物，也不要有凹凸或斜坡，这样会损坏装备或刺伤人员，同时也会影响人员的休息质量。</P><P>最后请大家注意：<BR>在野外要保护自然环境，不伤害野生动物，不乱砍乱伐，不破坏自然植被，不污染水源，撤营时必须将燃火彻底熄灭，垃圾废物要尽可能带出，丢放在指定的地方，特殊情况无法带走时可将垃圾挖坑掩埋。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:26:56</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16450><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16450&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16450&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>12</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>野外如何应付意外事故<BR>1、被毒蛇、昆虫咬伤<BR>    在野外如被毒蛇咬伤，患者会出现出血、局部红肿和疼痛等症状、严重时几小时内就会死亡。<BR>    这是要迅速用布条、手帕、领带等将伤口上部扎紧，以防止蛇毒扩散，然后用消过毒的刀在伤口处划开一个长1厘米、深0.5厘米左右的刀口，用嘴将毒液吸出。如口腔粘膜没有损伤，其消毒液可起到中和作用，所以不必担心中毒。<BR>    被蚊虫叮咬或蜇伤时，用冰或凉水冷敷后，在伤口处涂抹氨水。<BR>    如果被蜜蜂蜇了，用镊子等将刺拔出后在涂抹氨水或牛奶。<BR>    2、骨折<BR>    骨折或脱臼时，用加班固定后再用冰水敷。<BR>    从大树或岩石上摔下来上到脊椎时，将患者放在平坦而坚固的担架上固定，不让身子晃动，然后送往医院。<BR>    3、外伤出血<BR>    在野外备餐时，如被刀等利器割伤，可用干净水冲洗，然后用手巾等包住。轻微出血可采用压迫法，一小时过后每个十分钟左右要松开一下，以保障血液循环。<BR>    4、食物中毒<BR>    吃了腐败变质的事物，除会腹痛、腹泻外，还伴有发烧和衰弱等症状，应多和些饮料或盐水，也可采取催吐的方法将食物吐出来。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:27:20</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16451><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16451&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16451&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>13</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>野外用药手册！！！！！！！！！！！<BR>*抗生素类药物<BR>　　　氟哌酸胶囊　用于呼吸道、泌尿道、消化道、妇科、皮肤、五官和软组织等器官和部位的感染。 <BR>　　　麦迪霉素　用于金黄色葡萄球菌、链球菌、肺炎双球菌、淋球菌引起的各种炎症和肿毒。 <BR>　　　头孢氨苄胶囊　用于各种炎症，每次服２～４粒，每日３～４次，儿童酌 减。青霉素过敏者忌用。 <BR>　　　乙酰螺旋霉素片　用于金黄色葡萄球菌、链球菌、肺炎双球菌、淋球菌、梅毒螺旋体所引起的感染，也可用于支原体肺炎。 <BR>　　　四环素片　用于呼吸道、肠道、泌尿道感染。每次服２片，每日４次。孕妇和婴儿慎用。 <BR>　　　土霉素片　作用、剂量、服用次数和禁忌同四环素片。 <BR>　　　黄连素片　用于肠道感染。每次服２～３片，１日２次，饭后服。孕妇慎用。 <BR>　　　复方新诺明　用于呼吸道、泌尿疲乏、肠道感染。每次服２片、１日２次， 饭后服。对磺胺药物过敏者禁用。 <BR>　　　黄连上清片　清热解毒、抗菌消炎，用于咽炎、牙龈炎、通便。每次４片， １日２次。 <BR>　　　牛黄解毒片　清热解毒、抗菌消炎，用于咽炎、扁桃腺炎、牙龈炎、口腔溃疡、 急性结膜炎、疖肿。 </P><P>　　*抗病毒药物 <BR>　　　病毒灵（吗啉双胍）　对多种病毒有抑制作用。用于感冒等。每次０.１克， １日３次。 <BR>　　　金刚烷胺　抗亚洲甲Ⅱ型流感病毒及其它病毒，用于流感。每次 ０.１克， １日２次。 <BR>　　　板蓝根冲剂清热、解毒，有抗病毒作用，主要用于感昌、上呼吸道感染和咽炎。每次冲服１～２包，１日２～３次。 <BR>　　　板蓝根片　作用同板蓝根冲剂。每次服４片，１日３次。</P><P>　　*呼吸系统常用药　<BR>　　　速效伤风胶囊　用于感冒发热。每次服１粒，１日３次，血液病患者慎用。 <BR>　　　银翘解毒片　用于感冒初起。每次服４～６片，１日２次。 <BR>　　　羚翘解毒片　用于感冒初起和发热较高者，每次服４～６片，１日２次。 <BR>　　　羚翘解毒丸　作用同羚翘解毒片。每次服１～２丸，１日２次。 <BR>　　　咳必清　用于无痰干咳，每次服２５毫克，１日３～４次。 <BR>　　　复方甘草片　镇咳祛痰。每次服１～２片，１日３次。不能长期服用。 <BR>　　　复方川贝片　镇咳祛痰，用于热咳。每次２～３片，１日３次。 <BR>　　　维Ｃ银翘片　用于流感、急性热病发热、头痛咳嗽、四肢怠倦咽喉红肿。 每次服２～３片，每日３次。 <BR>　　　喉痛灵糖衣片　用于急性化脓性咽喉炎、扁桃腺炎、感冒发热、上呼吸道炎、 疗疮。每次服４～６片，１日３～４次，儿童酌减。 　　　　喘定　用于支气管嘟喘。每次服１～２片，１日３次。 <BR>　　　牡荆油丸　镇咳、祛痰、平喘，用于慢性支气管炎和支气管哮喘。每次 服１～ ２丸，１日３次。 <BR>　　　六神丸　消肿解毒，用于急性扁桃腺炎、咽炎、痈疽、疮疖等，内服 外敷。每次服１０粒，１日１～２次，以含服疗效更佳。儿童酌减量。外敷可用开水调成糊 状涂患处。孕妇禁用。 <BR>　　　喉症丸　同六神丸。 <BR>　　　草珊瑚含片　抗菌消炎、止血止痛，用于口腔及咽喉炎症。每次含服 １～２片，每小时内２～４次，１日１０～２０片。 </P><P>　　*消化系统常用药 <BR>　　　雷尼替丁　抗酸，保护溃疡面，用于胃溃疡、胃酸过多、胃痛。每次服１５０毫升，１日２次，４～６周为一疗程。 <BR>　　　西咪替丁（甲氰咪胍）　作用同雷尼替丁，但疗效不如雷尼替丁，且副作用比较多。 每次服２００毫克，１日３次，临睡前加服４００毫克， ４～６周为一疗程。 <BR>　　　胃舒平　抑制胃酸，保护溃疡面，用于胃酸过多、胃溃疡、胃痛。每次嚼服２～４片，１日３～４次。不宜与四环素同用，青光眼患者忌用。 <BR>　　　普鲁本辛　用于胃溃疡、胃酸过多、胃炎、胃肠痉挛。每次服１５～３０毫克，１日３次。青光眼病人忌用。<BR>　　　颠茄浸膏片　解胃肠痉挛性疼痛。每次服８～１５毫克，１日３次。青光眼病人忌用。 <BR>　　　胃复安　用于呕吐、暖气、胃酸过多、胃胀。每次服４～３毫克， １日３次。 <BR>　　　多酶片　帮助消化，增进食欲。每次服１～２片，１日３次。<BR>　　　藿香正气丸（水）　清暑化湿、和胃止呕，用于腹胀、呕吐、中暑头痛。每次服 １管，１日２～３次。 <BR>　　　痢特灵（呋喃唑酮）　用于治疗细菌性痢疾、消化性溃疡、泌尿道感染、伤寒、副伤寒。 <BR>　　　果导片（酚酞）　缓泻作用，用于习惯性便秘。 </P><P>　　*防晕车、船药 <BR>　　　乘晕宁　行前半小时服５０毫克，可１日３次。 <BR>　　　乘晕静　同乘晕宁。 </P><P>　　*抗过敏药　<BR>　　　息斯敏片　每次服１片，１日１次。 <BR>　　　扑尔敏　每次服４毫克，１日２～３次。 <BR>　　　非那根　每次服１２.５～２５毫克，１日２～３次。 <BR>　　　赛庚啶　每次服４毫克，１日３次。</P><P>　　*退热、止痛药<BR>　　　去痛片　每次服１片，１日３次。 <BR>　　　扑热息痛片　每次服０.５克，１日３次，儿童酌减。 <BR>　　　消炎痛　用于关节炎等炎症性疼痛。每次服２５毫克，１日２３次。消化道溃疡痛人慎用。 <BR>　　　炎痛喜康（吡罗喜康）　有消炎、镇痛、退热的作用，与消炎痛基本同功。饭后服， １日总量限４０毫克以内。血液病，有胃溃疡史病人慎用。 <BR>　　　牙痛一粒丸　牙痛或龋齿痛时，用１粒填在牙痛处。 </P><P>　　*镇静、安眠药 <BR>　　　安定　镇静、安定神经，帮助睡眠，但作用较弱。睡前服２片。 青光眼病人禁用。 <BR>　　　氟安定　有显著促眠作用，服后２０分钟内起作用，持续７～８小 时。睡前服１～ ２片。服药同时避免饮酒。 <BR>　　　利眠宁　有镇静、安定、肌肉松驰作用。睡前服１０毫克。 <BR>　　　速可眠　短效安眠药，服后１５～２０分钟入睡，持续３～４小时。</P><P>　　*蛇伤药　<BR>　　　上海蛇药　用于治疗蝮蛇、竹叶青、眼镜蛇、银环蛇、五步蛇咬伤。首次服１０片，以后每次服５片，４～６小时服１次。 <BR>　　　季德胜蛇药　用于毒蛇、毒虫咬伤。每次服５～１５片并同时服解毒片２～４片，１日３次。服药同时将药片用温开水溶化后涂于伤口周围约半寸处，并配合其它局部处理。</P><P>　　*防暑药 <BR>　　　仁丹、清凉油、十滴水、莪术油、风油精、白花油等，随时按说明外搽或内服。 </P><P>　　*伤科药 <BR>　　　正红花油　用于扭伤瘀肿、跌打刀伤、烫伤烧伤、心腹诸痛、风湿 骨痛、四肢麻木、腰骨痛、头风胀痛、蚊叮虫咬、恶毒阴疮等。常搽患处立即显效。 <BR>　　　黑鬼油　用于蛇虫鼠咬、跌打刀伤、烫伤、烧伤、疮科灶肉、脚肿脚筋痛。多搽患处即愈。<BR>　　　驱风油　用于四时感冒不适、风寒湿痹、霍乱吐泻、胃痛腹痛、腹胀、蛇咬蜂蜇、风火牙痛、无名肿毒、烫伤烧伤、晕车晕船等。依照说明书搽穴位或数滴口服。 <BR>　　　莪术油　用于四时感冒、霍乱吐泻、暑热痧症、中风中痰不省人事、跌扑失气、头刺痛、风火牙痛、支气管哮喘及各种咳嗽、寒热肚痛、腰背四肢痛、瘙痒症、疥疮、无名肿 毒、跌打损伤、烫伤烧伤、蛇虫蝎狗鱼蜈蚣伤、吐血、 失眠、外伤出血等。按说明书外搽或内服。 <BR>　　　云南白药　用于刀枪跌打诸伤及内外出血与血瘀肿痛。 <BR>　　　麝香跌打风湿膏　消肿止痛之功效，用于跌打诸伤、风湿骨痛。 </P><P>　　*旅行备用应急物品<BR>　　　旅行备用应急物品应简单、多用途、轻便。一般应备：气体打火机一个 （防风火机更好）、灯笼蜡烛数支，用于照明、取暖、点火、野外生火煮食；多用小刀一把，切割削之用；细尼龙绳５～１０米，捆绑物品、晾晒衣物、扎营等；小型指南针一个，茺野山林失向用；手电筒一个哨子一个，遇险发信号联络用；高猛酸钾一小瓶，既可消毒用，又可作引火燃料；药棉若干，擦洗和包扎伤口用，也可作引火物；丝巾一块，既可防风保暖用，又可用于包扎伤口和作止血带；有盖铁皮罐一个（形状不限），既可装上述应急物品，又能作为饮具煮食，还可用其盖反射日光发信号。应急物品不宜繁杂过多。要注意实用和携带方便。</P><P></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:27:51</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16452><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16452&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16452&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>14</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>这条好象挺实用的，拖出来再贴一次</P><P>*旅行备用应急物品<BR>　　　旅行备用应急物品应简单、多用途、轻便。一般应备：气体打火机一个 （防风火机更好）、灯笼蜡烛数支，用于照明、取暖、点火、野外生火煮食；多用小刀一把，切割削之用；细尼龙绳５～１０米，捆绑物品、晾晒衣物、扎营等；小型指南针一个，茺野山林失向用；手电筒一个哨子一个，遇险发信号联络用；高猛酸钾一小瓶，既可消毒用，又可作引火燃料；药棉若干，擦洗和包扎伤口用，也可作引火物；丝巾一块，既可防风保暖用，又可用于包扎伤口和作止血带；有盖铁皮罐一个（形状不限），既可装上述应急物品，又能作为饮具煮食，还可用其盖反射日光发信号。应急物品不宜繁杂过多。要注意实用和携带方便。<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:29:14</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16454><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16454&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16454&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>15</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><br><IMG SRC="pic/gif.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/200431418373087336.gif" TARGET=_blank><IMG SRC="uploadImages/200431418373087336.gif" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:37:34</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16455><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16455&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16455&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>16</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>野外生存中的水源寻找 ！<BR>如果有朝一日，当你置身於崇山峻岭之巅，整日穿梭於广阔的森林里，而食水用尽口渴难受，且前是林海，后无水源，你如何冯你的智慧去获得所需之水份？相信大家可能均无此经验，但如身历其境的话，你是否立刻能找到水源？</P><P>何处是水源？</P><P>除非你身在大沙漠，否则水源寻找很容易，而植物代用水亦遍地皆是，只要你对植物有深切认识，敏锐辨别与观察力，都是捶手可得。首先谈谈普通水源：</P><P>1、地下水：举凡高山融雪、溪水、渗入地下之雨水，山谷低凹处积水，岩缝里流出的山泉等，均可视为地下水，此类水源易得，唯须注意消毒。</P><P>2、地上水：包括泥泞水、雨水、露水等，其收集方法如后：泥泞水：首先将茅草制作成一锥形长约一尺左右的草器，将水例入过滤容，在底部以容器盛接，过滤数次，消毒后即可饮用。雨水收集：下雨时，在大的树干上挖一孔，插入竹筒，雨水及沿此筒聚流，底部以容器盛接即可。如无利器挖孔，可用长布条沿树干缠绕，约留尺许於容器内，雨水及沿雨布条引入。露水收集：利用金属板，夜间露天放置，待水珠凝结成时收集之。或可用石头收集在地上挖一直径三尺左右的浅坑，其上铺一帆布（或纸张、衣料、山芋叶等品）代再用石头在棋上排成高约三尺的V字型，则露水沿石而下积聚於帆布内，代用次日除去石块，即可得3-5c.c然后消毒饮用。</P><P>3、若逢地上、地下水源均枯干时，或水源不洁不得饮用时，可在植物上找到代用水，其采集方法於后：</P><P>水树：凡树体积粗大、叶阔大、多生果实，则树身藏水丰沛。只要用利器在树干上挖一洞，即有水流出。但须注意，挖洞时应在太阳西落之后，时已黄昏始能得水。</P><P>水藤：分布於八百公尺以下溪畔，潮湿地带。将其茎割切一段，即有水泊泊流出，待流尽后，在约其上约一尺年切割一段,水在源源流出。</P><P>仙人掌：各种仙人掌含水甚丰，切去顶部，汁液即自切口流出，然后捣碎果壳果果肉以吸管吸取汁浆。但如发现其汁液为乳白色时，则切勿饮用，因可能有毒性。野生蔗：只要在树干上挖洞，水则流出。亦可砍去枝叶，以切口对嘴儿饮之，为其味生涩，但如无其它方法，则野生蕉亦为最佳植物代用水。棕榄：此法收集较费时，砍倒树干，割去顶端，斜放地上，用容器在根部盛接，每八小时去茎一段，一日约可得五至八cc之水。</P><P>竹：如粗大之竹类、麻竹、桂竹、孟宗竹等，茎风均含少许水份，，干裁之竹茎内含更多量水份，成其雨后采取方便，唯须注意筒内水否清洁。</P><P>椰子：未成熟之小椰子可食，成熟之椰子果，其汁液解渴清凉无比。可治便秘消化不良诸症。</P><P>野丝瓜：将茎与根部切断，以容器纳入收集，或用塑胶袋包扎切口，次日收回，约可得五至六cc之水。</P><P>4、另个亦可利用动物之指引而获水，因动物出没处，其附近必有水源。其次也要注意水源是否清洁，普遍监别法是吐口唾液水面，如迅速散开则可饮,若能聚不散，其水必不洁，必须消毒后方可饮用。</P><P>常用消毒法：</P><P>1、煮沸法。</P><P>2、碘酒消毒法：以药箱中碘酒以1000cc加入8.2%之比例即可。</P><P>3、药片消毒：普通急救箱中应具备此类药品，1000cc水中加入二片饮水消<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:44:00</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16456><font color=#000066><B>freelala~</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1985-6-19></td></tr></table>&nbsp;&nbsp;<img src=pic/level2.gif><br>&nbsp;&nbsp;等级：论坛游侠<BR>&nbsp;&nbsp;文章：217<br>&nbsp;&nbsp;积分：477<br>&nbsp;&nbsp;注册：2004-3-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=freelala~',500,400)"><img src="pic/message.gif" border=0 alt="给freelala~发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=freelala~" target=_blank><img src="pic/friend.gif" border=0 alt="把freelala~加入好友"></a>&nbsp;<a href="dispuser.asp?id=511" target=_blank><img src="pic/profile.gif" border=0 alt="查看freelala~的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=freelala~&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索freelala~在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ykwangcq@163.com"><IMG alt="点击这里发送电邮给freelala~" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16456&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16456&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>17</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>野外小伤自救！<BR>野外旅行，由于过度疲劳或意外因素很容易造成一些伤患，而所处的环境又常常不可能有良好的医疗条件，很多情况下就必须自行进行伤患的及时处理，避免累积或延误产生更加严重的问题。这里我们就简单介绍一些常见伤患的应对办法，希望能对户外爱好者有所帮助，当然处理后还是要及时去医院治疗或做好恢复哦。</P><P>1. 髂胫束磨擦综合症 <BR>症状：膝部外侧疼痛, 上落斜路尤甚, 痛处在小腿外上方, 但压痛点在大腿外侧下方<BR>处理：伸展髂胫束(大腿外侧) </P><P>2. 鹅足腱腱膜炎 <BR>症状：膝部内侧疼痛, 上落斜路尤甚, 痛处和压痛点在小腿内上方<BR>处理：伸展大腿内侧、前方和后方 </P><P>3. 前膝痛症(髌骨软骨病、髌骨韧带炎、脂肪垫肥厚等) <BR>症状：膝部前面疼痛, 上落斜路尤甚, 痛处和压痛点在膝盖软骨、下方或髌骨韧带两旁 <BR>处理：伸展大腿外侧、前面 </P><P>4. 跟腱炎 <BR>症状：足跟后面疼痛和压痛, 举步维艰 <BR>处理：伸展小腿后方及跟腱, 穿着不刺激跟腱的鞋子 </P><P>5. 足底筋膜炎/跟骨下骨刺 <BR>症状：足底后跟处疼痛及压痛, 以足跟着地时和早上尤甚 <BR>处理：伸展小腿后方及跟腱, 穿着有良好吸震能力的鞋子或鞋垫 </P><P>6. 腰背痛 <BR>症状：腰背酸痛 <BR>处理：伸展大腿后方, 向前(曲膝)和向后伸展腰背 </P><P>7. 轻微出血 <BR>处理：用清水或消毒药水清洗伤口，如有需要，用敷料按着伤口止血。用敷料或黏性敷料盖着伤口，并用胶布或绷带固定。如伤口比较肮脏，最好前往医院或诊所接受『破伤风』的防疫注射 </P><P>8. 大量出血 <BR>处理：可能的话，先戴上胶手套。立即用敷料按者伤口止血；如果一时间找不到敷料，应叫伤者先用手按着伤口止血，并举高受了伤的肢体，帮助止血。切勿叫伤者作不必要的移动。注意安慰伤者，缓和惊惶情绪。盖暖伤者，并解松伤者身上紧身的衣物 ，密切注意伤者的呼吸和脉膊。尽快安排将伤者送往医院 </P><P>9. 软组织创伤 <BR>处理：软组织创伤包括韧带扭伤和肌肉扯伤，应该注意PRICE准则，即Protection－保护受伤的地方，防止再受到其它伤害，Rest－叫伤者休息，避免不必要地移动伤处，Ice－冷敷伤处，Compression－用弹性绷带扎着伤处，Elevation－尽可能枕高伤处 </P><P>10. 抽筋 <BR>症状：肌肉不自主地疼痛地收缩 <BR>处理：立刻休息，将抽筋的肌肉拉直并维持伸展直至肌肉松弛。可以以轻揉的方法按摩肌肉，需要时可以饮用含有盐份(电解质)的饮料 </P><P>11. 肌肉酸痛 <BR>处理：注意休息。采用伸展运动-静止伸展法、轻揉按摩-推法或揉法以及冰敷或热水浴进行缓解。这里要说明的是延迟发生的肌肉酸痛并非因『乳酸积聚』引起，所以要更加提起注意，必要的时候去医院进行检查。</P><P>12. 昆虫咬伤及刺伤 <BR>处理：用消毒药水清洗伤处后涂上一些抗组织胺药膏。密切留意伤者是否有过敏反应，如起红班斑，如有上列情况出现，必须立即安排将伤者送往医院。野外活动应该携带防蚊剂等以减低受蚊叮虫咬的机会 </P><P>13. 水 泡 <BR>预防水泡的出现是最重要的, 应穿着适合和舒服的鞋和袜。在水泡产生后，如需继续步行的话，应尽可能不要刺穿水泡。如水泡已穿破，也不要将表皮剪去，应用敷料盖着患处及减少患处与衣物的磨擦。如有需要，可以用剪去一个洞的敷料盖着水泡，以减少磨擦<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=511&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 18:48:34</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16458><font color=#000066><B>激情似火</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：97<br>&nbsp;&nbsp;积分：214<br>&nbsp;&nbsp;注册：2003-9-25<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=激情似火',500,400)"><img src="pic/message.gif" border=0 alt="给激情似火发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=激情似火" target=_blank><img src="pic/friend.gif" border=0 alt="把激情似火加入好友"></a>&nbsp;<a href="dispuser.asp?id=358" target=_blank><img src="pic/profile.gif" border=0 alt="查看激情似火的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=激情似火&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索激情似火在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:iamkuangbiao@163.com"><IMG alt="点击这里发送电邮给激情似火" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16458&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16458&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>18</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>good to go！做会刊应该是材料充足了<BR>顶一个先</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=358&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 19:00:58</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16461><font color=#990000><B>admin</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z11.gif alt=水瓶座1984-2-17></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：管理员<BR>&nbsp;&nbsp;威望：6<br>&nbsp;&nbsp;文章：151<br>&nbsp;&nbsp;积分：432<br>&nbsp;&nbsp;注册：2002-5-19<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=admin',500,400)"><img src="pic/message.gif" border=0 alt="给admin发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=admin" target=_blank><img src="pic/friend.gif" border=0 alt="把admin加入好友"></a>&nbsp;<a href="dispuser.asp?id=1" target=_blank><img src="pic/profile.gif" border=0 alt="查看admin的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=admin&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索admin在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:freebag@126.com"><IMG alt="点击这里发送电邮给admin" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=181667232" target=_blank title="admin[181667232]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16461&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16461&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>19</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>好贴 ，继续努力哦 <img src=pic/em27.gif border=0 align=middle></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=1&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-14 19:22:26</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16474><font color=#000066><B>changlinaa</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z10.gif alt=魔羯座2000-1-1></td></tr></table>&nbsp;&nbsp;<img src=pic/level5.gif><br>&nbsp;&nbsp;等级：侠之大者<BR>&nbsp;&nbsp;文章：565<br>&nbsp;&nbsp;积分：476<br>&nbsp;&nbsp;注册：2003-2-12<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=changlinaa',500,400)"><img src="pic/message.gif" border=0 alt="给changlinaa发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=changlinaa" target=_blank><img src="pic/friend.gif" border=0 alt="把changlinaa加入好友"></a>&nbsp;<a href="dispuser.asp?id=66" target=_blank><img src="pic/profile.gif" border=0 alt="查看changlinaa的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=changlinaa&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索changlinaa在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:changlinaa@163.com"><IMG alt="点击这里发送电邮给changlinaa" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=66509365" target=_blank title="changlinaa[66509365]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16474&id=1674&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16474&id=1674&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>20</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>赞～</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=66&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-15 0:39:40</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>21</b>，分页： <a href="?BoardID=6&id=1674&replyID=1674&star=1&skin=">[1]</a> <font color=#FF0000>[2]</font> <a href="?BoardID=6&id=1674&replyID=1674&star=3&skin=">[3]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1674" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1674" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1674" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1674&replyID=1674" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1674" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1674" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1674" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：320.313毫秒
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：秋季锻炼十大法则[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：秋季锻炼十大法则[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1391&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>18</B> 个阅读者<a href="go.asp?BoardID=6&sid=1391"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1391&id=1391&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1391&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 秋季锻炼十大法则[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1391"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1391"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1391"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1391"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1391"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1391', ' 上海交通大学野外生存素质拓展基地 - 秋季锻炼十大法则[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14648><font color=#000066><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level7.gif><br>&nbsp;&nbsp;等级：蝙蝠侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：954<br>&nbsp;&nbsp;积分：1520<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14648&id=1391&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14648&id=1391&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face7.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>秋季锻炼十大法则[转帖]</b><br>秋季锻炼十大法则 from：中华网<BR>　最近，秋高气爽的天气回到人们的身边，户外湛蓝的天空和习习秋风都让人有到外面活动活动筋骨的想法。的确，抓住秋天好好锻炼一下身体，对迎接严冬的考验是非常有必要的，不过要是没有掌握正确的锻炼原则，在锻炼中伤了自己，恐怕是事倍功半，因此特别提醒你，锻炼也要讲方法。 </P><P>　　秋季锻炼无论对老年人还是年轻人都有很多好处，因为入秋之后是北京最好的季节，气温适度，气候宜人，在这样的季节养成锻炼的习惯，让身体受到良性的刺激，会更加容易适应进入冬季后气候的变化。锻炼还能增强体质，增进机体的耐寒抗病能力，提高心血管系统的功能，增加大脑皮层的灵活性，保持清醒的头脑和旺盛的精力。锻炼后胃液分泌加多，肠胃蠕动增快，可以提高消化和吸收功能。像慢跑、做操、打太极拳、散步、登山、打乒乓球、羽毛球等都是适合秋季的运动，您可以根据自己的爱好选择。不过，锻炼有一些“宜”和“忌”，提醒您注意。 </P><P>　　锻炼法则一：注意衣着，防止感冒。 </P><P>　　秋季和夏季不同，清晨的气温已经开始有些低了，锻炼时一般出汗较多，稍不注意就有受凉感冒的危险。所以，千万不能一起床就穿着单衣到户外去活动，而要给身体一个适应的时间。尤其是老人，在早晨醒来后不要马上起床，因为老年人椎间盘松弛，突然由卧位变为立位可能会发生扭伤腰背部的现象，有高血压、心血管病的老人起床更要小心，可以在床上伸伸懒腰，舒展一下关节，稍休息一会儿再下床。 </P><P>　　出去锻炼时应该多穿件宽松、舒适的外套，等准备活动做完或锻炼一会儿身体发热后，再脱下外衣，免得室内外温差太大，身体不适应而着凉感冒。锻炼后如果汗出得多，在往回走的路上也要先穿上外套，等回到室内再脱去汗湿的衣服，擦干身体，换上干燥的衣服。 </P><P>　　秋季锻炼时切忌“耍单儿”，不热身就背心短裤上阵，穿汗湿的衣服在冷风中逗留也容易伤风感冒，应该尽量避免。 </P><P>　　锻炼法则二：及时补水，防止秋燥 </P><P>　　从潮湿闷热的夏季进入秋天，一下子气候干燥起来，温度也降低不少，人体内容易积一些燥热，而且秋季空气中湿度减少，容易引起咽喉干燥、口舌少津、嘴唇干裂、鼻子出血、大便干燥等症状。再加上运动时丧失的水分会加重人体缺乏水分的反应，所以，运动后一定要多喝开水，多吃梨、苹果、乳类、芝麻、新鲜蔬菜等柔润食物，或是平时多喝冰糖梨水、冬瓜汤等食物来保持上呼吸道黏膜的正常分泌，防止咽喉肿痛。 </P><P>　　如果运动量较大，出汗过多，可在开水中加少量食盐，以维持体内酸碱平衡，有条件的可以喝一些含电解质的运动饮料，防止肌肉出现痉挛。<BR>    如进行长跑锻炼，还要饮用适量的糖开水，以防低血糖，出现头晕、出虚汗、四肢乏力等不良生理反应。 </P><P>　　运动时补水不能在运动前或运动后一下子喝很多，运动前喝多了容易造成肠胃负担加重，而且一动起来胃里咣咣响也影响锻炼。运动后猛喝会带走大量的电解质，部分流出体外，对身体不好，运动时饮水最好能分次少量饮用，比如锻炼20分钟，喝150到200毫升。 </P><P>　　锻炼法则三：做好准备，防止拉伤 </P><P>　　对于任何一种运动来说，准备活动都是必须的，我们常常见到一些老人参加集体性的锻炼活动，往往是把自行车或三轮车往路边一停就开始了，很多年轻人更是出门就开始跑，一点儿放松关节和韧带的活动都没有，这是比较危险的。 </P><P>　　因为人的肌肉和韧带在秋季气温较低的情况下会反射性地引起血管收缩、黏滞性增加，关节的活动幅度减小，韧带的伸展度降低，神经系统对肌肉的指挥能力在没有准备活动的情况下也会下降，锻炼前若不充分做好准备活动，会引起关节韧带拉伤、肌肉拉伤等，严重影响日常的生活，锻炼反而成了一种伤害。所以无论多大年纪，在锻炼之前准备活动都要做，时间长短和内容可以因人而异，但一般应该做到身体微微有些发热比较好。做完准备活动后，无论进行舒缓或较急促剧烈的活动，身体都能适应，才能达到锻炼的目的。 </P><P>　　锻炼法则四：循序渐进，切忌过猛 </P><P>　　有的人觉得运动量大身体才能练好，抵抗力强，其实不然，运动跟吃饭睡觉一样，都是适度才好。运动量过大或过小都对健康没有好的影响，只有适当的运动才能起到健身防病的作用。不运动身材容易变胖，体内各个器官的机能都会下降，直接引起身体的抵抗力和应激能力降低，导致各种疾病；运动过度则会大量消耗体力而得不到恢复，日子久了反而积劳成疾。 </P><P>　　秋季锻炼和其他季节锻炼一样，运动量应由小到大，循序渐进。锻炼时觉得自己的身体有些发热，微微出汗，锻炼后感到轻松舒适，这就是效果好的标准。相反，如果锻炼后十分疲劳，休息后仍然身体不适、头痛、头昏、胸闷、心悸、食量减少，那么您的运动量可能过大了，下一次运动时一定要减少运动量。 </P><P>　　从中医理论讲，秋天又是一个人体的精气都处于收敛内养的阶段，所以运动也应顺应这一原则，即运动量不宜过大，切勿搞得大汗淋漓，以防出汗过多造成阳气耗损。运动宜选择轻松平缓、活动量不大的项目适时有度、循序渐进的进行。当周身微热，尚未出汗时就可以停止，以保证阴精的内敛，不使阳气外耗。</P><P>  锻炼法则五：运动保护，预防损伤 </P><P>　　由于人的肌肉和韧带在秋季气温开始下降的环境中容易反射性地引起血管收缩，关节生理活动度减小，因而极易造成肌肉、肌腱、韧带及关节的运动损伤。因此，每次运动中也要注意运动的方法，除了做好充分的准备活动外，运动的幅度、强度都要重视，不要勉强自己做一些较高难度的动作。 </P><P>　　中老年人的锻炼要“留有余地”。现在一些中老年人为了锻炼每天都去爬山，精神固然可嘉，但你是否考虑过自己身体能不能经受这样的考验呢？老人光靠自我感觉良好有时是非常危险的。老人在拉伸胳膊和腿的时候尤其要注意，免得出现拉伤。另外，中老年人不太适合参加竞技类的运动。中老年人和年轻人相比，对某些具有报警性质的症状感觉不大明显，还有些中老年人“童心未泯”，比赛的时候争强好胜，计较输赢，弄不好就会引起心绞痛或者骨折等意外。因此，大多数中老年人宜进行比较柔和的活动项目，即使参加比赛，也不要把输赢看得太重，量力而行，不要去“拼命”，像接不到的球不要硬接，跑不完的长路就不要再跑。 </P><P>　　健身运动应结合每个人自己的健康状况来合理安排，每一种运动都会消耗一部分能量，产生各种代谢产物，并打破身体内原有的平衡状态，因此，恢复过程实际是运动的一部分，只有通过适当的休息、补充营养和理疗等方式使机体重新恢复和建立新的平衡，整个身体才能保持健康的状态。如果不经过充分休息就再次进行剧烈的运动，机体的负担会进一步加重，使代谢产物堆积，机体内的平衡严重失控，如果不能通过必要的医疗手段予以纠正，就会向疾病方向发展。不但达不到健身的目的，而且导致健康的损害。 </P><P>　　另外，秋冬季心肌梗死的发病率会明显提高，本身有高血压的病人秋冬之交时血压往往要较夏季增高20毫米汞柱，因此容易造成冠状动脉循环的障碍。所以锻炼前最好能在晨起时喝杯白开水，以冲淡血液。运动方式更要选择舒缓的，免得在锻炼中发生意外。 </P><P>　　■锻炼法则六：晨起锻炼不能空腹 </P><P>　　有的人习惯早上起床就先去锻炼，练完再吃早饭，这样对身体不太好。因为运动时身体会消耗大量的能量，经过一夜的消化和新陈代谢，前一天晚上吃的东西已经消化殆尽，身体中基本没有可供消耗的能量了，如果还在腹中空空、饥肠辘辘时锻炼，很容易发生低血糖。对老年人来说更为严重。所以起床后运动前应该适当喝些糖水或吃点水果“垫一垫”，这样让 </P><P>　　身体得到一些启动的能量，会更有利于健康。运动结束后，可以休息20到30分钟，使心肺功能恢复稳定状态，同时胃肠系统有适当的准备，然后开始进食。</P><P>锻炼法则七：酒足饭饱不宜运动 </P><P>　　现代人的生活习惯已经很少是“日出而作，日落而息”的了，晚上睡得晚，早上工作又多，不少人没有时间早上锻炼，所以有人就把锻炼的时间定在了晚饭后。能够坚持锻炼是件好事，不过饭后立即进行运动，哪怕是散步也是不利于健康的。这是因为饭后消化系统的血液循环大大增加，而身体其他的部位血液循环就会相对减少，如果马上开始运动，消化的过程受阻，胃肠容易生病。所以饭后30分钟后再进行运动为好。 </P><P>　　另外，有冠心病、高血压伴随脑动脉硬化的病人，胃手术后病人，胃下垂体虚病人及肝炎病人不宜在饭后用散步作为锻炼的方式。 </P><P>　　锻炼法则八：晨跑锻炼，不宜路边 </P><P>　　很多人喜欢的慢跑是一种很好的锻炼方式，最适合中青年人，慢跑能增强呼吸功能，使肺活量增加，增强心肌功能，所以慢跑是一个很好的健身方法。 </P><P>　　秋天在林阴大道上慢跑，呼吸清新的空气有利于人体健康。但是现在在城市中，车水马龙的马路越来越多，不少人为了省事，就在马路边慢跑来锻炼，其实这是很不健康的。因为秋季气候干燥，灰土容易飞扬起来，使空气受到污染，在马路边跑步，肺活量增加，会吸入更多的灰尘和汽车排出的有害气体。无形中增加了对身体的损害。所以晨 </P><P>　　跑和锻炼最好选择在公园等安静又干净的地方进行，而不宜在马路边慢跑。 </P><P>　　锻炼法则九：锻炼同时保证睡眠 </P><P>　　健身运动一定要在最佳的精神状态和生理状态的情况下，用饱满的情绪投入到健身运动中，才能取得身体锻炼的成果和精神情趣的愉悦。如果在情绪低落、萎靡不振、体力下降或身体伤病时强行运动，轻则加重器官的负担，重则损害机体的功能，所以进行锻炼也要在睡眠充足、精神饱满的时候进行。 </P><P>　　俗话说“春困秋乏”，进入秋季气候宜人，日照时间变短，利用这一好时机尽可能保证睡眠充足不仅能恢复体力，保证健康，也是提高机体免疫力的一个重要手段。所以，在秋季要遵照人体生物钟的运行规律，养成良好的睡眠习惯，这时再加上有序科学的锻炼，身体才能越来越好。 </P><P>　　锻炼法则十：调整饮食，增强体力 </P><P>　　秋季锻炼可以增强身体的抵抗力，为冬季抵御寒冷和各种秋冬换季时容易侵扰我们的疾病积蓄力量。同时，由于夏天天气炎热，体内的能量消耗较大，人们普遍出现食欲不振的现象，造成体内热量供给不足。 </P><P>　　到了秋天，天气转凉，人们都会食欲大振，使热量的摄入大大增加。再加上气候宜人，使人睡眠充足，为迎接寒冷冬季的到来，人体内还会积极地储存御寒的脂肪，因此，身体摄取的热量多于散发的热量。所以，在秋季既要多吃有营养的东西，增强体力，另一方面也要小心体重增加，尤其是本身就肥胖的人。注意多吃一些低热量的减肥食品，如赤小豆、萝卜、竹笋、薏米、海带、蘑菇等，不吃重油腻味的食物，免得加重肠胃负担，还会使体温、血糖上升，使人萎靡不振，产生疲惫感。 </P><P><BR>　　秋季气候干燥，容易疲乏，应该多吃新鲜少油食品和含维生素及蛋白质较多的食物，像胡萝卜、藕、梨、蜂蜜、芝麻、木耳等，养血润燥，提高抗秋燥、抗病能力。 </P><P>　　其次，在秋季还应注意提高热量的消耗，有计划地增加运动，多爬山、散步，既可心情舒畅，又能增加活动量，达到减肥的目的。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-11-3 17:35:21</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1391&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1391&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1391" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1391" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1391" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1391&replyID=14648" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1391" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1391" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1391" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：195.313毫秒
+</td></tr>
+</table>
+</body>
+</html>

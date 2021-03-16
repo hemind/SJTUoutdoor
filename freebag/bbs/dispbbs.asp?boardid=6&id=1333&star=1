@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：[转帖]户外活动的环保问题</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：[转帖]户外活动的环保问题
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1333&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>44</B> 个阅读者<a href="go.asp?BoardID=6&sid=1333"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1333&id=1333&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1333&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： [转帖]户外活动的环保问题</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1333"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1333"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1333"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1333"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1333"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1333', ' 上海交通大学野外生存素质拓展基地 - [转帖]户外活动的环保问题')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14034><font color=#000066><B>gudavid</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：612<br>&nbsp;&nbsp;积分：721<br>&nbsp;&nbsp;注册：2003-7-9<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=gudavid',500,400)"><img src="pic/message.gif" border=0 alt="给gudavid发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=gudavid" target=_blank><img src="pic/friend.gif" border=0 alt="把gudavid加入好友"></a>&nbsp;<a href="dispuser.asp?id=238" target=_blank><img src="pic/profile.gif" border=0 alt="查看gudavid的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=gudavid&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索gudavid在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:gudavid@sjtu.edu.cn"><IMG alt="点击这里发送电邮给gudavid" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14034&id=1333&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14034&id=1333&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>[转帖]户外活动的环保问题</b><br>户外活动的环保问题 </P><P>环保是一个话题，不存在什么标准，需要大家在争论中增进理解</P><P>    在户外活动的过程中，我们不仅要经历心理、生理上的挑战，同时也可以欣赏到山野之美，通过与自然的亲近，来愉悦身心。但也必须勇于承认，任何完美的户外活动都将对自然造成新的破坏。我们周边地区的自然生态系统已然非常脆弱，任何微小的破坏都将很难得到恢复。如果通过户外活动能产生对自然的深沉的热爱，以及对环境问题的更深刻的理解，让环保的观念影响我们的生活、影响我们身边的人，并且在活动过程中尽量将对自然的冲击降低到最低限度，那么我们所做的一切就应该是值得的。 </P><P>    环保是一种理念，并不局限于行为。我们认为的一些高尚行为在极端的环保主义者眼中却可能是肮脏无耻的。如果你生硬地制止爱美女孩在户外采花，却也可能影响了她赞美自然的心情；同样绿野留言壁虽破坏了自然的原貌，却也吸引了大批都市里的人群，去投入自然的怀抱，影响了更多的人环保地生活。因此尽量不要去指责别人的行为，应该努力去讨论一下，环保到底是什么？相互促进良好的环保意识和科学合理的环保观念，才是对自然环境最真诚的尊敬。 </P><P>    环保的基本准则应该是努力保持自然的原貌（把你欣赏完的美景完整地留给后人）。这是每位户外活动参加者的不可推卸的责任。只有能主动了解环保观念并愿意身体力行的人，才有资格参加户外活动。 </P><P>这里将讨论一些户外活动中比较通行的环保观念，以供借鉴。 </P><P>一、出发前 </P><P>活动计划应尽量避免无谓的冒险。一旦处于危难之刻，没人会管什么环保问题的。尽量带符合环保要求的物品。准备好垃圾袋。队员间应互相确认是否已了解环保是活动的一个部分。 </P><P>二、行进间 <BR>有路时应排成纵队沿着路走；无路且有植被的地段应分散前进，避免走出新路。尽量避开植被茂密难走的地段。 <BR>碰到野生动物时不要惊吓（对付猛兽除外），并给它足够的时间逃走。严禁喂养健康的野生动物，以免其丧失自立性。 <BR>尽量不做路标。确实必要时也应做得隐秘（摆树枝、石块等），能让本方队员知晓即可。最后一名经过的队员应尽量破坏这些标记，因为标志明显的路标可能会破坏其他队的乐趣。勿破坏其他队的路标，以免影响他人安全。 <BR>联络队员、抒发情感时不免需要制造出很多噪音，在这快乐的一刻，还应适当考虑别人的感受，尤其是有别的队伍时。 <BR>防火季节切勿在行进间吸烟，其他季节也不提倡。可在休息时或营地间有安全地吸烟。野外用火须遵循当地法规的规定。烟蒂彻底熄灭后，将烟丝倒出，过滤嘴塞在兜里，集中作为垃圾处理。 <BR>方便地点应该足够隐秘，并远离路线和水源。 </P><P>三、营地 <BR>尽量使用成熟的营地，避免开辟新的营地。扎营地点应选在植被相对较少的地段。多日扎营在同一地点应适当挪动帐篷位置。水边、林线以上的高山草甸的生态系统都非常脆弱，应尽量避开。 <BR>尽量避免在自然水源中直接洗涤，更不应该使用任何洗涤剂。洗漱时可以取水后在远离水源地进行，餐具等其他物品尽量带家洗，或用开水简单涮洗消毒。北京的水资源非常匮乏，我们经过的溪流通常都是下游人、畜的饮用水源，理应得到尊重。 <BR>方便地点应该足够隐秘，并远离营区和水源。 <BR>尊重别人休息的权利。 <BR>使用安全、清洁的方式煮食食物，并尽量在帐篷内进行。如需点营火时谨慎选择已枯死的树木。要知道有些地方朽木也是生态链中不可或缺的一环。休息前务必完全熄灭营火，离开时尽量掩盖营火的痕迹。 </P><P>四、垃圾处理 </P><P>户外活动中一切经过加工的物品都被视为垃圾。传统观念认为可降解的垃圾（纸张等）可以通过深埋来处理，实际上北京周边地区这些物质极难被自然降解，因此也必须收集带走。只有果皮、果壳、烟丝等天然物质可以被丢弃，但必须隐秘，以免有碍观瞻。 <BR>可燃物质可以通过充分燃烧来处理，但也有人认为此举会造成新的危害。但垃圾太多无力带走时这是一个可行的办法。 <BR>带离山区的垃圾应在有处理能力的中心城市丢弃，避免丢弃在乡村。电池等有毒废物遵照专业要求处理。 <BR>别人留下的垃圾尽量一并清理干净。 </P><P><BR>当你离开一个地方时，要让它比你来时更干净、更美丽，这是一个崇高的目标。 <BR> </P><P> <BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=238&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-24 11:36:37</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1333&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1333&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14035><font color=#000066><B>gudavid</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：612<br>&nbsp;&nbsp;积分：721<br>&nbsp;&nbsp;注册：2003-7-9<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=gudavid',500,400)"><img src="pic/message.gif" border=0 alt="给gudavid发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=gudavid" target=_blank><img src="pic/friend.gif" border=0 alt="把gudavid加入好友"></a>&nbsp;<a href="dispuser.asp?id=238" target=_blank><img src="pic/profile.gif" border=0 alt="查看gudavid的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=gudavid&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索gudavid在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:gudavid@sjtu.edu.cn"><IMG alt="点击这里发送电邮给gudavid" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14035&id=1333&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14035&id=1333&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>[转帖]</b><br>不留下痕迹 </P><P>前言 <BR>为什么不留痕迹很重要? <BR>在边远地区旅行或宿营时,我们大部分人都遵从着熟悉的规则.我们穿上一双舒适的旧靴子,带上地图就朝山里出发了。宿营时,我们清扫出一个搭帐篷地方,搭起一个小厨房,然后当星星出现时我们点上一篝火。对于大多数人来说，这些程序是宿营的全部——他们所定义的野外历险的全部。 <BR>“不留痕迹”的道德准则要求我们改变我们的定义，至少是轻微地。考虑一下，我们把靴子换成浅纹鞋底的，在安营前不“打理”地面，甚至放弃晚上的营火。 <BR>“但这是我的宿营旅行”，你会说，“为什么我应该那么麻烦地改变我一贯的行事方式？” <BR>答案是简单的，如果我们不学会不留痕迹，那边远地区将因被爱而消失。地面在一阵阵如雷的脚步声中将变得茺芜而坚硬，野生生物将逃亡，其他人将抱怨这些被侵蚀的痕迹、噪音、垃圾以及对大地的伤害。 <BR>事实上土地拥有者和管理人员正被迫面对越来越多的人在日益减少的处于原始状态的土地上旅行。为了保护土地及其上的野生生物，同时也为了每个人的娱乐质量，管理员常常被迫制定严格的规则或通道。他们可能限制一次使用同一地点的人数。或者他们可能禁止某些形式的使用方式。 <BR>有关这种问题的一个很好的例子（和管理方案）是在Grand Teton 国家公园的寂寞湖。在离路的尽头10英里、海拔9035英尺的高处，寂寞湖是一个很相称的名字。多年来只有相当少的人历尽艰辛爬到了湖边，而这些为数甚少的人的辛苦代价便是一睹了未被破坏的孤寂且壮丽的高山景观。我们当中一些人还记得我们在水边从睡袋中欣赏日出一刻，光芒挥撒在Grand Teton 大地上的情景。 <BR>但在60年代，边远地区旅游出现了前所未有的开发，在不到十年的时间内，参观寂寞湖及类似地区的人数每年从几百、几千上升到数万，这个湖再也不配叫它的名字了。脆弱的高山植物被践踏至再也无法长出来了。岩石、卵石遭受了无数营火的灼伤，地面上的朽木被捡得一干二净。人类及人类存在的痕迹已经成为寂寞湖的主要特征。 <BR>公园管理者们被委托保护这块土地，并限制公众野外历险的机会。他们反应说，边远地区的使用和破坏情况的全面增长是由于允许在山上过夜。他们也曾限制只在某些区域野营，这些区域大多数应于森林线以下。最终，在Teton地区生火被禁止了。如今在寂寞湖周边设有一个禁止野营的缓冲区，只限于从小径一头或从其它地方的大本营沿着小径在白天参观。这些地区正在恢复，虽然很缓慢，但也多亏了管理部门的决策。 <BR>其他野外地区也有被破坏的迹象或正处于危险中，边远地区业已成了一个人潮拥挤的地方。但“不留痕迹”的道德准则是相对于规则条例的另外一种途径。土地管理者们知道，若是人们小心留意的话，许多人都能够经过一个地方而不对其造成破坏。学习“不留痕迹”很大程度上是一个理解如何注意在边远地区旅行、野营的问题。 </P><P>问题… <BR>当人们去边远地区冒险时，他们在周围的环境中留下痕迹——这无可避免。即使是最小心、技术最娴熟的徒步旅行者也将留下脚印、排泄物及帐篷压倒的草的痕迹。在生态脆弱或使用太厉害的环境中，毁坏将是很严重的—小径破坏得太严重以至不能通行、水被人类的废弃物污染了，大量的火痕散落在营地的周围。 <BR>野生生物和旅行者均受到不同程度的影响。当人们靠得太近时，动物会紧张。一些动物（如熊）会变得习惯和人们相处或学会从人们扔下的没有正当处理的垃圾中找寻的食物。这样将食物和人类联系在一起，也因此导致了危险的冲突。这些动物可能会被杀死，其他为了找寻孤独的旅行者可能被垃圾和附近营房的噪声所干扰。 <BR>当我们寻找途径去减轻我们对边远地区的影响时，这本书提示了我们对野外影响的三种类型。 <BR>物理上——改变景观和土壤 <BR>生物上——干扰野生生物和植物 <BR>社会上——打扰他人 <BR>…和解决办法 <BR>为防止或减少这些不同种类的影响，我们需要知道哪些行为是正确的及哪些是有害的——简言之，什么是对，什么是错。在一本《沙乡年鉴》的书中， Aldo leopold写道：“当整件事情倾向保持完整、稳定及生物群落的美好时就是对的，而当它趋向别的什么时就是错误的。” <BR>这是一个好的开始，尤其是如果我们仍记得人类还是生物群落的一个很大部分。作为个体及作为一个社会，在很大程度上，学会不留痕迹也是保持我们自己的完整、稳定和美好。 <BR>但我们需要给“Leopold的准则加上一条推论：“在野外，区分对错不总是很清楚的。” </P><P>记得要玩得愉快 <BR>记住为什么我们要出门。我们想去体验大自然，也想在不伤害它的情况下获得在天堂中一样的乐趣。 </P><P>不留痕迹的八条行为准则 <BR>当选择变得困难时，我们需要一些指导，一种简单的行为规则去保护土地，我们的自由，及我们娱乐机会。DavidCde及其他研究者们和USDA森林机构已制定七条主要的原则。我们如上了第八条——计划、准备、防止——列在最前面。 <BR>前五条是通用的——他们可应用于所有的环境，从沙漠到山顶，各种环境状况。最后三条原则比较特殊一点，他们必须让我们仔细地估计我们的环境然后做出选择。 <BR>提前计划，准备充分，防患于未然。 <BR>将噪声降至最低，尽量不引人注目。 <BR>带进则带出。 <BR>正确处置那些不能带出的东西。 <BR>让土地保持原状。 <BR>集中利用通常区域。 <BR>分散使用原始地区。 <BR>避免去那些已有轻微伤害或刚开始有使用迹象的地区。 <BR>最后三条中的含糊性使其成为了经验法则。使你的行为适合你的环境。其反面也是对的：选择适合你计划娱乐形式的环境。如果你交这些想法熟记于心且懂得如何运用他们的话，许多很细的“无痕”技术细节将运用得恰如其分。让我们从更细处分析原则6、7和8。他们让旅游者面临困难的选择——选择哪种路线，用哪儿做宿营址，怎样做到人类废弃物的最佳处置。 <BR>介是怎样区分：通常区域“和原始区域”以及两者之间的范围条件又是如何呢？通常，如果一个区域有一条公认的明显的小径，那么它必定相当普通了。如果没有小路出没有营址，那这个地方就相当地原始 <BR>普通区域的特征 <BR>你将不奇怪见到其他人 <BR>植物被践踏，小径和营址的土壤是光秃秃的而且压实了 <BR>存在一个或多个营火痕迹 <BR>从营地辐射出许多新踏出的痕迹 <BR>营地周围的树木比起四周的森林 <BR>来说显得很稀疏；钉子、带子、斧痕四处可见 <BR>宿营设备，例如：长凳子，生火的木头片，或hitching rails,可能从上一个使用者那留了下来 </P><P>原始地区特征 <BR>看到其他人你会非常惊讶 <BR>在地上看不到破坏的痕迹－没有小径也没有营址，植被很一致，同周围的景观没有差别。 <BR>没有燃烧物，没有做路标的石堆，也没有宿营的痕迹 <BR>树上没有明显的锯和斧痕 <BR>没有人类活动的痕迹、垃圾或类便 </P><P>轻微到中度使用区域的特征 </P><P>地面植被被压平、破坏或因践踏而稀疏。可以看到一些光秃秃土壤。 <BR>可见，小径、营地或生火沟，这些特征在自然环境中很突出。 <BR>有可能见到火痕(fire ring)。 <BR>树木的低枝可能被砍下来了，树干上可能留下了锯或斧砍的痕迹。 <BR>一旦你确定一地区属于普通或原始区域，你就能找到最佳的无痕路线和宿营地点。 </P><P>集中利用普通区域 </P><P>在普通区域我们最大的目标是把我们的活动局限于那些已经被使用且造成伤害的地方。这样保护的周围没有被破坏的区域。而郊秃秃的被压实的常用地点经常能承受再一次使用－增加使用也不会造成进一步伤害。 <BR>●在已形成的小路上活动 <BR>●将营地设在远离水源、主道、别的宿营者 的已经有营址的地方 <BR>●包好所有 <BR>废弃物，或放置在离地表水至少200米处的洞中或放在其他生物够不着的地点 <BR>●将营地清理干净，这样其他人也将利用它而不会尝试找新的地点 </P><P>分散利用原始地区 </P><P>在原始地区的主要目的是减少践踏，经及通过分散在一个下面活动或寻找可承受表面而减少其他方面的伤害。这就防止其他人跟随你的脚步，因而减少任何旅行路线或营址的重复使用。 <BR>●旅游团人数不要太多，两至六个人紧好，不要超过10人（当组织大团体旅游时，应特别注意减少破坏）。 <BR>●当偏离小径时，应分散行动以便没人重复别人的脚印。或沿承受能力强的表面行进，如沙地、砾石、暴露的河床。避免陡坡。 <BR>●在承受力强的地面或在生长抗践踏的植物区域，例如干草的地方扎营。 <BR>●频繁移动营地，如果可能的话一天一次。避免重复走相同地带。 <BR>●尽量不生火。如果很必要的话，使用一个火盆或生一个土堆火(Mound fire P54-55) <BR>●尽可能随时带走所有的废弃物。 <BR>●在边远的地区，将人类排泄物在一个远离路的地点（远离营地和水源）用土掩盖起来。如果可能被人发现，就用一猫洞。（cat hole P61） <BR>●当拆帐蓬时不留下你住过的痕迹。松散被压平的草，用树叶和枯枝覆盖住光秃秃的地方，拾起所有的垃圾。 <BR>●避免使用哪些已经微受伤或刚出现使用迹象的区域。 <BR>●在刚开始出现破坏的区域我们要做到避免增加伤害，让这些地方得到恢复。 <BR>●远离不明显的小径。 </P><P>Leave-No-Trace技术 </P><P>这本书介绍了在户外旅游和野营时不留痕迹的各种方法之间的紧密关系。在这里所涉及的技能和行为是基于各种常识和野外研究。他们不需要为舒适和便利作出任何实质上的牺牲，也不需在一些高级的道德准则方面作一些改变或打上折扣。相反，我们提供了一毓的选择，无论什么时候都可能帮助你面对各种自然环境，特殊情形以及独一无二或难以预料到的挑战。 <BR>学会不留痕迹，最重要的是去了解适应不同环境下的不同技术。一双很适合登冰山的靴子将会对一些湿地造成破坏。在旅游密度高的区域，它们的好的扎营地点也是远不相同的。 <BR>简而言之，对于一个不留痕迹的旅行者来说，最重要的特征便是能够适应自己的环境。而且这与其说是一种技能或专业知识的话还不如说它是一种态度。这是种思想框架，这种框架是建立在对土地，及者栖息者以及其它游人的一种了解和尊重基础上的。如果你心怀敬意，那么下面所说的各种技术就自然在运作了。 <BR>旅行计划 <BR>计划一次野外旅行是一让人享受的过程，也是一个需要在出发前不断考虑的过程。我们仔细研究地图、风干帐蓬，穿上一双旧的磨损的鞋在房屋周围适应性地走走。这些例行公事像其本身一样是非常有的并且是旅行成功的基础，并且不管你是以乐趣，冒险，安全性或不留痕迹――或以上所有这些来衡量你的成功。要把任何旅行都做得最好，你就应遵循这个信条：“计划、准备、防止”。 </P><P>提前计划 </P><P>去野外旅游的第一步就是要决定去哪儿和什么时候出发。一个好的计划关键在于自己要清楚你此行的目的。你对那个地方了解得越多，你就越能更好地做到真正的不留痕迹。在你选定路线之前，你需要了解当地的天气，野生生物及娱乐方式。阅读导游手册和有关杂志文章，察看地图，电话访问或提前写下当地的有关资料。然后考虑以下诸多因素。 <BR>●大多数野外景点，在复秋两季去的人最多。路线和野营地在周未和假日最为紧张。另外80％的野外娱乐场所的使用都集中在仅占其面积20％的地方。根据你每次出行的目的选择最适宜的地方和时间，当你很看重清静时，那就选在非周未，或在非旅游的旺季出发，或者寻找一个使用不那么频繁的地方，当你更着重于一个特殊活动时，就应该考虑去一个对破坏不很敏感的地方。比如，想骑山地车锻炼车技就应避免去比较繁忙或泥泞的小路。 <BR>●避免到土壤和小路都很潮湿的野外旅行。这种情形出现在春雪消融的时候，也会随着海拔、纬度及雨季不断变化。 <BR>●避免在敏感的季节穿过重要的野生动物栖息地带例如筑巢和繁殖地产，行前要了解一个区域的生态以免引起无意识的伤害。 <BR>●选择好地点和路径以适合你游玩的方式。尽量避免因时间和地点不合而引起与不同类型使用之间的矛盾。 </P><P>准备充分 </P><P>带上合适的装备，衣物以及充足的食物，你就可以放松去享受你的旅途了。准备充分的旅游者常常也对土地破坏减少。例如，如果碰上下雨天那么上一双防雨靴就可以不会因小径泥泞而踩坏的地方了。还有，带上一顶好的帐蓬、雨衣和特殊用途的衣服就可以省却了生火的必要。 <BR>●尽可能不引人注目，选择一些暗淡的，跟岩石、土壤接近颜色的衣服、帐蓬和背包（但是狩猎季节应穿亮黄色的保证安全）。 <BR>●拟定一份清单，注明边远地区旅行所必备条款，并在每次旅行打包之前参考它。不留痕迹并不需要特殊装备，但有两项却是不可少的，即一把挖鼠洞用的泥刀和一些收集垃圾用的塑料袋。如果你要把你所有的食物装在这些塑料袋中，那么当这些食物被吃完后，你可用这些袋子收集垃圾。 <BR>●确保你所有的装备都是完好可用的并在你出发前保证所有装备都已安置妥当。为你持久的行程，要携带一个额外或可替用的炉子以避免备餐时过多依赖一个火炉。 <BR>●若是一个较长时间的旅行，就买一个洁水过滤器，并学习使用和清理它。 <BR>●预算并事先打包每一个人所需的食物量。这就避免了携带剩余食品－这一令人不愉快的事情。当旅行时带有畜生，要决定好为每一动物所应携带的食物量。 <BR>防患于未然 </P><P>他们事先预防对土地和当地居民可能造成的危害与危害发生后再去解决问题相比要容易得多。这有一些简单的预防措施，每个人在出发前都应采取这些措施。 <BR>打电话或去信向土地管理者询问一些特别的规定、许可及费用。弄清楚那儿是否介绍、推荐一些适用于当地的独特的保护措施。 <BR>关注天气预报，并制定或改变相应的旅行计划。 <BR>迅速列出一个不需要携带物品的清单。要些东西最好是留在家里。如：瓶装或听装的食品、一些铝制品、锯子、枪支（如果不是打猎）、收音机、录音机或CD机、电线、钉子、宠物等。 </P><P>放轻脚步 </P><P>   大多数在娱乐时引起的植被大面积破坏是由于人为的践踏。1977年William Harlow 博士从一只传统靴子的鞋纹里刮下了携带的泥土，把它晒干并称重——总重稍超过一盎司。假设平均每步跨幅位为2.5英尺，Harlow 博士计算出一个旅行者行走一英里要留下大约120磅的表土，这容易对土地形成侵蚀性的伤害。 <BR>  Harlow 博士的实验不能代表典型的道路条件，但在某些我们过分使用的娱乐区，它却能给我们对道路的破坏提供有力的说明。 <BR>浅纹鞋底不易沾上泥土，而且对土壤及植被的损伤较小，一般说来，徒步旅行者应有一双跑鞋或带有十字导流槽的运动鞋，这类鞋轻便、利于减轻疲劳，而且比皮靴干得快，如果你的要求更高，可选择一双轻型或超轻型鞋。大部分型号都是以浅纹为特征。 <BR>一双浅纹鞋的特征 <BR>穿着舒适 <BR>防水或表面防水 <BR>外底“ Z”型浅纹，加强附着力 <BR>稳定的有缓冲的踝部支撑和良好的弧形支撑垫 </P><P>外来植物 <BR>植物学家在讲到外来植物时，他们指的是被引进、非本地的植物品种，照定义上看，大多数外来植物都是搭便车旅行的一流高手。他们的刺果粘在人们的衣服或头发上，或是种子钻进衣兜或包里。或是整株植物被连根拔起，缠在汽车的车轴或消音器上。（便完成了从一个地方到另一个地方的旅行）。外来植物越过了其自然植物群落界限，由此它们很可能造成一些麻烦。许多外来植物对野生动物和家畜有害，一些外来植物的营养不如本地饲料丰富，另一些则是对饲养动物有毒，少数，比如有名的Knapweed则会绞住动物的肠子使之窒息死亡。 <BR>土地所有者和管理人员每年花数百万美圆设法限制那些有毒杂草的蔓延。他们面对外来植物侵入的威胁，采取的对策是限制或停止户外娱乐活动。但是户外活动者只要仔细检查他们的车、衣服、行李，也可以阻止外来植物的入侵。记住：一棵种子能感染整个新地区。 <BR>在离家前，要检查你的车上所附着的野草，检查你衣服上的刺球和种子。看一看裤脚口、衣兜、短袜和鞋带。 <BR>山地自行车和越野汽车也会挂上野草，要仔细看清车轮，链圈、链齿上的附着物。 <BR>在把船拖出水前，检查船体、引擎、螺旋桨上依附的水草和水生植物（如斑纹淡菜）。不要把水、活饵或鱼从某地运往另一处。 <BR>在把动物装进拖车前，仔细检查你的运载箱，特别是动物尾部、鬃毛和腿部所附带的刺球和种子，喂给动物的食物也应不用杂草和种子。 <BR>当食用水果、蔬菜、带壳的种子（例如向日葵）时我们丢弃了核、果芯、坚硬的外皮、水果皮、壳以及其它东西。应该把这些垃圾收集起来。 <BR>路线选择 </P><P>大多数旅游者很少偏离已有的小路。从不留痕迹的观点是应当被赞赏的。人们应该象走走廊一样尽量走小路，从而留下大片相对没有走过的土地。在多达80％的野外场所中，其使用面积仅集中在20％的区域中。换句话说，大多数人不仅坚持走现成的小路，而且他们也喜欢大多数已开发的旅游路线。 <BR>在普通区域 </P><P>选择好的路线意味着力图减少对已存道路的毁坏，尤其是对那些已有修饰迹象或繁忙景象的旅游区。 <BR>避免走潮湿的小径，注意天气预报。 <BR>沿着路线前进。别在爬坡或下坡时走捷径。别企图绕开泥泞的小路。 <BR>大家排好队依次而行。 <BR>如果小路变得不明显了，可以暂停下来，向你前进的方向勘察一下，找到一条最结实好走的路。 <BR>在行人较多的路上，休息时最好选择一处地表承受力比较强的地方，在附近选择一个较坚固的休息场所－突出的岩石，河岸的砾石滩，沙地或干草地等。 <BR>在穿越私人地产时应征得主人的同意。当你离开也别忘了关好大门。 </P><P>在原始地带 <BR>在那种人迹罕至的地方，野外旅行要求有特别的提防并且小心对待。 <BR>选择一条地表承受力强的路线。寻找那种有鹅卵石、光滑石块、沙地、砾石地和雪地的地方。砾石地或河岸的沙滩以及湖岸都是不错的自动选择对象。尽量呆在洪水线以下。 <BR>保持既定活动路线不变，除非你的野外旅行会给植被和土壤造成更大的破坏的话。 <BR>如果没有坚固的地表路线可供选择的话，让你的队伍分散开来以确保大家不要沿着一条路前进。 <BR>将团体的规模尽量压小－少于十人。 <BR>除非遇到特殊情况，平时尽量避免在你们旅行路线上留下记号。不要在树上刻标记，也别堆石标，制作旗号或用石头标记箭头，不要扬起满天的尘土。 </P><P>文化艺术品 <BR>在偏远地区旅行，不时会碰到围成圈的石砌帐蓬，古人的墓地，史前的矛和箭，岩石雕刻－特别是在西南部的沙漠或峡谷，常常能发现陶器碎片和毁灭了的石层和村庄的痕迹，这些人造东西就如同鸟语花香一样成为风景的一部分。 <BR>让所有的文化艺术品和建筑物完好无损。手上的污渍会使石头和其它东西的表面变色，所以不要去触摸陶瓷、石画和雕刻。在联邦和大部分州的景点中，收集人工制品（和）化石都是被禁止的。 <BR>在远离历史景点和文化景点的地方宿营。当经过这些景点时，应轻手轻脚。如果你碰巧有了新发现，应在你的地图上作记号，并且标出各种细节性的方位以便下次再找。把这些新的发现向当地的管理机构办公室报告或向附近的大学考古系报告。 <BR>原住民 <BR>一些地方保留了传统的甚至是古老的生活方式，且这些生活方式仍然盛行。分布在北极、西南和其他地区的原住民至今还把狩猎、捕鱼、采集野生植物当作一种受人尊敬和优先的生活方式。 <BR>去一个地方旅游，应当尊敬当地人，尊重他们的信仰、语言、风俗及历史。在去那之前应了解他们的文化，懂得去遵守他们的部落规章。 <BR>在通过部落或村庄之前应得到允许 <BR>照相前需征得同意 <BR>由于每个地方都有它特定的生活方式，因此没有得到邀请就不要打猎或采集其他食物 <BR>把噪音降到最低 <BR>安静在偏远的野外是一个很明显的特征，尤其对于那些听惯了电话铃声、电视嘈杂声、交通的鸣笛及震动声的人们来说。近来在对Glacier国家公园的一系列研究中发现，白天的噪音标准低达20分贝。作为全美最安静的地方——Dinosaur国家纪念碑的噪音为11分贝。（作为比较，普通的口哨声大约为15到30分贝） <BR>还记得我们在前言中所提到的社会影响吗？在边远山区旅行的人们经常产生一些噪音：不必要的呼叫声、口哨声、枪声和其他不好的杂音。这些都可能扰乱他人的清幽心境或和平、宁静的环境。 <BR>所以要宁静的走入山区，就要把收音机、随身听、CD机、耳机等留在家里。要知道声音在风中、湖水中以及在任何空旷的地域都能很好地传播。噪音可能在傍晚和清晨更容易打扰他人。 <BR>当我们在有熊出没的地区旅行时，额外的噪声：掌声、歌声或任何金属声都是允许的。要想在熊居住区更安全的旅行，请参阅——“警惕熊”一书，它能提供给你更好的建议。 <BR>选择营址 <BR>多数的边远地区露营地并不是由野营者用铁锹和锯床挖出来的，而通常是纯粹的凹痕的造成的。任何人，似乎都看得出来一个合适的露营点应是这个样子的：平坦、利于排水的地面；遮风挡日；近离清洁水；或者，幸运的话，是处令人愉快的风景。在人流很大的地区，疲劳的旅行者会多增列一条即－可靠性。在选择一个合适的无痕迹营地时这些因素几乎扮演着同样的角色，只不过考虑的角度不同方便没有损害控制显得重要。平坦、排水好的地面也许提供了一个很好的夜宿，但它也要求非“工程性”的（诸如挖壕沟排水帐蓬上的流水），而且它应是少一点腐蚀危害。近似的说，挨近清洁水源对饮用和食用都是重要的。但是要着重于“清洁”而非“距离近”。从根上说，要是水是被污染的水，距离近又有什么用呢？保持一条溪流或湖泊勉受沾污的关键是露营地远离它－至少离水边200英尺的距离。 <BR>当你不能决定是否利用一位置时，要一点一点地观察这一地点。（要在一天结束时留出充足的时间做这一事情――疲惫或白天跑得精疲力竭是选择一个营地时的不得借口） <BR>●这一地点以前曾被用过吗？利用的程度是严重、适中、轻微，还是根本就没有？ <BR>●土壤和植被抗踩度如何？是有耐性的地表吗？是沙地、砾石，还是可用的岩石？ <BR>●那里有泾流、浸蚀、水污染的迹象吗？ <BR>●若你需要一堆火时，有落地的大量枯木吗？ <BR>●试问，当我离开这地方时，这会有我驻营的痕迹吗？ </P><P>在有名气的地方 <BR>在那些曾被开发过的、过度利用的地点，主要的问题是去限制搭帐蓬，足迹交通和由于以前开发而造成危害的这一区域的其它形式的利用，旨在于防止进一步的损害。 <BR>●营地设定在哪儿，要服从以规则。 <BR>●寻找一个平坦、排水好的帐蓬的但应使它远离水源，小径和其它营友至少200英尺。也许不可能找到一个现存的地点能满足所有的这些条目（崎岖的地形也许限制了衙适的地点），但是要去四周看看，而不是只停在最方便的地点。反你的帐蓬搭在一个空的泥土上，构造门和可能的交通模式以避开植物依旧可能延展的地区。 <BR>●避开人为干挠很少的或没有公开化的地点。 <BR>●搭营远离其它营友，或者搭你的帐蓬要避开邻居，在营内保持安静。 <BR>●在树苗附近行走要特别当心。 <BR>●离开时，要使那个地点比你发现它时更好。捡起草片。若有火苗，要息灭它，反石块放在合适的位置，并分散火灰。 <BR>在原始的地方 <BR>在这些地方，很少或没有以前使用的迹象，主要的问题是应注意在一个宽阔的地域分散使用以便单一的一片地方不被过多的糟蹋或干挠。那些耐压或抗踩的地表，若可以得有和的话，不妨集中利用。 <BR>●寻找一个平坦，利于排水的地点，最好是在沙地、砾石、床岩或干草坪上。 <BR>●保持岩石、木桩和其它物体在合适的位置。如果必需移动一块岩石或木桩时，当离开时要把它们放回到原位。 <BR>●散开搭营有利于避免过度集中在一点。 <BR>●要在远离帐蓬至少100丈的耐压的地面上野炊或吃饭。要尽量减少帐蓬和厨灶间的痕迹。要避免形成一条路，在使用频繁地区间的旅行每次要走不同路线。要注意你的步履尽量减少踩痕。 <BR>●寻找动物的足迹，吼叫声和采食的迹象。不要在动物频繁出没的地区搭营。 <BR>●尽量消除磨损和撕裂树木，不要在树上拉吊床，不要砍树枝爬树或毫无意义的毁坏树皮。 <BR>●保持帐蓬清洁，以防由于食物气味垃圾而引招动物。 <BR>●当收帐离开时，要驱散被踏踩过地面上的树叶、松针和其它自然形成的碎片。用一根棍子或者你的手指，把搭过帐蓬的地面上的草弄蓬松。再最后看看那些干草，踏过的地面以及你曾拜访过的其它视点。在你呆过的地方不留下任何痕迹你就减少了其它游客在同一地点搭营的可能性。 <BR>边远区的厨灶 <BR>今天边远地区的厨灶是携带高度方便的－一个小炉子和燃气瓶一列相互套入的锅和一个即能当煮锅又能作器皿用的罐子，另加一个水壶。较大一点的炉子可用驼畜和船工来携带，但基本的装备是相同的。这种自配的厨灶为边远地区的旅行者在选择生灶点供宿的问题上提供了很大的自由性，无论是在有名的开发区还是原始的区域。 <BR>在开发过的地区 <BR>在已存的火堆旁或能很好被利用的位置中央建立厨灶。炉子的底部要在一块大岩石或一片沙土上。 在熊的栖息地，野炊和搭帐蓬间应至少200丈的距离（上风向）。 <BR>在原始区域 <BR>寻找一块耐压的地面，诸如一块大岩石，一片沙地或砾石，或者一片高水位下的海滩。四人以上的应该限制生灶的次数，尽量减少厨灶附近被踩踏的面积。人多的组应该分成几对或三人组，分开建立厨灶。 <BR>无痕迹之餐 <BR>●进餐时通常要打开包，挑物品和分散物品。要尽量把这些东西包含在像一片沙地或一个大而扁平的岩石之类的坚硬地点的限度内。有一些人就铺开一小块粗帆布或灯丝地布（大约30平方英寸），把他们的厨具和食物摆在上面。 <BR>●要把火炉摆在一块稳固、平坦的地面上，要避风并远离诸如衣服、帐蓬和干硬的植物一类的易燃物。 <BR>●当为了煮饭或洗物而挖湖和溪流取水时，要用清洁的罐子。使用水袋以减轻食物的携带，还机器人 水源取水。 <BR>●在加要煮食物前，应沸煮未经处理的水约5分钟，以杀死水中的微生物种。 <BR>●用塑料网刷清洗罐子和壶;肥皂是不必要的。捡出饭粒和食渣并打装在双层塑料袋中。在远离营帐点200丈和远离水源处至少200英尺以外的地面上分散洗刷用水。如果以后在原地建一堆火用以烧掉食物残渣时，可把洗涮水倒在已建过的火堆上。 <BR>●要考虑把你的火炉放在你包裹的底层（或者在家时你确信你不用它来煮水渴或者加热一块肉以消除低温的话）只吃已备好的食品。 </P><P>摘自荒野文库</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=238&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-24 11:57:03</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14124><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14124&id=1333&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14124&id=1333&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>支持环保</P><P>有些东西很专业，建议大家好好学习一下</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-26 21:15:42</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14135><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14135&id=1333&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14135&id=1333&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>每次大哥都是大篇幅转载<BR>看得我的眼睛……<BR>有所获益倒是真的<BR>患得患失</P><P>这次去清凉峰<BR>尽量做到不留痕迹<BR>至于能否清除些前人不甚留下的<BR>大家量力吧</P><P><div align=right><font color=#000066>[此贴子已经被作者于2003-10-26 22:55:45编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-26 22:53:51</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14172><font color=#000066><B>tianji叶</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z9.gif alt=射手座1983-11-26></td></tr></table>&nbsp;&nbsp;<img src=pic/http://><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：38<br>&nbsp;&nbsp;积分：63<br>&nbsp;&nbsp;注册：2003-9-23<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=tianji叶',500,400)"><img src="pic/message.gif" border=0 alt="给tianji叶发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=tianji叶" target=_blank><img src="pic/friend.gif" border=0 alt="把tianji叶加入好友"></a>&nbsp;<a href="dispuser.asp?id=352" target=_blank><img src="pic/profile.gif" border=0 alt="查看tianji叶的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=tianji叶&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索tianji叶在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:ye51003@163.com"><IMG alt="点击这里发送电邮给tianji叶" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=81738418" target=_blank title="tianji叶[81738418]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14172&id=1333&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14172&id=1333&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>好帖<BR>清凉峰，我会注意了<BR>不篝火了<BR>可别出现冻得点火取暖的地步呀，那就不得已而为之。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=352&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-27 21:47:05</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=14185><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2074<br>&nbsp;&nbsp;积分：1745<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14185&id=1333&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=14185&id=1333&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br><table style="width:80%" cellpadding=5 cellspacing=1 class=tableborder1><TR><TD class=tablebody1><b>以下是引用<i>tianji叶在2003-10-27 21:47:05</i>的发言：</b><BR>好帖<BR> 清凉峰，我会注意了<BR> 不篝火了<BR> 可别出现冻得点火取暖的地步呀，那就不得已而为之。<BR></td></tr></table><br></P><P>你们大概什么事情去？</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-27 22:33:39</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>6</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1333" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1333" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1333" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1333&replyID=14034" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=解固&BoardID=6&ID=1333" title=将本主题解固>解固</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1333" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1333" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：304.688毫秒
+</td></tr>
+</table>
+</body>
+</html>

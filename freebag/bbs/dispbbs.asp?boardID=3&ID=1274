@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--装备总集浏览：国外户外用品网址zz</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=3">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=3">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=3">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=3&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 装备说明、使用保养、供求信息
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=3>装备总集</a> →  浏览：国外户外用品网址zz
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=3"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=3"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=3&id=1274&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>1728</B> 个阅读者<a href="go.asp?BoardID=3&sid=1274"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=3&replyID=1274&id=1274&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=3&sid=1274&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 国外户外用品网址zz</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=3&id=1274"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=3&id=1274"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=3&id=1274"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=3&id=1274"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=3&id=1274"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=3&id=1274', ' 上海交通大学野外生存素质拓展基地 - 国外户外用品网址zz')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13353><font color=#000066><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level8.gif><br>&nbsp;&nbsp;等级：蜘蛛侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：1035<br>&nbsp;&nbsp;积分：1760<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在装备总集的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13353&id=1274&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13353&id=1274&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face10.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>国外户外用品网址zz</b><br>Karrimor背包，服装，鞋类（英国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.karrimor.com/>http://www.karrimor.com/</a> </P><P>Katadyn水过滤器（瑞士）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.katadyn.ch/>http://www.katadyn.ch/</a> </P><P>Kayland鞋类（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.kayland.com/prima.html>http://www.kayland.com/prima.html</a> </P><P>Kelty Park Inc.背包，帐篷（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.kelty.com/Kelty/index.cfm?fuseacti>http://www.kelty.com/Kelty/index.cfm?fuseacti</a> </P><P>on=Home.Home </P><P>Kong攀登器械（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.kong.it/>http://www.kong.it/</a> </P><P>Lafuma背包，服装，睡袋，帐篷等（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.lafuma.fr/>http://www.lafuma.fr/</a> </P><P>Laken 水壶（西班牙）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.laken.es/>http://www.laken.es/</a> </P><P>La Sportiva攀登，登山，徒步鞋类（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.sportiva.com/>http://www.sportiva.com/</a> </P><P>Leatherman多用刀具（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.leatherman.com/>http://www.leatherman.com/</a> </P><P>Leki 登山杖（加拿大）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.leki.com/>http://www.leki.com/</a> </P><P>Lowe Alpine背包，服装（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://lowealpine.tslsport.co.uk/>http://lowealpine.tslsport.co.uk/</a> </P><P>Macpac帐篷，背包，睡袋，服装，救生背心（新西兰）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.macpac.co.nz/>http://www.macpac.co.nz/</a> </P><P>Magellan GPS单元（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.magellangps.com/en/>http://www.magellangps.com/en/</a> </P><P>Mammut攀登装备, 背包, 睡袋, 服装，雪崩安全装备（瑞士）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mammut.ch/>http://www.mammut.ch/</a> </P><P>Marmot Mountain Works (1)帐篷, 背包, 服装等（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.marmot.com/>http://www.marmot.com/</a> </P><P>MEC (Mountain Equipment Co-op)器械和在线商店（加拿大）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mec.ca/Main/h>http://www.mec.ca/Main/h</a> </P><P>ome.jsp </P><P>Meindl鞋类（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.meindl.de/>http://www.meindl.de/</a> </P><P>Merrell鞋类（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.merrellboot.com/>http://www.merrellboot.com/</a> </P><P>Metolius攀登器械（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.metoliusclimbing.com/>http://www.metoliusclimbing.com/</a> </P><P>Millet服装，鞋类，背包，绳索（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.millet.fr/>http://www.millet.fr/</a> </P><P>Misty Mountain Threadworks 实巧 ，支点石（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mistymountain.com/>http://www.mistymountain.com/</a> </P><P>Mont帐篷，背包，睡袋，服装（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mont.com.au/>http://www.mont.com.au/</a> </P><P>Montane服装（英国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.montane.co.uk/>http://www.montane.co.uk/</a> </P><P>Moss Tents Now MSR 帐篷（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mosstents.com/>http://www.mosstents.com/</a> </P><P>Mountain Designs帐篷，背包，睡袋，服装，在线商店（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mountai>http://www.mountai</a> </P><P>ndesigns.com/ </P><P>Mountain Equipment 背包，服装，睡袋（英国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mountain-equipment.co.uk>http://www.mountain-equipment.co.uk</a> </P><P>/ </P><P>Mountain Hardwear帐篷，服装，睡袋（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mountainhardwear.com/>http://www.mountainhardwear.com/</a> </P><P>MSR (Mountain 安全Research, Inc.)炉具，灶具，水过滤器，雪地鞋等（美国） </P><P>http://www.msrcorp.com/ Nalgene水壶和其他塑料容器（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.nalgene-ou>http://www.nalgene-ou</a> </P><P>tdoor.com/ </P><P>Nikwax防水装备（英国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.nikwax.com/default.asp?language=english>http://www.nikwax.com/default.asp?language=english</a> </P><P>Northern Lites Snowshoes雪地鞋（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.northernlites.com/>http://www.northernlites.com/</a> </P><P>One Planet背包，睡袋（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.1planet.com.au/>http://www.1planet.com.au/</a> </P><P>Opinel小刀具（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.opinel-musee.com/>http://www.opinel-musee.com/</a> </P><P>Optimus 炉具（瑞典）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.optimus.se/>http://www.optimus.se/</a> </P><P>Ortovox雪崩安全装备，背包，服装（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.ortovox.com/>http://www.ortovox.com/</a> </P><P>Osprey背包（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.ospreypacks.com/>http://www.ospreypacks.com/</a> </P><P>Outdoor Research服装，bivy bags, 胶鞋和附件（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.orgear.com/>http://www.orgear.com/</a> </P><P>Paddy Pallin服装和在线商店（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.paddypallin.com.au/>http://www.paddypallin.com.au/</a> </P><P>Patagonia服装，背包（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.patagonia.com/>http://www.patagonia.com/</a> </P><P>PBI Sport背包，睡袋（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.pbi.de/>http://www.pbi.de/</a> </P><P>Petzl攀登, 洞穴，峡谷救生装备（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.petzl.com/petzl/home>http://www.petzl.com/petzl/home</a> </P><P>Pika Mountaineering攀登器械（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.pikamtn.com/>http://www.pikamtn.com/</a> </P><P>Polartec 合成毛织物（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.polartec.com/mm/>http://www.polartec.com/mm/</a> </P><P>Prana商标名，攀登服装（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.prana.com/>http://www.prana.com/</a> </P><P>Primus 炉具（瑞典）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.primus.se/>http://www.primus.se/</a> </P><P>Pusher 实 训练装备，支点石，服装（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.pusher.com/>http://www.pusher.com/</a> </P><P>Rab服装，睡袋（英国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.rab.uk.com/>http://www.rab.uk.com/</a> </P><P>REI器械和在线商店（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.rei.com/>http://www.rei.com/</a> </P><P>Roca 绳索（西班牙）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.rocaropes.com/>http://www.rocaropes.com/</a> </P><P>Rossi Boots鞋类（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.rossiboots.com.au/home/home.htm>http://www.rossiboots.com.au/home/home.htm</a> </P><P>Rossignol雪橇（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.rossignol.com/>http://www.rossignol.com/</a> </P><P>Salewa攀登，高山器械，背包，帐篷，睡袋，服装（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.salewa.com/>http://www.salewa.com/</a> </P><P>Salomon 雪橇，滑雪板，鞋类，冰鞋，服装（加拿大）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.salomonsports.com/>http://www.salomonsports.com/</a> </P><P>Scarpa鞋类（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.scarpa.net/>http://www.scarpa.net/</a> </P><P>Sea to Summit户外运动附件（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.seatosummit.com.au/>http://www.seatosummit.com.au/</a> </P><P>Sierra Designs帐篷，睡袋，服装（加拿大）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.sierra-designs.com/>http://www.sierra-designs.com/</a> </P><P>Sigg 水壶（瑞士）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.sigg.ch/>http://www.sigg.ch/</a> </P><P>Silva指南针和定向装备（瑞典）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.silva.se/>http://www.silva.se/</a> </P><P>Simond攀登和高山装备（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.simond.com/>http://www.simond.com/</a> </P><P>Single Rope Technique Equipment探洞和救生装备（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.srte.com.a>http://www.srte.com.a</a> </P><P>u/ </P><P>Snowgum 帐篷，服装和在线商店（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.snowgum.com.au/>http://www.snowgum.com.au/</a> </P><P>Spyderco刀具（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.spyderco.com/>http://www.spyderco.com/</a> </P><P>Stubai 攀登和高山装备（奥地利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.stubai-bergsport.com/>http://www.stubai-bergsport.com/</a> </P><P>Suunto指南针，高度表，潜水装备（芬兰）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.suunto.com>http://www.suunto.com</a> </P><P>Swandri服装（新西兰）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.sheepworld.co.nz/swanndri.htm>http://www.sheepworld.co.nz/swanndri.htm</a> </P><P>Tatonka背包，帐篷，服装，鞋类（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.tatonka.com/>http://www.tatonka.com/</a> </P><P>Tecnica鞋类，冰鞋和滑雪鞋（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.tecnica.it/>http://www.tecnica.it/</a> </P><P>Teva鞋类（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.tevasandals.com/>http://www.tevasandals.com/</a> </P><P>The North Face帐篷，背包，睡袋，服装（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.thenorthface.com>http://www.thenorthface.com</a> </P><P>Trab滑雪橇（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.skitrab.com/>http://www.skitrab.com/</a> </P><P>Trangia 炉具（瑞典）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.trangia.se/>http://www.trangia.se/</a> </P><P>Trango 攀登装备（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.trango.com/>http://www.trango.com/</a> Troll攀登和高山装备（英国） </P><P>http://www.troll-climbing.com/ </P><P>TSL雪地鞋，鞋类，背包，杖（法国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.tsl-snowshoes.com/>http://www.tsl-snowshoes.com/</a> </P><P>Tubbs Snowshoes雪地鞋（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.snowshoes.com/templates/index.php>http://www.snowshoes.com/templates/index.php</a> </P><P>Uncarved Block 实 握把，训练木板，支点石（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.uncarvedblock.c>http://www.uncarvedblock.c</a> </P><P>om.au/ </P><P>Ushba Mountain Works攀登和高山装备（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.ushba.com/>http://www.ushba.com/</a> </P><P>Vaude Sports服装，鞋类（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.vaude.com/>http://www.vaude.com/</a> </P><P>Vertical Climbing Equipment攀登绳，吊索，勾环（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.jeejo.com.>http://www.jeejo.com.</a> </P><P>au/vertical.htm </P><P>Victorinox 小刀（瑞士）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.victorinox.ch/>http://www.victorinox.ch/</a> </P><P>Volkl Sport滑雪橇，滑雪板，网球拍（德国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.volkl.com/>http://www.volkl.com/</a> </P><P>Wenger 小刀（瑞士）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.wenger-knife.ch/indexf.html>http://www.wenger-knife.ch/indexf.html</a> </P><P>Wild Country Ltd.攀登装备（英国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.wildcountry.co.uk/>http://www.wildcountry.co.uk/</a> </P><P>Wilderness Equipment帐篷，背包，服装，自行车器械（澳大利亚）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.wildequ>http://www.wildequ</a> </P><P>ipment.com.au/ </P><P>Wired Bliss Camming Devices滑轮（美国）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.wiredbliss.com/>http://www.wiredbliss.com/</a> </P><P>Zamberlan鞋类（意大利）<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.zamberlan.com/>http://www.zamberlan.com/</a> asolo.com 制造专业登山鞋。 </P><P>http://www.asolo.com </P><P>hi-tec.com 制造登山鞋。<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.hi-tec.com>http://www.hi-tec.com</a> </P><P>merrell 美国著名登山徒步鞋。<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.merrell.com>http://www.merrell.com</a> </P><P>teva.com 野外专用鞋。 </P><P>国外户外用品网站 </P><P>包： </P><P>http://www.lowealpine.com/ </P><P>http://www.wolfskin.de/eng/index_l.html </P><P>http://www.danadesign.com/ </P><P>http://www.arcteryx.com/ </P><P>http://www.jwa.com/ </P><P>http://www.gregorymountainproduct.com/ </P><P>http://www.jansport.com/ </P><P>http://www.mountainsmith.com/home/home.jsp </P><P>http://www.vaude.com/ </P><P>http://www.berghaus.com/ </P><P>http://www.deuter.com/ </P><P>http://www.gregorypacks.com/ </P><P>http://www.cerrotorre.co.kr/ </P><P>http://www.bigpack.de/ </P><P>http://www.lafuma.fr/ </P><P>  </P><P>鞋子： </P><P>http://www.teva.com/ </P><P>http://www.hi-tec.com/welcome2.htm </P><P>http://www.nike.com/main.html </P><P>http://www.timberland.com/cgi-bin/timberland/timberland/tim_homepage.jsp?BV_Us </P><P>eBVCookie=no </P><P>http://www.lasportiva.com/ </P><P>http://www.garmont.com/index2.html </P><P>http://www.trezeta.com/ </P><P>http://fiveten.daryn.net/ </P><P>http://www.montrail.com/ </P><P>http://www.scarpa.net/ </P><P>http://www.merrellboot.com/ </P><P>http://www.asolo.com/ </P><P>http://www.aku.it/ </P><P>http://www.llbean.com/webapp/wcs/stores/servlet/ShowHomePage?catalogId=1&store </P><P>Id=1 </P><P>http://www.boreal-club.com/Ing/HTML/index.htm </P><P>http://www.koflachusa.com/ </P><P>  </P><P>登山仗： </P><P>http://www.leki.com/ </P><P>http://www.evernew.co.jp/ </P><P>http://www.montbell.co.kr/ </P><P>http://www.nikkosports.com/ </P><P>  </P><P>指南针 多功能刀 头灯 电筒 表 水壶 水袋 防水袋 </P><P>http://www.swissarmy.com/ </P><P>http://www.petzl.com/petzl/home </P><P>http://www.princetontec.com/entry.html </P><P>http://www.maglite.com/index_flash.asp </P><P>http://www.cmgequipment.com/ </P><P>http://www.casio.com/ </P><P>http://www.suunto.com/pls/suunto/suunto2.pubmainpage.frameset </P><P>http://www.tfoinc.com/ </P><P>http://www.aquapac.net/ </P><P>  </P><P>服装： </P><P>http://www.aigle.com/ </P><P>http://www.sierra-designs.com/ </P><P>http://www.thenorthface.com/index_flash.html </P><P>http://www.ozark.com.cn/ </P><P>http://www.mountainhardwear.com/ </P><P>http://www.marmot.com/ </P><P>  </P><P>露营用品(地席 营灯 炉具) </P><P>http://www.msrcorp.com/ </P><P>http://www.moonstone.com/ </P><P>http://www.hellyhansen.com/ </P><P>http://www.patagonia.com/ </P><P>http://www.walrusgear.com/ </P><P>http://www.coleman.com/coleman/flash_intro.html </P><P>http://www.kovea.com/ </P><P>http://www.karrimor.com/ </P><P>http://www.exped.com/exped/web/exped_homepage.nsf?Open </P><P>http://www.optimus.se/ </P><P>http://www.trangia.se/ </P><P>http://www.primus.se/konsument/as_himalaya_e.htm </P><P>http://www.snowpeak.com/ </P><P>  </P><P>材料 </P><P>http://www.snowpeak.com/ </P><P>http://www.vibram.com/ </P><P>http://www.fibersource.com/f-tutor/prods.htm </P><P>  </P><P>登山、攀岩用品 </P><P>http://www.beal-planet.com/ </P><P>http://www.wildcountry.co.uk/ </P><P>http://www.simond.com/ </P><P>http://www.omegapac.com/ </P><P>http://www.stubai.com/1024/frame1_1024.htm </P><P>http://www.bufo.cz/ </P><P>http://www.sefes.es/faders/M1br.htm </P><P>  </P><P>[Berghaus]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.Berghaus.com/>http://www.Berghaus.com/</a> </P><P>[BlackDiamond]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.BlackDiamondEquipment.com/>http://www.BlackDiamondEquipment.com/</a> </P><P>[Charlet Moser]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.charlet-moser.com/>http://www.charlet-moser.com/</a> </P><P>[Coleman]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.coleman.com/coleman/home.asp>http://www.coleman.com/coleman/home.asp</a> </P><P>[Columbia]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.Columbia.com/>http://www.Columbia.com/</a> </P><P>[Gore-Tex & WindStopper]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.goretex.com/>http://www.goretex.com/</a> </P><P>[Jack Wolfskin]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.wolfskin.de/eng/welcome.html>http://www.wolfskin.de/eng/welcome.html</a> </P><P></P><P>[Jansport]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.jansport.com/>http://www.jansport.com/</a> </P><P>[Koflach]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.Koflach.com/>http://www.Koflach.com/</a>（建设中） </P><P>[LaSportiva]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.LaSportiva.com/Inglese/HomePage.htm>http://www.LaSportiva.com/Inglese/HomePage.htm</a> </P><P>[LEKI]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.leki.com/>http://www.leki.com/</a> </P><P>[Marmot]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.Marmot.com/>http://www.Marmot.com/</a> </P><P>[MountainHardwear]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.mountainhardwear.com/>http://www.mountainhardwear.com/</a> </P><P>[Northface,the]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.northface.com/index_simple.html>http://www.northface.com/index_simple.html</a> </P><P>[OAKLEY]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.oakley.com/>http://www.oakley.com/</a> </P><P>[PETZL]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.petzl.com/produits/index.produits.html>http://www.petzl.com/produits/index.produits.html</a> </P><P>[Sprayway]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.sprayway.com/>http://www.sprayway.com/</a> </P><P>[Suunto]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.suunto.com/>http://www.suunto.com/</a> </P><P>[Timberland]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.Timberland.com/>http://www.Timberland.com/</a> </P><P>[Trango]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.Trango.com/>http://www.Trango.com/</a> </P><P>[Vibram]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.vibram.com/>http://www.vibram.com/</a> </P><P>[WildCountry]～<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://www.wildcountry.co.uk/>http://www.wildcountry.co.uk/</a> </P><P>  </P><P>转自<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://climber.html.533.net/index.html>http://climber.html.533.net/index.html</a> </P><P>  </P><P>-- </P><P></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-17 18:31:29</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1274&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=3&id=1274&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=13567><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2359<br>&nbsp;&nbsp;积分：2337<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在装备总集的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13567&id=1274&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=13567&id=1274&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>太多了，主要是不熟悉的牌子太多了。赶快学习</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-10-20 1:27:23</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19583><font color=#000066><B>shenlancwc</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：新手上路<BR>&nbsp;&nbsp;文章：2<br>&nbsp;&nbsp;积分：2<br>&nbsp;&nbsp;注册：2005-4-1<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=shenlancwc',500,400)"><img src="pic/message.gif" border=0 alt="给shenlancwc发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=shenlancwc" target=_blank><img src="pic/friend.gif" border=0 alt="把shenlancwc加入好友"></a>&nbsp;<a href="dispuser.asp?id=1049" target=_blank><img src="pic/profile.gif" border=0 alt="查看shenlancwc的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=shenlancwc&BoardID=3&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索shenlancwc在装备总集的所有贴子"></a>&nbsp;<A href="mailto:cwc@damail.cn"><IMG alt="点击这里发送电邮给shenlancwc" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19583&id=1274&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=3&replyID=19583&id=1274&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>威戈瑞士军刀：<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://wenger-cn.com>http://wenger-cn.com</a><BR>纯正瑞士军刀：<img align=absmiddle src=pic/url.gif border=0><a target=_blank href=http://shop33094089.taobao.com>http://shop33094089.taobao.com</a><BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=3&userid=1049&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2005-4-1 13:19:38</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>3</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=3&ID=1274" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=3&ID=1274" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=3&ID=1274" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=3&ID=1274&replyID=13353" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=解固&BoardID=3&ID=1274" title=将本主题解固>解固</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=3&ID=1274" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=3&ID=1274" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=3&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：382.813毫秒
+</td></tr>
+</table>
+</body>
+</html>

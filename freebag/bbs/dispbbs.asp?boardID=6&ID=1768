@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：浅谈健身锻炼中伤病的预防措施[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、野外穿越的基本知识
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：浅谈健身锻炼中伤病的预防措施[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1768&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>74</B> 个阅读者<a href="go.asp?BoardID=6&sid=1768"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1768&id=1768&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1768&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 浅谈健身锻炼中伤病的预防措施[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1768"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1768"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1768"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1768"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1768"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1768', ' 上海交通大学野外生存素质拓展基地 - 浅谈健身锻炼中伤病的预防措施[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16793><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16793&id=1768&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16793&id=1768&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>浅谈健身锻炼中伤病的预防措施[转帖]</b><br>—、 健身锻炼中受伤的原因</P><P>参加健身锻炼，甚至那些仅为保持良好健康 状态而参与锻炼的人也会有受伤的可能性。有<BR>充分的证据足以证明采用大强度锻炼，锻炼时间超过40分钟，而且每周锻炼次数大于4次，<BR>导致受伤的危险性增加。</P><P>   类似跑步和跟随音乐伴奏的练习项目（如韵律操。健身健美操等），要比骑固定自行车<BR>或游泳等运动项目来说肌肉和骨骼受伤的可能性更大。游戏，尤其是对抗性的游戏，比非<BR>对抗性、低强度和协作的游戏受伤的可能性更大。然而，受伤的潜在可能性不仅仅取决于<BR>运动类型、强度、频率和持续时间，环境和参与者的个性特征均会影响受伤的可能性。在<BR>闷热、潮湿的地方锻炼很容易中暑，在寒冷的地方锻炼可能导致冻伤和体温过低。毫不奇<BR>怪，年龄大、健康状况差的人比年轻、健康状况良好的人更容易发生骨骼损伤和其它运动<BR>伤病。另外，正在接受治疗的人，如哮喘病人和糖尿病人应特别注意避免因参加锻炼可能<BR>会导致出现疾病加重的情况。</P><P>   我们知道，健身运动的一些项目存在某些固有的危险因素。运动强度的增加伴随着损伤<BR>危险性的增加。健身运动中，当运动周期的频率增加且运动强度保持于靶心率区的最高点<BR>时，损伤的可能性则增加。运动速度的增加也易导致损伤。还有环境因素如高热或者过寒<BR>也会增加健身运动的危险性。此外，不恰当地使用运动器材及设施，也是所有损伤中的高<BR>危因素。 年龄、性别和身体结构的差异，其运动损伤的危险性也不同。一般而言，青少年<BR>和老年人是损伤的高危人群，而且老年人损伤后的康复时间较长。由于身体结构和肌肉力<BR>量存在差异，在同一项活动中女性常常比男性更容易损伤。无论男女，肌肉力量小或者不<BR>均衡者，由于关节灵活性低，促肾上腺皮质激素释放因子少都会增加损伤的机会。过度肥<BR>胖者不仅促肾上腺皮质激素释放因子少，而且过多体重也会对负重关节产生额外应激。遵<BR>守规则的人损伤的机率和危险性低，这种观点通常应用于运动员的比赛中。然而，在健身<BR>指导站，游戏作为有氧运动的一个组成部分，健身指导员必须指导参与者遵守游戏的所有<BR>规则。对于规则少的游戏，健身指导员要控制活动速度以帮助减少损伤的发生。健身指导<BR>员应改变规则以增强游戏的安全性。例如，应用软式球和限制接触对抗将使足球成为 更安<BR>全的健身游戏。</P><P>   二、常见运动损伤的预防措施</P><P>   最重要的预防措施是做好运动前、后的准备活动和整理活动。运动前5分钟必须进行缓<BR>慢的准备活动，使肌肉、关节充分伸展，心脏等脏器功能逐渐适应运动锻炼的需要。准备<BR>活动可以使体温及肌肉温度升高，骨骼肌代谢、血流量和氧的运输增加，使骨骼肌的收缩<BR>反应及反应速度增强，有利于防止肌肉痉挛。特别是冬季运动锻炼和夏季游泳运动锻炼之<BR>前进行充分的准备活动更为重要。充分的准备活动可使机体达到运动锻炼前的最佳状态，<BR>如在进行力量锻炼、100米跑之前，心率必须达到110次／分左右，否则容易发生心脏供血<BR>不足，肌肉力量不能充分调动发挥其应有的水平，对机体是十分不利的。准备活动可使韧<BR>带、关节得到充分伸展、润滑。从运动损伤中的调查可见，在全部运动损伤中有1／3是因<BR>为没有做准备活动而发生的。准备活动中的伸展可明显提高韧带的弹性，增加关节体液，<BR>有助于防止运动外伤。如何做好准备活动？运动前准备活动时间一般用10－ 20分钟即可。<BR>心率一般要达到100次／分钟左右，伸展活动包括颈部、背部、肩部、胸部、脊柱、四肢、<BR>踝关节、腕关节、髓关节、膝关节。跟胆、足趾及手指等每个部位均要活动到。徒手操或<BR>健美操可活动5分钟左右。但准备活动的运动量不宜过大，以免影响必练项目的发挥。运动<BR>锻炼后进行整理活动，主要是有利于促进因运动锻炼而增加的乳酸循<BR>环，更快地消除运动锻炼的疲劳。同时，也有利于血液重新合理的分布。运动锻炼期间，<BR>大量的血液流向参与运动锻炼的肌肉群，如在健身跑时大部分血液流向下肢，使更多的氧<BR>气保障大肌群的供给。而非运动性组织血供量减少，如肾、肝、皮肤。在运动锻炼后进行<BR>整理活动，血液能较快地恢复到安静时的分布状态。例如健身跑后立即停止运动，那么血<BR>液即可停滞于下肢，引起脑血管供血不足，而发生头晕，有的可能发生运动性晕厥。</P><P>   三、异常气候条件下运动伤病的预防</P><P>冬天：在遇寒潮或暴风雨袭击、气温突然大幅度下降（在3℃以下）时，或者寒风特别猛烈<BR>时，不宜到户外去锻炼，在这种气候下进行运动锻炼，易患感冒、咽喉炎，甚至还可能发<BR>生冻伤。</P><P>   降雨或降雪后：活动场所或马路上有积雪或积水，不宜在户外锻炼，以防止滑倒摔伤。<BR>雷雨时更不要进行户外锻炼活动，如游泳、长跑等，以防雷电击伤。大雾天气时：这种天<BR>气空气中的水分、尘土多，气压低，会使人感到呼吸困难，汗液不易蒸发，加上雾天能见<BR>度低，在马路上跑步容易撞伤，所以也不要到户外去锻炼。</P><P><BR>   炎热的夏天：当气温超过32℃时不要进行运动锻炼（除游泳锻炼之外）。如需要进行运<BR>动锻炼，要尽量避开阳光的直射时间。在气温过高时进行运动锻炼，还要补充足够的水分<BR>。采取这些措施的目的是预防中暑的发生。</P><P>   高原地区：居住高原地区，运动量必须减少。因为高原地区氧气减少，人的最大耗氧量<BR>随着高度的增加而递减，最高心率随着高度增加而下降。又因高原地区气压低，因此在高<BR>原地区进行运动锻炼的运动量要小于平原地区。空腹、饱腹时：空腹及饱腹均不适合参加<BR>运动锻炼。空腹运动锻炼时，主要能量来源是靠脂肪的异生提供，可能因血液中的游离脂<BR>肪酸过多，引起各种心律失常，甚至导致危险。尤其是50岁以上的人，如果运动量过大，<BR>则更为不利。空腹或饱腹运动锻炼都可影响胃肠道的消化功能，空腹运动锻炼后可引起食<BR>欲下降，饱腹后运动锻炼，则易引起胃肠道血液供应不足，使消化腺分泌相对减弱，导致<BR>消化、吸收不良，久之出现胃肠疾患。还由于进餐，使胃肠物理性负荷增加，此时进行剧<BR>烈运动锻炼，则会出现腹部不适，甚至腹痛、呕吐等，严重的可发生消化道穿孔。</P><P>   四、患慢性病者运动伤病的预防</P><P>   患陈旧性损伤而且症状明显或某些慢性病目前正在发作时不要进行运动锻炼，以免症状<BR>加重或发生新的损伤。如陈旧性损伤症状基本消失，功能已经恢复，可先从肌肉、肌位、<BR>韧带力量锻炼开始，逐渐恢复正常运动锻炼。最好经医生进行一次身体检查，如关节活动<BR>度下降、肌肉耐力不足、神经肌肉支配障碍等，进行锻炼时应引起重视。若患有冠心病，<BR>应在医生指导下进行运动，减少运动量，或安排适当的活动。患有感冒时，也不要进行运<BR>动锻炼，以免引起病毒性心肌炎。</P><P>   在运动锻炼时要注意自己（尤其是老年人）的感觉报警信号。当自我感觉：①心跳过快<BR>而出现心悸；②发生胸闷、胸痛，上肢或颈部放射性疼痛；③出现恶心、头痛或其它部位<BR>的异常疼痛；④运动后感到精疲力尽；⑤运动疲劳24小时不能恢复。这些都是报警信号，<BR>要停止运动或减少运动量，应查明原因。当自我感觉：运动时稍微出汗、呼吸比平时更深<BR>更快、有一定的疲劳感，就可以放心地进行锻炼。</P><P>    总之，健身者参加运动锻炼时应遵循“科学健身，健康监护，预防为主，坚持锻炼”<BR>的原则，并注意运动卫生，就一定会达到增强体质、健益身心、延年益寿的目的。</P><P><BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 2:50:30</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1768&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1768&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1768" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1768" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1768" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1768&replyID=16793" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1768" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1768" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1768" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：179.688毫秒
+</td></tr>
+</table>
+</body>
+</html>

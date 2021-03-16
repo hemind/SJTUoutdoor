@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--游记 心情 随想浏览：重返贡嘎山ZT</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=7">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=7">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=7">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=7&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> %这里是分享历程的大地
+%这里是分享心情的天空
+%这里是分享随想的海洋
+%
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=7>游记 心情 随想</a> →  浏览：重返贡嘎山ZT
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=7"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=7"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=7&id=1959&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>63</B> 个阅读者<a href="go.asp?BoardID=7&sid=1959"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=7&replyID=1959&id=1959&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=7&sid=1959&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 重返贡嘎山ZT</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=7&id=1959"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=7&id=1959"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=7&id=1959"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=7&id=1959"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=7&id=1959"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=7&id=1959', ' 上海交通大学野外生存素质拓展基地 - 重返贡嘎山ZT')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=17941><font color=#990000><B>朱朱</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1984-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：版主<BR>&nbsp;&nbsp;文章：2305<br>&nbsp;&nbsp;积分：2218<br>&nbsp;&nbsp;注册：2003-3-18<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=朱朱',500,400)"><img src="pic/message.gif" border=0 alt="给朱朱发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=朱朱" target=_blank><img src="pic/friend.gif" border=0 alt="把朱朱加入好友"></a>&nbsp;<a href="dispuser.asp?id=172" target=_blank><img src="pic/profile.gif" border=0 alt="查看朱朱的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=朱朱&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索朱朱在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:zhushujuan@sjtu.edu.cn"><IMG alt="点击这里发送电邮给朱朱" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=89199480" target=_blank title="朱朱[89199480]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=17941&id=1959&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=17941&id=1959&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>重返贡嘎山ZT</b><br>一个攀登者，多年以来挣扎在不安中。1980年，他与好友攀登贡嘎山时遭遇雪崩，<BR>尽管他努力挽救好友怀特的生命，但怀特还是死在他臂弯里。数十年来，这个挥之不去<BR>的阴影一直萦绕着他。下面文章是这个攀登者---里.里奇韦为山野杂志撰写的<BR>专稿，编译马德民，刊登于2004年第5期〈山野〉。</P><P>  本文作者里克.里奇韦（Rick Ridgeway）是世界著名登山家，1949年出生，有35年的<BR>登山探险经历，1976年，他被邀请参加美国建国200周年的珠峰探险。1978年，他和3位<BR>同伴登顶K2，是美国人中登顶K2的首批队员之一，也是第一个无氧登顶K2的人。1986年<BR>，里奇成为世界最著名的户外摄影摄像代理商。他为NBC和ESPN、ABC拍摄过超过15部纪录<BR>影片，其中拍摄的珠峰纪录片1983年获运动艾美奖。他已经写5 本书，包括开创一个时<BR>代的《七大洲攀登》（与Dick Bass等合著）、《乞力马扎罗的影子》、《最后的脚步:<BR> 美国人攀登K2纪事》、《勇敢的梦想---1976年美国队攀登珠峰纪事》以及《另一片天<BR>空下》。</P><P><BR>    引言</P><P>              What makes the mountains so special?<BR>                 Is the people---people make the mountains special。</P><P>  这里是离西藏东南部不远的四川，从贡嘎寺往贡巴冰川尽头望去无数峰峦丛立。我们<BR>坐的地方是海拔7556米的贡嘎山主峰下的喇嘛寺,天气放晴的日子里这里有极漂亮的风景<BR>，但是今天下午山峰被遮掩在云层里。</P><P>    这一天的最后时光里,我旁边站着Asia Wright，我们两个倚靠在横栏上看着风景。<BR>悬挂在屋檐下的风马旗轻盈的飘扬，院子中的祭坛里松枝缓慢燃烧，向天空送出缕缕轻烟<BR>，经堂中喇嘛正在颂经。</P><P> 在这座山上居住的大多数人是藏族，他们集资修建了这座新寺院。上次我来这里是在19<BR>80年10月，我和我的朋友们只能在寺院的废墟旁露营。</P><P> 文革结束仅仅4 年后，中国在1980年开始对外开放山峰。我们是第一个进入西藏东南部<BR>的西方登山者。我们的攀登目标是贡嘎山，我们中大多数人为一家高山向导公司工作，<BR>包括巴塔哥尼亚的创始人育恩乔纳德（Yvon Chouinard）和著名高山向导金施米茨（Ki<BR>m Schmitz），随行的还有国家地理摄影记者埃德加博伊斯（Edgar Boyles）和乔纳森怀<BR>特（Jonathan Wright）。特别是怀特，他的妻子格瑞怀特（Geri Wright）在阿斯彭，<BR>照料着他们16个月大的女儿亚洲。</P><P>  乔纳森和我计划在攀登结束后，从拉萨到加德满都，在孔布与夏尔巴汇合后去珠峰南<BR>侧，我们将在那里拍摄新成立的珠峰国家公园，这是我们都喜欢做的事情。在贡嘎山和珠<BR>峰上拍摄是我们长期以来的一个梦想，我们还有更大的野心是在南极洲越野滑雪,人高兴<BR>的时候总是有很多梦想。</P><P>  我们在寺院的瓦砾边搭起帐篷，乔纳森、育恩和我继续清理营地。当我们经过狼籍的<BR>废墟时，乔纳森给我们讲解残存的佛像和壁画。</P><P>  “真有趣”，乔纳森说，“这是幸存的一尊佛像"。乔纳森只有28岁，但已经去过喜玛<BR>拉雅山区6次，他是一个藏传佛教文化崇拜者。</P><P>“这是什么佛像？”我问道。<BR>“未来佛”，他说。<BR>“它有什么含义呢？”我问。</P><P> 乔纳森带着微笑转向我，“它将记得存在的第一个事实是非永久性”。</P><P>  现在19 年后，我返回贡嘎山来看望老的老朋友，还带着他的女儿亚洲。</P><P> 这个夜晚，我俯身在床头柜上在烛光下写作。我的床在房间最里面，亚洲在中间，第3<BR>张床上一个小喇嘛在打坐颂经。微弱的烛光映着灰色的墙壁，石板屋顶由纵横交错的大<BR>梁支撑，一张原木做成的小桌子摆在房子里，亚洲的床脚对着我，她那深色的头发和枕<BR>边关于她父亲的杂志在我眼前久久地定格。</P><P> 我考虑，这么多年之后,我在文章里究竟该写些什么呢？</P><P><BR> 1980年10月13日，贡嘎寺大本营，多年前的记忆历久弥新。<BR>  当我们从营地出发时，时间是上午9点30分，我们全部同意今天垂直上升1500英尺的高<BR>度，到达C2营地以后在天黑前返回。</P><P>  我负责在前面开路，然后金和育恩接管。中午,我们在紧挨着裂缝边的地方停下来吃午<BR>餐。吃完午餐后继续攀登。不久，我们选择从一个很窄的陡雪坡上攀，我在齐胸深的雪里<BR>开路，金跟随着。为了获得立足之处，我必须首先把雪压塌，然后用我的膝盖跪着爬过<BR>去。</P><P>“我要被埋在这里了”金抱怨道。<BR>“抱歉，我没怨你。这雪全跑到我衣领里去了，我得采取别的办法设法推倒更多的雪”<BR>金露出牙齿对我笑。</P><P>  我苦笑着。下面的路线我们面临两种选择：要么坚持直上，要么从右边攀登。“看样<BR>子右边更好对付一些”育恩说。</P><P>  当金开路时，乔纳森在一边拍照。我送绳子，他倾斜向上，然后我跟随金的脚步。沉<BR>重的背包和稀薄的空气使我们更虚弱，但是我们保持稳定的步伐。</P><P>“悲伤小山”，育恩累得大叫吼道。</P><P>  我抬头向上看，金已经停下来耐心等待我们。一大早，我们安全穿过了第一个裂缝区<BR>，但是我们误入了这片软雪区，虽有立足点，但差不多4 英寸的新雪，我的靴子好几次打<BR>滑，在新雪上留下花纹。我心里知道这是潜在雪崩的迹象。</P><P>  在与亚洲的这次旅行时，我开始渐渐有了回到过去的感觉。看着亚洲走在我的前面，<BR>这个20岁少女的气息又勾起我的回忆。她的头发和她的母亲一样都是深色，东方人的眼睛<BR>和高颧骨，但是她也继承了她父亲的长腿和浅色皮肤。她戴着一根镶嵌着绿松石和红珊<BR>瑚的藏式项链，手腕上是她父亲留给她的念珠。</P><P>  在我们离开前的日子，我那16岁的女儿给她的亚洲姐姐理发，当黑色长发飘到地面时<BR>，她们开心地格格笑着。开始旅行时，我还担心着亚洲，她的哮喘病对寒冷的刺激很敏感<BR>，还有她有毅力能够坚持下来吗？<BR>“亚洲,你醒着吗？”我躺在床上问道。<BR>“我醒着呢，晚安，里奇”她关上了顶灯。<BR>吹灭蜡烛，在黑暗里，我听到在下面的山谷河的冲击声。</P><P>  我脱掉连帽短外套，把它垫在头下。在我就寝之前，我有一个最后的心愿：如果我现<BR>在遇上雪崩，我会不会惊慌恐惧，还能奇迹般地逃生吗？</P><P>  截止1980年，贡嘎山只过两次登顶纪录。首先是1932年的美国西康探险队，然后是195<BR>7年的中国登山队。对我们来说，无论怎样，攀登只有一半吸引力，另一半是到达神秘的<BR>中国。</P><P>  我们在中国的行程有点密秘冒险的意思。在北京呆了3天后，然后乘坐烧煤的蒸汽火车<BR>到达成都。当我们到达成都时，这里唯一的饭店是灰头灰脑的锦江宾馆。20 年以后，亚<BR>洲和我走进锦江宾馆，门童敬礼时我险些被光滑的大理石地板滑倒，直径15英尺的水晶吊<BR>灯在大堂里光彩夺目。</P><P>  1980年，宾馆的地板还是水泥的，墙上贴着“马恩列斯毛”的照片。中国官员给我们<BR>逐个登记，在“职业”一栏里育恩被填上“资本家”。</P><P>“啊，育恩先生你是一个资本家。非常好！你非常富有吗？”<BR>“是”育恩说。“非常富有，几乎没有，我们又不是豪华旅行团”。</P><P>  从成都到贡嘎山的小路困难重重。在雅安的夜晚，我们睡在县政府宾馆，不幸的是，<BR>我与乔纳森都感染了严重的流行性感冒。我发着低烧、无法入睡，转身看见紧挨着我的乔<BR>纳森，蚊帐盖住他的头，身上盖着薄薄的毯子，蚊帐随着呼吸上下起伏。</P><P>  几周以后，在我们回家的路上，我们又住在相同的宾馆，相同的房间。只不过是我和<BR>育恩在一起，他被骨折的肋骨折腾的痛苦呻吟。我精神恍惚，好几次把墙角的蛛丝网看成<BR>乔纳森的脸。“我从未见过他如此与众不同”，我对育恩说着我的幻觉。</P><P>  从那次灾难性的攀登以后，我就再也不登山了。格瑞变成了寡妇，她没有再婚，在加<BR>州一个人抚养亚洲。在随后的岁月里，大部分时间里我没再见过亚洲。我也结了婚，并有<BR>了自己的3个孩子。亚洲的母亲在信里告诉我：亚洲是一个好学生，她喜欢上了滑雪和徒<BR>步，在中学里，亚洲被选拔进美国少年滑雪队。</P><P>  亚洲给我来信说她希望夏天来加州，而且想和我们住上几天。她希望能像父亲一样成<BR>为优秀的职业摄影师。这年夏天，我已经开始给户外杂志摄影，她顺理成章地给我做兼职<BR>助理。</P><P>  我们在一起工作了几星期。一天，我带她到一家咖啡厅吃午餐。我把1980年雪崩的事<BR>情从头到尾讲给她。我告诉她，她父亲是怎样去世的，我们把他埋在高高的贡嘎山上一个<BR>能够遥望远方的岩石堆里。<BR>“我不知道”，她摇头。<BR>“不知为什么，我总感觉它好像是一个故事。有人问我父亲是做什么的？我说他是一个<BR>国家地理摄影者，在中国一座雪山上被一次雪崩杀死，那时我还是一个婴儿。</P><P>  他们说那是难以置信的。唯一联系我和父亲的是他的照片，大多是尼泊尔和喜玛拉雅<BR>山的照片。我知道那都是他最喜爱的地方，也是他给我起名字的原因。<BR>“你能带我到中国吗？ 她说。<BR>“贡嘎山！帮助我找到我父亲的墓地好吗？</P><P>我早已有此计划，我希望能够带乔纳森的女儿，回到乔纳森非常喜爱的雪山上，去看看<BR>他的父亲曾经生活过的地方。</P><P>  我们在尼泊尔孔布地区（她父亲最喜爱的地方之一）开始旅行，然后前往珠峰南侧大<BR>本营。我们见到大量前往岗仁波齐神山朝圣的转山者。在西藏，我们在羌唐盆地，攀登20<BR>000英尺高的水晶山。</P><P>  从山上下来我们前往贡嘎山，亚洲兴奋地大叫“Woo-wee！”，这种热情和她的父亲非<BR>常相似。两个月以后我们到达贡嘎山。</P><P>  我们计划用传统风格攀登，我们已经在大约19000英尺建了C1营地。等到一次暴风雪结<BR>束后天气转晴时，金、育恩、乔纳森和我已经把路线向上推至西北山脊，在那里我们藏好<BR>了一些物资。在下降前，我们开始吃第2顿午餐。山脊下的坳部的云彩飘起来，黄绿色的<BR>高原在我们下面。</P><P>“Woo-wee！”乔纳森说。他几乎一直在念叨着这个词，我知道他很兴奋，因为自从我们<BR>差不多一个月以前到达中国他一直连续说它。<BR>“两个营地后我们能达到顶点”，我说。<BR>“我们有10 天好天气”，育恩补充说。</P><P>  我们开始下山，慢慢跨过冰裂缝或者像金喜欢的那样跳过去。沿着攀登路线，用冰镐<BR>保护下坡。当角度缓和时，我们座在背包上滑下去，一个比另一个快，笑声和喊叫声混合<BR>在一起。</P><P>  半个小时后，我们迅速到达营地上方的小山上，认出下面的3 顶黄色帐篷。育恩先走<BR>，然后我，再下来是乔纳森，金殿后。我听到金在对讲机里呼叫，雪在我周围增加，直往<BR>我的眼睛里飞。我意识到我们可能犯了个错误。在我周围的雪太多了，我意识到我们必<BR>须小心。然而它终于发生了。我周围的雪开始沸腾了。我想快站起来跑，可是已经没有<BR>方法，雪在我脚下爆炸开来。</P><P>不知是谁在喊“噢，上帝，我们完了”！<BR>我开始想，迅速地判断：如果我们不能出来，我们将可能被埋窒息。<BR>“噢，我的上帝。我要被埋住了，但我的眼睛还能看见。”</P><P>  营地的那些小伙子正在看我们，他们将会把我们挖出来？我需要空气！我还活着吗？<BR>突然我的脸露出来了，我尽可能吸入空气，然后胳膊从背后划到胸前，使劲地往外挣扎着<BR>。在我的周围，雪仍然在起伏和波动，好像它正在做着深呼吸。旁边是一块露出地面的<BR>岩石，雪在这里滑动速度慢了下来。我看见雪从陡峭的斜坡消失了，下面是几百英尺的<BR>断崖。</P><P><BR>1980年10月14日。我31岁，被“埋”在贡嘎山上。</P><P>  不知道什么时候我醒了。房间内仍然昏暗，羊皮纸在寺院窗子上映出微弱的光辉。我<BR>没有听到雨声，只有河的冲击声，我拉开睡袋，站在地板上穿了鞋。我拿着双筒望远镜和<BR>贡嘎山的照片，小心打开房间的厚板门，走下楼梯到院子里。现在是1999年6月25日的黎<BR>明。</P><P>  一片灰色的云几乎遮蔽了贡嘎山的侧面。我从信封里把照片拿出来研究。过了一会儿<BR>再去看山，云已经消散得无影无踪。</P><P>  吃过了铁锅煎的薄饼早餐，亚洲和我上路了。我们将在冰川旁边的侧碛向上，把装备<BR>和食品放在一匹马上，那片高山牧场是1980年我们建立大本营的地方。明天我们将看看是<BR>否能够找到老路线。</P><P>  当我们沿这条河出发时，那些僧侣在寺庙的前面聚集，祝愿我们好运气。不到800米，<BR>我们到达山谷底部。这条河结冰了，看起来冰很薄，我们寻找上游能过河的地方，一根潮<BR>湿的树干搭的便桥横在前方，我们小心一些能跨过桥，但是马不能，向导把马带回了寺<BR>院。</P><P>  我们开始穿越布满繁茂高山杜鹃的陡坡，露水和晨雾在我们身边。弯弯曲曲通过树枝<BR>和树根，一不小心就会抓住多刺的蔷薇枝。我们发现移动的冰川运动推起的一大堆大石头<BR>。</P><P>  我们将从侧碛横穿过河，在那里现在有宽得足以放下一顶帐篷的河岸。我不能确信我<BR>们在哪里，我感觉和旧的营地仍然有些距离。<BR>  黑云伴随着雨星向山谷压来。我到处寻找一个能搭下帐篷的地方。当倾盆大雨落下时<BR>，我们头上多亏有这座帐篷。透过尼龙布料，我们能看见一道闪电，轰鸣的雷滚下山谷，<BR>这勾起我在那次雪崩之后数小时的记忆。</P><P>  我在大本营独自一人，等待来人去帮助育恩和金。雪崩在悬崖处停止了。我爬到乱冰<BR>边缘的一块岩石，坐下喘息，直到头晕消失，感到又有了信心。我的臂、肋骨和脊背看起<BR>来伤的很重，其实都是皮外伤，并没有弄断骨头。</P><P>  育恩在离我30英尺远的地方。他被雪埋到腰，但是胳膊是自由的，他正在试图缓慢地<BR>从雪中脱身。我看见凝结的血块在他脸上，他正在凝视我，我们的眼睛相对，他的眼睛看<BR>起来像蓝色的钻石。他的嘴唇仍在滴血，弄脏了牙齿。他尖声地喊叫。这是一种类似动<BR>物的尖声喊叫，我转移开了目光。<BR>  我在冰川的边缘只看见了乔纳森的脚。紧紧绷紧的结组绳，从仰卧的他腰周围的雪里<BR>延伸出来一起。我再次向育恩看去。他仍然被埋到腰，现在他正向后坐在雪上，好像已经<BR>放弃了出来的努力。</P><P>  他的眼镜丢在地上。我叫他，“育恩，你没问题吗？”他转身并且向上看我，但只是<BR>呆滞的凝视。<BR>“育恩，你受伤了吗？”<BR>“我们在哪里？” 他问。<BR>金狂乱地努力站起来。“我不能呼吸”，他号叫着，他的声音里充满了恐慌，他开始发<BR>狂用力拉绳。<BR>“首先帮助金”我想。我坚持站起来，向金走去，然而我看到了乔纳森，他正在呻吟。</P><P>“乔纳森，你有问题吗？”他喉头咕噜着，但是我不能理解他的意思。我想，应该首先<BR>帮助乔纳森，他的呼吸有困难。</P><P>  我弯腰深情地看着他的眼睛说，“乔纳森，我们全部活着，一切都没问题”。我问他<BR>伤在哪里，但是他不能回答。我们的眼睛凝视了一会儿，我说，“不要担心”我用手扶着<BR>他的背，使他能半座起来。</P><P> “没问题，好伙计，会好的”。 他仍然没有回答，只用眼睛看着我。我检查乔纳森，<BR>他的瞳孔已经放大，我想不应该是这种结局。</P><P>  我跪下来靠近他的嘴巴，他没有呼吸。我把手放在他的颈上给他把脉。脉搏是迅速和<BR>强劲的。我把他的头放在我的大腿上，将我的手指放在他的舌头上，用心肺复苏术抢救他<BR>。<BR>一次，两次，三次。没有效果。一次，两次，三次。没有效果。</P><P>  不懈的努力后，我看见他的胸膛有了变化。他开始呼吸。我等待他再次独立呼吸。他<BR>的脉搏仍然是强大的，我站起来到处看看。</P><P>  育恩现在光着脚站立注视我，金正一边在冰川上爬行，一边仍然在痛苦的哭，血从他<BR>嘴里一滴滴流出来。我们像一串红肠一样系在绳子上。乔纳森已经再次停止呼吸。当我把<BR>气呼进他嘴时，他的胸脯隆起，下降，停止，然后再次隆起，下降，停止。</P><P>  我把手指在他的颈上，他的心脏仍然在跳动。我看见育恩慢慢靠近，像一个稻草人一<BR>样站着。<BR>“发生了什么？”<BR>“我们碰上了一次大雪崩，我们摔下了1500-2000英尺。 我们全部活着，但是乔纳森伤<BR>得不轻”。<BR>“这是什么山？”<BR>“贡嘎山”育恩似乎很诧异。<BR>“在哪里？”<BR>“在中国”<BR>“我们在中国？”</P><P>  每当我把气呼进乔纳森嘴巴里时，他的胸里有那个声音。他的头放在我的膝上。他的<BR>嘴唇已经褪色。突然间他的脸色变暗，好像他身体的一部分被突然蒸发。我继续缓慢的梳<BR>理他的头发。</P><P>  我弯下腰温柔地吻他，然后放下他的头，育恩站在一边看着。他一言不发，我不知他<BR>是否理解。<BR>“育恩，乔纳森死了。”</P><P>  夜晚，我醒来听到雨跌落在帐篷上的声音。我找到头灯。凌晨4点，在河边的小灌木丛<BR>中，我能看见雨水使小河沟暴涨，并慢慢向我们的帐篷淹来。在这种天气里，我知道将找<BR>不到坟墓。</P><P>  我递给亚洲水杯，她从睡袋里坐起来。雨慢慢停了，月光又悄悄地泻在冰川上。<BR> “云开始少了”我说。“或许我们今天能找到坟墓，我们有一个好天气”亚洲说。</P><P>  我们出发时是清晨6点。沿着这条河的牦牛痕迹行进，如果我的记忆是准确的话，当在<BR>一个弯曲河道时，我们将跟随河继续前进，直到我们当年的大本营牧场。</P><P>  我记得最后一次走这条道路时，我的胳膊吊在脖子上。育恩在我后面，他被肋骨骨折<BR>的痛苦困扰，金在更远处。他的两根脊椎和两根肋骨断了，我们用两个泡沫垫子捆住他的<BR>躯干，并且给他两副雪杖。他走走停停，嘴唇紧闭，蓝色的眼睛好像服用了吗啡一样睡<BR>意朦胧，即使当你和他交谈的时候。</P><P>  不久，我和亚洲被迫跳到一块大石头上。有一个更低倾斜的冲沟看起来通向侧碛的顶<BR>端。我们从很脆的冰川攀登而上，直到到达侧碛的上部。在岩石之间潮湿的灰尘里，我发<BR>现了一些防潮垫的痕迹，我判断，这里是19年前我们活动过的区域。</P><P> “你觉得哪个更像”？ 她问。“冰川已经消退了”，我说，指向这张照片。“1980年<BR>，我能看见雪崩停在哪里，这表明你父亲一定埋在那些岩石的左侧”。<BR>雪崩之后的日子，我在他人之前到达乔纳森身边。他已经离开了我们，躺在一个蓝色的<BR>露营袋里。他的膝盖弯曲，胳膊横贯在胸前。</P><P>  我打开他的背包，想找些东西带给格瑞。我找到他的照像机，虽然摔坏了可胶卷依旧<BR>完好。我看见他的棒球帽子。他每天都带着那顶已经磨出毛边的帽子。帽子上的汗污已经<BR>使他的姓名大写首字母变色，帽子上的“六字真言”经常在风马旗上出现。</P><P>  到处看看，我看到有一处石板堆似乎很适合建一个平台，因此我开始在那里建造坟墓<BR>。过了一会儿，乔纳森的同事埃德加&#8226;博伊斯到了，默默地和我们一起工作。<BR>探险队领队艾尔主持仪式，我们的大夫狄克搬走乔纳森的身体，其他的人分列两边。我<BR>们尽量让他能躺得舒服些，我们在两根竹杖上插上风马旗。旗子像翅膀一样温柔地拍打<BR>。坟墓面西，向着山谷的起点和贡嘎岭远处的山峰。</P><P>我认为正前方的牧场是我们的老宿营地。</P><P>  我迈着稳定的步伐，和亚洲保持着20码的距离。在我们身边，云层填补了更低的山谷<BR>，而我们则继续提高。亚洲安静无息，不久我认出来了一个特征：大石头堆，在那里在我<BR>跑的时候曾经跌倒过。前面500英尺垂直高度是雪崩停下来的斜坡。我想，我们一定在那<BR>左侧某处埋乔纳森。我用双筒望远镜察看上方，我难的是对道路的记忆，但是我们19年<BR>前确实在悬崖周围找到过路，而且我们没有任何固定绳子或者技术装备。</P><P>  亚洲默默无语。她说，“我很害怕”。我把手放在她肩上。我告诉她“我知道你能做<BR>”。</P><P>  她摇头说，“不是的。我惧怕我们将要找到的。我不说什么，问她，“你还想要做这<BR>吗？”她点点头，然后向岩石挪动。我只能猜测她的情感非常强烈。在我们上方，一堵黑<BR>色岩壁耸立着。我立即认出那个斜坡，左边是乔纳森死的地方。我向上看，那里正是乔<BR>纳森的坟墓，它好好的在着呢！</P><P>  一样的早上，不一样的境地。它好像没有我们建造的那么高。发生了什么事情？它倒<BR>塌了吗？宿营袋消失了吗？</P><P>  在平台的末端，我们看见了乔纳森的衣服。亚洲仅仅在几英尺之外，她正注视着。<BR>“我看见你父亲的坟墓了。” 她的眼睛凝视在她父亲的碎石棺上。她转移目光，一会儿<BR>不说一句话，“我不想上去了”，她最后说。<BR>“那么到我这里休息一会吧”。 她攀登到我身边，紧挨着我站着。她转身开始痛哭，她<BR>的肩膀颤动着，她的眼睛里噙满泪水，我紧紧抱着他。</P><P>  我身边50英尺的地方就是我曾经给乔纳森做人工呼吸的地方。我的朋友仍然穿着他的<BR>短上衣，我把宿营袋拉下来以便盖住他暴露的腿。我紧挨着坟墓跪下，看着我的朋友的内<BR>衣的标签，我移动另一块岩石，看见他的头发仍然是完好的。我用手指缓慢而温柔抚摸<BR>着，我的泪水刷地流了下来，伏在坟墓上面，我听到我自己说，“乔纳森，我的老伙计<BR>”。这和19年前的一幕几乎一模一样。</P><P>  我吃惊地看见亚洲走了过来。她离我仅仅30英尺远。“亚洲，你父亲的衣服在这里，<BR>你想过来吗？</P><P><BR>“我来了”。亚洲走到了我身边，跪在坟墓前。</P><P><BR>“亲爱的爸爸，我爱你，我很想念你” 亚洲说。</P><P></P><P>       我的眼睛突然模糊了，远方山峰渐渐迷离，宛若那片覆盖了贡嘎山的云。</P><P><BR><div align=right><font color=#000066>[此贴子已经被作者于2004-4-28 2:36:50编辑过]</font></div></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=172&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-4-28 2:32:35</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=1959&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=1959&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=7&ID=1959" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=7&ID=1959" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=7&ID=1959" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=7&ID=1959&replyID=17941" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=7&ID=1959" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=7&ID=1959" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=7&ID=1959" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=7&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：242.188毫秒
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--攀岩与登山浏览：国际攀登比賽规则[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=10">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=10">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=10">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=10&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 攀岩与登山中的实用技术交流，包括绳结、器材、训练
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=10>攀岩与登山</a> →  浏览：国际攀登比賽规则[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=10"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=10"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=10&id=1773&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>56</B> 个阅读者<a href="go.asp?BoardID=10&sid=1773"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=10&replyID=1773&id=1773&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=10&sid=1773&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 国际攀登比賽规则[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=10&id=1773"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=10&id=1773"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=10&id=1773"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=10&id=1773"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=10&id=1773"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=10&id=1773', ' 上海交通大学野外生存素质拓展基地 - 国际攀登比賽规则[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16798><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：186<br>&nbsp;&nbsp;积分：395<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=10&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在攀岩与登山的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16798&id=1773&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=10&replyID=16798&id=1773&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>国际攀登比賽规则[转帖]</b><br>一、攀登壁<BR>　　1、所有国际竞赛攀登委员会(ICCC)核准的比赛必须在专为攀登设计的人工攀登壁举<BR>行﹐其垂直高度至少12公尺﹐且足以设计长度至少15公尺的路线。<BR>　　2、攀登不得使用攀登壁的所有板面。<BR>　　3、攀登不得使用板面的侧缘或上缘。<BR>　　4、如攀登路线必须在板面上划定边界﹐以与其他路线分开﹐或划开板面上不得进入<BR>或使用手点/足点的区域时﹐此边界线应使用连续且能清晰辨识的标示。<BR>　　5、攀登路线的起攀线必须清楚的标示。<BR>　　二、比赛之种类<BR>　　１、定义<BR>　　a. 难度(Difficulty)比赛﹕选手采先锋攀登﹐由下方确保。各个快扣根据规定事先<BR>依序挂上。选手以达到之高度（在横渡或天花板部份﹐沿其路线之轴线的最大距离）决<BR>定其该场之名次﹔<BR>　　b. 难度单淘汰(Difficulty-Duel)比赛﹕此模拟赛之规定及技术规则与一般难度比<BR>赛相同。除决赛外﹐各场均采一般难度比赛方式。决赛采与速度比赛之决赛相同的单淘<BR>汰方式。<BR>　　c. 速度(Speed)比赛﹕选手由上方确保﹐以完攀者的完攀时间决定该场之名次﹔<BR>　　d. 抱石(Bouldering)比赛﹕比赛由一系列短而具高困难度的个别攀登问题组成。各<BR>问题得以上方或下方确保﹐或在裁判长(President of Jury) [与国际前攀员(forerunn<BR>er)磋商后] 的核准下以无确保方式攀登。采无确保方式攀登时﹐须以适当大小与厚度的<BR>安全垫做为安全防护。各问题配予若干分数﹐并以总分决定该场名次。<BR>　　２、.难度﹑难度单淘汰及速度比赛均得以下列方式攀登﹕<BR>　　a. 在核可的路线观察时间后开始攀登(on-sight)﹔<BR>　　b. 在核可的前攀员示范之后开始攀登﹔<BR>　　c. 在核可的练习之后开始攀登(after work)。<BR>　　３、.抱石比赛应在规定的路线观察时间后立即以on-sight方式开始进行各问题。<BR>　　４、国际比赛得包括难度﹑难度单淘汰﹑速度及抱石等四项目﹐但并非所有国际比<BR>赛均须包括每一项。 2.5.其它ICCC核准的比赛(如明星邀请赛或其它国际比赛)得由难度<BR>﹑难度单淘汰﹑速度及抱石等四项目之其中一项或多项组成。<BR>　　三、安全<BR>　　安全至为重要﹐所有ICCC核准比赛的参与者必须尽力确保符合ICCC相关规定的最高<BR>安全水准。<BR>　　四、报到与隔离区<BR>　　１、所有具资格参加该场比赛的选手必须在裁判长规定或大会印行或宣布的时间内<BR>报到并进入隔离区。各队经理与选手有责任充分认知各场比赛的规定细节。未能注意规<BR>定细节(或已印行的任何程序变更)不得视为未遵守规定的正当理由。<BR>　　２、只有以下指定之人员允许进入隔离区﹕<BR>　　a. ICCC工作人员﹔<BR>　　b. 主办会员联盟工作人员﹔<BR>　　c. 具该场参赛资格之选手﹔<BR>　　d. 核准之队职员﹔<BR>　　e. 其它经裁判长特别核准之人员。该人员必须在一经核准之工作人员陪同与指导下<BR>在隔离区停留﹐以维护隔离区之安全﹐并避免对选手之不当干扰﹔<BR>　　f. 动物不得进入隔离区。<BR>　　３、主要隔离区及附属隔离区均不得吸烟。大会必须在符合隔离区规定之下﹐提供<BR>完全分隔的吸烟区。任何进入隔离区而未能遵守本规定者﹐将立即被驱离隔离区﹐并不<BR>得再参与比赛。<BR>　　五、路线观察与练习<BR>　　１、路线观察期间﹕除非另有规定﹐难度﹑难度单淘汰﹑速度及抱石比赛已报到该<BR>场之选手在比赛开始前均有观察期间以研究路线。队职员不得陪同选手进入观察区。所<BR>有在观察区之选手必须遵守隔离区之规定。<BR>　　２、观察时间由裁判长与国际前攀员磋商后决定﹐但除非特殊情况﹐不得超过6分钟<BR>。<BR>　　３、选手于观察期间必须在指定之观察区﹐ 不得攀上板面或站在任何器材或桌椅之<BR>上。选手不得以任何方式与观察区外之人员联络﹐仅得向裁判长或分组裁判(Category<BR>Judge)询问比赛相关问题。<BR>　　４、在观察期间选手得使用望远镜观察路线并以手抄方式绘图或笔记。其它观察或<BR>记录器材均不允许。选手有责任充分了解所有关于比赛路线的规定与说明。<BR>　　５、选手除了在正式观察期间外不得取得任何路线的信息。<BR>　　６、在观察期间结束时选手应立即返回隔离区﹐任何不当延迟或违反裁判长或分组<BR>裁判指示者，将予「黄牌」警告﹐任何进一步的延迟将予以「红牌」。<BR>　　７、路线练习﹕当比赛可事先路线练习时﹐裁判长在与国际前攀员磋商后﹐决定时<BR>间表﹑程序及选手练习时间长度。<BR>　　六、攀登前之准备<BR>　　在接到通知离开隔离区进入预备区时﹐选手除不得由核定的工作人员外之任何其它<BR>人陪同。<BR>　　在抵达预备区时﹐选手必须穿上岩鞋﹐以规定之绳结系上绳索﹐并做好攀登的最后<BR>准备。<BR>　　在选手允许进行路线攀登之前﹐所有攀登装备和绳结必须经指定之工作人员和/或确<BR>保员的检查与认可﹐以符合安全性及其它ICCC的规定。选手对于其攀登时所穿著之装备<BR>与服装负有全部且唯一的责任。使用非认可的装备与绳结﹑比赛背心未经认可的修改﹑<BR>不符合规定的广告﹑及违反任何ICCC规定之选手均得立即取消其资格。选手离开预备区<BR>后﹐不允许在任何情况下回到隔离区。<BR>　　选手必须完成离开预备区的准备﹐并在指示下进入比赛场地。任何不当的延迟或未<BR>遵守分项裁判的指示得立即予以「黄牌」﹐任何进一步地延误将予以「红牌」。<BR>　　七、攀登壁的维修<BR>　　主定线员(Chief Routesetter)(代表大会)必须确保具经验并事先练习过的维修小组<BR>在各场中随时应分组裁判之要求进行维护与修理。维修必须以迅速且安全之方式为之。<BR>主办会员联盟对于安全程序负有全部与唯一的责任﹐并应确保该程序的严格执行。裁判<BR>长有权坚持安全程序之遵行﹐并得要求违反安全程序之任何人员离开比赛场地。<BR>　　岩点之修理﹕在分组裁判的指示下﹐主定线员应立即处理任何替换和/或修理工作。<BR>在工作完成时﹐国际前攀员应检查并建议裁判长换修是否对之后攀登之选手造成不公平<BR>之有利或不利。裁判长对该场继续﹑停止﹑或重新开始之决定将为最后之决定﹐对此决<BR>定之申诉将不予接受。<BR>　　岩点之清理﹕在各场比赛开始前﹐裁判长(在与国际前攀员磋商后)决定攀登壁上岩<BR>点的清理频率与方式﹐并在观察路线前的技术会议中宣布。<BR>　　八、技术事件<BR>　　１、技术事件的定义为﹕<BR>　　a. 绳索紧绷以协助或妨碍选手﹔<BR>　　b. 岩点断裂或松开﹔<BR>　　c. 快扣或钩环不当的位置﹔<BR>　　d. 任何非选手动作造成的不利或不公平的有利于选手的偶发事件。<BR>　　２、确保员必须随时保持绳索的适当松弛。任何绳索紧绷将视为对选手的外力帮助<BR>或妨碍，分组裁判应宣告技术事件。<BR>　　３、技术事件应以下列方式处理﹕<BR>　　a)当技术事件由分组裁判提出时﹕<BR>　　1. 如选手愿意且仍然处于正当位置﹐可选择继续攀登或技术事件。当选手选择继续<BR>攀登﹐之后不得再以与该技术事件相关之理由申诉。<BR>　　2. 如选手因技术事件而处于非正当位置﹐分组裁判应立即决定是否宣告技术事件并<BR>停止选手攀登(并依据技术事件之规定允许选手之后再行攀登)或给予选手继续攀登之机<BR>会。当选手被给予并接受继续攀登之机会﹐之后不得再以该技术事件申诉。<BR>　　b)当技术事件由选手提出时﹕<BR>　　1. 当选手正在攀登时﹐必须指出技术事件之性质﹐并在分组裁判的同意下继续或停<BR>止攀登。当选手由于技术事件而非正当位置时﹐分组裁判应立即做出决定﹐且该决定为<BR>最后之决定。<BR>　　2. 当选手坠落并宣称技术事件造成该坠落﹐此时该选手应立即送至特别隔离区并等<BR>候该宣称之技术事件的调查结果。总定线员应立即检查该宣称之技术事件并向国际前攀<BR>员﹑分组裁判﹑及裁判长报告。裁判长(在将技术事件与选手之任何不当使用岩点列入考<BR>虑后)做出最后决定并不再接受该决定之申诉。<BR>　　c)选手在技术事件确认后应在一分隔之隔离区给予恢复时间﹐并不得与ICCC和大会<BR>工作人员外之人员接触。选手必须立即决定希望何时开始下一次的攀登。该攀登必须在<BR>下一选手之后且在下五选手之前。选手在两次攀登之间应至少给予15分钟。<BR>　　d)在完成合法攀登后﹐应以选手攀登该路线达到之最佳成绩做为记录。<BR>　　九、各场之排名<BR>　　难度﹑难度淘汰﹑速度及抱石比赛中各场之排名依该项比赛之相关规定决定。<BR>　　十、路线攀登之停止<BR>　　<BR>　　1. 选手路线攀登之停止依该项比赛之相关规定办理。<BR>　　2. 选手只要在未触犯停止攀登之规定下﹐允许在攀登之任何时候下攀。<BR>　　十一、技术会议<BR>　　1. 在ICCC核准的比赛开始前﹐裁判长应召开技术会议﹐所有队经理/教练和该队之<BR>选手代表均受邀参加。技术会议应在公布的报到时间结束后尽速进行。裁判长在分组裁<BR>判﹑ICCC代表﹑及主办会员联盟代表之陪同下宣布隔离区开放和关闭时间﹐初赛的出场<BR>顺序﹐以及已公布程序之变更。各队代表有责任参加此会议﹐未参加技术会议不得视为<BR>之后申诉的正当理由。<BR>　　2. 在隔离区关毕后﹐裁判长应尽速召开一简短的技术会议以提供关于该场比赛的信<BR>息。所有已报到该场比赛之选手和队职员均得参加。未参加技术会议以澄清问题者﹐不<BR>得做为事后申诉的正当理由。关于隔离区之相关规定在会议期间仍应继续有效。<BR>　　十二、比赛中之纪律处置<BR>　　比赛中依ICCC规定适用纪律处置与制裁。<BR>　　十三、纪律处置与申诉程序<BR>　　对于任何裁判之判决提出申诉应以符合ICCC关于纪律处置与申诉程序之规定为之。</P><P>　　十四、药物与违禁品﹕处置与纪律<BR>　　UIAA/ICCC承诺并强烈支持国际奥林匹克委员会(IOC)之药物规章。关于触犯药物或<BR>其它违禁品或行为之UIAA规定﹑纪律处置﹑制裁及申诉程序均列于IOC医药规章与UIAA规<BR>定。<BR>　　难度比赛<BR>　　一、概论<BR>　　1. 本规则应配合ICCC国际攀登比赛通则释读。<BR>　　2. 所有难度比赛路线应以选手先锋攀登﹐下方确保为之。<BR>　　3. 当攀登符合难度比赛之规则与规定﹐且自正当位置将绳索确实地扣入最后快扣的<BR>钩环﹐应视为路线完攀。<BR>　　二、选手数目与出场顺序<BR>　　1、比赛在单一路线举行﹕除非另有规定(如世界杯比赛)<BR>　　a. 初赛﹕出场顺序以随机选取方式决定。<BR>　　b. 以后各场﹐加赛除外﹕出场顺序依前场名次之反序。<BR>　　c. 加赛(当必须采行时)﹕出场顺序与前场决赛相同。<BR>　　2、当该场比赛在两条或以上类似困难度的路线进行时﹕除非另有规定﹐选手应以下<BR>列方式分配于各路线﹕<BR>　　a. 决赛与加赛外之各场﹕选手应随机分配于各路线。<BR>　　b. 决赛﹕决赛与加赛必定在单一路线举行。当准决赛在两条或以上类似困难度之路<BR>线进行时﹐决赛之出场顺序应由前场之合并排名决定。当选手排名相同时﹐其出场顺序<BR>由随机选取方式决定。<BR>　　c. 加赛﹕出场顺序与决赛同。<BR>　　三、观察期间<BR>　　1、依据通则﹐选手应允许集体观察即将攀登之on-sight路线。在「练习后」之路线<BR>﹐选手除了攀登前40秒最后观察期间外﹐不允许任何额外观察时间。<BR>　　2.、在加赛时﹐裁判长得依以下第4.1条决定不给予观察期间。<BR>　　四、攀登程序<BR>　　1、 各路线应给予选手一事先决定之攀登时限。此时限应包括40秒在路线下方的最<BR>后准备时间。<BR>　　2.、在进入攀登壁下方之比赛区﹐选手将被要求立即跨过起攀线。此时分项裁判应<BR>开始(或指示他人开始)记录选手攀登时间。选手给予40秒以开始攀登。当选手在40秒结<BR>束时尚未开始攀登﹐将被要求立即开始。此40秒最后观察时间应计入总时限。任何进一<BR>步延迟得依规定与选手纪律处置。<BR>　　3.、当选手双脚离地时视为起攀。<BR>　　4.、选手得在攀登中随时询问分组裁判尚余路线时间。除非选手询问﹐分组裁判只<BR>在余60秒路线时间之际告知尚余时间。当路线时间结束时﹐分组裁判应停止选手攀登﹐<BR>并指示进行测量程序。选手未遵守分组裁判之停止攀登指示时﹐得依规定予以纪律处置<BR>。<BR>　　5.、在路线攀登时﹕<BR>　　· 选手应依序扣入(snaplink)各个钩环/快扣。选手应在身体之最低点高过快扣连<BR>结之最低钩环之前扣入钩环(于横渡或天花板部份﹐在选手身体通过依国际前攀员定义路<BR>线之一直线上未扣之钩环/快扣之前)。任何违反此规定将导致攀登中止﹐并依规定进行<BR>测量。若选手拒绝遵从分组裁判之停止攀登指示﹐得依规定予以纪律处置。<BR>　　· 裁判长基于安全考量﹐得有权针对特定路线修改第4.5(a)条规定。选手得攀至安<BR>全位置(如扣入下一钩环)﹐再立即停止攀登。在此情况下﹐高度测量应据未扣入最后钩<BR>环前之最后正当位置。<BR>　　· 选手只要不违反第4.5(a)条或回到地面﹐得随时下攀。<BR>　　· 当选手依第4.5(a)条将绳索扣入钩环但有技术错误时﹐选手得扣入下一钩环﹐再<BR>解开并重新扣入前一钩环(必要时得以下攀为之)。分组裁判在认定继续进行有安全顾虑<BR>时﹐得要求停止攀登﹐并以最高高度(或最长距离)测量。此决定为最终决定且选手不得<BR>之后重新攀登。<BR>　　五、高度测量<BR>　　1、依据以下第8条﹐在坠落或分组裁判指示停止攀登时﹐在国际前攀员决定之路线<BR>轴线上握住或触摸到的最高岩点(在横渡或天花板部份﹐握住或触摸到的最远岩点)将予<BR>测量。各岩点(手点﹑脚点等)之认定应由国际前攀员在该场开始前或比赛中选手有效使<BR>用之前为之。<BR>　　2、一岩点之「握住」应较「触摸」具更高成绩﹕<BR>　　a. 一岩点之「握住」应给予其高度并不予以加注﹔<BR>　　b. 一岩点之「触摸」应给予其高度并予以加注(-)﹔<BR>　　c. 一岩点之「握住」并自其做出有利于路线进展之动作者﹐应给予其高度并予以加<BR>注(+)。当认定选手之动作为试图在所握岩点上稳定时﹐不应视为向下一岩点进展且不予<BR>加注(+)。<BR>　　3、当选手触摸到未装置岩块之洞点(依国际前攀员之认定)﹐此洞点不计入选手到达<BR>最高高度(在横渡或天花板部份之最长距离)之测量。<BR>　　4、当选手在绳索确实地扣入最后钩环之前握住最后快扣﹐将视为人工助力﹐且选手<BR>之攀登停止﹐并依第　　5、条测量高度。<BR>　　六、各场比赛后之排名<BR>　　1、在各场比赛后选手依第5.2条排名。<BR>　　2、在平手时应采回溯计算(countback)程序﹐将前一场之成绩列入考量以分出名次<BR>。如仍然平手则将再前一场之成绩列入考量。当前场比赛在两条或以上之路线进行时﹐<BR>不适用上述程序。<BR>　　3、当一场比赛必须将选手分配到两条或更多具不同技术困难度的路线时﹐选手该场<BR>之排名应由合并路线排名决定其总排名。<BR>　　4、加赛﹕在决赛结束时﹐如经采用回溯计算程序后第一名仍有平手情形﹐应举行加<BR>赛。在加赛后仍平手﹐平手之选手视为同名次﹐且比赛结束。<BR>　　七、各场选手人数配额<BR>　　第七条应与第六条共同释读﹔即应先完成排名程序才适用第7条。<BR>　　当无足够选手在前场完攀时﹐固定配额之剩余名额由次佳排名之选手递补。<BR>　　准决赛和决赛 - 固定配额﹕当初赛选手总人数为﹕<BR>　　a. 50或以上﹕准决赛与决赛的固定配额分别为26与8﹔<BR>　　b. 40至49﹕准决赛与决赛的固定配额分别为22与8﹔<BR>　　c. 少于40﹕准决赛与决赛的固定配额分别为16与6﹔<BR>　　准决赛和决赛 - 浮动配额﹕当在采用回溯计算程序后仍然平手而造成超出准决赛和<BR>决赛之固定配额时﹐以最接近(超出或低于)固定配额之数目决定晋级选手之人数﹐但应<BR>符合以下条件﹕<BR>　　a. 当适用第7.3(a)条时﹐准决赛与决赛的人数分别不低于20与6﹔<BR>　　b. 当适用第7.3(b)条时﹐准决赛与决赛的人数分别不低于16与6﹔<BR>　　c. 当适用第7.3(c)条时﹐准决赛与决赛的人数分别不低于12与4﹔<BR>　　当由于平手造成晋级决赛选手数目不同于固定配额(在采用回溯计算程序后)﹐且超<BR>出与低于之数字相同时﹐应采较大之数目。在特殊情况(如电视现场转播之需要)﹐裁判<BR>长有权决定采较小数目。裁判长应在与大会协商后于赛前技术会议宣布此决定。 8、路<BR>线攀登之停止<BR>　　1、路线完攀﹕攀登符合第1.3条之选手视为路线完攀。<BR>　　2、路线未完攀﹕以下情形之选手视为路线未完攀﹕<BR>　　a. 坠落﹔<BR>　　b. 超过路线允许时间﹔<BR>　　c. 触摸任何路线边界标示之外的板面﹔<BR>　　d. 使用板面的侧缘或上缘﹔<BR>　　e. 未能依比赛规定扣入快扣﹔<BR>　　f. 起攀后身体任何部位触及地面﹔<BR>　　g. 使用任何人工助力。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=10&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 3:03:04</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1773&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=10&id=1773&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=10&ID=1773" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=10&ID=1773" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=10&ID=1773" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=10&ID=1773&replyID=16798" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=10&ID=1773" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=10&ID=1773" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=10&ID=1773" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=10&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：218.750毫秒
+</td></tr>
+</table>
+</body>
+</html>

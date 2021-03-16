@@ -1,0 +1,335 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--游记 心情 随想浏览：2004年10月4日/5日骑行淀山湖</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=7">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=7">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=7">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=7&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> %这里是分享历程的大地
+%这里是分享心情的天空
+%这里是分享随想的海洋
+%
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=7>游记 心情 随想</a> →  浏览：2004年10月4日/5日骑行淀山湖
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=7"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=7"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=7&id=2167&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>618</B> 个阅读者<a href="go.asp?BoardID=7&sid=2167"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=7&replyID=2167&id=2167&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=7&sid=2167&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 2004年10月4日/5日骑行淀山湖</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=7&id=2167"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=7&id=2167"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=7&id=2167"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=7&id=2167"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=7&id=2167"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=7&id=2167', ' 上海交通大学野外生存素质拓展基地 - 2004年10月4日/5日骑行淀山湖')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=19331><font color=#990000><B>jackchen</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level10.gif><br>&nbsp;&nbsp;等级：管理员<BR>&nbsp;&nbsp;文章：328<br>&nbsp;&nbsp;积分：627<br>&nbsp;&nbsp;注册：2003-10-2<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=jackchen',500,400)"><img src="pic/message.gif" border=0 alt="给jackchen发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=jackchen" target=_blank><img src="pic/friend.gif" border=0 alt="把jackchen加入好友"></a>&nbsp;<a href="dispuser.asp?id=388" target=_blank><img src="pic/profile.gif" border=0 alt="查看jackchen的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=jackchen&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索jackchen在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:lychen@sjtu.edu.cn"><IMG alt="点击这里发送电邮给jackchen" border=0 src=pic/email.gif></A>&nbsp;<A href="http://security.sjtu.edu.cn" target=_blank><IMG alt="访问jackchen的主页" border=0 src=pic/homepage.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=19331&id=2167&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=19331&id=2167&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>2004年10月4日/5日骑行淀山湖</b><br>10月4日8:20左右，我到达东川路校门，渔民已经在广场上帮队员捆行李了，我也是第一次见到了我的车队。弟弟妹妹们的车子都很普通，有些车子没有行李架，而且几乎都没有弹性行李绳，因此捆行李费了不少功夫。因为担心路上行李掉下来，很多人最终决定把包背在身上。我们出发的时候已经差不多9:45了，比预计晚了很多，不过计划很充裕，所以我也不担心。</P><P>我们的车队总共23人，分成四个小组。我骑在最前面，让渔民在最后压队。拍照的小伙子很敬业，我骑出校门的时候，注意到他早就在那里侯着了。我们骑上沪闵路，拐到北松公路，一路都很顺利。</P><P>一个小时以后，大约快11点，我们第一次休息。休息地点是在过了车墩以后的某个岔道口，这个地方我以前探路的时候也休息过，后面一路上我选择休息地点时都选有比较大的空地可以使车队不影响交通的地方。休息的时候，一组长温迪(音)的车子需要调整刹车，队员们拿出了各种工具，虽然不是正规的修车工具，螺丝刀和扳手凑合能用。由于时间快接近中午，我们决定在松江找地方吃饭。</P><P>松江离开休息的地方不远，我们骑到了松汇中路上最热闹的地段，这里有很多饭馆。我选择了靠边的沓沓饭店，只是看中它的院子停车不错。</P><P>沓沓饭店里面地方很大，却没有看到其它食客。我们在二楼的一个包间里坐了两桌。因为点一桌菜挺麻烦，我就接受了老板的建议，250元一桌由他配菜。我估算人均20元左右可以接受，而且既然是配菜，还价意义也不大。不过后来渔民告诉我这个价格还是太贵了，他的金玉良言“带小孩子出来吃饭，价钱一定要便宜，质量差点没关系。”饭桌上消灭食物的速度沿袭了学生吃饭的一贯风格，很快就个个见底，米饭煮也来不及。饭后稍作休整，本想去买一些烟花的，但附近没有看到。</P><P>13:45我们继续上路，接下去的一个小时我们骑得挺快，一直到朱枫公路拐弯处，我停下来等后面的队伍。休息的时候，有队员问我，为什么我的踩踏频率一直都是保持不变的。这其实正是变速所带来的效果，如果我不是合理运用，光凭体力，我是比不过这些dd们的。</P><P>后面的队伍赶到的时候，我得知有一辆车刹车过紧，渔民在帮着调整。从这里距离淀峰营地，大约还有一个小时的路程。大家都觉得时间有多，我就建议大家到练塘里逛一圈。后来我还是后悔了，觉得练塘不应该去的，因为在那里有不少人掉队了。</P><P>朱枫公路拐到练塘的岔路口距离我们休息的地方只有3公里不到，我没注意到队伍在这点距离之后又脱节了，拐过去的时候没有等后面的队伍。结果渔民和另外2名队员赶到岔路口的时候，已经看不到我们了，没有拐弯直接往前骑了。后来渔民和我联系以后，他们在朱枫公路等我们。</P><P>练塘我也没去过，感觉上已经没有了古镇的气息，很商业化了。据当地人讲，这里只有一个陈云纪念馆可以看看。我们后来站在陈云纪念馆门口的桥上，看到除了沿河有一些老房子，其他地方和上海周边的任何一个村镇已经无异。在练塘里面不比在公路上，拐弯比较多，尽管在转弯处留了人指路，但还是有五个队员沿着老朱枫公路一直往南朝枫泾方向骑了。</P><P>我刚带着队伍返回朱枫公路的时候，情况比较糟糕。当时队伍分成了4个分队，渔民带一组，我带一组，5个掉队的队员一组，魏锟带着一些人在练塘里面联系他们。当时还不是很清楚每一个组有多少人，所以也就不能确定是否还有其他个别掉队的人。渔民和我会合后，又去练塘找那5个队员，幸好找到了。当我们在朱枫公路重新集结的时候，已经差不多16:30了。练塘之行费时1个半小时，外加虚惊一场，所以我后悔当初的决定。</P><P>天马上就要黑了，我们需要抓紧时间到达营地。在318国道往西骑的时候，我们就是迎着夕阳赶往营地。我们一路看着夕阳西下，如此风景也算是对我们折腾一场的补偿。</P><P>到达营地的时候，可能因为是晚饭时间，门口已经没有骚扰的村民了。原来竖在那座桥上的竹门已经拆掉，这几天在那个营地有人拍电影，幸好他们是在水上飞机的另一边拍，现场可以看到了很多汽车。</P><P>我们上次扎营的地方，已经被另一支队伍占据，我们就在靠近水上飞机的这一边扎营。天黑得很快，大家迅速把帐篷都支起来。和以前一样，不用我们自己操心，自然会有人来兜售干柴，我们花20元买了5捆柴。其实这是不够的，我们后来又买了一批。</P><P>帐篷支起来以后，就是煮方便面。那天风很大，我们把炉头移到了8人帐里面，这时候我才觉得8人帐很适合作为炊事帐。我们在路上问打火机的时候，貌似很多人都表示有打火机，但到了要点火的时候，发现一个火机也没有了，后来我到对面别人的营地借了一个。我们正在煮面的时候，营地来了不速之客。有一个当地人跑过来，告诉我们这里不能宿营，还说一会儿派出所的警察会来。他没提钱的事，但我想他无非是想收点钱。我们没有理他，但也做好了应对异常情况的准备。事后证明，这个人是吓唬人的，什么事情也没有发生。像每一次在外面做饭一样，开始的几锅一出来就分没了，但食物贬值得很快，到最后一锅出炉，已经推销都没人要了。</P><P>饭吃得差不多的时候，我们到营地边上升篝火。篝火点起来了以后，就暖和多了，营地的晚上还是很冷的。围坐在篝火边的时候，我们看到东方湖面上初升的月亮，配合着对面营地的篝火，很有意境。</P><P>我们玩的是杀人，却引入了冒险和真心话的成分，即好人和杀手输的一方要接受冒险或者真心话的惩罚。张燕知道一些Jack之家的故事，所以凡是遇到需要冒险和真心话的Idea就来找我。我说有些游戏不一定适合任何的场合，比如真心话是在熟人之间玩才有意思。有一个弟弟杀手被好人指出来后，他接受大冒险。我们让他到对面人家的营地里对着帐篷大喊一声“我是猪”，一个非常典型的冒险，但是这位弟弟无论如何迈不出去。我很理解，想到那次在沈家门吃饭的时候，为了去问一声“纽约怎么走？”，我也犹豫半天。可能做游戏和很多事情一样，迈出了第一步，后面就好办了。</P><P>大约23点的时候，我们熄灭篝火睡觉。水上飞机对面拍电影的场地探照灯还亮着，有时候探照灯会转过来，把这里的营地照得很亮。晚上的淀山湖面，因为灯光的关系，波光粼粼，看不见对岸，有一些浩瀚的感觉。晚上我和渔民睡一个帐篷，听着水声，很快就睡着了。</P><P>第二天早晨，有一些队员起来看日出，不知道看到没有。我和渔民醒了，但没有动，继续睡觉。自从上次在横沙岛看到了完美日出以后，我对日出的向往已经不是那么强烈了。我们大约7点起来，烧水泡奶粉，加上面包和香肠作为早饭。烧水很慢，等到所有的人都喝到牛奶，收拾完营地，等一些人修车归来，拍完集体照，再捆好行李，已经接近于10点了。</P><P>回去的路我们选择走318国道，由七莘路返回。我先带大家到朱家角补给水。大家确实渴了，我的水壶传出去，一圈回来的时候已经空了。在朱家角稍作休整以后，再次出发。渔民因为和女生换了车，怕在后面出问题没人管，就和我换了位置，我到最后压队。这样一直骑到青昆路，队伍停下来吃饭。魏锟打听到沿青昆路往北过桥有一家联谊酒家可以吃饭，于是我就让大部队跟着魏锟走，我继续在最后。</P><P>我正要过桥的时候，一个女生告诉我一组长温迪不见了，好像是打气去了。于是我返回318和青昆路的十字路口等他，而大部队先去吃饭了。我后来在十字路口等的时候，没有等到温迪，却等到了另一个dd。他确实是打气去的，后来又走错方向再返回来的，但没看到温迪。打气的地方离这里只有50米，所以我认为温迪是沿着318继续往下骑了。后来渔民又骑过来找我，打电话给温迪没人接，于是发了消息给他，我们就先去吃饭了。</P><P>联谊酒家看上去不是很廉价的地方，但实际消费并不贵，我们只花了昨天午饭一半的价钱。吃完饭，即将出发的时候，我接到了温迪的电话。原来他沿着318一直骑，已经快到七莘路了。渔民有事情先走了，队员也先后出发了2批人。我等齐了后面的队员以后，带着他们一路追上前面的2批队伍，回到队伍的最前面。接下去的一个小时，我们骑得比较快，停下来休息的时候，离七莘路已经很近了。</P><P>在七莘路的拐角等待集结的时候，有一辆车脚踏松动去修车了，队伍继续等待。后来一些骑得慢的队员先出发，我等到修车的人回来，带着最后的一批人一路飚回来。在东川路口最后一次集结的时候，一直跟着我的队员说，飚得很爽。骑车是应该快，追求的是飞的感觉，但是安全也要注意，有队员就在沪闵路上有惊无险地遇到从小路突然拐出来的汽车。渔民走了以后，另一位负责压队的同学也很负责，一直都跟着落后的队员。</P><P>我们最后的一批人骑到菁菁广场时，前面的人马都还在菁菁广场，我很高兴看到车队能够有始有终地一起回到出发点。早已到学校的温迪也出来和我们会合。我们还拍了归来以后的集体照，我认为这很重要。虽然出发前也照过集体照，但一路走下来，同样还是这些人，却一定会增加几分默契，这就是活动带来的效果。</P><P>在野协的第一次带队是比较顺利的，和ddmm们相处也很愉快。其实我很羡慕他们，我在他们这个年纪的时候，哪有这么疯狂过。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=388&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-10-7 21:23:09</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=2167&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=7&id=2167&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=7&ID=2167" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=7&ID=2167" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=7&ID=2167" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=7&ID=2167&replyID=19331" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=7&ID=2167" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=7&ID=2167" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=7&ID=2167" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=7&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：169.922毫秒
+</td></tr>
+</table>
+</body>
+</html>

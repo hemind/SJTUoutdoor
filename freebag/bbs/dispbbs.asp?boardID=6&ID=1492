@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：厦大冬训小记[转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：厦大冬训小记[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1492&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>9</B> 个阅读者<a href="go.asp?BoardID=6&sid=1492"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1492&id=1492&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1492&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 厦大冬训小记[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1492"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1492"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1492"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1492"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1492"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1492', ' 上海交通大学野外生存素质拓展基地 - 厦大冬训小记[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=15434><font color=#000066><B>camel</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle></td></tr></table>&nbsp;&nbsp;<img src=pic/level7.gif><br>&nbsp;&nbsp;等级：蝙蝠侠<BR>&nbsp;&nbsp;威望：10<br>&nbsp;&nbsp;文章：954<br>&nbsp;&nbsp;积分：1520<br>&nbsp;&nbsp;注册：2002-12-24<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=camel',500,400)"><img src="pic/message.gif" border=0 alt="给camel发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=camel" target=_blank><img src="pic/friend.gif" border=0 alt="把camel加入好友"></a>&nbsp;<a href="dispuser.asp?id=4" target=_blank><img src="pic/profile.gif" border=0 alt="查看camel的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=camel&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索camel在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:linxj321@sjtu.edu.cn"><IMG alt="点击这里发送电邮给camel" border=0 src=pic/email.gif></A>&nbsp;<a href="http://search.tencent.com/cgi-bin/friend/user_show_info?ln=23393902" target=_blank title="camel[23393902]的QQ情况"><img src=pic/oicq.gif width=16 height=16 border=0>OICQ</a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15434&id=1492&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=15434&id=1492&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>厦大冬训小记[转帖]</b><br>小五台杂谈 <BR>                                                              张宏宇 </P><P><BR>去了趟小五台，总该写点什么。这里就把能对后人有用的都写下来，也不管什么体裁格 <BR>式，就是说想说的话，是为杂谈。 <BR>  信口开河，信手拈来： </P><P>1.总体评价 <BR>    第一次去小五台，装备也有限，所以我们选择了比较保守的东台登顶计划，也没有安 <BR>排什么技术性的训练项目。实际情况是这个计划也未如期完成，体现在两点：a计划拖迟一 <BR>天，b未登顶。尽管如此，大家遵守了事先定好的1：00关门的约定，毫不犹豫地放弃登 <BR>顶，并于第二天安全撤回北京，表现出了一个登山者所应具备的果断放弃的素质。 <BR>    除了以上a、b两个遗憾外，本次活动各方面都是相当好的。我认为主要原因是队伍人 <BR>数少，队员能力、素质高，并且团队协作能力强。由于这是一支很有战斗力的队伍，大家 <BR>都肯吃苦，又勤劳守纪律，所以本次活动暴露的问题很少。今年五月份选拔登山队员的时 <BR>候，小五台的组队模式值得借鉴。能吃苦，抱怨声自然少了，队伍的士气和精神状态就高 <BR>昂；勤劳肯干，各种各样的工作自然能及时完成；守纪律、听话，整支队伍就容易管理。 <BR>回想起02年的启孜峰登山，我个人觉得：做队长的，最喜欢的就是像慧梅，小迪这样的队 <BR>员。他俩的特点是：看到该做的事，不管是否与自己相关，不管队长是否有吩咐，他们都 <BR>会主动去做，而且是默默的去做，从不声张。一般人是什么样呢？——看到该做的事情， <BR>只要没有队长吩咐，没有其它人带头，便不去做。这类人的心态是：“没有人做，我也不 <BR>做。反正是大家的事，又不是我一个人的事。”在野外，整支队伍就是一个家庭，就是一 <BR>个人，不分彼此，最忌讳的就是“事不关己，高高挂起”的心态。 <BR>   <BR>2．拖迟一天的原因 <BR>  a．第一天出发太迟。最终原因还是在北京的准备工作不充分、太仓促。1月23日晚到达 <BR>赵大爷家后调试冰爪，学穿雪套，调试炉头，调整大冰镐的腕带，试撑帐篷，分配后勤物 <BR>资，重新整理背包，这些工作使我们夜里3:00才睡觉。赵大爷说三夫的沐雨他们来什么事 <BR>不干倒头就睡，第二天5:00起床出发。另外，我们在北京打的遇堵车及其他事情的耽搁， <BR>到赤崖堡已将近12:00。24日早出发时也有点磨蹭，比原来计划8:00拖迟10几分钟。 <BR>  b.行军速度太慢。这是向导给我们总结的原因。本次行军很有规律，每50分钟休息10分 <BR>钟，节奏控制得很好，大家很少叫累。行军有规律，没有因为一些小事浪费时间，这一点 <BR>很好。刚开始时袁绚速度较慢，小迪和培明在前面总是要停下来等，有点影响全队的速 <BR>度。（绚绚要想去登山，可要在体能训练上下点功夫哟）不过我们6人的体能在登协还算是 <BR>佼佼者，我认为速度慢最主要的原因是过冰河时浪费的时间太多。这个问题有点难以避 <BR>免，冰爪穿也不是，不穿也不是。有一点值得注意：由于过冰河时我们往往就在休息，这 <BR>种情况下可以考虑把行军休息的间隔拉长，比如改为每90分钟休息10分钟。 </P><P>3.未登顶的原因 <BR>这个我负全部责任。 <BR>a.当我们10:00到达峡谷尽头附近，我们碰上的最大难题就是不知道哪座山头是东台台顶。 <BR>6个人都是第一次来，又没有向导，碰上这个问题在所难免。可在我打印出来的有关小五台 <BR>资料中，北大的刘炎林画的一副图明显指明了东台台顶就在峡谷的最尽头，由于时间仓 <BR>促，这些资料我一直没有细读。这次的经验告诉我们，登山时若没有向导，出发前一定要 <BR>搞清楚顶峰的特征和具体路线，不要再出李致新和王勇峰在南极文森峰连登两座山头的闹 <BR>剧。顶峰大约有两种类型：甲、山体高大，鹤立鸡群，唯我独尊，很明显非她莫属。乙、 <BR>周围有很多高度差不多的山头，没有明显特征。 <BR>b.在顶峰附近，我犯了犹豫不决的毛病。当时在心里我也觉得峡谷的尽头应该是顶峰，可 <BR>按以前的经验，我又不敢相信一条河的尽头就是这个山脉的最高点。大家知道：长江、黄 <BR>河都发源在海拨6000米左右的山脉，珠峰虽有巨大的冰川，可未孕育出什么大江大河。当 <BR>发现右侧一大块突兀的石头时，我就怀疑这是不是顶峰的标志。当时心想：上到一定高 <BR>度，眺望一下哪里最高。于是让袁绚带大家原地休息，我和培明上去探路。可等我上到自 <BR>己的预定高度时，我无法控制自己不继续往前走，我有一种强烈的到达那处大石头的渴 <BR>望。于是我让培明走在我前面，让他上到大石头处判断一下哪里是最高峰。没想到他也犯 <BR>了与我同样的错误——收不住脚步。他上到大石头时没有停，而是继续向上。当时我已感 <BR>觉到这里肯定不是顶峰，大声叫培明下撤，可惜他距我太远，听不见，而此时下面的袁绚 <BR>又误以为我在叫他们上，我也无法去追培明。（此时缺的是对讲机）当时若我和培明及时 <BR>下撤，还是有时间去完成登顶任务的。我和培明在探路时因收不住脚步，浪费了一个小时 <BR>的宝贵时间。 <BR>c.保守 <BR>我们当时制定的关门时间是1:00，理由如下：清华的关门时间在1:30，但他们的营地在 <BR>2200,而我们登顶后要撤回1900，所以我选择了1:00作为关门时间。实际情况是当我们开始 <BR>下撤时大约在12:40，但当时天阴着，有风，雪花飘飘，而且我们的宿营工具全部留在1900 <BR>营地。其实，若冒险一点，再用一个小时登顶，半个小时顶峰逗留，2个小时下撤，我们也 <BR>能在天黑前即4:30撤回营地。但这样做的前提条件是不出现任何意外，不能迷路，不能受 <BR>伤，不能有暴风雪。小五台冬天大约是5:00天黑，气候多变，为了安全，我认为做计划时 <BR>需要留出2~3小时的时间作机动时间以应付意外，即应于3:00之前赶回营地。再说，我们当 <BR>时没背宿营用品，必须赶回1900，（若背帐篷，当天撤回2200即可），所以没有选择，只 <BR>能1:00下撤。我们的保守，是正确的，是无悔的。 </P><P>4.向导的作用 <BR>由于传说中小五台极其危险，在北京时本意请清华出一名向导，费用由我方负责。Apple在 <BR>B版上发了贴子后应征者颇多。但要么是实力不够，被他们的会长杨琦制止（杨琦怕实力不 <BR>强的队员在我们面前有损他们的形象），要么是实力很强但没时间没装备（01年念青登山 <BR>队员张逊曾给我打电话）。最终出发时还是我们厦大的6个人。这事如果我能在放假之前就 <BR>把贴子贴到水木的B版，应该就有着落。 <BR>我们还是义无反顾地出发了。赵大爷听说我们是第一次来，就介绍向导，开口要60元，还 <BR>他50，答应了。事实上由于前面提到的原因，向导第一天只带我们走到1900的营地就返回 <BR>了，第二天在东台脚下找不着路时却没有向导。我个人感觉，从赤崖堡到东台顶这条路线 <BR>全是沿着河流峡谷在走，基本上不存在迷路的可能性（靠近山顶那段由于植被稀疏，雪薄 <BR>又不能留下脚印，一定要插标志旗）。但由熟悉路线的向导带路可以节约很多时间，少走 <BR>很多弯路，避开一些危险地带，但向导的负面作用是我们只需埋头跟着他走，成了纯粹的 <BR>体力活，在观察地形、判断方向方面将得不到锻炼。请不请向导，应视具体情况而定：若 <BR>队伍实力强，时间、食品充裕，可不请；若队中没有辨路、记路、认路的老手，还是保守 <BR>点好。我认为，向导的主要作用是节约时间。 </P><P>5.出发前的准备工作 <BR>在与北大、清华的联系中，他们明白地告诉我北京郊区冬训不是很实用，去小五台更有意 <BR>义，这才让我产生了去小五台的想法，并告诉了阿姨。此时已临近出发，未免仓促，但考 <BR>虑到为明年冬训铺路，我还是决意要去，权当一次踩点吧。基于以上原因，小五台的准备 <BR>工作是很不充分的。当时由我和阿姨负责收集资料，但我俩都很忙，均未完成任务。没让 <BR>铁定要去的袁绚、小迪他们参与准备工作，是一大失误。我临走前通宵下载的资料没时间 <BR>看，上车前打印出来准备路上看，这个想法也未实现。由此可见，一切准备工作都要在上 <BR>车前完成，不要有那种“等到路上再做”往后推的懒惰思想。实践证明，在火车上几乎不 <BR>可能做任何实质的工作，只能是睡觉、聊天、打牌、发呆。一直到坐上前往小五台的汽 <BR>车，我才把资料给婧妹看，这又是一大失误（在京时她和培明留在旅馆均闲着）。小五台 <BR>的装备我是等与沐雨、APPLE混熟后才请他们帮忙的，还好他们没拒绝。其他准备工作完成 <BR>得都不错，食品因计划的原因后来让大家饿了肚子（没有考虑到行程会拖延一天）。小五 <BR>台的资料在北大未名的山鹰论坛和水木清华的BRARE HEART版有很多。 <BR>其他准备工作：出发前给老赵打个电话，他好准备饭菜013091329349；桃花的出租车师 <BR>傅，在京时给他联系一下，下山到管理处时就与他联系请他帮忙订回京的汽车票0313- <BR>7260002；小五台西金河口管理处，可咨询天气，也可组织救援0313-7240024。清华方面的 <BR>电话：APPLE温世奇（01年登山队长）13661223494北京人，研二。杨琦，会长，010- <BR>62774057（宿舍）13691481683，北京人，研一。请清华帮忙，必须经过会长同意才行。高 <BR>猛，蒜头，010-62776268（宿舍）山东人，研究生，直博，此人去过10几次的小五台，而 <BR>且以节俭著称，负责装备。蔡斌，010-62791556，湖北人，负责装备。梁明刚， <BR>013051652259，负责接待我们座谈的同学。37#顶楼办公室电话62783050。 </P><P>6.关于装备的补充及极度低温下的保护 <BR>小五台对装备的要求极高，但到什么程度，各方说法不一，也因季节变化不同。总体来 <BR>说，要求：防水、防风、防冻。我们去时天气较好，虽下雪却未起风，又住在1900的山洞 <BR>里，所以没有因装备出什么危险。鞋子不要求Double shoes，但登山鞋防水性能一定要 <BR>好，行军时还要注意把鞋上的雪敲掉，尽量不要让其融化在鞋上。雪套一定要有，裤子要 <BR>防水，上衣轻度防水即可，不作硬性要求；羽绒服要有以备用；打劫帽最好有，起大风时 <BR>能有效保护面部，由于在树丛中穿越，围巾不好用，围脖还不错；手套要防水，五指的比 <BR>较轻便的最好用，若是毛线或抓绒手套一定要不停地拍打上面的雪，千万不要弄湿，可多 <BR>准备一双备用，羽绒手套不作硬性要求；袜子和鞋垫会因脚出汗而变湿，可多准备以备 <BR>换；内衣以不吸汗的为佳，但也没必要作硬性要求。睡袋一定要羽绒的高山睡袋；帐篷防 <BR>风性一定要好，杆子要结实，不必防雨；防潮垫普通的加地席即可用；GAS罐长罐凑和，一 <BR>般1罐气够3人用2顿，低温下会降低；冰爪、冰镐一定要；雪镜没必要，但刚下过雪在平坦 <BR>的地方还是能让人眼发花，（自己要注意调整视线，如看看蓝天、黑色的岩石等），带一 <BR>副墨镜较好。 <BR>低温下的保护：a.行军时可脱下一些衣服，但休息和到营地时赶快加上。b.随时注意拍打 <BR>身上的落雪，保持衣服干燥是保温的前提，在雪山上没篝火烤衣服；c.这次我们住在1900 <BR>的山洞里，但那里只能扎下两顶帐篷。2200的营地很大，但是个风口，在那里不太可能点 <BR>篝火，炉头也要在帐篷里使用（注意防火）。在这种环境下撑帐篷，整理营地要动作迅 <BR>速，一定要戴手套，尽量减少皮肤暴露在风雪中的时间。d.一有冻伤，及时向队医报告， <BR>及时采取措施。e.防冻是一种意识，很多人刚开始不觉得冷，却在不知不觉中冻伤。不能 <BR>怕麻烦，该穿就穿，该戴就戴，不能逞一时之勇。 </P><P>7. 一个提醒 <BR>老赵很热情，一个劲上菜，还问我们要不要吃鸡。到结帐时才知道是一个荤菜7元，素菜5 <BR>元，一人主食3元，而不是像沐雨说的一人一顿5元。大呼上当！老乡是很热情，但他们也 <BR>很想赚钱。记住，问清价格再动筷，甚至在一些地方要先付钱再吃饭。不要被热情迷惑 <BR>（尽管我觉得老赵的热情是发自内心的）。 </P><P>8. 小五台冬训的意义及注意事项 <BR>这次我们6人去小五台，没有学到什么具体的技术，只是多了一份经历，多了一次磨砺。可 <BR>技术是可以传授的，经验却是无法教的，只能靠自己闯荡。冬训纯粹是为夏天登山作准 <BR>备，这个目标必须明确。小五台相对四合堂天仙瀑冬训的意义在于a.四合堂是冰坡，小五 <BR>台是雪坡，与雪山更像b小五台的气温低、气候恶劣，更使人得到磨炼 c.小五台以行军为 <BR>主，更能模拟雪山攀登，如插路旗，高山营地生活，化雪取水等。实际上，小五台还可以 <BR>提供以下实用技术的训练：a.结组行军b雪坡探路、修路c雪坡制动d大风低温甚至是大雪中 <BR>的建营。从以上分析来看，小五台冬训比天仙瀑的训练更实用也更有意义。 <BR>今年算是踩点，明年就应作正式训练了。我建议明年去小五台的目标应这样定位：训练为 <BR>主，登顶为次，争取多练一些登雪山的实用技术，重点培养技术型队员，让他们掌握修 <BR>路，设保护点等关键技术。结合今年体验和所看资料，列出以下注意事项：a在北京出发要 <BR>早，争取晚上8:00赶到老赵家，10:00睡觉，第二天6:00出发。b.队伍人员配备要注意，总 <BR>数以12人为宜，老队员（会龄1年以上）3~5人。（我们一年才去一次，带路经验谈不上， <BR>为了不使计划拖延，还是请向导为妙，一天50元而已。）d防冻一定要注意，登顶前制定好 <BR>关门时间，千万不要露宿在外。e要学会看冰的颜色判断冰的厚度、硬度，防止掉进河里。 <BR>过河时没穿冰爪要注意防滑。在体力充沛的情况下如何提高行军速度，这点要向北京的朋 <BR>友请教。<BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=4&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2003-11-28 23:39:51</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1492&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1492&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1492" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1492" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1492" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1492&replyID=15434" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=解固&BoardID=6&ID=1492" title=将本主题解固>解固</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1492" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1492" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：179.688毫秒
+</td></tr>
+</table>
+</body>
+</html>

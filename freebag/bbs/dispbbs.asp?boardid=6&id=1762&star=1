@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：野外露营 户外伴侣12件  [转帖]</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、徒步、自行车运动
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：野外露营&nbsp;户外伴侣12件&nbsp;&nbsp;[转帖]
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1762&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>256</B> 个阅读者<a href="go.asp?BoardID=6&sid=1762"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1762&id=1762&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1762&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 野外露营&nbsp;户外伴侣12件&nbsp;&nbsp;[转帖]</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1762"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1762"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1762"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1762"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1762"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1762', ' 上海交通大学野外生存素质拓展基地 - 野外露营&nbsp;户外伴侣12件&nbsp;&nbsp;[转帖]')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16787><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：189<br>&nbsp;&nbsp;积分：400<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16787&id=1762&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16787&id=1762&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>野外露营&nbsp;户外伴侣12件&nbsp;&nbsp;[转帖]</b><br>就像战士不能没有枪一样，冒险者的冒险利器是不能离身的。好的冒险装备可以保证安全<BR>，延伸极限。</P><P>　　1.登山鞋：购买登山鞋时要选择比平常穿的大一点的，脚后跟内要有可伸进一个手指<BR>头位置为准。购买时要确认脚后跟与鞋是不是紧贴，登山鞋与鞋底合不合适，舒服与否，<BR>踢到前面和后跟时不能有疼痛感。BLACK－YAK品牌的Partner是非常好的皮制登山鞋。鞋底<BR>因使用了意大利的VIBRAM鞋底摩擦力与耐磨性优秀。金刚鞋是GORE－TEX登山鞋，即轻便又<BR>舒适作为徒步登山是最适合的产品。登岩石比较多的山时，穿用攀岩鞋底制成的Edge，Bl<BR>ue Mountain等登山鞋就安枕无忧了。　　</P><P>　　2.背包：背包按容量可分为20－40L的小型背包，40－60L的中型背包，60L以上的大型<BR>背包。20－40L的小型背包适合一日出游，40－60L的中型背包适合露宿一晚时用，60L以上<BR>的大型背包适合露宿2晚以上需用帐篷时使用。也可以按自己携带行李的量而选择。要推荐<BR>的小型背包是PRO－GIANT品牌的Elite（40L）背包。此背包附有防雨罩，碰到雨天也可使<BR>用，而且背部紧贴人体即使长途登山也适合。中型背包要推荐的是PRO－GIANT品牌的MT.D<BR>ream背包。此背包的背带是按人体工学原理而设计的，而且背部设计是把苛重从肩部、腰<BR>部、臀部分散从而减少了体力损失，保持登山时的舒适感。附有防雨罩。60L以上的大型背<BR>包要推荐的是PRO－GIANT的Toneto（80L，65L）背包。专门为专业登山人士而特殊设计的<BR>此背包考虑到大型背包的缺点之一的脖子部位的活动不方便，研制成可自由的活动脖子，<BR>而且把行李的苛重最大的分散适合于长途登山。　　</P><P>　　3.瑞士军刀和火种：瑞士军刀的品质可以用三句话来说形容，就是“锋利、结实、耐<BR>用”。在一把小型刀具上赋予许多实用小工具，解决了人们在日常工作及生活中的种种难<BR>题。一把普通的瑞士军刀，一般都有主刀、小刀、剪刀、开瓶器、木锯、小改锥、拔木塞<BR>钻、牙签、小镊子等工具。　　</P><P>　　以维诺斯刀为例，分别是5.8公分、9.1公分及11.1公分左右的小、中、大三种。小号<BR>刀在组合功能上适合女性、少年，和钥匙链别在一起随身携带，多用于家居生活，如“童<BR>子军”、“迷你冠军”等。中号刀由于其适中的长度，既可以做为常用工具带到野外旅行<BR>，也是家居生及工作的好帮手。“经典型，董事长”等。而大号刀一般是握手型的刀柄，<BR>手感舒适，是野外旅行、登山探险及一些工作的好帮手，如“猎手，工作冠军”等型号。<BR>除了在大小设计区别外，瑞士军刀主要针对不同用途及使用组合了上百种型号，有针对野<BR>外旅行、探险登山的“露营者”、“攀登者”、“登山家”、等等，有适合钓鱼的“垂钓<BR>之王”、“渔夫”等；有适合驾车者的“爱车一族”、“工匠”等；有专门为经理们设计<BR>的“经理”、“老板”刀等甚至还有专为左撇子设计的适用刀型等等。　　</P><P>　　目前，国际上主要有两种品牌的正宗瑞士军刀，它们分别是产于1884年建在瑞士中部<BR>阿尔卑斯山下的维诺斯企业和在瑞士德勒蒙特成立于1893年的威戈企业。他们各自生产的<BR>瑞士军刀大同小异，在商标上的区别是维诺斯是盾牌中嵌瑞士十字国徽，而威戈是圆角正<BR>方形中嵌十字，另外在其主刀下端都分别刻有各自的名称Vivtorinos switzerland及Weng<BR>er Delemont Switze字的绝对不是正宗的瑞士的军刀。火柴或打火机须收藏妥当避免受潮<BR>无法使用　　</P><P>　　4.帽子：人的头部对热度非常敏感，所以夏天要戴可防直射光线的帽檐宽透气功能好<BR>的帽子，秋天和冬天要戴能保持温度的功能性帽子。BLACK－YAK品牌的Alps Cap，Sada C<BR>ap，Four Season Cap用GORE－TEX面料制成的，所以具有透气，防水功能。具有时尚感的<BR>Jungle Hat，Natural Cap，Comfy都是人气很旺的产品。　　</P><P>　　5.服装：最近适合于野外生活的功能性登山服装占主流。按照设计分别有专业登山用<BR>，平常OUT DOOR用，休闲用等很多种类，可按本人的需要选择。　　</P><P>　　在山上白天的气温比较高，但到了晚上气温会急剧下降，所以保温性服装是四季必备<BR>的产品。这时你如果准备了GORE－TEX服装就完全可以安心了。BLACK－YAK品牌的Expedit<BR>ion Act Parka和Stom Jacket就使用了GORE－TEX面料，是具有防水、防风、透气、保持体<BR>温的功能性服装。　　</P><P>　　内衣最好准备有透气功能的Coolmax面料内衣。因为人在运动或做其他活动时，人体常<BR>常会产生汗水与湿气，天冷时汗水令你感到寒冷不适；高温时，汗水更使人闷热难受。杜<BR>邦高科技纤维GOOL－MAX是通过四管道纤维能迅速将汗水及湿气导离皮肤表面，并向四面八<BR>方分散，让汗水挥发更快，时刻保持皮肤干爽舒适。于是人体流汗，皮肤表面与服装都不<BR>留汗。持久舒爽透气，冬暖夏凉，倍感轻松。如BLACK－YAK品牌的coolmax round T/Shir<BR>ts，Coolmax Shirts， Supplex Cool Shirts等。要准备一些备份的内衣及T恤衫，纤维夹<BR>克等保温内衣。如BLACK－YAK品牌的Polar Streatch Jacket就用了Potetorto管道面料，<BR>不仅重量轻，而且具有保温性及多次洗涤也不变形等功能，还设计了带拉锁口袋，提高了<BR>使用性。裤子按季节、野外活动形式不同选择的幅度比较大。一般登山时选择Unic裤子就<BR>可以。能迅速将汗水及湿气导离皮肤表面的Coolmax弹力裤，坚固性与防湿性强的Schoell<BR>er弹力裤，耐磨性好易干的Supplex Unic裤都是功能性产品。攀岩或活动量大的野外活动<BR>时选择伸缩性强的Climbing裤或Zury弹力裤等最好。马甲虽然不是必备物品，但马甲有口<BR>袋多的优点，小物品多时可有效的使用。像BLACK－YAK品牌的Expedition Vest#1#2，<BR>PGV301马甲都是错的产品。　　</P><P>　　6.备份食品：此类食品应该无需炊事，轻便、易消化与长期存放的食品，如核果、肉<BR>乾、脱水水果、糖果，而一些攀岩活动则加一些炊事简单的食品如可可、速食汤、茶等食<BR>品，充裕的早餐可以提供一天的能量与体力，对郊山而言，它足以撑到准备回程前才进食<BR>，不论如何，携带一些粮食可以提供许多耐力与体力於无法预测的迟归，及时的进食可以<BR>提供足够的能量与心理的振奋，郊山携带的粮食如三明治（适度的水份、填饱肚子）、水<BR>果、饼乾是比较适当，当然紧急使用的粮食如巧克力、脱水水果、核果与甜点。要准备预<BR>防低温的高蛋白，高热量食品及在保温瓶内装热茶就锦上添花了。　　</P><P>　　7.手表：户外活动时，随时掌握时间是非常必要的，因而一块好用的手表是冒险者的<BR>必备用品。CASIO的PRO TREK手表具有双重探测器功能，每2小时一次将26小时以来的气压<BR>变化用曲线表示出来，每5分钟就会自动测量、显示。同时表上还有高度表，开始的3分钟<BR>大约每5秒一次显示高度，之后每2分钟1次。自动记忆功能可以储存数据。只要倾斜手腕，<BR>使手表与水平面成40度时，EL自动荧光照明功能就自动开启并持续两秒为你找亮表盘。　<BR>　</P><P>　　8.头灯和手电筒：头灯或手电筒是相当重要的装备，但不用时必须取出电池避免被腐<BR>蚀，少数的头灯具防水性甚至抗水性。灯泡不是可以耐用很久，最好携带备用的灯泡。使<BR>用如卤素、氪、氩等灯泡会产生热且比真空管灯泡（vacuumbulb）亮。I.太阳眼镜高山滑<BR>雪易损伤眼睛，以紫外线而言，10，000尺高度雪的反射光超过海边50以上，裸眼的视网馍<BR>很容易损伤，引发极大的痛苦称雪盲，太阳眼镜可减低此伤害，但不要被多云的天气骗，<BR>因为紫外线会穿透云层，刺眼的光线会引起头痛，太阳眼镜会有95～100的过滤效果。购买<BR>时对著镜子，若你能轻易的看到自己的眼睛则是太亮，若你想看到真实的色彩，镜片的色<BR>彩应选择灰色或绿色。若你想在多云或浓雾的天气看仔细，最好选黄色的镜片。　　</P><P>　　9.急救箱：急救的药品只能治疗轻微的病症，复杂的病患仍须送医疗单位诊治，我们<BR>只能处理简单的外伤或稳定病患的心情尽速将病患撤出山区，急救药品最好用防水坚固的<BR>盒子装妥，一般最好的药品主要应付（1）水泡，（2）晒伤，（3）擦伤，若出现太严重的<BR>出血或骨折最好等待医生处理。　　</P><P>　　10.睡袋：最好选择轻便、温暖、舒适与易挤压且能完全盖住头部，睡袋的温度是靠绝<BR>缘材料提供密闭的空气维持一定的温度，睡袋的温度是依据绝缘材质，材质的厚密度、尺<BR>寸、型式与制造方式而定，一般分为夏季、非雪期、雪期三种，每家制造商的睡袋推荐温<BR>度的范围均为参考值，通常是在5～－30℃左右。　　</P><P>　　11.睡垫：甚麽样的睡垫才是适用的呢？首先必须考虑暖度、重量、舒适度、耐用性和<BR>大小等依次重要。假如你平常是习惯赤裸睡在超大型水床上，那麽最好选择一个豪华两英<BR>寸厚度、全长度的开放室发泡睡垫，而不要担心重量的问题。假如你是可以睡较硬床板的<BR>人，那麽四分之三长度的封闭室发泡睡垫就已足够。　　</P><P>　　12.炉具：初次购买炉具的人，建议购买瓦斯炉，原因是可以当个人炉具，也可以当作<BR>团体装备的紧急炉具，最重要的是在使用维修上也较方便。选用厂牌方面以PI最好，PRIM<BR>US次之、COLEMAN再次之、CAMPINGGAZ是最后选择。瓦斯炉在使用上比较方便，但是在燃料<BR>的花费上比汽化炉贵了许多。</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 2:34:45</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1762&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1762&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>1</b>，分页： <font color=#FF0000>[1]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1762" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1762" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1762" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1762&replyID=16787" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1762" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1762" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1762" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：230.469毫秒
+</td></tr>
+</table>
+</body>
+</html>

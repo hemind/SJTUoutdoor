@@ -1,0 +1,323 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--活动快讯浏览：这个周么有人同游么，嵊泗</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=5">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=5">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=5">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=5&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 训练召集，出行及讲座信息
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=5>活动快讯</a> →  浏览：这个周么有人同游么，嵊泗
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=5"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=5"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=5&id=2071&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>152</B> 个阅读者<a href="go.asp?BoardID=5&sid=2071"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=5&replyID=18813&id=2071&star=1&skin=0"><img src="pic/flatview.gif" width=40 height=12 border=0 alt=平板显示贴子></a>　<a href="go.asp?BoardID=5&sid=2071&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 这个周么有人同游么，嵊泗</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=5&id=2071"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=5&id=2071"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=5&id=2071"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=5&id=2071"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=5&id=2071"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=5&id=2071', ' 上海交通大学野外生存素质拓展基地 - 这个周么有人同游么，嵊泗')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=18813><font color=#000066><B>我爱玫瑰</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofMale.gif alt=帅哥哟，离线，有人找我吗？></td><td width=16 valign=middle><img src=star/z3.gif alt=双子座1980-6-16></td></tr></table>&nbsp;&nbsp;<img src=pic/level0.gif><br>&nbsp;&nbsp;等级：一般战友<BR>&nbsp;&nbsp;文章：69<br>&nbsp;&nbsp;积分：128<br>&nbsp;&nbsp;注册：2003-9-19<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=我爱玫瑰',500,400)"><img src="pic/message.gif" border=0 alt="给我爱玫瑰发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=我爱玫瑰" target=_blank><img src="pic/friend.gif" border=0 alt="把我爱玫瑰加入好友"></a>&nbsp;<a href="dispuser.asp?id=336" target=_blank><img src="pic/profile.gif" border=0 alt="查看我爱玫瑰的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=我爱玫瑰&BoardID=5&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索我爱玫瑰在活动快讯的所有贴子"></a>&nbsp;<A href="mailto:bigly@163.com"><IMG alt="点击这里发送电邮给我爱玫瑰" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=18813&id=2071&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=5&replyID=18813&id=2071&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face0.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b></b><br>怎么那么多人说再早一点。。。。。。。。。。。</P><P>是不是这里人不是常来啊<BR>看来下次我要提前一个月说一下了</P><P>这段时间挺忙的<BR>游记就不要了吧<BR>再说这次去也没有什么计划<BR>去的地方我都不知道叫什么<BR>就是觉得哪里景色好往哪里走<BR>纯粹散心的</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=5&userid=336&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-8-9 11:51:15</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>12</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=5&id=2071&replyID=18813&star=2&skin=1">[2]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option></select></td></tr></table>
+<br>
+<table cellpadding=3 cellspacing=1 class=tableborder1 align=center>
+<tr><th align=left width=90% valign=middle> &nbsp;*树形目录</th>
+<th width=10% align=right valign=middle height=24 id=tabletitlelink> <a href=#top><img src=pic/gotop.gif border=0>顶端</a>&nbsp;</th></tr>
+<TR><td class=tablebody2 width="100%" height=22 colspan=2>主题：&nbsp;<img src=face/face17.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18764&skin=1'>这个周么有人同游么，嵊泗</a><I><font color=gray>(125字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年7月26日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18813&skin=1'><font color=#FF0000>怎么那么多人说再早一点。。。。。。。。。。。是不是这里人不是常来啊看来下次我要提前一个月说一下了这..</a><I><font color=gray>(228字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年8月9日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18805&skin=1'>我两年前去过了，最近还在犹豫，我上次在海边住了一个星期，每天早起捡贝壳，然后扔掉，回来吃完早饭去海..</a><I><font color=gray>(274字) － <a href=dispuser.asp?name=gudavid target=_blank title='作者资料'><font color=gray>gudavid</font></a>，2004年8月5日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18799&skin=1'>呵呵，我倒挺喜欢水声的。记得第一次住在山里，晚上听着哗哗的水声，以为下了一晚上的雨，担心的不得了，..</a><I><font color=gray>(176字) － <a href=dispuser.asp?name=lola target=_blank title='作者资料'><font color=gray>lola</font></a>，2004年8月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18798&skin=1'>回来了有三点深深的体会：1.在海滩上背着登山包走路挺扎眼的2.海边真是美，夜景真是漂亮，但下次帐篷..</a><I><font color=gray>(256字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年8月2日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp;  &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18800&skin=1'>你再晚一点去，我就和你一起了。听你这么一说，倒很想去看看。[em27]写点体会放在游记版吧，让大家..</a><I><font color=gray>(106字) － <a href=dispuser.asp?name=凡凡 target=_blank title='作者资料'><font color=gray>凡凡</font></a>，2004年8月2日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18785&skin=1'>怎么都说去不去了，更加气愤。。。。。。。。更加不爽。。。。。。。。决定自己去！回来带给你们详细的。..</a><I><font color=gray>(120字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年7月30日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18783&skin=1'>素有“海上仙山”之称的嵊泗列岛，是我国唯一一处国家级列岛风景名胜区，以“碧海奇礁、金沙渔火”的海岛..</a><I><font color=gray>(452字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年7月28日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18782&skin=1'>btw小琳子真是好人：）</a><I><font color=gray>(27字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年7月27日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18781&skin=1'>看来郁闷的人好像不只我一个人唉！我准备周五走周日回来&nbsp;这样就可以有两个晚上看海了还有三天..</a><I><font color=gray>(139字) － <a href=dispuser.asp?name=我爱玫瑰 target=_blank title='作者资料'><font color=gray>我爱玫瑰</font></a>，2004年7月27日</font></I></td></tr><TR><td class=tablebody2 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face0.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18778&skin=1'>给你也发到水源的outdoor版上了或许会有人想去吧</a><I><font color=gray>(47字) － <a href=dispuser.asp?name=小琳子 target=_blank title='作者资料'><font color=gray>小琳子</font></a>，2004年7月26日</font></I></td></tr><TR><td class=tablebody1 width="100%" height=22 colspan=2> &nbsp; &nbsp; 回复：&nbsp;<img src=face/face1.gif height=16 width16>  <a href='dispbbs.asp?BoardID=5&ID=2071&replyID=18767&skin=1'>呵呵什么时间?给个说法,说不定有时间可以去这次暑假青海之行没有被批准,很是郁闷,想去散散心.[al..</a><I><font color=gray>(188字) － <a href=dispuser.asp?name=朱朱 target=_blank title='作者资料'><font color=gray>朱朱</font></a>，2004年7月26日</font></I></td></tr></table><br>
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：290.039毫秒
+</td></tr>
+</table>
+</body>
+</html>

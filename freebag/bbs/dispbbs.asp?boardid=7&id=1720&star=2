@@ -1,0 +1,332 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--游记 心情 随想浏览：Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(1)&nbsp;(zt)&nbsp;--&nbsp;dztang</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=7">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=7">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=7">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=7&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> %这里是分享历程的大地
+%这里是分享心情的天空
+%这里是分享随想的海洋
+%
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=7>游记 心情 随想</a> →  浏览：Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(1)&nbsp;(zt)&nbsp;--&nbsp;dztang
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=7"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=7"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=7&id=1720&star=2"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>55</B> 个阅读者<a href="go.asp?BoardID=7&sid=1720"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=7&replyID=1720&id=1720&star=2&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=7&sid=1720&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(1)&nbsp;(zt)&nbsp;--&nbsp;dztang</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=7&id=1720"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=7&id=1720"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=7&id=1720"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=7&id=1720"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=7&id=1720"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=7&id=1720', ' 上海交通大学野外生存素质拓展基地 - Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(1)&nbsp;(zt)&nbsp;--&nbsp;dztang')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16736><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：162<br>&nbsp;&nbsp;积分：352<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16736&id=1720&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16736&id=1720&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>11</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(11)&nbsp;(zt)&nbsp;--&nbsp;dztang</b><br>发信人: brain (花椒), 信区: Outdoors<BR>标  题: Namste, 我的珠穆拉玛峰! (11) (zt) -- dztang<BR>发信站: 日月光华 (2004年03月15日23:27:11 星期一)</P><P><BR>发信人: fufu (弗弗), 信区: Travel<BR>标　题: Namste, 我的珠穆拉玛峰! (11) (zt) -- dztang<BR>发信站: Unknown Space - 未名空间 (Sun Mar 14 01:30:56 2004) WWW-POST <BR> <BR>author: dztang @ wenxuecity.com <BR>http://web.wenxuecity.com/BBSView.php?SubID=travel&MsgID=2944 <BR> <BR> <BR>Namste(注: 尼泊尔语: 你好"), 我的珠穆拉玛峰!  <BR> <BR>(11) 银色的世界,雪转晴, 04/10/2000  <BR> <BR>早上起来，只见地上盖了薄薄的一层雪。我忍不住跑出了门外。昨天的山峦由白雪覆盖的<BR> <BR>峰顶变成了银装素裹。这是一种单调，朴素的美。因为整个世界只有三种颜色组成: 黑色<BR> <BR>，白色，和灰色。 远处的牦牛静静的躺在雪上，长长的毛发是它们最好的御寒保护。身 </P><P>边的灰色玛尼堆也盖上了白白的一层。只是顶上五彩的祷告旗给这个单调的世界增加了些<BR> <BR>诸多色彩。由于天还早，村里静悄悄的，山路上还没有几个脚印。我深深的呼吸了好几次<BR> <BR>，这才是世界上最纯洁的空气。从内心深处能感觉到，我的心灵在净化。突然，一只黑色<BR> <BR>的小狗在雪中欢快的跑了过来。我蹲下轻轻的拍拍她，她用舌头在我手上来回的添。你能<BR> <BR>想象吗? 偌大个世界里，就只有我们两个!  <BR> <BR>驼铃声把我的思绪打断，Porter们把牦牛拉出准备上路了。去Namche Bazaar，我今天的 </P><P>路也不短。上来时化了两天，下去时就并成一天了，大概要八九个小时。刚上来的时候，<BR> <BR>怕这怕那，怕得高山病，怕体力不支。下来的时候，只想着快点结束它，然后洗个热水澡<BR> <BR>。  <BR> <BR>回到饭厅的时候，女主人篷松着头发睡意未消的走了出来。我看看表，这才六点钟。点好<BR> <BR>了菜，就在饭厅里等着，店主人的小孩急急忙忙的跑了出来，大概也就五六岁的样子，刚<BR> <BR>到门口的石墙边，就把裤子扒下，蹲了下来，可能想想不对，拉起裤子，跑到了石墙后，<BR> <BR>又把裤子扒下，蹲了下来。大概厕所的蹲坑间距太大，等他独自回来的时候，我这才想起<BR> <BR>他根本就没有纸张擦屁股！  <BR> <BR>这一切丝毫不会影响我的食欲。早饭还是老花样:鸡蛋，面包加奶茶。要是有块香肠，咸 </P><P>猪肉条该有多好! 六点半的时候，我准备出发了，这才发现，我还穿着双轻便的网球鞋。<BR> <BR>回到房间，找我的登山鞋没找到，饭厅里，房外的石墙上，我急得喊了起来。店主人也无<BR> <BR>可耐何。我记得我把鞋放在了石墙上晾着，但不记得把鞋收了回来。还有两天的山路要走<BR> <BR>，何况山路上还有雪，我一屁股坐在饭厅里的长凳上。还在绝望的时候，女主人走了出来<BR> <BR>，告诉我她年迈的母亲晚上出门，发现雪中石墙上还有一双鞋，就把它收起放在了柴房里<BR> <BR>。我拿到那双鞋的时候，连声感谢不迭，但她推卸了许多次才收下了我硬塞给她的两百卢<BR> <BR>比。给小孩买些玩的吧!  <BR> <BR>跨出大门的时候，已经是七点了。我走进Ann昨晚住的旅店，被告之她已经走了。一种淡 </P><P>淡的失落感: 今天我一个人下去。她下去不久，还要返头向上去Gokyo Ri(5350m)。地上 </P><P>不少雪，虽然许多脚印已经使得山路好走许多，但我还是小心翼翼，两侧的山变了个模样<BR> <BR> <BR>因为从Orsho往下，山路都是重复的，失去了许多新鲜感。太阳的照射下，山路上的雪渐 </P><P>渐的化光了，我埋头走路。快正午的时候，我到了 Tengpoche。我先去了上山时住的旅店<BR> <BR>，第一个遇上的就是那个矮矮的圆脸上，鼻子底下打孔带着个银圈的小女孩。我真的很喜<BR> <BR>欢她那略带羞涩的微笑。Ama坐在太阳底下，头发散开着，读着本厚厚的小说。她见到我 </P><P>很兴奋。我告诉她，我在Kala Pattar见到了Sofia。她过一两天就会到这了。我扳扳手指<BR> <BR>，她在这等了整整五天。天天听着路对面庙里的木鱼声和钟声，低头看看书，抬头望望Am<BR> <BR>a Dablam。我想，要是我，大概会很无聊。她看上去精神还不错，要是她现在上去，肯定<BR> <BR>不用acclimatization了。  <BR> <BR>走进厨房，又要了一份Dal Bhat。等到饭菜来的时候，我已经饥肠噜噜。坐在石墙边的太<BR> <BR>阳下，刚吃下两口饭，只听到不远处直升飞机飞了过来，飞得很低，几乎能看到驾驶员的<BR> <BR>脸。虽说声音吵了些，我继续吃我的饭。就见几个店员大喊起来，我不知发生了什么事，<BR> <BR>正在不知所措的时候，直升飞机从头顶上直直的下来，欣起了一阵风沙，我的盘子上撒了<BR> <BR>一层厚厚的胡椒粉。只见那直升飞机就停在了旅店旁的一个小空旷地上。我呆呆的看着我<BR> <BR>的饭盘，那些个店员们笑得前附后仰。他们要我把盘子还他们，然后帮我重做一个，我拒<BR> <BR>绝了。肚子饿得不能再等，那土坷垃混在米饭里也别有风味。最后要了杯奶茶，洗了洗胃<BR> <BR>。许多人爬到了本营，甚至更高，可惜下来需要直升飞机抬下来，代价是 $1500-3000。 </P><P>据店里的人讲，这个季节，一个星期2-3次一点也不多。  <BR> <BR>吃过午饭，我刚出Tengpoche。迎面见到一个熟悉的，黄色的圆领汗衫: Martha，六十九 </P><P>岁的她居然上到了这! 还是P.K.的儿子陪着她。我禁不住给了她一个紧紧的拥抱。她比我<BR> <BR>早一天到Lukla，硬是一个脚印一个脚印的上到了Tengpoche。有些东西是不能用常规来衡<BR> <BR>量的，我想意志是其中之一。我记得一个日本老头六十多还上到了珠峰顶呢，算是一项世<BR> <BR>界之最了吧!  <BR> <BR>山路很陡，由于下坡，更怕伤了膝盖，到Phunki Thanga经常是手脚并用。但每当休息的 </P><P>时候，总忘不了回头看看，珠峰总是让云遮掩着。走过Phunki Thanga，紧接着是一个很 </P><P>陡的上坡去Teshinga。走不远，已经是气喘嘘嘘了。这时一条大大的黑狗，额头,眼圈附 </P><P>近却是几个黄点，很典型的藏犬，停在我边上。我蹲下轻轻的拍了它几下，我走了几步，<BR> <BR>它也跟了几步。我搂住它的脖子，轻轻的说:"回家去吧"。 它摇摇尾巴。我又继续往上走<BR> <BR>去，它也跟了上来，并很快的超过了我。我停下的时候，它也停下，还趁势撒泡尿。就这<BR> <BR>样半个多小时后，走走停停，我们一起到了Teshinga。村口的小孩们都围了上来，拍拍那<BR> <BR>条狗，我很神气，象是它的主人一样。一个刚刚才会走路的小孩拉住它的尾巴，没想到让<BR> <BR>它拉了一跤。我坐在茶店的石墙上，轻轻的抚摸着它。是它带我走出了下山以来最艰苦的<BR> <BR>一段。我把包里剩下的一包饼乾拿了出来，慢慢的喂着它，它很喜欢那饼乾。我拿出相机<BR> <BR>，让村里的人帮我们拍了一张合影。我久久的抱着它不愿放开。终于，我在它耳边说:"该<BR> <BR>回去了,好吗?" 我拿起背包，慢慢的向Sanasa走去，它终于没有跟上来。 <BR> <BR>下午的太阳很毒，同几个Colorado跟团来的走在一起，也不算寂寞。三点不到的时候，我<BR> <BR>到了Sanasa。早上七点出来，除去午饭，已经是七个多小时了。还有两个多小时要走。也<BR> <BR>不记得山里呆了几天，走路只是一种简单的机械运动。身上的包并没有什么份量，我知道<BR> <BR>，只要能洗个澡，换上乾净的衣服，我能不停的走，到加德满都去。  <BR> <BR>走出Sanasa不远，我们见到一个女的耷拉着头，坐在马上。看上去二十多岁。一个Porter<BR> <BR>牵着马。跟团从Colorado来的告诉我，他们一起来的，她上到Tengpoche就扒下了。有的 </P><P>时候，人失去了意志，就意味着失去了一切。我想，回去告诉家人这一趟旅行一定很心酸<BR> <BR>。跟团走有点不好的就是∶每天的路程是定死的，不能你不行了，一个团等你。所以你难<BR> <BR>以控制自己的节奏，很多人得病都是跟团得的。  <BR> <BR>这段路好像无穷无尽。五点多一点的时候，我看到了坡下的Namche Bazaar。真不敢相信 </P><P>从Kala Pattar下来才花了一天半。走进Thamserku View Lodge旅店的时候，Pamba，店里<BR> <BR>的女主人，朝我憨厚的笑着说: "回来好快嘛!" 她那两三岁的小孩就是死活不让我接近他<BR> <BR>。Pamba说:"单间是没了，还有一个四个人的，不过，这么晚，大概就你一个人住了!" 我<BR> <BR>想，我也没有劲再提起这个包，就答应了下来!  <BR> <BR>Pamba的妈妈刚从德国回来，看到孙子高兴得不得了。饭厅里坐得满满的。左边只身从Ver<BR> <BR>mont来的Jean情绪不是很好，一问因为高山病，她来这已经呆了三天了。明天她还要去Te<BR> <BR>ngpoche。怕惊吓她，我轻描淡写的说了山路的情况。吃过晚饭，Pamba的液化气罐不灵了<BR> <BR>，还有二三十张嘴在等Pamba下饭，做菜。跟我混熟了，她手指勾勾让我走近她。象上山 </P><P>时那样，让我把个打气筒夹在液化气罐上打气。大概这样能加快液化气的气化。红红的火<BR> <BR>苗上来，映在Pamba黝黑的脸上，一盘盘饭菜从锅里端出:意大利面条，西藏面包，牦牛排<BR> <BR>，摊鸡蛋... 她真是一个不错的厨师。终于，我告诉她，"我身上真得没有油再可以让你 </P><P>榨得了"。 她笑了笑让我走了。我没有劲再洗个澡，回到房间，就瘫倒在床上。这个房间<BR> <BR>太大了!  <BR> <BR>明天去Lukla。  <BR> <BR>--</P><P>    LIVE FREE OR DIE</P><P></P><P></P><P>※ 来源:·日月光华 bbs.fudan.edu.cn·HTTP [FROM: 128.151.67.127]</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 0:39:05</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16737><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：162<br>&nbsp;&nbsp;积分：352<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16737&id=1720&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16737&id=1720&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>12</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(12)&nbsp;(zt)&nbsp;--&nbsp;dztang</b><br>发信人: brain (花椒), 信区: Outdoors<BR>标  题: Namste, 我的珠穆拉玛峰! (12) (zt) -- dztang<BR>发信站: 日月光华 (2004年03月15日23:27:46 星期一)</P><P><BR>发信人: fufu (弗弗), 信区: Travel<BR>标　题: Namste, 我的珠穆拉玛峰! (12) (zt) -- dztang<BR>发信站: Unknown Space - 未名空间 (Sun Mar 14 01:36:52 2004) WWW-POST <BR> <BR>author: dztang @ wenxuecity.com <BR>http://web.wenxuecity.com/BBSView.php?SubID=travel&MsgID=2983 <BR> <BR>Namste(注: 尼泊尔语: 你好"), 我的珠穆拉玛峰!  <BR> <BR>(12)最后的一搏,转阴有小雨, 04/11/2000  <BR> <BR>眼睛睁开，六点还不到。今天要回Lukla。最主要的是到了Lukla后，尽早确认一张明天回<BR> <BR>Kathmandu的机票。否则，就等在Lukla看飞机起飞降落。据说Lukla下雪的时候，最糟糕 </P><P>的一次，Kathmandu的飞机八，九天没有飞。所有的游客都堵在了Lukla，回不了家。这两<BR> <BR>年，私营的航班越来越多，这种情况大大改观。但只要一天天气不好，游客就听天由命了<BR> <BR>。又听说，在旅游旺季的十月，十一月，为了上飞机吵架，甚至打架的事也没少见。 <BR> <BR>要赶在明天上飞机的话，下午四，五点以前非到不可。否则办公室就关门了。想到这，叠<BR> <BR>了被子，就下了楼。Pamba还没有起床，只有一个穿着西藏的服饰帮工的老太太。在店外 </P><P>，我洗了脸，刷了牙，就看着升起的太阳慢慢的照在Thamserku上。好不容易看着一脸睡 </P><P>意的Pamba走出来，我马上双手作拱，要碗饭吃。她笑着说:"那再帮我打气吧"。 我二话 </P><P>没说，就把气筒接在了液化气罐上。十分钟不到，烤面包加鸡蛋就出来了。又要了一包饼<BR> <BR>乾路上用。我缠住Pamba那可爱的小儿子要一个再见的Kiss。他死活不肯，他妈妈发了话 </P><P>，他才象征性的打了声照呼。小小的圆脸上，那双黑黑发亮的眼睛煞是好看。  <BR> <BR>告别了Pamba，我上了去Lukla的路。忍不住回头再看了一眼，Pamba正抱着她的儿子在向 </P><P>我招手。心头一热，但终于没有转过身去。山路上，除了几个拿着绳索的Porter，没几个<BR> <BR>人，大概是去找活干的。他们要在飞机到Lukla以前赶到，真不知道他们怎么走路才能赶 </P><P>到?  <BR> <BR>从Namche Bazaar出来，下坡几乎是一路小跑。只是因为坡太陡，煞不住车。一直记得上 </P><P>山时第一次看到珠峰的地方，走到石墙边，最后看了一眼珠峰。只见山都一直在云雾中。<BR> <BR>两三个小时后，我已经到了Sagarmatha国家公园的大门口。签上了我出来的时间，看看和<BR> <BR>我差不多时间进去的游客还有90%以上的没有签出，自我感觉还不错。和Steve跌跌撞撞进<BR> <BR>山的情景早已经不知道抛在脑后什么地方。还有六个小时就完成了我所梦寐以久的旅程，<BR> <BR>想到这，我不由的加快了步伐。  <BR> <BR>走过Monjo的时候，我在村口歇歇脚。边上一个好奇的男孩，大概也就十一二岁的样子， </P><P>站在不远的地方看着我换胶卷。我问他，"为什么不去上学?" 他说，"还有一个小时呐!" </P><P>他那纯正的英文让我暗暗羞愧。他告诉我他们的英文都是外国老师教的。店边一个十四，<BR> <BR>五的女孩看我们聊天，她也凑了上来。我问她，"为什么鼻子下不打个孔?" 她捂住嘴笑了<BR> <BR>起来，"只有山上的女孩才这样做的"。 原来她是属于山下的人。这里上，下也就不过60 </P><P>里路吧! 她那羞涩的微笑让我想起了那个Tengboche鼻孔上带圈的小女孩。刚没讲几句话 </P><P>，一个带着浓重法国口音的游客一脸恶相，在店外冲着女孩喊了起来: "我等了一个小时 </P><P>，饭怎么还没来?" 那女孩急急忙忙的跑了回去。"你这个SOB!" 我暗暗的骂了一句。出门<BR> <BR>在外，又何必如此!  <BR> <BR>旅行书上讲，这里的小孩会缠住游客要这要那。前几年，那些游客总是带上一大包圆珠笔<BR> <BR>。我这次一个也没碰到。想必那些外国老师教得他们。那个好奇的男孩还看着我。我摸摸<BR> <BR>兜里的笔，终于没有拿出来，告别了那小男孩，提起背包又出发了。  <BR> <BR>沿路不时见到路边上煮早饭的背夫。这才理解为什么他们中许多人背篓上都有个锅。看着<BR> <BR>雪白的米饭，我好几次想去凑凑热闹。但又不好意思，终于说几声 "Namste"，就走开了 </P><P>。到Benkar的时候，见到了从加拿大单身来的Paul，他在这上到了Tengboche,就回来了。<BR> <BR>下一个目标是去坦桑尼亚(Tanzania)。然后去爬Kilimanjaro。对我来讲，这两年是不行 </P><P>了。也许等到sabbatical(公司付工资的长假)的时候吧! 我们走了一路，不知不觉，正午<BR> <BR>的时候，我们到了 Phakding。我告诉Paul，我要去上山时吃饭的那家旅店。他要继续往 </P><P>前走，我们就分手了。 我来到了Om旅店。这个名字，后来才明白是"阿弥陀佛"的"阿"字 </P><P>。 这家旅店可以说是附近最新，最豪华的了。我不由的问店主:"你的邻居不嫉妒?" 他点<BR> <BR>点头。他的姐姐在Kathmandu开旅行社，有了客人就介绍到这来。这一条龙服务倒也不错 </P><P>。店主高兴的告诉我，今晚要来十几个客人。象上山时一样，我要了个Dal Bhat。吃饭的<BR> <BR>时候，总觉得一种膻味，好像那菜是用牦牛的油炒的。实在不好吃，但觉得浪费不好，这<BR> <BR>可是人扛上来的。终于勉勉强强把饭菜吃个乾净，就上路了。 <BR> <BR>这是最后的三个小时，进山的时候，桃树上还结着苞，出山的时候，路边上山花烂漫。这<BR> <BR>是个美丽的早春。我经常停下拍些照片。山路上一群群的游客上来，他们早上刚到Lukla </P><P>，一路就上来了。山上的人让马，让直升飞机抬下来。这些送死鬼前赴后继又上来了。大<BR> <BR>山居然就有这么大的吸引力! 服饰最独特的可以说是那些日本中年游客，男，女都有，毕<BR> <BR>直的西裤，轻便的旅游鞋，身上除了一个高档相机，所有的东西都是Porter们背着。游客<BR> <BR>面对面走过，我们不时互相问候"Namste"。 一个美国女孩见了我，别出心裁，说了声: </P><P>"KONICHIWA"(日文:你好)。 我回答，"NIHAO(你好)"。她说，"哦!对不起!" 我们彼此笑 </P><P>了笑。  <BR> <BR>天渐渐的阴了下来，又滴了几滴小雨。脸上的汗刚干，现在又打湿了，里面的汗衫没干，<BR> <BR>身体不由的打了几个冷颤。最后的三个小时好像是无限的长。过了Ghat，还有Chablung。<BR> <BR>好几次，我对自己说，还有十分钟。可十分钟以后，那Lukla的村庄还在山后面。好不容 </P><P>易爬过了最后一个山坡，一个当地人坐在路边上吐，象是喝醉了酒。边上还有他的同伴，<BR> <BR>一男一女，看着他哈哈大笑。我说，村子里有医疗所，我们把他送过去吧! 他们摇摇头，<BR> <BR>好像表示没事。语言不通，我拿了几片止痛片Advil，他也拒绝了。最后，我把水壶递给 </P><P>了他。他才喝了几口。看着他痛苦的样子，我也不知该干什么。上山的话，最近的村庄也<BR> <BR>要走一个小时。  <BR> <BR>我终于站起来，慢慢的向Lukla村里走去。我知道，这时谁只要轻轻的推我一下，我就会 </P><P>倒下。这是一种难以描绘的心理，我好像走过了一个世纪! 但我终于走出来了!  <BR> <BR>走到村中心的时候，RNAC就在路边。我走了进去，等了三，五分钟，里面出来了一个人。<BR> <BR>感谢上帝! 明天还有坐位，我能回加德满都! 办完确认手续，我走到了村庄的尽头。这是<BR> <BR>Lukla的机场。下午没有飞机来，可机场里还是有不少的当地人在闲聊。大概他们是那些 </P><P>不幸运的，今天没有找到工。狗在互相追逐。我走进了机场边的一家旅店 Paradise <BR>Lodge。放下包的时候，我就趴在了旅店饭厅的坐铺上。几分钟以后，我坐起来。年迈的 </P><P>女店主正面对着我笑。我要了个单间，并告诉她请烧点水我要洗个澡。在房间里，我拿出<BR> <BR>了最后的一套乾净内衣裤和袜子。走下楼去，那澡叫是舒服啊。二十分钟以后，我看了女<BR> <BR>店主半天，憋了一句出来, "这是我有生以来洗的最痛快的一个澡了!" 扳扳手指，上次洗<BR> <BR>澡大概是六七天前的事了吧!!!  <BR> <BR>喝了杯奶茶，和饭厅里的三个女游客聊了起来。两个是母女俩，另一个是来看她 <BR>Pangbohce HRA里做医生的女儿。那个最年轻的女的看来也就二十七,八岁。她已经是三上<BR> <BR>Khumbu了。她告诉我，去年她成了美国第一批登上Cho Oyu(8153m)的妇女之一。今年带她<BR> <BR>母亲来看看山。我伸伸舌头，“No way!”，拉开袖子，做了个要和她比比手臂的样子。 </P><P>我们彼此都笑了。旅途的最后一天又是一个登山的。我内心里暗暗惭愧，心想，"要是小 </P><P>时候，外婆不管我那么多的话，也许现在我也是个踢球爬山的料!"  <BR> <BR>天还没有暗，我拿个水壶上了街逛逛。满街全是礼品店和登山设备店。一块空地上，几个<BR> <BR>农夫坐着，边上一个巨大的，血淋淋的牦牛头，还有几块没卖掉的小腿肉，无数只苍蝇在<BR> <BR>上面叮着。好像那牦牛老盯着我，就象那些在山路上脖子上挂着响铃的。阴沉沉的天空下<BR> <BR>，响铃声好像在我耳边徊响。  <BR> <BR>回到旅店的时候，我觉得身体发冷，穿上绒衣，喝了奶茶也不管用。要了一个饭，只吃了<BR> <BR>两三口，就只好跟女店主说，"能不能帮我存一下? 我先睡一会，然后起来再吃。" 回到 </P><P>房间，一下子就睡了过去。那个好心的登上Cho Oyu的女孩敲门来问问我，"要不要点什么<BR> <BR>药?" 我摇摇头。不会是高山病吧？我已经咽下了几片治痛片Advil。半夜的时候，我一次<BR> <BR>次的起来上厕所，拉肚子(diarrheal)。最后拉出来的全是刚喝下去的水。我又吞下了几 </P><P>片治痢疾的Imodium。就这样黑暗里，听着撤夜不宿的狗叫声，睁着眼看着天空，一直等 </P><P>到天亮。  <BR> <BR>撤夜未眠，我诅咒你，那牦牛油炒的Dal Bhat! <BR> <BR> <BR>--</P><P>    LIVE FREE OR DIE</P><P></P><P></P><P>※ 来源:·日月光华 bbs.fudan.edu.cn·HTTP [FROM: 128.151.67.127]</P><P></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 0:39:28</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16738><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：162<br>&nbsp;&nbsp;积分：352<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16738&id=1720&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16738&id=1720&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>13</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>Namste,&nbsp;我的珠穆拉玛峰!&nbsp;(13)&nbsp;(zt)&nbsp;--&nbsp;dztang</b><br>发信人: brain (花椒), 信区: Outdoors<BR>标  题: Namste, 我的珠穆拉玛峰! (13) (zt) -- dztang<BR>发信站: 日月光华 (2004年03月15日23:28:30 星期一)</P><P><BR>发信人: fufu (弗弗), 信区: Travel<BR>标　题: Namste, 我的珠穆拉玛峰! (13) (zt) -- dztang<BR>发信站: Unknown Space - 未名空间 (Sun Mar 14 01:47:06 2004) WWW-POST <BR> <BR>author: dztang @ wenxuecity.com <BR>http://web.wenxuecity.com/BBSView.php?SubID=travel&MsgID=3045 <BR> <BR> Namste(注: 尼泊尔语: 你好"), 我的珠穆拉玛峰! <BR> <BR>(14) 神奇的Cipro，晴，04/12/2000 <BR> <BR>眼睛一夜没合，看到天大亮，六点的时候，我起了床。今天要回加德满都，七点半就要到<BR> <BR>机场报到。打好包，把背包提起的时候，仿佛有千斤重。我记得我带了一些Cipro(治疗腹<BR> <BR>泻的一种激素,万不得以才用的)。 找了半天也没找到，那些Imodium似乎对这么强烈的腹<BR> <BR>泻没有任何效果。下楼的时候，第一件事是向店主人道歉我终于浪费了那顿晚餐。要了一<BR> <BR>杯柠檬茶，就算是早饭了。那几个女游客总是问寒问暖，我就想坐下，闭上眼睛歇着。于<BR> <BR>是有一句，没一句的答着，要不就是说声，对不起，上厕所。装满了一壶热水，硬撑着背<BR> <BR>起了背包。 <BR> <BR>打开门的时候，霞光撒在了我的全身。这是个寒冷的早晨，我让寒风尽情的迎面吹着，企<BR> <BR>图理清我那模糊的思维。还好今天我不用走一天的路，要不我就要让人抬出来了! <BR> <BR>跨过机场的跑道，然后进入了候机室的检查站。搜身检查的时候，他倒没有捂住鼻子。大<BR> <BR>概身上还不象想象的那么糟糕，检查完的第一件事又是上厕所。坐在候车室外的石墙上，<BR> <BR>虽然太阳已经高高挂，可天是出奇的冷，捂着满满一壶热水，转眼间冷了。又见到了苏联<BR> <BR>来的Mark，他比我晚下Kala Pattar两个小时，那天就住在了Lobuje。紧赶慢赶，昨天居 </P><P>然到了Phakding。今天一大早，赶到了这里。我实在支撑不住，两手捂住脸，架在膝盖上<BR> <BR>休息。飞机一架架的赶到，带来了一批批的游客，登山者。这里一批批的游客上机，飞机<BR> <BR>马上就起飞回加德满都。等到九点半，我们的飞机终于到了。由于头疼得厉害，为了怕呕<BR> <BR>吐，问唯一的一个乘务员要了个纸袋。 <BR> <BR>飞机起飞不久，我们有机会再一次看了眼高耸入云的群峰。这是个难忘的时刻：走了十几<BR> <BR>天的路，就好像亲吻了一下这些巨人们。此刻，我们向她们最后告别了。我的脑子里是一<BR> <BR>片空白，但我知道这山里的每一块石头，每一颗树都已经深深的印在了我的脑子里。那一<BR> <BR>拐一拐的Steve，Khumbu Lodge的名人店主P.K.，Pampa那可爱的小儿子，六上Khumbu高龄<BR> <BR>的Martha，带着毡帽，石头后面画画的Ann，还有Tengpoche那鼻子上打孔挂着银圈的小服<BR> <BR>务员，这些人们象一幅幅静止的画面在我眼前闪过。那颤抖的悬索桥，那树林里的麋鹿，<BR> <BR>那寺院边的祷告旗，当然还有那Kala Pattar 顶上所看到的群峰，这一切的一切都烙印在<BR> <BR>了我内心的最深处! 看着飞机底下起伏的山峦，还有那无尽的蜿蜒山路，这些是我曾经所<BR> <BR>走过的，这些是我为此所骄傲的。。。 <BR> <BR>在我无限的遐想中，飞行员的喇叭响了: "加德满都的机场能见度太差，飞机不能降落。"<BR> <BR>于是，我们先到了一个不知名的小机场，大概是Janakpur，飞机在那停了两个小时。机长<BR> <BR>和我们乘客坐在飞机旁的草地上聊天，每个人手里还有一杯奶茶。他告诉我们，他的同事<BR> <BR>如何从Lukla机场短短跑道的高端，下滑停在了悬崖边上的低端。村子里，机场边上所有 </P><P>的人惊讶的张大了嘴巴看着他自杀式的降落。他还告诉我们，他们Shyangboche如何低飞 </P><P>赶牦牛的故事。在那中间，我没忘掉又去了下厕所。 <BR> <BR>下午的时候，我们回到了加德满都。出租车还是带我回到了熟悉的Kathmandu Guest <BR>House。在寄存在旅店的另一只包里，我找到了神奇的Cipro，一片药下去，我的腹泻好了<BR> <BR>。 <BR>  <BR> <BR>--</P><P>    LIVE FREE OR DIE</P><P></P><P></P><P>※ 来源:·日月光华 bbs.fudan.edu.cn·HTTP [FROM: 128.151.67.127]</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 0:39:53</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16739><font color=#000066><B>Ω</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level1.gif><br>&nbsp;&nbsp;等级：论坛游民<BR>&nbsp;&nbsp;威望：2<br>&nbsp;&nbsp;文章：162<br>&nbsp;&nbsp;积分：352<br>&nbsp;&nbsp;注册：2004-3-21<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=Ω',500,400)"><img src="pic/message.gif" border=0 alt="给Ω发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=Ω" target=_blank><img src="pic/friend.gif" border=0 alt="把Ω加入好友"></a>&nbsp;<a href="dispuser.asp?id=528" target=_blank><img src="pic/profile.gif" border=0 alt="查看Ω的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=Ω&BoardID=7&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索Ω在游记 心情 随想的所有贴子"></a>&nbsp;<A href="mailto:mynyche@hotmail.com"><IMG alt="点击这里发送电邮给Ω" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16739&id=1720&star=2&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=7&replyID=16739&id=1720&star=2"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>14</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>Namste,&nbsp;我的珠穆拉玛峰!&nbsp;后记&nbsp;(zt)&nbsp;--&nbsp;dztang</b><br>发信人: brain (花椒), 信区: Outdoors<BR>标  题: Namste, 我的珠穆拉玛峰! 后记 (zt) -- dztang<BR>发信站: 日月光华 (2004年03月15日23:42:41 星期一)</P><P><BR> Namste(注: 尼泊尔语: 你好")，我的珠穆朗玛峰！</P><P>(15) 后记</P><P>也该是结束这篇游记的时候了。由于怕耽误飞机，Khumbu山路上走了急一些，我得以多出<BR>三天时候。习惯了那些山路上的宁静，看着Thamel熙熙攘攘的游客，和那些不停来你边上<BR>兜售纪念品的小贩，满身的不舒服。 当然，我还是很留恋那Kathmandu Guest边那家屋顶<BR>餐馆，正宗的印度菜和本地啤酒。由于十天没有进荤，肚子刚好，在那海吃一顿，好像世<BR>界末日就要到来似的。很快，这一切并不足以满足。</P><P>填饱了肚子的第一件事，还是去寻找一种平静。最后，选择了附近的一家旅行社，去一趟<BR>Chitwan国家公园。来不及赶早上的汽车，只好选择飞过去，汽车回来。Chitwan的两天半<BR>里，我领略了另一种风情。在resort(一个单人床，一个小桌，混暗的电灯，没有电视，宝<BR>贵的是有热水洗澡)，我碰到了夏天雨季来临的第一场暴风雨。我坐在resort的凉亭下读书<BR>，由于潮湿的闷热，身上的汗排不出来。无奈时，天边的乌云带来了一阵凉风，转眼间，<BR>半个天空就黑了。Resort房间顶上的茅草都给吹飞了起来。天空中乾草在打转，后面是数<BR>里外的不停闪电，紧接着，一阵阵雷声隆隆赶来，一滴，两滴，豆大般的雨点掉了下来。<BR>再转眼，瓢泼大雨，草坪上的花坛里已经积了一潭水。我张大嘴巴呼吸，和山里的早晨上<BR>一样，好久没有闻到这么新鲜的空气了。</P><P>我们骑象去看野生动物，坐敞篷吉普Safari，河边看日落，泛独木舟，看鸟，看鳄鱼。"们<BR>"指的是那些和我在一起旅行真正得了"中年危机"的澳洲妇女们，还有两个长年在南极工作<BR>的一对美国人。泛舟到了鳄鱼洞的跟前，还是没有看到一条鳄鱼。瓢泼大雨中的吉普Safa<BR>ri倒是给我们带来了无尽的乐趣。吉普在泥路上行进，身上不时让树叶刮住。低头在看鹿<BR>和找犀牛的时候，导游不时提醒我们注意树上的猴子。几里外的野象高大的身影清晰可见<BR>，还有那躲闪不及的野猪。由于雨太大，吉普陷在泥里上动。我们只好下车推，发动机一<BR>响，稀泥从轮后滋出，溅我们一身。鬼晓得! 就这趟旅行没有带雨衣! 但看到那黑熊妈妈<BR>带四只小黑熊从路边走过，足以抵消这旅途上的任何千辛万苦。由于被告知，这里犀牛遍<BR>地。四个小时Safari，却一个没见。我身上里外浸透了雨水，嘴唇发紫，全身发抖，禁上<BR>住嘟囔了一句:"犀牛，犀牛，让我们看一眼，我们就回去了!" 在大家哄堂大笑，但又绝望<BR>时，吉普一个急停。导游指着一个在二十来米开外草丛里屁股对着我们的犀牛。虽然，终<BR>于没有看到它长得什么样。不管怎么样，算是了结了我们一项心愿! 回到resort的时候，<BR>发现民工正爬在我房间的屋顶上盖塑料布，房间床上的被单全湿了，还没有换!</P><P>从Chitwan回加德满都的路上，总让我想起成都去松潘，九寨的公路。最让我惊叹的是: 好<BR>几次，我觉得这汽车在上坡时，该寿终正寝的时候，但最后总是又爬到了坡顶。回到加德<BR>满都的时候，Kathmandu GuestHouse没有多余的床位了。我只好去了拐角上五,六层楼的T<BR>ibet GuestHouse。</P><P>在路口，我意外的碰到了Ann。"你安全回来了!" 我们互相交流分别后的遭遇，她说她已经<BR>洗出那些在Kala Pattar的照片了。我说，"让我登记一下，放下包。我请你吃顿晚饭好吗<BR>? 我得用掉兜里的每一个卢比。" 她笑笑答应了。我们去了一家叫"三只眼"餐馆。在印度<BR>佛教里，眉心上方中间的第三只眼是智慧之眼。那只眼睛能分清什么是正义，什么是邪恶<BR>。Ann和我轻松的坐在屋顶的露天餐桌旁，再一次重温了Kala Pattar的无限风光。由于停<BR>电，每个餐桌上，楼梯旁，都放了个蜡烛。我说:“倒也没想到，我们还能有个浪漫的烛光<BR>晚餐”。她眯着眼睛笑了，那种很自然，发自内心的微笑。我们一遍又一遍翻着那些照片<BR>。每一张照片后面，我们都能讲出一个小故事，时不时还要互相取笑一番。那温情，和蔼<BR>的笑脸后面，我看到的是一个坚毅，好强的Ann。</P><P>出了"三只眼"，我说:"我明天一早的飞机,这些卢比就没用了。" 于是，我们又去了边上一<BR>家人声鼎沸，音乐声振耳欲聋的酒吧喝酒。大概我们俩早过了那种Generation X年代，坐<BR>在里面，彼此讲话也听上大清。匆匆喝完，Ann建议去一家安静点的。我说:"我们找一个可<BR>以看风景的吧." 抬头看看街口拐角三层楼那靠窗的两个座位还空着。"就那了!" 这次要的<BR>是甜点加cappuccino。边吃边看着街道上的行人，这里是Thamel里中心的中心。刚从山里<BR>回来撑着拐棍的Trekker，沿街残废用手爬要饭的，手里大包,小包要快回途的游客，蹬三<BR>轮车的，沿街兜售的小贩，修鞋的，缠住游客要钱的，持枪巡逻的军人，灯火辉煌处，那<BR>些在网吧里给家人发伊妹儿的，阴暗处，还有那些兜售毒品的... 我们手捧咖啡，欣赏着<BR>这都市交响曲: 出租车的喇叭声，小贩的叫卖声，还有那酒吧里的摇滚声。我跟Ann说: "<BR>在山里，这时候我们早就上床睡觉，打呼噜了!" 她笑眯眯的。天下没有不散的宴席，等街<BR>上的礼品店，餐馆关门的时候，我们紧紧的拥抱吻别了。这是我在尼泊尔的最后一个晚上<BR>!</P><P>回到美国的海关，又让一个官员停了下来，"你在泰国，尼泊尔都干些什么?" 我说，"我，<BR>我，我去徒步旅行"。他停顿了一下，说，"你去了Namche Bazzar，珠峰大本营吗?" 他整<BR>个一个大喘气！我这才明白过来，原来，他也是个爱好野营，徒步旅行的，只是问问我山<BR>里的情况而已。叫我停下的时候，把我吓了一大跳。身体已经够虚弱的了，在加德满都海<BR>关，气得我血压升高。这里再来一次，精神都快崩溃了!</P><P>在回来的日子里，我仍然很关心那里的一切。那尼泊尔的Sherpa Babu，只花了十六个小时<BR>就登上了珠穆朗玛峰顶的，上了许多新闻。而那黑龙江的阎庚华，单身冒险登顶，却死在<BR>了下山的路上。回来以后，很多人还是问我同一个问题:"为什么要这么做? 可以去巴黎，<BR>维也纳，可以去威尼斯，罗马。" 我想了想，说: "十年，二十年以后，我就不能再去珠峰<BR>大本营了。但还可以去巴黎”。我想，也许我更憧憬的是那种单纯，那种不加修饰的美。</P><P><BR>在山路上，我听到的最多的一个问题是人家问我: "Japanese?" 我说，"No! Chinese!" 一<BR>次，一个穿着袈裟的和尚问我: "Japan?"， "NO!"，"Taiwan?"，"NO!", "Singapore?"，<BR>"NOOOO!" 我终于急了，"China!!!" 但山里终于没能用上一句中文。中国有一句古话叫"天<BR>道酬勤"。相信我，去一趟山里，吃点苦，你会得到酬赏的。这酬赏是那山里人的纯朴，那<BR>大自然的塑雕! 让我们都去看看这个大千世界吧!</P><P>完<BR>--</P><P>    LIVE FREE OR DIE</P><P></P><P></P><P>※ 来源:·日月光华 bbs.fudan.edu.cn·HTTP [FROM: 128.151.67.127]</P><P></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=7&userid=528&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-22 0:40:14</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>14</b>，分页： <a href="?BoardID=7&id=1720&replyID=1720&star=1&skin=">[1]</a> <font color=#FF0000>[2]</font></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option><option value="list.asp?boardid=11">　├自行车</option><option>╋ 管理区</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=2">　├每周论题</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=7&ID=1720" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=7&ID=1720" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=7&ID=1720" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=7&ID=1720&replyID=1720" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=7&ID=1720" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=7&ID=1720" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=7&ID=1720" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=7&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：351.563毫秒
+</td></tr>
+</table>
+</body>
+</html>

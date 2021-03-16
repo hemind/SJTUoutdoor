@@ -1,0 +1,329 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--理论与实践浏览：世界14座8000米以上高峰</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr> 
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle> 
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=6">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=6">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=6">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=6&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> 安营扎寨、登山等
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> → 
+<a href=list.asp?boardid=6>理论与实践</a> →  浏览：世界14座8000米以上高峰
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center>
+	<tr>
+	<td align=left width="30%" valign=middle>&nbsp; <a href="announce.asp?BoardID=6"><img src="pic/blue/postnew.gif" alt="发表一个新主题" border=0></a>&nbsp; 
+      <a href="vote.asp?BoardID=6"><img src="pic/blue/votenew.gif" alt=发表一个新投票 border=0></a>&nbsp; 
+      <a href="reannounce.asp?BoardID=6&id=1654&star=1"><img src="pic/blue/reply.gif" alt=回复主题 border=0></a> 
+    </td>
+	<td align=right width="70%" valign=middle>您是本帖的第 <B>69</B> 个阅读者<a href="go.asp?BoardID=6&sid=1654"><img src="pic/prethread.gif" border=0 alt=浏览上一篇主题 width=52 height=12></a>&nbsp;
+	<a href="javascript:this.location.reload()"><img src="pic/refresh.gif" border=0 alt=刷新本主题 width=40 height=12></a> &nbsp;
+	<a href="?BoardID=6&replyID=1654&id=1654&star=1&skin=1"><img src="pic/treeview.gif" width=40 height=12 border=0 alt=树形显示贴子></a>　<a href="go.asp?BoardID=6&sid=1654&action=next"><img src="pic/nextthread.gif" border=0 alt=浏览下一篇主题 width=52 height=12></a>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=0 cellSpacing=1 align=center class=tableborder1>
+	<tr align=middle> 
+	<td align=left valign=middle width="100%" height=25>
+		<table width=100% cellPadding=0 cellSpacing=0 border=0>
+		<tr>
+		<th align=left valign=middle width="73%" height=25>
+		&nbsp;* 贴子主题</B>： 世界14座8000米以上高峰</th>
+		<th width=37% align=right>
+		<a href=# onclick="javascript:WebBrowser.ExecWB(4,1)"><img src="pic/saveas.gif" border=0 width=16 height=16 alt=保存该页为文件 align=absmiddle></a>&nbsp;<object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+		<a href="report.asp?BoardID=6&id=1654"><img src=pic/report.gif alt=报告本帖给版主 border=0></a>&nbsp;
+		<a href="printpage.asp?BoardID=6&id=1654"><img src="pic/printpage.gif" alt=显示可打印的版本 border=0></a>&nbsp;
+		<a href="pag.asp?BoardID=6&id=1654"><img src="pic/pag.gif" border=0 alt=把本贴打包邮递></a>&nbsp;
+		<a href="favadd.asp?BoardID=6&id=1654"><IMG SRC="pic/fav_add.gif" BORDER=0 alt=把本贴加入论坛收藏夹></a>&nbsp;
+		<a href="sendpage.asp?BoardID=6&id=1654"><img src="pic/emailtofriend.gif" border=0 alt=发送本页面给朋友></a>&nbsp;
+		<a href=#><span style="CURSOR: hand" onClick="window.external.AddFavorite('http://freebag.shetuan.sjtu.info/bbs/dispbbs.asp?BoardID=6&id=1654', ' 上海交通大学野外生存素质拓展基地 - 世界14座8000米以上高峰')"><IMG SRC="pic/fav_add1.gif" BORDER=0 width=15 height=15 alt=把本贴加入IE收藏夹></a>&nbsp;
+		</th>
+		</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+
+<TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16326><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16326&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16326&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>楼顶</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>世界14座8000米以上高峰</b><br>世界14座8000米以上高峰  </P><P>1 珠穆朗玛峰 中国/尼泊尔边境 8848 珠穆朗瑪峰(Qomolangma, Everest)，8848.13，喜馬拉雅山脈中段中國西藏定日縣與尼泊爾交界，東經86’55’31, 北緯27’59’17。1953年英國登山隊首次從南坡登頂</P><P>2 乔戈里峰 中国/巴基斯坦边境 8611 喬戈裏峰（Qogir），8611，又稱K2,喀拉崑崙山脈中國新疆和克什米爾地區巴基斯坦實際控制區的界峰，東經76’30’51，北緯35’52’55。1954年意大利登山隊首次登頂</P><P>3 干城章嘉峰 印度/尼泊尔边境 8586 干城章嘉峰（Kanchenjunga）,8586，喜馬拉雅山脈中段尼泊爾和錫金的邊界線上，東經88’09’01，北緯27’42’09。1955年英國登山隊首次登頂</P><P>4 洛子峰 中国/尼泊尔边境 8516 洛子峰藏语称之为“丁结协桑玛”，意思是“青色美貌的仙女”。洛子峰（Lhotse）,8516，喜馬拉雅山脈中段中國西藏定日縣與尼泊爾交界，東經86’56’10，北緯27’57’43。1955年瑞士登山隊首次登頂</P><P>5 马卡鲁峰 中国/尼泊尔边境 8463 馬卡魯峰（Makalu）,8463，喜馬拉雅山脈中段中國西藏定日縣與尼泊爾交界,東經87’05’20，北緯27’53’23。1955年法國登山隊首次登頂</P><P>6 卓奥友峰 中国/尼泊尔边境 8201 卓奧友峰亦謂“喬烏雅峰” “卓奥友”在藏语意思是“首席尊师”。海拔820l米，東經86.6°，北緯28°的中尼邊界上，山峰以東北山脊和西南山脊為界，北側在西藏自治區定日縣境內，南側屬尼泊爾王國。1954年l0月19日，奧地利登山隊基希、依約裏裏爾和夏爾巴人潘辛格、盤沙達瓦四人首次沿西北坡登頂</P><P>7 道拉吉里峰 尼泊尔 8172 道拉吉裏峰（Dhaulagiri）,<BR>8172，喜馬拉雅山脈中段尼泊爾境內，東經83’29’43，北緯28’41’46。1960年瑞士、波蘭、美國聯合登山隊首次登頂</P><P>8 马纳斯鲁峰 尼泊尔 8156 馬納斯魯峰（Manaslu）,8156，喜馬拉雅山脈中段尼泊爾境內，東經84’33’43，北緯28’33’00。1956年日本登山隊首次登頂</P><P>9 南迦帕尔巴特峰 巴基斯坦 8125 南迦帕爾巴特峰（Nanga Parbat），8125，喜馬拉雅山脈西段巴基斯坦境內，東經，北緯。1953年西德和奧地利聯合登山隊首次登頂</P><P>10 安娜普尔娜峰 尼泊尔 8091 安納普爾納峰（Annapurna）,<BR>8091, 喜馬拉雅山脈中段尼泊爾境內，東經83’49’20，北緯28’35’45。1950年法國登山隊首次登頂</P><P>11 加舒布鲁木一峰 中国/巴基斯坦边境 8068 “加舒尔布鲁木”,意为“闪烁着光芒的山岭"。加舒爾布魯木峰(Gasherbrum Ⅰ),8068，喀拉崑崙山脈中國新疆和克什米爾地區巴基斯坦實際控制區的界峰，東經76’41’48，北緯35’43’30。1958年美國登山隊首次登頂</P><P>12 布洛阿特峰 中国/巴基斯坦边境 8047 “布洛阿特”，取自于１８９２年来此探险的一个美国探险家的名字。布洛阿特峰（Broad），8047，喀拉崑崙山脈中國新疆和克什米爾地區巴基斯坦實際控制區的界峰，東經76’34’25，北緯35’48’35。1957年奧地利登山隊首次登頂</P><P>13 加舒布鲁木二峰 中国/巴基斯坦边境 8034 加舒爾布魯木Ⅱ峰(Gasherbrum Ⅱ),8034，喀拉崑崙山脈中國新疆和克什米爾地區巴基斯坦實際控制區的界峰，東經76’39’15，北緯35’45’31。1956年奧地利登山隊首登</P><P>14 希夏邦马峰 中国 8012 旧称高僧赞峰。藏语“希夏邦马”，为“气候严寒、天气恶劣多变”之意。希夏邦馬峰(Xixabangma), 8012，唯一一座完全在中國境內的8000山峰，喜馬拉雅山脈中段，東經85’46’55，北緯28’21’07。1964年5月2日中國登山隊10人首次登頂，征服世界上最后一座8000米以上处女峰，這是人類征服的最後一座8000以上的山峰。<br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/2004311059680974.jpg" TARGET=_blank><IMG SRC="uploadImages/2004311059680974.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043110591413126.jpg" TARGET=_blank><IMG SRC="uploadImages/20043110591413126.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043110592996028.jpg" TARGET=_blank><IMG SRC="uploadImages/20043110592996028.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043110593951827.jpg" TARGET=_blank><IMG SRC="uploadImages/20043110593951827.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043110594666425.jpg" TARGET=_blank><IMG SRC="uploadImages/20043110594666425.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043110595320120.jpg" TARGET=_blank><IMG SRC="uploadImages/20043110595320120.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/2004311101083347.jpg" TARGET=_blank><IMG SRC="uploadImages/2004311101083347.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:00:19</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> &nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1654&isagree=1" title="同意该帖观点，给他一朵鲜花，将消耗您5点金钱">鲜花</a>(<font color=#FF0000>0</font>)&nbsp;&nbsp;<a href="postagree.asp?boardid=6&id=1654&isagree=2" title="不同意该帖观点，给他一个鸡蛋，将消耗您5点金钱">鸡蛋</a>(<font color=#FF0000>0</font>)</td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16327><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16327&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16327&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>2</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote>================================<br><font color=#00008B>您没有浏览该精华帖子的权限</font><br>================================</blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:05:18</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16328><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16328&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16328&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>3</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>继续贴，愤愤的</b><br>珠峰最年轻男性登顶者    <BR> 2001年5月23日，16岁的薛里（Temba Tsheri）夏尔巴成功登顶，改写1973年另一位尼泊尔少年在16岁所创下的纪录。由于尼泊尔规定从2002年起,不再对16岁以下的人签发高山攀登许可证,薛里可能得以永远保持此项记录。他出生于1985年5月9日, 登顶于2001年5月23日，登顶年龄为16岁又17日。</P><P>最年轻女性登顶者    <BR>1993年5月10日，19岁35天的印度女性Dicky Dolma成为登顶的最年轻女性。</P><P>最年长的男性登顶者   <BR>2002年5月17日，日本登山家Tomiyasu Ishikawa(65岁176日 )创下高龄登珠峰纪录, 打破了64岁美国医生Sherman Bull创下不足一年的高龄纪录。 </P><P>最年长的女性登顶者    <BR>2002年5月16日，63岁176日的日本女登山家渡边玉枝登上珠峰,打破2000年波兰女登山家安娜·切尔温斯卡(50岁)保持的女子原记录。</P><P>最长顶峰停留时间记录   <BR>1999年5月26日，夏尔巴人Babu Chiri成为首位（唯一）在顶峰睡觉的人，并创造了在顶峰停留21小时30分钟的最长时间记录。<BR>     <BR>第一位从珠峰南北两侧登顶的女性    <BR>1999年5月29日，南非女性Cathy O'Dowd从北侧登顶,她成为从两侧都攀登过的第一位女性。</P><P>第一个两次登顶的中国女性   <BR>1999年5月27日，中国西藏登山队10人登顶，桂桑成为第一位两次登上珠峰的女性。<BR> <BR>第一个两次登顶珠峰的女性<BR>1992年5月12日、1993年5月10日，印度女性Yadav Santosh两次登顶珠峰，是第一个两次登顶珠峰的女性。<BR> <BR>第一次南北两坡双跨会师    <BR>1988年5月5日，中、曰、尼三国联合登山队创下从南、北两坡双跨并会师顶峰的壮举，并创下6项纪录。<BR>   <BR>第一次在顶峰进行电视现场直播  <BR>1988年5月5日，中、曰、尼三国联合登山队攀登，日本电视台第一次在顶峰进行了电视现场直播。 </P><P>各国登顶人数排名    <BR> 国别 总人次 重复登顶 实际人数 <BR>    尼泊尔 532 291 241 </P><P>    美国 178 31 147 </P><P>    日本 85 8 77 </P><P>    俄罗斯 67 6 61 </P><P>    英国 60 3 57 </P><P>    印度 56 8 48 </P><P>    西班牙 52 2 50 </P><P>    中国* 50 7 43 </P><P>    法国 47 2 35 </P><P>    韩国 36 1 35 </P><P>    *中国登顶者包括大陆、香港、台湾，其中台湾5人登顶，香港1人登顶。 </P><P>    （本统计时间截至于2002年3月6日，山野杂志） </P><P><BR>个人登顶次数名单  <BR> 次数 姓名 国籍 <BR>    12 APA 尼泊尔（夏尔巴） </P><P>    10 ANG RITA 尼泊尔（夏尔巴）（全部无氧） </P><P>    10 BABU CHIRI 尼泊尔（夏尔巴）（两次无氧） </P><P>    9 CHUWANG NIMA 尼泊尔（夏尔巴） </P><P>    8 DORJE I 尼泊尔（夏尔巴） </P><P>    8 NA TEMBA 尼泊尔（夏尔巴） </P><P>    8 TASHI TSHERING 尼泊尔（夏尔巴） </P><P>    8 LHAKPA GELU 尼泊尔（夏尔巴） </P><P>    7 ANG DORJE II (CHULDIM DORJE)尼泊尔（夏尔巴） </P><P>    7 NIMA GOMBU 尼泊尔（夏尔巴） </P><P>    7 MINGMA TSHERING 尼泊尔（夏尔巴） </P><P>    7 TENZING 尼泊尔（夏尔巴） </P><P>    7 NORBU (NURU) 尼泊尔（夏尔巴） </P><P>    6 LHAKPA NURU I 尼泊尔（夏尔巴） </P><P>    6 NIMA DORJE I 尼泊尔（夏尔巴） </P><P>    6 DAWA TASHI 尼泊尔（夏尔巴） </P><P>    6 Peter ATHANS 美国 </P><P>    6 LAMA JANGBU 尼泊尔（夏尔巴） </P><P>    6 DORJE III 尼泊尔（夏尔巴） </P><P>    （本统计时间截至于2003年1月1日，山野杂志）<BR> <BR>     <BR>最老的夏尔巴登顶者  <BR>2000年5月17日，53岁的PHINZO II成为登顶年龄最大的夏尔巴。</P><P>攀登过最多路线的人  <BR>Kushang夏尔巴是唯一一个从四条不同路线登顶珠峰的人，现供职于喜玛拉雅高山学院（Himalayan Mountaineering Institute）。<BR> <BR>最多登顶次数纪录 <BR>2002年5月17日，阿帕（Apa）夏尔巴（43岁）以第12次登顶刷新了自己保持的登顶次数纪录。</P><P>最多登高人数记录   <BR>1975年5月，中国登山队9人登顶，在这次登山活动中，共有51人登上了珠峰8100米以上的高度，除登顶队员外尚有19名队员登上海拔8500米的高度。 </P><P>最多的登山队人数纪录    <BR>1975年5月27日，中国登山队（党委书记王富洲，队长史占春）女队员潘多和8名男队员从北侧登上珠峰。登山队共计434人，其中包括运动员179人（女运动员36人），还有科考、气象、通讯、新闻、医务、交通运输、炊事及其他后勤人员计255人。</P><P>第一个登顶的盲人    <BR>2001年5月25日，美国人艾瑞·韦亨梅尔（Erik Weihemayer）成为第一位登上珠峰的盲人。他在4名同伴的陪伴下,与8名在腰间系上铃铛,使他能够听音辨位的夏巴族向导一起登顶。韦翰梅耶在13岁因视网膜剥离而失明,但他热爱登山,曾挑战过包括南北美洲、非洲多地的高峰。<BR>     <BR>第一个残障人士珠峰登山队   <BR>由美国德州残障协会(CTD)支持，队员为各种不同类型的残障人士所组成的Team Everest2003（队长Gary Guller）登山队在2003年珠峰首登50周年时攀登珠峰，队长Gary Guller是个失去左臂的独臂人，他们希望以此举鼓励全世界残障人士勇于面对生命的困境。 </P><P>第一个祖孙三代都登上珠峰的家族  <BR>2002年5月17日，首登珠峰的Tenzing Norgay的孙子Tashi Tenzing夏尔巴也登上珠峰，成为第一个祖孙三代都登上珠峰的家族。 <BR>  <BR>第一次珠峰山难    <BR>1922年，英国第二支珠穆朗玛峰登山队（队长吉·布鲁斯），仍取我国西藏境内的北坡路线，他们越过了北坳，但在到达8225米的高度时，7位夏尔巴因雪崩丧身，这是人类首次丧身珠峰。</P><P>珠峰南北侧无氧攀登纪录    <BR>序号 姓名 国籍 南北侧攀登时间 <BR>    1 Reinhold MESSNER 意大利 南侧1978年5月8日 北侧1980年8月20日 </P><P>    2 Timothy MACARTNEY-SNAPE 澳大利亚 北侧1984年10月3日 南侧1990年5月11日 </P><P>    3 ANG RITA 尼泊尔 南侧1983年5月7日 北侧1995年5月13日 </P><P>    4 BOUKREEV Anatoli 哈萨克斯坦 南侧1991年10月7日 北侧1995年5月17日 </P><P>    5 Edmund VIESTURS 美国 北侧1990年5月8日 南侧1996年5月23日 </P><P>    6 LHAKPA DORJE III 尼泊尔 北侧1995年5月12日 南侧1996年5月23日 </P><P>    7 VALLEJO Iván 厄瓜多尔 北侧1999年5月27日 南侧2001年5月23日 </P><P>    （本统计时间截至于2003年1月1日，山野杂志）<BR> <BR> <BR>遇难人数最多的一年    <BR>1996年世纪大山难，包括当时最成功的商业向导Rob Hall在內的15人死于同一登山季，1996年成为遇难人数最多的一年。业余爱好者在专业向导带领下登山已经成了一项产业，但是事实证明，再好的氧气,再精良的装备,再专业的向导,再先进的通讯在珠峰的恶劣天气面前都不堪一击 </P><P>  <BR>珠峰登顶率与死亡率之比最大最小的年份    <BR>1993年, 129人登顶8人死亡，比率为16:1；1996年, 98人登顶15人死亡，比率6.5:1 <BR> <BR> <BR>最快南侧大本营出发登顶纪录    <BR>2000年5月21日，夏尔巴Babu Chiri从南侧（大本营海拔5300米）出发，创造南侧大本营出发最快登顶纪录 </P><P>  <BR>最多无氧登顶次数纪录    <BR>1996年夏尔巴人Ang Rita (1947年出生)，第10次无氧登顶珠峰。(1983,1984,1985,1987,1988,1990,1992,1993,1995,1996全部无氧攀登)。（ <BR> <BR> <BR>最多登顶人数年份纪录    <BR>1993年129人、2000年145人、2001年182人登顶者、2002年159人 </P><P>  <BR>单日登顶人数记录    <BR>1993年5月10日，40人成功登顶；2001年5月23日，88人；2002年5月16日，77人，其中63名登山者从尼泊尔一侧成功登顶珠峰，并且全部安全撤回四号营地，创造了一天内从南侧登顶珠峰的人数新纪录。再加上从北侧登顶的14人，共77人登顶 <BR> <BR>  <BR>第一个无氧登顶成功    <BR>1978年5月8日，奥地利人彼德·哈伯勒（Peter Habeler）和意大利人莱因霍尔德·梅斯纳尔（Reinhold Messner）经东南山脊路线首次无氧登顶 </P><P>  <BR>第一个夫妻同时登顶    <BR>1990年10月7日，斯洛文尼亚夫妇Andrej & Marija Stremfelj成为首队同时登顶的夫妻</P><P> <BR>第一个以单板滑雪下山    <BR>2001年5月22日，Stefan Gatt第一个从顶峰单板滑雪下山。 <BR> <BR>   <BR>第一个登顶的女性    <BR>1975年5月16日，日本人田部井淳子（Junko Tabei）从东南山脊线路登顶成为首个登顶珠峰的女性 <BR> <BR>  <BR>第一个全程从顶峰单板滑雪下撤到ABC    <BR>2001年5月23日，Marco Siffredi创造了首次全程从顶峰单板滑雪下撤到ABC的记录。 <BR>  <BR>  <BR>第一个同时登顶以滑翔伞下山的夫妇    <BR>2001年5月22日，法国夫妻Roche Bertrand、Claire Bernier从珠峰顶以滑翔伞下山，8分钟到达ABC营地 <BR> <BR>  <BR>第一个完全以滑雪下山    <BR>2000年10月7日，斯洛文尼亚探险家卡尔尼察（Davo Karnicar）用５个小时的时间，从珠峰之巅滑到山脚的营地，成为滑雪珠峰的第一人 </P><P>  <BR>第一个同时登顶的中国夫妻    <BR>1999年5月27日，中国西藏登山队10人登顶，仁那、吉吉是中国第一对同时登上珠峰的夫妻 </P><P> <BR>第一个从南侧登顶的台湾女性    <BR>1995年，台湾女性江秀真从南侧登顶，成为目前唯一登顶珠峰的台湾女性。 </P><P>  <BR>第一个遇难的台湾同胞    <BR>1994年，台湾同胞拾方方登顶后下撤时遇难。</P><P>  <BR>第一个登顶的台湾同胞    <BR>1993年，台湾同胞吴锦雄从北侧登顶。</P><P>  <BR>第一次以一昼夜的时间登上珠峰    <BR>36岁的法国人马克·巴塔尔1987年9月25日当地时间17点从南坡海拔5300米处出发，夜间不吸氧气越过南坳，26日15点30分成功地登上珠峰。所用时间为22小时30分钟 <BR>  <BR>  <BR>第一个兄弟同时登顶    <BR>1992年9月25日 Alberto和Felix Inurrategui成为第一对同时登上珠峰的兄弟。<BR>   <BR>   <BR>第一个父子同时登顶    <BR>1990年10月7日，法国人Jean Noel Roche与其子Roche Bertrand aka Zebulon成为第一对同时登上珠峰的父子，当时儿子年仅17岁，打破了最年轻者纪录，父子从南坳用滑翔伞下山到大本营 </P><P>  <BR>第一次在珠峰上空航拍登山场景    <BR>1988年5月5日，中、曰、尼三国联合登山队攀登，中国科学院专机10000米高空摄影摄像 <BR> <BR>  <BR>第一个无氧登顶女性    <BR>1988年，新西兰女子Lydia Bradey成为首位无氧登顶珠峰女性。 </P><P>  <BR>第一个单人登顶珠峰    <BR>1980年8月20日，意大利人莱因霍尔德·梅斯纳尔（Reinhold Messner），首次单人无氧从北坳横切到北壁路线登顶 </P><P>  <BR>第一个冬季登顶    <BR>1980年2月17日，波兰人Krzysztof Wielicki和Cichy Leszek首次冬季登顶珠峰 <BR> <BR>   <BR>第一个遇难的女性    <BR>1979年，Hannelore Schmatz是登上珠峰的第四位女性，当她登顶下山时不幸遇难，是第一位遇难的女性 </P><P>  <BR>第一个从北侧登顶的女性    <BR>1975年5月27日，中国登山队女队员潘多第一个从北侧登顶 <BR> <BR>  <BR>第一个在秋季登顶    <BR>1973年10月26日，日本登山队石黑久和加藤保男沿东南山脊经南坳的传统路线登顶，这是珠峰攀登史上首次在秋天登顶成功 </P><P>  <BR>第一个登顶滑雪下山    <BR>1970年，日本人Yuichiro Miura从南坳8000米处滑雪下山，创下世界纪录，以此拍摄的纪录片《第一位滑雪下珠峰的人》（THE MAN WHO SKIED DOWN EVEREST），获得了1976年奥斯卡最佳外语纪录片奖 </P><P> <BR>第一个两次登顶珠峰的男性    <BR>1965年5月20日，印度Nawang Gombu夏尔巴成为第一个两次登顶珠峰的男性 </P><P>   <BR>第一次在攀登中用氧    <BR>1922年，英国第二支珠穆朗玛峰登山队（队长吉·布鲁斯）队员George Finch和Geoffrey Bruce在珠峰攀登中首次用氧，这是一种专供飞行员使用的氧气 <BR> <BR>  <BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:22:54</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16329><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16329&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16329&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>4</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>还是一道题目的答案</b><br>登山成为一项体育运动项目，一般被世人公认为起源于18世纪后半叶。1786年8月8日一名学者M·G帕卡尔和一名水晶石匠人J·巴尔玛首次登上了阿尔卑斯山脉的最高峰、海拔4807米的勃朗峰。后来，人们把登山运动也称为"阿尔卑斯运动"。</font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:25:23</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16330><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16330&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16330&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>5</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>再一道</b><br>亚洲第一位登完世界8000米以上14座高峰的人<BR>5月2日，韩国登山运动员严弘吉刚从海拔7028米的营地下撤到海拔6500米的前进营地（即ABC营地）。严弘吉从1988年登顶地球最高峰--珠穆朗玛峰起，经过12年的奋斗，于2000年登完了卓奥友峰、希夏邦马峰、乔戈里峰、马卡鲁峰、洛子峰、布洛阿特峰、道拉吉利峰、南迦帕尔巴特峰等所有世界8000米以上的14座高峰，成为世界上第８位、也是亚洲第一位完成这一伟大壮举的登山家。<BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111282117242.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111282117242.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:28:29</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16331><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16331&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16331&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>6</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>又一道</b><br>中国现代登山运动大事年表(1955--1990年) <BR> <BR>2002年8月14日18:26   搜狐体育 <BR> </P><P>　　1955年5月应苏联全苏工会中央理事会的邀请,中华全国总工会派许竞、师秀、周正、杨德源4人赴苏外高加索登山营学习登山技术。</P><P>　　1955年8月14日中苏混合登山队登上苏联境内帕米尔高原海拔6673米的团结峰。</P><P>　　1955年8月15日中苏混合登山队登上苏联境内帕米尔高原海拔6780米的十月峰。</P><P>　　1956年4月25日中华全国总工会登山队32人集体登上我国东部的最高峰,也即秦岭山脉的主峰，海拔3767米的太白山。</P><P>　　1956年6月28日中苏混合登山队登上苏联境内高加索山脉海拔5633米的厄米尔鲁士山。</P><P>　　1956年7月31日中苏混合登山队登上新疆境内帕米尔高原海拨7546米的慕士塔格山。</P><P>　　1955年8月15日中苏混合登山队登上新疆境内帕米尔高原海拔7530米的公格尔九别峰。</P><P>　　1957年6月13日中华全国总工会登山队登上四川西部大雪山脉海拔7556米的贡嘎山。</P><P>　　1958年5月3日中华全国总工会登山队登上甘肃境内祁连山脉海拔5100米镜铁山主峰--道龙上瑞。</P><P>　　1958年5月16日国家体委正式设立登山运动处。</P><P>　　1958年6月中国登山协会正式成立。随后,颁布了《中华人民共和国登山运动协会会章》和《登山运动员筹级标准》。</P><P>　　1958年6月香山登山训练班开营。</P><P>　　1958年8月10日、11日中国登山队分两批登上甘肃境内祁连山脉海拔5120米的七一冰川顶峰。</P><P>　　1958年9月7日中苏混合登山队登上苏联境内帕米尔高原海拔7134米的列宁峰。</P><P>　　1958年9月8日中苏混合登山队登上苏联境内帕米尔高原海拔6852米的无名峰(后被命名为"莫斯科--北京峰")。</P><P>　　1958年9月I4日、15日中国登山队分两批登上青海境内祁连山脉海拔6305米的疏勒山主峰。</P><P>　　1959年2月l日、4日、5日中国登山队分3批登上西藏境内念青唐古拉山脉海拔6117米的念青唐古拉山东北峰。</P><P>　　1959年7月7日中国男女混合登山队登上新疆境内帕米尔高原海拔7546米的慕士塔铬山。</P><P>　　1959年7月金山登山营开营</P><P>　　1960年5月25中国登山队首次从北坡征服世界第一高峰-海披8848米的珠穆朗玛峰。</P><P>　　1960年6月2日北京地质学院登山队登上青海境内阿尼玛卿山脉海拔6268米的阿尼玛卿二峰(又名积石山)。</P><P>　　1961年6月17日中国男女混合登山队登上新疆境内帕米尔高原海拔7530米的公格尔九别峰。</P><P>　　1964年5月2日中国登山队征服世界上最后一座8000米以上处女峰--希夏邦马峰。</P><P>　　1965年春秋两季中国登山队侦察珠峰东北山脊、西山脊、加布拉山口。</P><P>　　1975年5月27日中国登山队再次从北坡登上珠穆朗玛峰,潘多成为世界上第一个从北坡登上珠峰的妇女。</P><P>　　1976年6至7月中国登山队侦察托木尔峰、乔戈里峰。</P><P>　　1976年7至9月开办博格达训练班。</P><P>　　1977年6月侦察乔戈里峰。</P><P>　　1977年7月25、30日中国登山队分两批登上新疆境内天山山脉最高峰7435米的托木尔峰。</P><P>　　1978年5月中国伊朗登山运动员在珠穆朗玛峰合作进行了训练。</P><P>　　1979年4月许竞、王振华在尼泊尔考察登山旅游情况。</P><P>　　1979年8月为开放山峰作准备中国登协派员侦察博格达峰。</P><P>　　1979年9月国家批准从1980年起对外开放珠穆朗玛峰等8座山峰，接待外国自费来华的登山队和登山旅游者。</P><P>　　1979年9至10月中国登山协会协助日本队侦察珠穆朗玛峰北壁及东北山脊路线。</P><P>　　1980年6月中国登山协会派人侦察阿尼玛卿峰进山及攀登路线</P><P>　　1983年4月21日中国登山队登上西藏境内喜马拉雅山脉海拔7043米的乃彭峰。</P><P>　　1983年9月中国登山协会派人侦察雪宝顶峰攀登路线及旅游路线。</P><P>　　1983年12月中国登山协会派人侦察玉龙山进山及攀登路线。</P><P>　　1984年4月中国登山队攀登西藏境内喜马拉'雅山脉海拔7782米的南迦巴瓦峰失利2人再次登上乃彭峰。</P><P>　　1984年9月12日、14日中国地质大学武汉登山队与日本长野县山岳会登山队组成的中日联合登山技术集训队,先后分3批登上青海境内海拔6268米的阿尼玛卿二峰。</P><P>　　1985年5月l日西藏自治区登山队登上了位于中国和尼泊尔边界线上的世界第6高峰、海拔8201米的卓奥友峰。</P><P>　　1985年5月26日中日联合登山队登上西藏境内喜马拉雅山脉海拔7694米的纳木那尼峰。</P><P>　　1985年10月21日中美联合登山队登上了新疆西藏交界处昆仑山脉东段的最高峰,海拔6973米的木孜塔格峰。</P><P>　　1986年4月28日西藏自治区登山队登上了西藏境内海拔7191米的宁青抗沙峰。</P><P>　　1986年4月30日中国陕西省、日本国京都府联合登山队登上海拔3767米的太白山。</P><P>　　1986年5月10日、11日中日联合登山队分两批登上了西藏境内晦拔7543米的章子峰。</P><P>　　1986年8月5日、6日中日联合登山队分两批登上了海拔5588米的岷山山脉主峰雪宝顶。</P><P>　　1987年9月24日、25日中日联合登山队分两批鸳上了西藏境内海拔7367米的拉布及康峰。</P><P>　　1988年5月5日中、日、尼联合登山队会师双跨珠峰成功。</P><P>　　1988年9月24日、25日中日联合登山队分3批登上了四川境内海拔6168米的雀儿山。</P><P>　　1988年12月2日中美联合登山队登上了南极最高峰海拔5140米的文森峰。</P><P>　　1989年7月24日内地、香港联合登山队登上海拔7543米的章子峰。</P><P>　　1989年8月19日中国兰州、日本秋田联合登山队登上海海拔5798米的阿尔金山。1990年2月6日中国登山队登上伊朗达马望德峰。</P><P>　　1990年5月7日至10日中、苏、美和平登山队登上珠穆朗玛峰。</P><P>　　1990年5月17日佟璐随日本队登上希夏邦马峰。</P><P>　　1990年5月19日中国西藏与日本长野山岳会联合登山队登上海拔6460米的藏色岗日峰。</P><P>　　1990年11月至12月中日联合侦察队对南迦巴瓦峰进行了空中和地面侦察。</P><P>　　1990年12月至1991年l月中日联合攀登梅里雪山发生空前山难。<BR> <BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:32:32</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16332><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16332&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16332&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>7</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>还有</b><br><font size=4><font face=黑体>唐古拉中央峰照片</font></font><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111354985449.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111354985449.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111364969364.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111364969364.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111383821573.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111383821573.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111392181773.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111392181773.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111393690079.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111393690079.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111395581424.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111395581424.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111402092059.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111402092059.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111402783006.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111402783006.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></P><P>据说 ： 中央峰 海拔８０１１米，位于喀喇昆仑山脉主脊上，东经约７６°３０′，北纬约３５°５４′，其西北方向距乔戈里峰仅８．３５公里，是完全在我国新疆（喀什地区）境内的又一座８０００米以上的高峰，它是由中国科学院兰州冻土研究所的专家们，在１９９８年编制乔戈里峰地图的过程中发现的，从而使地球上海拔超过８０００米以上的高峰达到１５座。</P><P>照片不错<BR>先贴着<BR>由于印度板块每年以５厘米的速度向北推进，青藏高原目前正处于强烈隆起时期，喜马拉雅山年平均上升１厘米，而她的最高峰珠穆朗玛峰年平均升高达３．７厘米”。地球上８０００米以上的高峰大多位于喜马拉雅山脉的主脊线上，每年均在升高之中<BR>估计这座早晚都长过8000的</font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:43:19</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16333><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16333&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16333&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>8</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>继续……</b><br>玉珠峰简介 </P><P>　　玉珠峰又称可可赛极门峰，海拔6178米，是昆仑山东段最高峰，位于青海省中部，格尔木南160公里的昆仑山口以东10公里。离最近居民点纳赤台60公里，与格尔木市相距不到200公里，同昆仑山口的比高不超过1400米（昆仑山口海拔4772米），汽车可通行至5200米的高原面，八月份的最低雪线海拔5600米。其两侧矗立着众多5000米左右的山峰，南北坡均有现代冰川发育，地形特点南坡缓北坡陡，其中南坡冰川末端海拔约5100米，北坡比降较大，冰川延伸至4400米。</P><P>　　玉珠峰的山形地貌对于初学者是非常理想的。其南坡路线清楚明了，对于攀登技术要求较低，但大本营的高度却相对较高，为海拔4800米。同时玉珠峰南坡已被风化成馒头状山峰，坡度较缓，不存在雪崩问题。</P><P>   </P><P><BR> </P><P>　　玉珠峰北坡则相对复杂，具有冰裂缝、冰塔林、冰陡坡、刃形山脊等种种地形，特别适合大部队的登山训练活动。北坡大本营距西大滩4公里，海拔4300米，雪线4400米。因此可以在南坡获得高海拔地区的登山经历而在北坡学到更多的冰雪技术和登山战术。 </P><P>天气情况</P><P>　　玉珠峰地区属大陆性气候，全年降雨量仅200毫米。然而在海拔5000米以上的高海拔地区，受高空对流气流的影响，其降雨量高出山前地带数百毫米。年平均气温零下5度，极端最低气温可达零下30度。登山季节为5月至9月，其中5月份风较大，而7、8月份雨水较多，因而以6月或8月底9月初为最佳。</P><P>　　山中天气状况以99年6月为例，大本营夜间气温为-3'C~2'C，白天通常在10'C以上，天晴且无风时可达20'C；降水情况受大环流影响，无明显周期，上山前可参考中期预报，以制定登山计划；值得注意的是山上的天气小周期现象，通常早晨天气较好中午时云层并伴有小雪，傍晚时转晴，这一现象南坡较北坡更为明显。</P><P>　　四月至十月都是玉珠峰的登山季节，气候条件相对较好，五天一个天气周期，雪质比较硬，但不妨碍行走。</P><P><BR><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111443721029.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111443721029.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A><br><IMG SRC="pic/jpg.gif" border=0>此主题相关图片如下：<br><A HREF="uploadImages/20043111444351386.jpg" TARGET=_blank><IMG SRC="uploadImages/20043111444351386.jpg" border=0 alt=按此在新窗口浏览图片 onload="javascript:if(this.width>screen.width-333)this.width=screen.width-333"></A></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:44:59</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody1 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16334><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody1 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16334&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16334&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>9</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>索性多灌些</b><br>登山快餐 </P><P><BR>--------------------------------------------------------------------------------<BR>文图:王大 </P><P><BR>"我可以不对大会负责，也不对哪个人负责，但是山有规则！" </P><P>"而且…而且…山永远在那里！"我对着那几个大腹便便，坐在雪地上喘着粗气，等着我给他们穿冰爪的中年人，连这话都说出来了，而他们继续一脸茫然……</P><P>这是在哈巴雪山东线4700米的雪线处，狂风夹杂着湿冷的雨雪弥漫在我们周围，能见度只有10米，而时间已经是12:30了。我的手暴露在空气中已经完全没有知觉，可还有好几个人的冰爪没调好……。我想都不敢想如果有人滑坠或掉进冰裂缝的情况，今天如果没有人冻伤我就谢天谢地了。我一边咒骂着这该死的天气，一边劝说我那些湿漉漉的队员们下撤，暗自庆幸可以回营地歇着了。 </P><P>老实说，我做梦也没有想过我会当向导，或者叫协作？或者叫教练？在那本工作人员花名册上我是高山救援，总之是一个牛X的角色。要不是因为在云南混过一段时间，认识了几位被同样称为山痞的哥们，我永远也不可能穿戴着印满Logo的装备以向导的身份混入这样规模庞大的登山活动中来。我从来都认为和陌生人登山是不可思议的事情，最喜欢的也许是和自己臭味相投的家伙们在山上乱晃。 </P><P>所以这"Guide"身份虽然让我有点自鸣得意，但并不是最重要的，我还怀着更加险恶的目的。 </P><P>在我长长的登顶未遂的雪山名单中，哈巴就是其中之一，上次是因为我们哥几个在冲顶那天早上配合默契的睡了个自然醒而痛失登顶良机……。报仇，对，报仇是我的重要目的之一……，但仍然不是最重要的…… </P><P>早在活动开始前几个月，精美的广告就已经铺天盖地的出现在各种媒体上，那上面说的"提供往返机票，提供全套登山装备"几个字对于我混吃等死的生活状态是一个巨大的诱惑。在得知可以掺和一下后我粗粗的估算了一下：路费吃住不用花钱；虽然那些装备我早已经有了，但再搞一套也不是什么坏事；肯定有大量的公用装备活动结束后被扔掉或锁进仓库，本着物尽其用的原则，也许应该留意一下……；另外，作为高风险的登山工作人员，那个大集团应该是会发点工资的吧……。 </P><P>想到这，我看着专门为这次活动开通的网站首页上的图片甜甜的笑了--尽管哈巴雪山全程也没有一处地形的坡度超过30度，但图片上那个正在攀爬一个90度冰壁的衣着鲜艳的登山者正在"激情攀越"。 </P><P>OK，我满怀激情！ </P><P>当我穿着塑料凉鞋，藏着肮脏的想法，站在混乱的昆明街头一个仓库门前等着领取装备时，我遇到了其他的"Guide"们，每个人都一副成竹在胸，饱经沧桑的样子。就在我开始担心混不下去的时候，"饮料呢？咖啡，果珍，紫菜汤呢？"还没等我反应过来，我的同事们就开始叫了："酒呢？水果，巧克力，肉罐头呢？"。他们和我一样对堆满仓库印满logo的各种装备、用途不明的竹竿、家用煤气灶、音箱、电视机、宣传标语、旗帜、特制的烟灰缸……并不感冒。我们的狼子野心在对食品过分关心的眼神中昭然若揭，于是距离迅速拉近，化敌为友，情同手足。 </P><P>"我们已经采购了包括压缩饼干，火锅调料，方便面在内的近两万元的食品"广告公司的负责人负责任地说"我不认为我们需要你们说的那些东西"。 </P><P>两万元？200人吃7天？要知道以往我们6、7人的队伍也要3000元的食品呢。而且又是压缩饼干？我的天敌！！方便面？毒药啊！！！  </P><P>但是，对广告公司专业性的质疑在几天后就消除了，那是在哈巴大本营被帐篷和红旗插成刺猬后的一天。我坐在厨房门口的折叠椅上，盼着那些网上报名的PLMM们的到来。这天阳光明媚，微风习习，紧接着有人上来了，广告公司负责人在一旁骄傲地介绍着"这是xx的老板""那是xx的总裁""xx主编""xx校长"…"这是xx杂志""xx报社""xx电视台""xx涉外机构"。 </P><P>能在这荒郊野岭见到这么多大腕真是很荣幸啊，那一瞬间我简直以为自己是坐在某商业中心的繁华街头。可是应该有些身份神秘一点的姑娘呀？但随着夜幕的降临，我的奢望彻底破灭了。看来我是低沽了广告公司的专业性：因为在网上赚取了大量眼球之后，他们已经心满意足的完成了任务。他们会把精力花在更重要的人身上。而我却天真地加入了浪漫的想象，这只能说明我还年轻的事实。 </P><P>这个事实在几天后的一号营地又一次被证实了。 </P><P>天气在大部队到来后迅速恶化，只要在帐篷外呆10分钟衣服上就会结满冰壳；而帐篷里，用王二的话说，除了大便是干燥的，什么都是湿的！以我可怜的登山经验我想告诉他们：你们应该尽量多喝水；你们的手套和鞋肯定会湿透结冰；你们的技术无法克服意外；你们应该服从纪律集体行动，因为教练人数有限，不可能一对一的保护；事实上，作为教练的我，即使装备齐全，这鸟天气也决不出帐篷一步……。其实我还想告诉他们，面对雪山你们应该体验自己的孤独和勇气；面对危险和意外时的冷静和冲动；和自己同伴生死与共的默契……。 </P><P>可并没谁想学点什么，大家都是怀着参加旅行团，吃顿时髦套餐的心态，顺便满足一下好奇心和虚荣心而已，并不想给登山赋予什么意义，我又何必让大家添这个堵呢。既然都已经混到这儿了，那就跟着走呗，在这一点上我们是一致的。 </P><P>就在我态度友善的给队员们做晚饭的时候，隔壁帐篷里一个队员喊道："教练，我没有雪镜" <BR>"不是每个人都发了吗？" <BR>"我没有" <BR>"我也没有" <BR>"我也是"<BR>…… <BR>我去看看物资堆里准备的备用眼镜，可是发现东西早已被翻得乱七八糟，雪镜踪影全无。赶紧通知大本营，可即使明天一早大本营派人送上来，我们也来不及登顶了。这时，昨天带领第一批队员登顶，在大雾中为了辨别路线而不幸雪盲的次洛急了： "没雪镜的明天一概不许登顶！" </P><P>营地一片寂静。 </P><P>第二天我队队员全体登顶，无一雪盲，因为早上大家出帐篷时都戴着雪镜。"也许没必要过多担心他们。"我想，在某些方面他们的经验比我丰富得多。" </P><P>比我经验丰富的远不止我的大腕队员们，在我陪同最后一批队员，又一次激情攀越后，心里盘算着：这仇是彻彻底底的报了，下一步…… </P><P>我跟同样居心叵测的王二在顶峰的大雾中一起坐着，身边是狂欢的人群，各种各样的旗帜，各种各样的姿势，地上是烟头胶卷盒尿迹和呕吐物……耐心的等待着……。终于人们陆陆续续的下山去了，我和王二相视一笑掏出早已准备好的空登山包，开始把从顶峰开始遗留在雪下的路绳挖出来。 </P><P>我们很累了，收获装备的喜悦逐渐被肩头不断增加的重量摧毁，但是想着这些绳子也许有一天会被埋在一座更陡峭的山上，我们坚持着。但终于到达营地时，眼前的一切令我们无地自容，无话可说：所有同事们都在，整个活动期间也没有这么齐过，每个人的背包都鼓鼓囊囊的，所有没有被队员带走的东西早已洗劫一空，居然连王二的冰镐也不见了踪影。 </P><P>晚了，赔了，白混了……。更别提回到大本营后的一片狼藉，混乱不堪，自顾不暇了：美军正在从越南撤退…… </P><P>这次名为登山的活动结束后，一次教练们的聚会上，一位登协职业教练说：登山向导应该是一个计划制定、实施者，安全卫士，决策者，教练，老师，环境保护者，冲突调解人。应该具备端正的态度，计划准备，责任，沟通，勇气，团队建设，决策，解决冲突和应变等等能力…… </P><P>他强调说"总之，我们要让更多的人爱上登山"。 <BR>我想他说的是对的…… </P><P>这时我想起一天接近顶峰时，一位小姑娘大喊着："登顶对我一点意义也没有！"她站在那里，冻得两眼泪汪汪的，"什么破山啊，我再也不来了……" <BR>我想也许她也是对的…… </P><P>还有活动圆满成功的那个晚上，在激情会所的火锅边，负责人满意地说："两百多人！这应该是国内，不，世界上登顶人数最多的一次登山活动！我们要申请吉尼斯世界纪录！" <BR>我想这也许是中国特有的…… </P><P>比起将要用许多年去愈合那些被踩成烂泥一样的草地的不快，哈巴雪山，以及登山运动，还要忍受更多时尚的关注和看待摇钱树一样的目光…… <BR>这座善良的雪山，在发了一点小脾气之后，还是叹息着让所有的人如愿以偿了……。 </P><P>我想我们也许是有罪的…… <BR></font></blockquote></td></tr><tr><td class=tablebody1 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:46:14</td><td class=tablebody1 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><TABLE cellPadding=5 cellSpacing=1 align=center class=tableborder1 style="table-layout:fixed; word-break:break-all"><tr><td class=tablebody2 valign=top width=175><table width=100% cellpadding=4 cellspacing=0><tr><td width=* valign=middle style="filter:glow(color=#9898BA,strength=2)">&nbsp;<a name=16335><font color=#000066><B>faknight</B></font></a>	</td><td width=25 valign=middle><img src=pic/ofFeMale.gif alt=美女呀，离线，快来找我吧！></td><td width=16 valign=middle><img src=star/z7.gif alt=天秤座1983-10-18></td></tr></table>&nbsp;&nbsp;<img src=pic/level6.gif><br>&nbsp;&nbsp;等级：黑侠<BR>&nbsp;&nbsp;威望：1<br>&nbsp;&nbsp;文章：735<br>&nbsp;&nbsp;积分：925<br>&nbsp;&nbsp;注册：2003-1-8<BR></td><td class=tablebody2 valign=top width=*><table width=100% ><tr><td width=*><a href="javascript:openScript('messanger.asp?action=new&touser=faknight',500,400)"><img src="pic/message.gif" border=0 alt="给faknight发送一个短消息"></a>&nbsp;<a href="friendlist.asp?action=addF&myFriend=faknight" target=_blank><img src="pic/friend.gif" border=0 alt="把faknight加入好友"></a>&nbsp;<a href="dispuser.asp?id=55" target=_blank><img src="pic/profile.gif" border=0 alt="查看faknight的个人资料"></a>&nbsp;<a href="queryResult.asp?stype=1&nSearch=3&keyword=faknight&BoardID=6&SearchDate=ALL" target=_blank><img src="pic/find.gif" border=0 alt="搜索faknight在理论与实践的所有贴子"></a>&nbsp;<A href="mailto:isnake_1849@sjtu.edu.cn"><IMG alt="点击这里发送电邮给faknight" border=0 src=pic/email.gif></A>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16335&id=1654&star=1&reply=true"><img src="pic/reply.gif" border=0 alt=引用回复这个贴子></a>&nbsp;<a href="reannounce.asp?BoardID=6&replyID=16335&id=1654&star=1"><img src="pic/reply_a.gif" border=0 alt=回复这个贴子></a></td><td width=50><b>第<font color=#FF0000>10</font>楼</b></td></tr><tr><td bgcolor=#6595D6 height=1 colspan=2></td></tr></table><blockquote><img src=face/face1.gif border=0 alt=发贴心情>&nbsp;<font style="font-size:9pt;line-height:15pt"><b>登山用语</b><br>登山用语 Technical Terms(Climbing)</P><P>大本营 Base camp<BR>前进营地 Attack base camp<BR>1号营地 Camp one<BR>突击营地 Attack camp<BR>冰塔 Cerack camp<BR>冰瀑区 Ice fall<BR>陡峭的岩沟 Gully<BR>明裂缝 Crevasse<BR>暗裂缝 Hiddent crevasse<BR>平台 Plateau<BR>雪沟 Couloir<BR>尖峰 Pinnacle<BR>刃状山脊 Knife ridge<BR>坳部 Col<BR>悬冰川 Hanging glacier<BR>岩石山脊 Rock ridge<BR>雪山脊 Snow ridge<BR>雪壁 Snow face/wall<BR>冰壁 Ice face/wall<BR>横切 Traverse<BR>开路 Snow plough,To break the trail<BR>雪崩 Avalanche<BR>暴风雪 Snow storm<BR>联成结组 To rope up<BR>自我保护 Self belay<BR>保护地点 Belaying point<BR>同时攀登 Moving up together<BR>雾状天气 White out<BR>坚硬的冰 Blue ice<BR>山凹 Gap<BR>岩石小裂缝 Crack<BR>冰镐尖 Pick<BR>冰镐刃部 Blade<BR>冰镐反把 Shaft<BR>冰镐前端 Spitze<BR>事故 Accident<BR>进山路线 Approach<BR>山谷地形 Kar<BR>坡 Slope<BR>行军计划 Schedule,Acting plan<BR>支援 Support<BR>保护 Belay<BR>落脚点 Stance<BR>刨台阶 Step cut<BR>雪檐 Cornice<BR>第一台阶 The first step<BR>顶峰 Top<BR>冰柱 Icicle<BR>帐篷柱 Tent pole<BR>山口 Pass<BR>冰川 Glacier<BR>冰原 Ice field<BR>冰舌 Ice tongue<BR>露宿 Bivouac<BR>冰碛 Moraine(小利整理)<BR></font></blockquote></td></tr><tr><td class=tablebody2 valign=middle align=center width=175><a href=look_ip.asp?boardid=6&userid=55&ip=*.*.*.*&action=lookip target=_blank><img align=absmiddle border=0 width=13 height=15 src="pic/ip.gif" alt="点击查看用户来源及管理<br>发贴IP：*.*.*.*"></a> 2004-3-11 1:52:31</td><td class=tablebody2 valign=middle width=*><table width=100% cellpadding=0 cellspacing=0><tr><td align=left valign=middle> </td><td align=right nowarp valign=bottom width=110></td><td align=right valign=bottom width=4> </td></tr></table></td></tr></table><BR><table cellpadding=0 cellspacing=3 border=0 width=97% align=center><tr><td valign=middle nowrap>本主题贴数<b>18</b>，分页： <font color=#FF0000>[1]</font> <a href="?BoardID=6&id=1654&replyID=16326&star=2&skin=">[2]</a></td><td valign=middle nowrap align=right><select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}"><option selected>跳转论坛至...</option><option>╋ 协会事务</option><option>没有论坛</option><option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=2">　├每周论题</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=8">　├群贤毕至</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=7">　├游记 心情 随想</option></select></td></tr></table><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr valign=center> <td width =100% align=right> 
+<a href="admin_postings.asp?action=锁定&BoardID=6&ID=1654" title=锁定本主题>锁定</a> 
+  | <a href="admin_postings.asp?action=解锁&BoardID=6&ID=1654" title=将本主题解开锁定>解锁</a>
+  | <a href="admin_postings.asp?action=删除主题&BoardID=6&ID=1654" title=注意：本操作将删除本主题所有贴子，不能恢复>删除</a>
+  | <a href="admin_postings.asp?action=移动&BoardID=6&ID=1654&replyID=16326" title=移动主题>移动</a>  |  <a href="admin_postings.asp?action=固顶&BoardID=6&ID=1654" title=将本主题固顶>固顶</a>
+  | <a href="admin_postings.asp?action=奖励&BoardID=6&ID=1654" title=对发起主题用户奖励>奖励</a>
+  | <a href="admin_postings.asp?action=惩罚&BoardID=6&ID=1654" title=对发起主题用户惩罚>惩罚</a>
+  | <a href="announcements.asp?BoardID=6&action=AddAnn">发布公告</a>
+</td></tr></table>
+
+<form name=preview action=preview.asp method=post target=preview_page>
+<input type=hidden name=title value=""><input type=hidden name=body value="">
+</form>
+<script>
+function gopreview()
+{
+
+document.forms[1].body.value=document.forms[0].Content.value;
+var popupWin = window.open('preview.asp', 'preview_page', 'scrollbars=yes,width=750,height=450');
+document.forms[1].submit()
+
+}
+</script>
+<script language=javascript>
+ie = (document.all)? true:false
+if (ie){
+function ctlent(eventobject){if(event.ctrlKey && window.event.keyCode==13){this.document.frmAnnounce.submit();}}
+}
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr><td align=center>
+
+</td></tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>上海交通大学野外生存协会网络部</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：437.500毫秒
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,442 @@
+
+<html>
+<head>
+<META http-equiv=Content-Type content=text/html; charset=gb2312>
+<meta name=keywords content="bbs">
+<title>上海交通大学野外生存素质拓展基地--游记 心情 随想</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#000000}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+
+BODY{
+FONT-SIZE: 12px;
+COLOR: #000000;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+scrollbar-face-color: #DEE3E7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #DEE3E7;
+scrollbar-3dlight-color: #D1D7DC;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+}
+TD{
+font-family: 宋体;
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-image: url(skin/default/bg1.gif);
+background-color: #4455aa;
+color: white;
+font-size: 12px;
+font-weight:bold;
+}
+td.TableTitle2
+{
+background-color: #E4E8EF;
+}
+td.TableBody1
+{
+background-color: #FFFFFF;
+}
+td.TableBody2
+{
+background-color: #E4E8EF;
+}
+td.TopDarkNav
+{
+background-image: url(skin/default/topbg.gif);
+}
+td.TopLighNav
+{
+background-image: url(skin/default/bottombg.gif);
+}
+td.TopLighNav1
+{
+background-image: url(skin/default/tabs_m_tile.gif);
+}
+td.TopLighNav2
+{
+background-color:#FFFFFF
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #6595D6;
+}
+.tableBorder2
+{
+width:97%;
+border: 1px #DEDEDE solid; 
+background-color: #EFEFEF;
+}
+
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+#TableTitleLink A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: underline;}
+
+input,select,Textarea{
+font-family:Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px;}
+}
+.normalTextSmall 
+{ 
+    font-size : 11px;
+    color : #000000; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+</style><script language="javascript">
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+function openScript(url, width, height){
+	var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=no,status=yes' );
+}
+</script>
+<script Language="JavaScript">
+//***********默认设置定义.*********************
+tPopWait=50;//停留tWait豪秒后显示提示。
+tPopShow=5000;//显示tShow豪秒后关闭提示
+showPopStep=20;
+popOpacity=99;
+
+//***************内部变量定义*****************
+sPop=null;
+curShow=null;
+tFadeOut=null;
+tFadeIn=null;
+tFadeWaiting=null;
+
+document.write("<style type='text/css'id='defaultPopStyle'>");
+document.write(".cPopText {  background-color: #F8F8F5;color:#000000; border: 1px #000000 solid;font-color: font-size: 12px; padding-right: 4px; padding-left: 4px; height: 20px; padding-top: 2px; padding-bottom: 2px; filter: Alpha(Opacity=0)}");
+document.write("</style>");
+document.write("<div id='dypopLayer' style='position:absolute;z-index:1000;' class='cPopText'></div>");
+
+
+function showPopupText(){
+var o=event.srcElement;
+	MouseX=event.x;
+	MouseY=event.y;
+	if(o.alt!=null && o.alt!=""){o.dypop=o.alt;o.alt=""};
+        if(o.title!=null && o.title!=""){o.dypop=o.title;o.title=""};
+	if(o.dypop!=sPop) {
+			sPop=o.dypop;
+			clearTimeout(curShow);
+			clearTimeout(tFadeOut);
+			clearTimeout(tFadeIn);
+			clearTimeout(tFadeWaiting);	
+			if(sPop==null || sPop=="") {
+				dypopLayer.innerHTML="";
+				dypopLayer.style.filter="Alpha()";
+				dypopLayer.filters.Alpha.opacity=0;	
+				}
+			else {
+				if(o.dyclass!=null) popStyle=o.dyclass 
+					else popStyle="cPopText";
+				curShow=setTimeout("showIt()",tPopWait);
+			}
+			
+	}
+}
+
+function showIt(){
+		dypopLayer.className=popStyle;
+		dypopLayer.innerHTML=sPop;
+		popWidth=dypopLayer.clientWidth;
+		popHeight=dypopLayer.clientHeight;
+		if(MouseX+12+popWidth>document.body.clientWidth) popLeftAdjust=-popWidth-24
+			else popLeftAdjust=0;
+		if(MouseY+12+popHeight>document.body.clientHeight) popTopAdjust=-popHeight-24
+			else popTopAdjust=0;
+		dypopLayer.style.left=MouseX+12+document.body.scrollLeft+popLeftAdjust;
+		dypopLayer.style.top=MouseY+12+document.body.scrollTop+popTopAdjust;
+		dypopLayer.style.filter="Alpha(Opacity=0)";
+		fadeOut();
+}
+
+function fadeOut(){
+	if(dypopLayer.filters.Alpha.opacity<popOpacity) {
+		dypopLayer.filters.Alpha.opacity+=showPopStep;
+		tFadeOut=setTimeout("fadeOut()",1);
+		}
+		else {
+			dypopLayer.filters.Alpha.opacity=popOpacity;
+			tFadeWaiting=setTimeout("fadeIn()",tPopShow);
+			}
+}
+
+function fadeIn(){
+	if(dypopLayer.filters.Alpha.opacity>0) {
+		dypopLayer.filters.Alpha.opacity-=1;
+		tFadeIn=setTimeout("fadeIn()",1);
+		}
+}
+document.onmouseover=showPopupText;
+
+function CheckAll(form)  {
+  for (var i=0;i<form.elements.length;i++)    {
+    var e = form.elements[i];
+    if (e.name != 'chkall')       e.checked = form.chkall.checked; 
+   }
+  }
+</script>
+</head>
+<body  topmargin=0 leftmargin=0>
+
+<table cellspacing=0 cellpadding=0 align=center style="border:1px #6595D6 solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px;width:97%;">
+<tr><td width=100%>
+<table width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<tr><td class=TopLighNav height=9></td></tr>
+        <tr>
+          <td class=TopLighNav1 height=22  valign="middle">&nbsp;&nbsp;
+		  <a href="http://freebag.shetuan.sjtu.info/index.asp" target="index">首页</a>
+		  <img src=pic/navspacer.gif align=absmiddle>
+
+<a href="login.asp">登陆</a> <img src=pic/navspacer.gif align=absmiddle>
+<a href="reg.asp">注册</a>
+
+ <img src=pic/navspacer.gif align=absmiddle> <a href="query.asp?boardid=7">搜索</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardstat.asp?boardid=7">论坛状态</a> <img src=pic/navspacer.gif align=absmiddle> <a href="boardhelp.asp?boardid=7">帮助</a> <img src=pic/navspacer.gif align=absmiddle> <a href="dispuser.asp?boardid=7&action=permission">我能做什么</a>
+<img src=pic/navspacer.gif align=absmiddle><a href="/xiehui/notice/index.asp" target="notice">重要通知</a>
+ <img src=pic/navspacer.gif align=absmiddle> <a href="/xiehui/manage/index1.htm" target="man">会员管理</a><img src=pic/navspacer.gif align=absmiddle><a href=http://security.sjtu.edu.cn/bbs> Jack之家</a>
+			</td>
+        </tr>
+</table>
+</td></tr>
+</table>
+
+<table cellspacing=1 cellpadding=3 align=center border=0 width="97%">
+<tr>
+
+<td >
+#>> %这里是分享历程的大地
+%这里是分享心情的天空
+%这里是分享随想的海洋
+%
+</td></tr>
+</table>
+<table cellspacing=1 cellpadding=3 align=center class=tableBorder2>
+<tr><td height=25 valign=middle>
+<img src="pic/Forum_nav.gif" align=absmiddle> <a href=index.asp>上海交通大学野外生存素质拓展基地</a> →
+游记 心情 随想
+<a name=top></a>
+</td></td>
+</table>
+<br>
+
+<TABLE cellSpacing=0 cellPadding=0 width=97% border=0 align=center>
+<tr>
+<td align=center width=100% valign=middle>
+<SCRIPT LANGUAGE='JavaScript' SRC='js/fader.js' TYPE='text/javascript'></script>
+<SCRIPT LANGUAGE='JavaScript' TYPE='text/javascript'>
+prefix="";
+arNews = ["<b><a href='announcements.asp?boardid=7' target=_blank><ACRONYM TITLE='当前没有公告'>当前没有公告</ACRONYM></a></b> ","","欢迎光临上海交通大学野外生存素质拓展基地游记 心情 随想","",
+"严禁恶意使用粗言秽语，违者经劝告无效，立即封ID。",""
+]
+</SCRIPT>
+      <div id="elFader" style="position:relative;visibility:hidden; height:16" ></div>
+      <SCRIPT language="">
+var dayarray=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
+var montharray=new Array("1","2","3","4","5","6","7","8","9","10","11","12")
+var cweather="<font color='#3FAFFF'></font>"
+var cxt=Math.round(Math.random())
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="夜深了"
+if (hours>=0 && hours<2) {dn="新的一天开始了"}
+else if (hours>=2 && hours<4) {dn="夜深了"}
+else if (hours>=4 && hours<5) {dn="天快亮了"}
+else if (hours>=5 && hours<9) {dn="早安朋友"}
+else if (hours>=9 && hours<11) {dn="上午好"}
+else if (hours>=11 && hours<13) {dn="该吃午饭了"}
+else if (hours>=13 && hours<18) {dn="下午好"}
+else if (hours>=18 && hours<23) {dn="祝心情愉快"}
+if (minutes<=9)
+minutes="0"+minutes
+//change font size here
+var cdate="<font color='#3FAFFF'>"+dayarray[day]+" "+year+"/"+montharray[month]+"/"+daym+" "+hours+":"+minutes+" "+dn
++"</font>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all)
+getthedate()
+function goforit(){
+if (document.all)
+setInterval("getthedate()",1000)
+}
+if(cxt==0) {window.onload=goforit}
+else {document.write(cweather)}
+</SCRIPT>
+      <SPAN id=clock></SPAN></td>
+</tr>
+</table><BR>
+<script>
+function loadThreadFollow(t_id,b_id){
+	var targetImg =eval("document.all.followImg" + t_id);
+	var targetDiv =eval("document.all.follow" + t_id);
+	if (targetImg.src.indexOf("nofollow")!=-1){return false;}
+	if ("object"==typeof(targetImg)){
+		if (targetDiv.style.display!='block'){
+			targetDiv.style.display="block";
+			targetImg.src="pic/minus.gif";
+			if (targetImg.loaded=="no"){
+				document.frames["hiddenframe"].location.replace("loadtree1.asp?boardid="+b_id+"&rootid="+t_id);
+			}
+		}else{
+			targetDiv.style.display="none";
+			targetImg.src="pic/plus.gif";
+		}
+	}
+}
+</script>
+
+<iframe width=0 height=0 src="" id="hiddenframe"></iframe>
+<!--<TABLE cellSpacing=0 cellPadding=0 width=97% border=0 align=center>
+<tr>
+<td align=center width=34 valign=middle> <img src="pic/gb.gif" border=0  width=20 height=17>
+</td><td valign=middle align=left>
+<b><a href='announcements.asp?boardid=7' target=_blank><ACRONYM TITLE='当前没有公告'>当前没有公告</ACRONYM></a></b> (2005-3-11 4:45:13)
+</td>
+<td align=right valign=middle><p>
+<form action="list.asp" method=get>
+<input type=hidden name=boardid value="7">
+<select name=selTimeLimit onchange='javascript:submit()'>
+<option value=all>查看所有的主题
+<option value=1>查看一天内的主题
+<option value=2>查看两天内的主题
+<option value=7>查看一星期内的主题
+<option value=15>查看半个月内的主题
+<option value=30>查看一个月内的主题
+<option value=60>查看两个月内的主题
+<option value=180>查看半年内的主题
+</select>
+</form></p>
+</td></tr>
+</TABLE>
+--><BR>
+<TABLE cellpadding=3 cellspacing=1 class=tableborder1 align=center>
+<TR>
+<Th height=25 width="100%" align=left id=tabletitlelink style="font-weight:normal">总在线<b>3</b>人，其中游记 心情 随想上共有 <b>0</b> 位会员与 <b>0</b> 位客人.今日贴子 <b><font color=#FF0000>0</font></b> 
+[<a href=list.asp?action=show&boardID=7&amp;page=1&skin=>显示详细列表</a>]
+</Th></TR>
+
+</td></tr>
+</TABLE>
+<BR>
+<table cellpadding=0 cellspacing=0 border=0 width=97% align=center valign=middle><tr>
+<td align=center width=2> </td>
+<td align=left> <a href="announce.asp?boardid=7"><img src="pic/blue/postnew.gif" border=0 alt="发新帖"></a>
+&nbsp;&nbsp;<a href="vote.asp?boardid=7"><img src="pic/blue/votenew.gif" border=0 alt="发起新投票"></a>
+&nbsp;&nbsp;<a href="smallpaper.asp?boardid=7"><img src="pic/blue/xzb.gif" border=0 alt="发布小字报"></a></td>
+<td align=right><img src="pic/team2.gif" align=absmiddle>  <a href="dispuser.asp?name=定风波" target=_blank title=点击查看该版主资料>定风波</a>&nbsp;</td></tr></table>
+
+<TABLE cellPadding=1 cellSpacing=1 class=tableborder1 align=center>
+<tr><td class=tablebody1 colspan=5 height=20>
+<table width=100% >
+<tr>
+<td valign=middle height=20 width=50> <a href=AllPaper.asp?boardid=7 title=点击查看本论坛所有小字报><b>广播：</b></a> </td><td width=*> 
+<marquee scrolldelay=150 scrollamount=4 onmouseout="if (document.all!=null){this.start()}" onmouseover="if (document.all!=null){this.stop()}">
+
+</marquee><td align=right width=200><a href='elist.asp?boardid=7' title=查看本版精华><font color=#FF0000><B>精华</B></font></a> | <a href=boardstat.asp?reaction=online&boardid=7 title=查看本版在线详细情况>在线</a> | <a href=bbseven.asp?boardid=7 title=查看本版事件>事件</a> | <a href=Boardhelp.asp?boardid=7 title=查看本版帮助>帮助</a> | <a href='?boardid=7&action=batch'>管理</a></td></tr>
+</table>
+</td></tr>
+<form action="admin_batch.asp" method=post name=batch>
+<TR align=middle>
+<Th height=25 width=32 id=tabletitlelink><a href="list.asp?boardid=7&page=&action=batch">状态</a></th>
+<Th width=*>主 题  (点<img src=pic/plus.gif>即可展开贴子列表)</Th>
+<Th width=80>作 者</Th>
+<Th width=64>回复/人气</Th>
+<Th width=195>最后更新 | 回复人</Th>
+</TR>
+<TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2086" style="cursor:hand;" onclick="loadThreadFollow(2086,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2086" title="《帽儿山日记之高魏篇》<br>作者：小明<br>发表于2004-8-13 20:18:30<br>最后跟贴：高魏会唱的老歌......">帽儿山日记之高魏篇</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>4/1503</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2086&star=1#19582">2005-2-28&nbsp;20:28</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=913 target=_blank>why</a></TD></TR><tr style="display:none" id="follow2086"><td colspan=5 id="followTd2086" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2086,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1487" style="cursor:hand;" onclick="loadThreadFollow(1487,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1487" title="《[马拉松]杂记》<br>作者：faknight<br>发表于2003-11-25 18:50:55<br>最后跟贴：翻老贴忆往昔......">[马拉松]杂记</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=7&ID=1487&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=7&ID=1487&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=55" target=_blank>faknight</a></TD><TD class=tablebody1 width=64>11/4975</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1487&star=2#19319">2004-10-7&nbsp;00:43</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=528 target=_blank>Ω</a></TD></TR><tr style="display:none" id="follow1487"><td colspan=5 id="followTd1487" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1487,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2087" style="cursor:hand;" onclick="loadThreadFollow(2087,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2087" title="《帽儿山日记之曲曲篇》<br>作者：小明<br>发表于2004-8-13 20:28:12<br>最后跟贴：[quote][b]以下......">帽儿山日记之曲曲篇</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>8/2020</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2087&star=1#19198">2004-9-19&nbsp;02:54</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=1 target=_blank>admin</a></TD></TR><tr style="display:none" id="follow2087"><td colspan=5 id="followTd2087" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2087,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2088" style="cursor:hand;" onclick="loadThreadFollow(2088,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2088" title="《帽儿山日记之小明篇》<br>作者：小明<br>发表于2004-8-13 20:34:20<br>最后跟贴：据说是第一次......">帽儿山日记之小明篇</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>5/1764</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2088&star=1#18896">2004-9-2&nbsp;19:36</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=55 target=_blank>faknight</a></TD></TR><tr style="display:none" id="follow2088"><td colspan=5 id="followTd2088" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2088,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2085" style="cursor:hand;" onclick="loadThreadFollow(2085,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2085" title="《帽儿山日记之沈艳君篇》<br>作者：小明<br>发表于2004-8-13 20:13:36<br>最后跟贴：[quote][b]以下......">帽儿山日记之沈艳君篇</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>4/1373</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2085&star=1#18893">2004-9-2&nbsp;19:33</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=55 target=_blank>faknight</a></TD></TR><tr style="display:none" id="follow2085"><td colspan=5 id="followTd2085" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2085,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2083" style="cursor:hand;" onclick="loadThreadFollow(2083,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2083" title="《帽儿山日记之陆昊篇》<br>作者：小明<br>发表于2004-8-13 19:57:45<br>最后跟贴：忽忽我来算算......">帽儿山日记之陆昊篇</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>6/1653</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2083&star=1#18892">2004-9-2&nbsp;19:31</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=55 target=_blank>faknight</a></TD></TR><tr style="display:none" id="follow2083"><td colspan=5 id="followTd2083" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2083,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2084" style="cursor:hand;" onclick="loadThreadFollow(2084,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2084" title="《帽儿山日记之曹云枫篇》<br>作者：小明<br>发表于2004-8-13 20:05:22<br>最后跟贴：我取的绰号每个......">帽儿山日记之曹云枫篇</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>4/1532</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2084&star=1#18891">2004-9-2&nbsp;19:30</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=55 target=_blank>faknight</a></TD></TR><tr style="display:none" id="follow2084"><td colspan=5 id="followTd2084" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2084,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1868" style="cursor:hand;" onclick="loadThreadFollow(1868,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1868" title="《写在一年》<br>作者：bolanggu<br>发表于2004-4-7 23:12:57<br>最后跟贴：登上回忆的潮......">写在一年</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=114" target=_blank>bolanggu</a></TD><TD class=tablebody1 width=64>9/2405</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1868&star=1#18510">2004-6-3&nbsp;23:51</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=44 target=_blank>chiron</a></TD></TR><tr style="display:none" id="follow1868"><td colspan=5 id="followTd1868" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1868,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2008" style="cursor:hand;" onclick="loadThreadFollow(2008,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2008" title="《5月25日训练日记》<br>作者：张宇明<br>发表于2004-5-26 18:37:07<br>最后跟贴：赞同小明的看法......">5月25日训练日记</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=578" target=_blank>张宇明</a></TD><TD class=tablebody1 width=64>3/1256</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2008&star=1#18378">2004-5-27&nbsp;12:43</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=382 target=_blank>洪涛</a></TD></TR><tr style="display:none" id="follow2008"><td colspan=5 id="followTd2008" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2008,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1842" style="cursor:hand;" onclick="loadThreadFollow(1842,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1842" title="《推荐：另一篇关于3。27定向》<br>作者：激情似火<br>发表于2004-4-2 21:52:00<br>最后跟贴：[quote][b]以下......">推荐：另一篇关于3。27定向</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=358" target=_blank>激情似火</a></TD><TD class=tablebody1 width=64>5/2333</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1842&star=1#17315">2004-4-7&nbsp;02:18</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=315 target=_blank>小琳子</a></TD></TR><tr style="display:none" id="follow1842"><td colspan=5 id="followTd1842" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1842,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1482" style="cursor:hand;" onclick="loadThreadFollow(1482,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1482" title="《【终于写好了】马拉松的体验——自己跟自己的战斗》<br>作者：小明<br>发表于2003-11-22 0:04:02<br>最后跟贴：丁丁是不是看到我写得太罗嗦了,<BR> 只好只...">【终于写好了】马拉松的体验——自己跟自己的战斗</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=146" target=_blank>小明</a></TD><TD class=tablebody1 width=64>5/2242</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1482&star=1#15571">2003-12-6&nbsp;18:43</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=146 target=_blank>小明</a></TD></TR><tr style="display:none" id="follow1482"><td colspan=5 id="followTd1482" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1482,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1467" style="cursor:hand;" onclick="loadThreadFollow(1467,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1467" title="《[马拉松]飞一般梦想》<br>作者：bolanggu<br>发表于2003-11-18 1:59:27<br>最后跟贴：你怎么不去？...">[马拉松]飞一般梦想</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=7&ID=1467&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=7&ID=1467&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=114" target=_blank>bolanggu</a></TD><TD class=tablebody1 width=64>10/7510</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1467&star=2#15331">2003-11-20&nbsp;01:43</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=298 target=_blank>莽莽戈壁滩</a></TD></TR><tr style="display:none" id="follow1467"><td colspan=5 id="followTd1467" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1467,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1463" style="cursor:hand;" onclick="loadThreadFollow(1463,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1463" title="《[召集贴]参加马拉松的好汉进来》<br>作者：bolanggu<br>发表于2003-11-15 20:45:19<br>最后跟贴：群扁这个bt的家伙。&nbsp;呵呵，打的你不仅脸...">[召集贴]参加马拉松的好汉进来</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=114" target=_blank>bolanggu</a></TD><TD class=tablebody1 width=64>2/973</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1463&star=1#15257">2003-11-18&nbsp;17:18</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=298 target=_blank>莽莽戈壁滩</a></TD></TR><tr style="display:none" id="follow1463"><td colspan=5 id="followTd1463" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1463,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1466" style="cursor:hand;" onclick="loadThreadFollow(1466,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1466" title="《[原创]献给我生命中的马拉松》<br>作者：我<br>发表于2003-11-17 23:51:41<br>最后跟贴：希望更多的人通过野协<BR> 体会到生活的更多...">[原创]献给我生命中的马拉松</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=473" target=_blank>我</a></TD><TD class=tablebody1 width=64>3/1265</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1466&star=1#15255">2003-11-18&nbsp;17:12</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=146 target=_blank>小明</a></TD></TR><tr style="display:none" id="follow1466"><td colspan=5 id="followTd1466" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1466,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/istop.gif" alt=固顶主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1465" style="cursor:hand;" onclick="loadThreadFollow(1465,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1465" title="《给自己一个坚强的理由》<br>作者：decathlon<br>发表于2003-11-17 17:46:15<br>最后跟贴：看了师弟师妹的文章,好感动哦!<BR> 或许我...">给自己一个坚强的理由</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=304" target=_blank>decathlon</a></TD><TD class=tablebody1 width=64>3/1454</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1465&star=1#15250">2003-11-18&nbsp;14:12</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=473 target=_blank>我</a></TD></TR><tr style="display:none" id="follow1465"><td colspan=5 id="followTd1465" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1465,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/isbest.gif" alt=精华帖子></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2219" style="cursor:hand;" onclick="loadThreadFollow(2219,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2219" title="《记2004年11月19－21日的清凉峰活动》<br>作者：naivemay<br>发表于2004-11-22 19:06:49<br>最后跟贴：怪不得呢,背那么......">记2004年11月19－21日的清凉峰活动</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=7&ID=2219&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=7&ID=2219&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=574" target=_blank>naivemay</a></TD><TD class=tablebody1 width=64>16/4462</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2219&star=2#19524">2004-11-30&nbsp;22:19</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=738 target=_blank>多多</a></TD></TR><tr style="display:none" id="follow2219"><td colspan=5 id="followTd2219" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2219,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img src="pic/nofollow.gif" id="followImg2223"><a href="dispbbs.asp?boardID=7&ID=2223" title="《大家感恩节快乐~~》<br>作者：多多<br>发表于2004-11-25 19:40:00<br>最后跟贴：For&nbsp;all&nbsp;the&nbsp;days&nbsp;tha......">大家感恩节快乐~~</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=738" target=_blank>多多</a></TD><TD class=tablebody1 width=64>0/383</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2223&star=1#19511">2004-11-25&nbsp;19:40</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=738 target=_blank>多多</a></TD></TR><tr style="display:none" id="follow2223"><td colspan=5 id="followTd2223" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2223,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img src="pic/nofollow.gif" id="followImg2222"><a href="dispbbs.asp?boardID=7&ID=2222" title="《清凉峰归来~~》<br>作者：多多<br>发表于2004-11-23 17:44:57<br>最后跟贴：此次出外，果然很有......">清凉峰归来~~</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=738" target=_blank>多多</a></TD><TD class=tablebody1 width=64>0/498</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2222&star=1#19501">2004-11-23&nbsp;17:44</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=738 target=_blank>多多</a></TD></TR><tr style="display:none" id="follow2222"><td colspan=5 id="followTd2222" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2222,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2093" style="cursor:hand;" onclick="loadThreadFollow(2093,7)" title=展开贴子列表><img src=pic/jpg.gif width=16 height=16><a href="dispbbs.asp?boardID=7&ID=2093" title="《暑假的时候&nbsp;出去溜了一圈&nbsp;&nbsp;拍了些照片》<br>作者：phoebe<br>发表于2004-8-26 23:11:25<br>最后跟贴：照片好灵哦...">暑假的时候&nbsp;出去溜了一圈&nbsp;&nbsp;拍了些照片</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=7&ID=2093&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=7&ID=2093&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=7&ID=2093&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=110" target=_blank>phoebe</a></TD><TD class=tablebody1 width=64>22/12094</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2093&star=3#19418">2004-10-30&nbsp;21:03</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=4 target=_blank>camel</a></TD></TR><tr style="display:none" id="follow2093"><td colspan=5 id="followTd2093" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2093,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2178" style="cursor:hand;" onclick="loadThreadFollow(2178,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2178" title="《我今年暑假学会游泳啦》<br>作者：我<br>发表于2004-10-14 11:17:06<br>最后跟贴：晕死...">我今年暑假学会游泳啦</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=473" target=_blank>我</a></TD><TD class=tablebody1 width=64>2/998</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2178&star=1#19390">2004-10-21&nbsp;08:12</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=382 target=_blank>洪涛</a></TD></TR><tr style="display:none" id="follow2178"><td colspan=5 id="followTd2178" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2178,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2158" style="cursor:hand;" onclick="loadThreadFollow(2158,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2158" title="《就职演说》<br>作者：定风波<br>发表于2004-9-29 22:07:41<br>最后跟贴：支持啊不好意......">就职演说</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=440" target=_blank>定风波</a></TD><TD class=tablebody1 width=64>6/1634</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2158&star=1#19377">2004-10-15&nbsp;14:45</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=172 target=_blank>朱朱</a></TD></TR><tr style="display:none" id="follow2158"><td colspan=5 id="followTd2158" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2158,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg2153" style="cursor:hand;" onclick="loadThreadFollow(2153,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=2153" title="《野营中的人性体现[转帖]》<br>作者：闲人<br>发表于2004-9-28 10:35:43<br>最后跟贴：探险中意外的事......">野营中的人性体现[转帖]</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=723" target=_blank>闲人</a></TD><TD class=tablebody1 width=64>3/1083</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2153&star=1#19364">2004-10-12&nbsp;14:43</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=744 target=_blank>海天一色</a></TD></TR><tr style="display:none" id="follow2153"><td colspan=5 id="followTd2153" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2153,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img src="pic/nofollow.gif" id="followImg2167"><a href="dispbbs.asp?boardID=7&ID=2167" title="《2004年10月4日/5日骑行淀山湖》<br>作者：jackchen<br>发表于2004-10-7 21:23:09<br>最后跟贴：10月4日8:20左右，我到......">2004年10月4日/5日骑行淀山湖</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=388" target=_blank>jackchen</a></TD><TD class=tablebody1 width=64>0/625</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2167&star=1#19331">2004-10-7&nbsp;21:23</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=388 target=_blank>jackchen</a></TD></TR><tr style="display:none" id="follow2167"><td colspan=5 id="followTd2167" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2167,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/hotfolder.gif" alt=热门主题></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1428" style="cursor:hand;" onclick="loadThreadFollow(1428,7)" title=展开贴子列表><a href="dispbbs.asp?boardID=7&ID=1428" title="《为了一起经历过的》<br>作者：faknight<br>发表于2003-11-8 15:44:17<br>最后跟贴：[quote][b]以下......">为了一起经历过的</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=7&ID=1428&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=7&ID=1428&star=2'><font color=#FF0000>2</font></a>  <a href='dispbbs.asp?boardID=7&ID=1428&star=3'><font color=#FF0000>3</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=55" target=_blank>faknight</a></TD><TD class=tablebody1 width=64>25/28323</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1428&star=3#19323">2004-10-7&nbsp;09:50</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=578 target=_blank>张宇明</a></TD></TR><tr style="display:none" id="follow1428"><td colspan=5 id="followTd1428" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1428,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/blue/folder.gif" alt=开放主题></TD><TD align=left class=tablebody1 width=*><img src="pic/nofollow.gif" id="followImg2163"><a href="dispbbs.asp?boardID=7&ID=2163" title="《欲比西子[原创]》<br>作者：faknight<br>发表于2004-10-7 3:08:56<br>最后跟贴：欲把西湖比西子，......">欲比西子[原创]</a></TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=55" target=_blank>faknight</a></TD><TD class=tablebody1 width=64>0/945</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=2163&star=1#19322">2004-10-7&nbsp;03:09</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=55 target=_blank>faknight</a></TD></TR><tr style="display:none" id="follow2163"><td colspan=5 id="followTd2163" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(2163,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr><TR align=middle><TD class=tablebody2 width=32 height=27><img src="pic/isbest.gif" alt=精华帖子></TD><TD align=left class=tablebody1 width=*><img loaded="no" src="pic/plus.gif" id="followImg1677" style="cursor:hand;" onclick="loadThreadFollow(1677,7)" title=展开贴子列表><img src=pic/jpg.gif width=16 height=16><a href="dispbbs.asp?boardID=7&ID=1677" title="《[原创]阳雪》<br>作者：faknight<br>发表于2004-3-15 3:57:51<br>最后跟贴：酸甜苦辣无论......">[原创]阳雪</a>&nbsp;&nbsp;[<img src=pic/multipage.gif><b> <a href='dispbbs.asp?boardID=7&ID=1677&star=1'><font color=#FF0000>1</font></a>  <a href='dispbbs.asp?boardID=7&ID=1677&star=2'><font color=#FF0000>2</font></a> </b>]</TD><TD class=tablebody2 width=80><a href="dispuser.asp?id=55" target=_blank>faknight</a></TD><TD class=tablebody1 width=64>15/5976</TD><TD align=left class=tablebody2 width=195>&nbsp;&nbsp;<a href="dispbbs.asp?boardid=7&id=1677&star=2#19321">2004-10-7&nbsp;01:37</a>&nbsp;<font color=#FF0000>|</font>&nbsp;<a href=dispuser.asp?id=528 target=_blank>Ω</a></TD></TR><tr style="display:none" id="follow1677"><td colspan=5 id="followTd1677" style="padding:0px"><div style="width:240px;margin-left:18px;border:1px solid black;background-color:lightyellow;color:black;padding:2px" onclick="loadThreadFollow(1677,7)">正在读取关于本主题的跟贴，请稍侯……</div></td></tr>
+<tr><td height=30 width=100% class=tablebody1 colspan=5><select name=newboard size=1>
+<option selected>移动帖子请选择</option>
+<option>╋ 胡说八道</option><option value="1">　├有话就说</option><option value="9">　├协会事务</option><option value="5">　├活动快讯</option><option value="7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="3">　├装备总集</option><option value="6">　├理论与实践</option><option value="10">　├攀岩与登山</option>
+<input type=hidden value="7" name=boardid><input type=checkbox name=chkall value=on onclick='CheckAll(this.form)'>全选/取消 <input type=radio name=action value=dele>批量删除 <input type=radio name=action value=move>批量移动 <input type=radio name=action value=isbest>批量精华 <input type=radio name=action value=lock>批量锁定 <input type=radio name=action value=istop>批量固顶 <input type=submit name=Submit value=执行  onclick="{if(confirm('您确定执行的操作吗?')){this.document.batch.submit();return true;}return false;}"></font></td></tr></form>
+
+</table>
+
+<table border=0 cellpadding=0 cellspacing=3 width=97% align=center >
+</form>
+<form method=post action=list.asp>
+<input type=hidden name=selTimeLimit value=''><tr>
+<td valign=middle>页次：<b>1</b>/<b>6</b>页 每页<b>26</b> 主题数<b>138</b></td>
+<td valign=middle><div align=right >分页：
+<font face=webdings color=#FF0000>9</font>   <b><font color=#FF0000>1</font> <a href='?boardid=7&page=2&selTimeLimit='>2</a>   <a href='?boardid=7&page=3&selTimeLimit='>3</a>   <a href='?boardid=7&page=4&selTimeLimit='>4</a>   <a href='?boardid=7&page=5&selTimeLimit='>5</a>   <a href='?boardid=7&page=6&selTimeLimit='>6</a>   </b><a href='?boardid=7&page=6&selTimeLimit=' title=尾页><font face=webdings>:</font></a>   
+转到:<input type=text name=Page size=3 maxlength=10  value='1'><input type=submit value=Go name=submit>
+</div></td></tr>
+<input type=hidden name=BoardID value='7'>
+</form></table>
+
+<table border=0 cellpadding=0 cellspacing=3 width="97%" align=center>
+<tr>
+<FORM METHOD=POST ACTION="queryresult.asp?boardid=7&sType=2&SearchDate=30&pSearch=1">
+<td width=50% valign=middle nowrap height=40>
+快速搜索：<input type=text name="keyword">&nbsp;<input type=submit name=submit value="搜索">
+</td>
+</FORM>
+<td valign=middle nowrap width=50%> <div align=right>
+<select onchange="if(this.options[this.selectedIndex].value!=''){location=this.options[this.selectedIndex].value;}">
+<option selected>跳转论坛至...</option>
+<option>╋ 胡说八道</option><option value="list.asp?boardid=1">　├有话就说</option><option value="list.asp?boardid=9">　├协会事务</option><option value="list.asp?boardid=5">　├活动快讯</option><option value="list.asp?boardid=7">　├游记 心情 随想</option><option>╋ 学习园地</option><option value="list.asp?boardid=3">　├装备总集</option><option value="list.asp?boardid=6">　├理论与实践</option><option value="list.asp?boardid=10">　├攀岩与登山</option>
+</select><div></td></tr></table>
+<BR>
+<table cellspacing=1 cellpadding=3 width=100% class=tableborder1 align=center><tr>
+    <th width=80% align=left>　<font color="#0000FF">◇</font><font color="#999999">◇</font><font color="#0000FF">◇</font>上海交通大学野外生存素质拓展基地图例</th>
+<th noWrap width=20% align=right>所有时间均为 - face/ &nbsp;</th>
+</tr>
+<tr><td colspan=2 class=tablebody1>
+<table cellspacing=4 cellpadding=0 width=92% border=0 align=center>
+<tr><td><img src=pic/blue/folder.gif> 开放的主题</td>
+<td><img src=pic/blue/hotfolder.gif> 回复超过10贴</td>
+<td><img src=pic/blue/lockfolder.gif> 锁定的主题</td>
+<td><img src=pic/istop.gif> 固定顶端的主题 </td>
+<td> <img src=pic/isbest.gif> 精华帖子 </td>
+<td> <img src=pic/closedb.gif> 投票帖子 </td>
+</tr>
+</table>
+</td></tr></table>
+
+<p>
+<body content="linxj,bbs"><TABLE cellSpacing=0 cellPadding=0 width="97%" border=0 align=center>
+<tr>
+<td><p>
+</p>
+</td>
+</tr>
+<tr><td align=center>
+   Powered by：<a href=http://freebag.shetuan.sjtu.info/>协会网络部</a> | <a href=http://security.sjtu.edu.cn/bbs/>Jack之家</a><br>
+Copyright&copy;上海交通大学野外生存协会 , 页面执行时间：220.703毫秒
+</td></tr>
+</table>
+</body>
+</html>
