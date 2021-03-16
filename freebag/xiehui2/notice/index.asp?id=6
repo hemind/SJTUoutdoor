@@ -1,0 +1,334 @@
+<HTML><!-- InstanceBegin template="/Templates/templates.dwt" codeOutsideHTMLIsLocked="false" --><HEAD>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>上海交通大学野外生存协会</title>
+<!-- InstanceEndEditable --> 
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="../../pic/style.css" type=text/css rel=stylesheet>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style1 {font-size: 24pt}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</HEAD>
+<BODY text=#000000 bgColor=#ffffff leftMargin=0 topMargin=0>
+
+<!--begin nav_xinxi-->
+<TABLE cellSpacing=0 cellPadding=0 width=780 align=center border=0>
+  <TBODY>
+    <TR align="center" bgColor=#FFFFFF> 
+      <TD width="780" height="61" colSpan=2> 
+        <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#fffce9 
+        border=0>
+          <TBODY>
+            <TR align="center" bgcolor="#FFFFFF">
+              <TD height="38" colspan="2" valign="bottom">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="780" height="52">
+                  <param name="movie" value="../../worldmap.swf">
+                  <param name="quality" value="high">
+                  <param name="SCALE" value="noborder">
+                  <embed src="../../worldmap.swf" width="780" height="52" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" scale="noborder"></embed></object></TD>
+            </TR>
+            <TR align="center" bgcolor="#FFFFFF"> 
+              <TD width=676 height="21" colspan="2" valign="middle"> 
+                <MARQUEE scrollAmount=2 scrollDelay=5>
+                <FONT 
+      color=#000000>上海交通大学野外生存协会欢迎您！</FONT></MARQUEE> </TD>
+            </TR>
+          </TBODY>
+        </TABLE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<table width="100%" border="0">
+  <tr>
+    <td height="19"> 
+      <!--end nav_xinxi-->
+<script type="text/javascript" language="JavaScript1.2" src="../../menu/stm31.js"></script>
+<script type="text/javascript" language="JavaScript1.2" src="../../menu/sjtuOAm.js"></script>
+    </td>
+  </tr>
+</table>
+<CENTER>
+  <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
+    <TBODY>
+      <TR> 
+        <TD vAlign=top align=middle width=199 bgColor=#7aa1e6 height="919"><BR> 
+          <TABLE width=185 height="125" border=0 cellPadding=0 cellSpacing=0 bgColor=#eff3ff>
+            <TR> 
+              <TD 
+            height=25 colspan="4" background=../../_pic/tabletop_b.jpg><B>&nbsp;&nbsp;论坛登陆</B></TD>
+            </TR>
+            <TR> 
+              <TD height=12	align="center" valign="middle"> <div align="left"></div></TD>
+              <TD colspan="3"	align="center" valign="middle"><div align="left"></div></TD>
+            </TR>
+            <form name="form1" method="post" action="/bbs/login.asp?action=chk">
+              <TBODY>
+                <TR> 
+                  <TD width="10" height=26	align="center" valign="middle"> <div align="left"></div></TD>
+                  <TD height="26" colspan="3"	align="center" valign="middle"> 
+                    <div align="left"><IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle> 用户名： 
+                      <INPUT class=inpt 
+            size=9 name=username>
+                    </div></TD>
+                </TR>
+                <TR> 
+                  <TD height=23	align="center" valign="middle"> <div align="left"></div></TD>
+                  <TD height=23 colspan="3"	align="center" valign="middle"> <div align="left"><IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle> 密&nbsp;&nbsp;码： 
+                      <INPUT class=inpt 
+            type=password size=9 name=password>
+                    </div></TD>
+                </TR>
+                <TR> 
+                  <TD height=30	align="center" valign="middle"> <div align="center"></p> 
+                    </div>
+                    <div align="center"></div></TD>
+                  <TD width="55"	align="right" valign="middle" nowrap> <input name="Submit" type=image value="登陆" src="../../pic/login.gif" align=middle border=0> 
+                  </TD>
+                  <TD width="16"	align="right" valign="middle" nowrap>&nbsp;</TD>
+                  <TD width="104"	align="left" valign="middle" nowrap><a href="../../bbs/reg.ASP"> 
+                    <img src="../../pic/apply.gif" width="80" height="19" border="0" align="middle"></a></TD>
+                </TR>
+              </TBODY>
+            </form>
+          </TABLE>
+          <BR> <TABLE cellSpacing=0 cellPadding=0 width=185 bgColor=#eff3ff border=0>
+            <TBODY>
+              <TR> 
+                <TD background=../../_pic/tabletop_b.jpg 
+            height=25><B>&nbsp;&nbsp;<strong>规章制度</strong></B></TD>
+              </TR>
+              <TR> 
+                <TD height=25>&nbsp;&nbsp;<IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle> <a href="../constitution">协会章程</a></TD>
+              </TR>
+              <TR> 
+                <TD height=25>&nbsp;&nbsp;<IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle>&nbsp;<a href="../byelaw/eqplease.htm">装备租借条例</a></TD>
+              </TR>
+              <TR> 
+                <TD height=25>&nbsp;&nbsp;<IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle>&nbsp;<a href="../byelaw/meeting.htm">协会部长会组织条例</a></TD>
+              </TR>
+              <TR> 
+                <TD align=right height=25><a href="../byelaw" target="_blank">&gt;&gt;更多</a></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <BR> 
+          <!--begin 1_ad_top.htm-->
+          <TABLE cellSpacing=0 cellPadding=0 width=185 bgColor=#ffffff border=0>
+            <TBODY>
+              <TR> 
+                <TD 
+            height=25 colspan="3" background=../../_pic/tabletop_b.jpg><B>&nbsp;&nbsp;每月之星</B></TD>
+              </TR>
+              <TR> 
+                <TD height="16" colspan="3" align=center valign="top">&nbsp;</TD>
+              </TR>
+              <TR> 
+                <TD height="83" colspan="3" align=center valign="top"><img src="../../pic/LINXJ.jpg" width=114 
+            height=73 border=0 align="middle"></TD>
+              </TR>
+              <TR> 
+                <TD width="12" height="71" align=left valign="baseline">&nbsp; </TD>
+                <TD width="161" align=left valign="baseline"><a href="../member/Intro/m004.htm" target="_blank">林祥杰，福建人，电子信息工程系01级学生。喜欢旅游、摄影，平时打打篮球。生性好动，2002年暑期很幸运地<br>
+                  ……</a></TD>
+                <TD width="12" align=left valign="baseline">&nbsp;</TD>
+              </TR>
+              <TR> 
+                <TD height="44" colspan="3" align=middle> <hr width="100%" size=1> 
+                  <BR></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <!--end 1_ad_top.htm-->
+          <BR> 
+          <!--begin 1_ad_left-->
+          <TABLE cellSpacing=0 cellPadding=0 width=185 bgColor=#eff3ff border=0>
+            <TBODY>
+              <TR> 
+                <TD background=../../_pic/tabletop_b.jpg 
+            height=25><B>&nbsp;&nbsp;<strong>友情链接</strong></B></TD>
+              </TR>
+              <TR> 
+                <TD height=25 align="center" valign="middle"> <div align="center"><font size=2><a href="http://www.cma.com.cn/" 
+                  target=_blank>中国登山协会官方网站</a></font></div></TD>
+              </TR>
+              <TR> 
+                <TD height=25 align="center" valign="middle"><font size=2><a 
+                  href="http://edu.beida-online.com/bdzx/association/puma/index1.htm" target=_blank>北京大学山鹰社</a></font></TD>
+              </TR>
+              <TR> 
+                <TD height=25 align="center" valign="middle"><font size=2><a 
+                  href="http://www.braveheart.com.cn/" 
+                  target=_blank>清华山野</a></font></TD>
+              </TR>
+              <TR> 
+                <TD height=25 align="center" valign="middle"><font size=2><a 
+                  href="http://www.whitewave.com.cn/" 
+                  target=_blank>白浪户外</a></font></TD>
+              </TR>
+              <TR> 
+                <TD height=25 align="center" valign="middle"><font size=2><a 
+                  href="http://www.hinomad.com/" target=_blank>游牧人户外活动俱乐部</a></font></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <BR> 
+          <!--end 1_ad_left.htm-->
+          <TABLE cellSpacing=0 cellPadding=0 width=185 bgColor=#ffffff border=0>
+            <TBODY>
+              <TR> 
+                <TD width="185" 
+            height=25 colspan="3" background=../../_pic/tabletop_b.jpg><B>&nbsp;&nbsp;关于我们</B></TD>
+              </TR>
+              <TR> 
+                <TD height="25" colspan="3" align=center valign="middle"> <div align="left">&nbsp;&nbsp;<IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle> <a href="../intro">协会简介</a></div></TD>
+              </TR>
+              <TR> 
+                <TD height="25" colspan="3" align=center valign="middle"><div align="left">&nbsp;&nbsp;<IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle> <a href="../member/minlist.htm">协会理事会清单</a></div></TD>
+              </TR>
+              <TR> 
+                <TD height="25" colspan="3" align=center valign="middle"><div align="left">&nbsp;&nbsp;<IMG src="../../_pic/dot_g.gif" 
+            align=absMiddle> <a href="../member">会员介绍</a></div></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <BR></TD>
+        <TD width=560 height="919" align=middle vAlign=top bgcolor="#F4F9FF"> 
+          <TABLE cellSpacing=0 cellPadding=0 border=0>
+            <TBODY>
+              <TR> 
+                <TD width="513" bgcolor="#F4F9FF"><img height=54 src="../../_pic/xxt_top2.jpg" 
+        width=581></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <TABLE width="100%" height="1014" border=0 cellPadding=0 cellSpacing=0>
+            <TBODY>
+              <TR> 
+                <TD width="98%" align="left" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td width="634" height="542"> 
+				  <div align="left">
+				    <p align="center"><br>
+                        
+&nbsp;<span class="style1"> 重要公告</span></p>
+				    <hr>
+				  </div>
+
+                    
+<br>
+<font  color="#FF0000"> <span style="font-size: 15pt">
+  <div align="center">常熟基地式“大学生野外拓展素质训练方案”</div></span></font><br>
+  <div align="center">  指导老师：姚武&nbsp;&nbsp;2003-3-24 18:21:37   <br>
+  <textarea name="textfield" cols=80 rows="30" wrap="VIRTUAL">常熟基地式“大学生野外拓展素质训练方案”
+培训时间：2天1夜（暂定03年4月）
+
+培训对象：热爱户外活动，渴望参与野外生存训练、组织纪律性强、学校统一组织的在校大学生。（第一次主要人员为协会骨干和课程班学员）
+
+培训目标：
+1． 树立科学的世界观和人生观。
+2． 全面发展与健康有关的各种体能，掌握野外生存生活的基本知识，能参加有组织的野外生存生活训练。
+3． 根据自己的特点设置训练目标，在训练活动中，感悟人生真谛，遇到困难不退缩，受到挫折不沮丧，会运用适宜的方法调节自己的情绪，保持积极乐观的生活态度。
+4． 通过本课程的实践活动，开拓学生的视野，具有创新精神，法制观念和诚信意识。
+
+健康状况：活动者如患有心脏疾病、高血压，哮喘、急性传染病且处于病发期，我公司将不接受其培训申请；如疾病得到有效控制且在康复期，可在教练的指导下，有选择地参加相关项目的训练。
+
+特别约定：任何人被发现使用毒品或其他违禁药品，我公司将立即取消其学员资格，该学员必须立即离开培训基地。禁止吸烟、喝酒。
+在受训期间，除特殊情况外，学员不得外出。学员若要请假外出，必须向组织方递交书面申请。经核准后方可离开。
+
+心理准备：
+1． 积极主动参与各项活动，视成功为目标；
+2． 愿意尽自己最大的努力接受各种新的考验，具有不屈不扰的精神；
+3． 维护良好的团队士气，诚恳助人，敢于负责；
+4． 体察组员的情感，主动沟通和交换训练感受；
+5． 爱护自然环境，遵守组织者的规定。
+
+个人保险：替每位参训者购买了“人身意外伤害保险和附加人身意外伤害医疗保险”，人身意外伤害保险最高保险额为人民币五万元。若参训者需要增加保险额时，须在开训前一周与我联系，增加的保险额投保费用，由学员自行负担。
+
+个人自带装备：
+1． 太阳帽1顶，太阳镜1副；
+2． 适合季节的运动衣及内衣各1~2套；
+3． 防寒外衣1件；
+4． 运动棉袜1~2双；
+5． 登山鞋或旅游鞋1~2双；
+6． 洗漱用品：毛巾、牙膏、牙刷、肥皂、梳子、洗发水、润肤膏；
+7． 圆珠笔1支，笔记本1本，驱蚊水，防晒霜，饮水杯，防跌眼镜夹；
+8． 手套1付，电筒1支，小刀1把
+学校带装备：
+1． 睡袋、帐篷、防潮垫
+2． 其他可利用的装备
+
+安全保障：我们始终如一地将安全保障放在各项工作的首位，所有户外活动均经过精心的设计与实验，学校使用一流的专业器材，均通过（UIAA）国际登山联合会。富于经验的教练严格地依照安全程序指导、监控活动的全过程。
+
+收费标准：180元/人
+
+课程：野外生存课程和素质拓展训练相结合
+第一天7：30出发 指定地点集合，49座客车。2小时左右到达常熟尚湖风景区及力训培训基地。
+9：30-11：30 团队总热身，强调此次培训的理念，培训活动规则。分组（选队长、起队名、画队徽、唱队歌），背摔分组热身。
+11：40-13：00 午餐，休息
+13：00-14：45 热身活动，天际通途
+15：00-16：45 合力争胜
+17：00-18：00 生存决策游戏
+18：30-19：15 “点亮希望之火”竞赛活动
+19：15-22：00 烧烤晚会
+21：00 搭帐篷竞赛 洗漱 休息
+第二天6：00-7：00 晨炼
+7：00-7：30 早餐
+8：00-11：30 风景区定向
+12：00-13：00 午餐，休息
+13：30-15：00 团队竞技攀岩
+15：30-16：30 求生
+16：30 返沪</textarea></div>
+                   <br>
+                  <br><div align="center"><a href="index.asp">返回</a></div>
+  </td>
+         </tr>
+            </table>
+            
+            <!-- InstanceEndEditable --></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+        </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+</CENTER><BR><!--foot begin-->
+
+
+<TABLE height=1 cellSpacing=0 cellPadding=0 width=780 align=center 
+bgColor=#086665 border=0>
+  <TBODY>
+  <TR>
+    <TD height=2></TD></TR></TBODY></TABLE>
+<TABLE class=b1 cellSpacing=0 cellPadding=0 width=780 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle height=50><p><A 
+      href="" 
+      target=_blank>简介</A> | <A 
+      href="" 
+      target=_blank>常见问题</A> | <A 
+      href="" 
+      target=_blank>在线帮助</A> | <A 
+      href="" 
+      target=_blank>加入我们</A> | <A 
+      href="" 
+      target=_blank>联系我们</A> <BR>
+          Copyright <FONT 
+      size=2><FONT face="Times New Roman">&copy;</FONT>2004 上海交通大学野外生存协会</FONT><FONT 
+      color=#000066 size=2><BR>
+          </FONT>欢迎来到我们的网站<BR>
+          e-mail: <a href="mailto:freebag@126.com">freebag@126.com</a><BR>
+        </p>
+      </TD></TR></TBODY></TABLE><!--foot end--></BODY><!-- InstanceEnd --></HTML>

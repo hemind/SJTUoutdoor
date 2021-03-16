@@ -1,0 +1,45 @@
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #000099; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 9pt; COLOR: #000099; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #000099; TEXT-DECORATION: none
+}
+BODY {
+	MARGIN-TOP: 1px; FONT-SIZE: 9pt
+}
+TD {
+	FONT-SIZE: 9pt
+}
+.td2 {
+	FONT-SIZE: 12pt; FONT-FAMILY: "ËÎÌו"
+}
+
+/*
+     FILE ARCHIVED ON 22:29:26 Mar 08, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:21:30 Mar 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 26.469 (3)
+  load_resource: 100.729
+  PetaboxLoader3.datanode: 202.722 (4)
+  captures_list: 481.104
+  xauthn.identify: 136.71
+  esindex: 0.016
+  exclusion.robots: 250.386
+  LoadShardBlock: 189.66 (3)
+  PetaboxLoader3.resolve: 55.822
+  xauthn.chkprivs: 113.317
+  exclusion.robots.policy: 250.369
+  RedisCDXSource: 9.707
+*/
